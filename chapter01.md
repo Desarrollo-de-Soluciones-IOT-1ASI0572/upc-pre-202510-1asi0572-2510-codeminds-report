@@ -4,6 +4,12 @@
 
 ### 1.1.1. Descripción de la Startup
 
+CodeMinds es una startup que surge con la finalidad de transformar la experiencia del transporte escolar a través del uso de tecnologías inteligentes. Ofrecemos una solución integral basada en sensores, pulseras RFID y GPS, diseñada para garantizar la seguridad, eficiencia y tranquilidad de los estudiantes, padres y conductores. Nuestra plataforma combina hardware moderno con aplicaciones web y móviles intuitivas, permitiendo monitorear en tiempo real la ubicación del transporte, controlar la velocidad de las unidades y gestionar el aforo de pasajeros con precisión. Con CodeMinds, padres pueden estar informados al instante sobre los movimientos de sus hijos, mientras que los conductores cuentan con herramientas que mejoran su gestión y cumplimiento de rutas seguras. Estamos comprometidos con crear un entorno de transporte más confiable, transparente y tecnológicamente avanzado para la comunidad escolar.
+
+**Visión**: Ser referentes en innovación tecnológica para el transporte escolar, impulsando entornos más seguros y eficientes mediante soluciones IoT que conecten a familias, estudiantes y operadores de forma inteligente.
+
+**Misión**: Desarrollar sistemas de transporte escolar inteligentes que integren tecnologías de vanguardia para mejorar la seguridad, control y comunicación entre todos los actores del proceso, priorizando el bienestar de los estudiantes y la confianza de sus padres.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 ## 1.2. Solution Profile
