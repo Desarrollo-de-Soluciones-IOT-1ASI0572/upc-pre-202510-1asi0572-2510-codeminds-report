@@ -70,6 +70,33 @@ Enfocar el producto en **instituciones educativas y rutas de transporte escolar 
 
 #### 1.2.2.2. Lean UX Assumptions.
 
+Las asunciones son suposiciones que se consideran verdaderas al inicio del proyecto y que deben ser validadas a lo largo del proceso iterativo de diseño y desarrollo. A continuación, se detallan algunas de las principales asunciones para este proyecto:
+
+#### Asunciones Tecnológicas
+
+- **Infraestructura y conectividad:**  
+  Se asume que la infraestructura de comunicación (redes móviles y Wi-Fi) es suficientemente robusta para soportar la transmisión de datos en tiempo real desde los dispositivos IoT.
+- **Integración de dispositivos IoT:**  
+  Se supone que la integración de sensores, dispositivos RFID y GPS en una única plataforma es técnicamente viable y que los dispositivos podrán comunicarse sin problemas con la aplicación central.
+
+#### Asunciones de Uso y Adopción
+
+- **Valoración de la seguridad en tiempo real:**  
+  Se asume que los padres valoran significativamente contar con información en tiempo real sobre la ubicación del transporte escolar y estarán dispuestos a utilizar la plataforma.
+- **Adopción por parte de conductores y operadores:**  
+  Se presupone que el personal encargado del transporte (conductores y operadores) aceptará y utilizará la solución para mejorar la eficiencia y seguridad en sus operaciones diarias.
+- **Interés de las instituciones educativas:**  
+  Se asume que las escuelas reconocen la necesidad de implementar sistemas innovadores para la seguridad y el control del transporte, lo que facilitará la adopción del sistema como valor agregado en su oferta educativa.
+
+#### Asunciones de Mercado y Valor
+
+- **Disposición a invertir en seguridad:**  
+  Se supone que tanto las instituciones educativas como los padres considerarán la inversión en esta tecnología como una mejora significativa en la seguridad y eficiencia del transporte escolar.
+- **Escalabilidad:**  
+  Se asume que una vez validado en el segmento inicial, el sistema podrá escalarse a otras regiones y segmentos, adaptándose a diferentes contextos operativos y requerimientos normativos.
+
+---
+
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
 #### 1.2.2.4. Lean UX Canvas.
