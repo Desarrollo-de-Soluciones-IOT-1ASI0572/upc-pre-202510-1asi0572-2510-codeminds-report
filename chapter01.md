@@ -131,6 +131,7 @@ Las asunciones son suposiciones que se consideran verdaderas al inicio del proye
 
 
 #### 1.2.2.4. Lean UX Canvas.
+![Lean UX Canvas](assets/chapter1/Lean%20UX%20Canvas.png)
 
 ## 1.3. Segmentos objetivo.
 
