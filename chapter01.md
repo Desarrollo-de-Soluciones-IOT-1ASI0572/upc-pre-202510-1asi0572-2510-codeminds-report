@@ -121,6 +121,15 @@ Las asunciones son suposiciones que se consideran verdaderas al inicio del proye
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
+| **Business Outcome**                                                   | **Persona**               | **User Outcome**                                                                 | **Feature/Solution**                                                                                   |
+|------------------------------------------------------------------------|----------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| Incrementar la confianza de los padres en el servicio de transporte escolar | Padres de familia          | Sentirse tranquilos al conocer la ubicación de sus hijos en tiempo real y recibir alertas de seguridad | Aplicación móvil con rastreo GPS en tiempo real, notificaciones push y alertas de subida/bajada         |
+| Reducir los errores en el registro y control de pasajeros             | Conductores y operadores   | Controlar automáticamente el aforo y validar la identidad de los estudiantes sin procesos manuales     | Sistema integrado de pulseras RFID, sensores de aforo y panel de control en la app del conductor         |
+| Mejorar la capacidad de respuesta ante incidencias durante el transporte escolar | Instituciones educativas    | Monitorear el estado de las rutas y responder a eventos con información precisa y centralizada         | Plataforma web con dashboard en tiempo real, reportes de incidencias y acceso a historial de rutas       |
+| Aumentar la percepción de seguridad entre los estudiantes             | Estudiantes                | Sentirse protegidos y seguros durante sus trayectos                                                   | Pulsera RFID personalizada para identificación rápida, control de velocidad y asistencia automatizada    |
+| Facilitar la expansión del sistema a otras instituciones y regiones   | Instituciones educativas (nuevos mercados) | Adoptar una solución flexible y adaptable a su realidad                                  | Plataforma escalable con configuración modular, conectividad multi-dispositivo y soporte multiruta       |
+
+
 #### 1.2.2.4. Lean UX Canvas.
 
 ## 1.3. Segmentos objetivo.
