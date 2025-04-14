@@ -69,6 +69,12 @@ competidores. Dicha informaci처n resulta relevante para plasmar estrategias y t�
 ### 2.3.1. User Personas.
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
+En esta secci처n se presenta el mapeo de la experiencia actual de los distintos usuarios involucrados en el sistema de transporte escolar, antes de la implementaci처n de la soluci처n tecnol처gica propuesta por CodeMinds. El objetivo es entender el recorrido que realizan los usuarios desde que surge la necesidad de asegurar un traslado escolar eficiente y seguro, hasta la ejecuci처n diaria del servicio de transporte, identificando sus frustraciones, emociones, tareas y canales utilizados.
+Se han identificado distintos segmentos como padres de familia y conductores de movilidad escolar, y para cada uno se ha trazado su journey en el contexto real, evidenciando los principales puntos de dolor y oportunidades de mejora en el proceso actual.
+* User Journey Mapping (Padre de familia)
+  ![User Journey Mapping](assets/chapter2/UJM(Padre).png)
+* User Journey Mapping (Conductor)
+  ![User Journey Mapping](assets/chapter2/UJM(Conductor).png)
 ### 2.3.4. Empathy Mapping.
 
 ### 2.3.5. As-is Scenario Mapping.
