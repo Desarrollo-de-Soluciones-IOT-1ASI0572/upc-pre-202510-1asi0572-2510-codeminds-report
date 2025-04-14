@@ -70,6 +70,11 @@ competidores. Dicha información resulta relevante para plasmar estrategias y t�
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. User Journey Mapping.
 ### 2.3.4. Empathy Mapping.
-### 2.3.5. As-is Scenario Mapping.
 
+### 2.3.5. As-is Scenario Mapping.
+Para desarrollar el As-Is Scenario Mapping, se llevó a cabo un análisis detallado de los escenarios actuales de los User Personas previamente definidos, complementado con una lluvia de ideas que consideró su contexto actual, necesidades, preferencias y las condiciones del mercado. A continuación, se presentan los escenarios actuales (As-Is) correspondientes a cada User Persona identificado.
+* As-Is Scenario Mapping (Conductor)
+![As-is Conductor](assets/chapter2/As-is(Conductor).jpg)
+* As-Is Scenario Mapping (Padre de familia)
+  ![As-is Padre](assets/chapter2/As-is(Padre).jpg)
 ## 2.4. Ubiquitous Language.
