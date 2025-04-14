@@ -84,3 +84,15 @@ Para desarrollar el As-Is Scenario Mapping, se llevó a cabo un análisis detall
 * As-Is Scenario Mapping (Padre de familia)
   ![As-is Padre](assets/chapter2/As-is(Padre).jpg)
 ## 2.4. Ubiquitous Language.
+
+En el contexto de la solucion, se ha definido un lenguaje compartido que permite una mejor comunicación entre
+desarrolladores y usuarios. Estos son algunos de los términos clave:
+
+* **Unidad de transporte:** Vehículo escolar equipado con dispositivos IoT.
+* **Dispositivo IoT:** Módulo instalado en la unidad, que incluye sensores RFID y GPS.
+* **Sensor RFID:** Componente que lee la pulsera del estudiante para registrarlo al subir o bajar.
+* **Sensor GPS:** Dispositivo que transmite la ubicación y velocidad de la unidad en tiempo real.
+* **Pulsera RFID:** Pulsera usada por el estudiante que contiene un identificador único.
+* **Aforo:** Número total de estudiantes dentro de la unidad de transporte en un momento dado.
+* **Notificación:** Alerta enviada a los padres cuando el estudiante sube o baja del transporte.
+* **Ruta escolar:** Recorrido asignado para recoger y dejar a los estudiantes.
