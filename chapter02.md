@@ -74,6 +74,59 @@ competidores. Dicha información resulta relevante para plasmar estrategias y t�
 ![user_persona_cleinte](assets/chapter2/Julio%20Cesar.png)
 
 ### 2.3.2. User Task Matrix.
+
+<table>
+  <tr>
+    <th colspan="3">User Persona 1: Padres de familia </th>
+  </tr>
+  <tr>
+    <td>Descripción</td>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+  </tr>
+  <tr>
+    <td>Consultar ubicación en tiempo real</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Ver velocidad promedio del vehículo</td>
+    <td>Sometime</td>
+    <td>Medium</td>
+  </tr>
+  <tr>
+    <td>Recibir notificación al subir/bajar el niño</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th colspan="3">User Persona 1: Conductores de unidades de transporte </th>
+  </tr>
+  <tr>
+    <td>Descripción</td>
+    <td>Frecuencia</td>
+    <td>Importancia</td>
+  </tr>
+  <tr>
+    <td>Ver datos del estudiante al pasar RFID</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+  <tr>
+    <td>Revisar lista de estudiantes y asistencia</td>
+    <td>Sometime</td>
+    <td>Medium</td>
+  </tr>
+  <tr>
+    <td>Confirmar puntos de recogida y bajada</td>
+    <td>Often</td>
+    <td>High</td>
+  </tr>
+</table>
+
 ### 2.3.3. User Journey Mapping.
 En esta sección se presenta el mapeo de la experiencia actual de los distintos usuarios involucrados en el sistema de transporte escolar, antes de la implementación de la solución tecnológica propuesta por CodeMinds. El objetivo es entender el recorrido que realizan los usuarios desde que surge la necesidad de asegurar un traslado escolar eficiente y seguro, hasta la ejecución diaria del servicio de transporte, identificando sus frustraciones, emociones, tareas y canales utilizados.
 Se han identificado distintos segmentos como padres de familia y conductores de movilidad escolar, y para cada uno se ha trazado su journey en el contexto real, evidenciando los principales puntos de dolor y oportunidades de mejora en el proceso actual.
