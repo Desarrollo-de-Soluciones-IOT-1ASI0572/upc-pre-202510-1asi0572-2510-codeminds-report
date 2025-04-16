@@ -62,7 +62,33 @@ competidores. Dicha información resulta relevante para plasmar estrategias y t�
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
+**Preguntas generales**
+1. ¿Cuál es su nombre?
+2. ¿Qué edad tiene?
+3. ¿En qué distrito reside?
+4. ¿Cuál es su ocupación actual?
+5. ¿Cuántos hijos tiene y en qué nivel escolar están? (Solo para padres)
+
+**Preguntas para los padres**
+1. ¿Cómo trasladan sus hijos al colegio actualmente?
+2. ¿Ha tenido alguna preocupación relacionada con la seguridad durante el transporte escolar?
+3. ¿Qué tipo de información le gustaría recibir en tiempo real sobre el transporte de sus hijos?
+4. ¿Cómo suele comunicarse con el conductor o con la empresa de transporte?
+5. ¿Está familiarizado/a con el uso de tecnología como GPS o pulseras RFID?
+6. ¿Qué lo motivaría a cambiar de proveedor de transporte escolar?
+7. ¿Qué aplicaciones o redes sociales utiliza con mayor frecuencia para mantenerse informado?
+
+**Preguntas para los conductores**
+1. ¿Cuántos años tiene de experiencia en transporte escolar?
+2. ¿Cómo organiza sus rutas y controla la cantidad de estudiantes en la unidad?
+3. ¿Se ha comunicado con los padres durante el servicio? ¿Cómo suele hacerlo?
+4. ¿Está familiarizado con el uso de GPS, sensores u otras tecnologías para el monitoreo de rutas?
+5. ¿Qué problemas comunes enfrenta en su trabajo diario?
+6. ¿Qué tan importante considera la puntualidad y seguridad en su trabajo?
+7. ¿Qué necesitaría para adaptarse fácilmente a un sistema tecnológico como el que ofrece CodeMinds?
+
 ### 2.2.2. Registro de entrevistas.
+
 ### 2.2.3. Análisis de entrevistas.
 
 ## 2.3. Needfinding.
