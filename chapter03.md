@@ -4,7 +4,7 @@
 
 ### To-Be Scenario Mapping – User Persona: Padre de Familia
 
-![toBePropietario](/assets/chapter3/Scenario_map.png)
+![toBePadre](/assets/chapter3/to-be_scenario_map_padre.png)
 
 ### To-Be Scenario Mapping – User Persona: Conductor
 
