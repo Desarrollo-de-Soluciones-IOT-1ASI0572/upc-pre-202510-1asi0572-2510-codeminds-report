@@ -8,7 +8,7 @@
 
 ### To-Be Scenario Mapping – User Persona: Conductor
 
-![toBePropietario](/assets/chapter3/Scenario_map_conductor.png)
+![toBeConductor](/assets/chapter3/to-be_scenarip_map_conductor.png)
 
 ## 3.2. User Stories.
 
