@@ -54,9 +54,27 @@
 ## 3.4. Product Backlog.
 
 El Product Backlog es una lista priorizada de todas las funcionalidades, mejoras y tareas necesarias para el desarrollo de un producto o servicio. En esta sección, presentaremos nuestro Product Backlog, que incluye todas las historias de usuario identificadas en la sección anterior, así como otras tareas y actividades necesarias para el desarrollo.
-<br><br>
+
 ###### Tabla de Product Backlog
-| # Order | User Story Id | Title | Description                | Story Points (1 / 2 / 3 / 5 / 8) |
-| ------- | ------------- | ----- | -------------------------- | -------------------------------- |
-| 1       | US0           |       | Como usuario, quiero, para |                                  |
-| 2       | US0           |       | Como usuario, quiero, para |                                  |
+| # Order | User Story Id | Title                                             | Description                                                                                 | Story Points (1 / 2 / 3 / 5 / 8) |
+|---------|---------------|---------------------------------------------------|---------------------------------------------------------------------------------------------|----------------------------------|
+| 1       | US02          | Registro automático mediante pulseras RFID        | Como conductor, quiero registrar asistencia automáticamente con RFID.                       | 5                                |
+| 2       | US03          | Notificación a padres por ingreso/salida          | Como padre, quiero recibir alertas cuando mi hijo sube o baja del transporte.               | 2                                |
+| 3       | US04          | Visualización de ubicación en tiempo real         | Como padre, quiero ver en un mapa la ubicación en tiempo real del vehículo.                 | 3                                |
+| 4       | US05          | Control de aforo con sensores                     | Como administrador, quiero conocer la cantidad de pasajeros en tiempo real.                 | 3                                |
+| 5       | US06          | Registro de velocidad y alertas                   | Como administrador, quiero registrar y visualizar excesos de velocidad.                     | 5                                |
+| 6       | US07          | Panel de control web para instituciones           | Como administrador, quiero tener un sitio web con reportes de uso.                          | 5                                |
+| 7       | US08          | Lista de estudiantes a bordo para conductor       | Como conductor, quiero ver qué estudiantes están actualmente en la unidad.                  | 2                                |
+| 8       | US09          | Historial de viajes en app de padres              | Como padre, quiero revisar cuándo y por qué rutas viajó mi hijo.                            | 3                                |
+| 9       | US01          | Interfaz de inicio en aplicación móvil            | Como usuario, quiero una introducción visual clara al sistema.                              | 2                                |
+| 10      | US10          | Reportes automáticos de asistencia y uso          | Como sistema, quiero generar reportes automáticos y enviarlos.                              | 5                                |
+| 11      | US11          | Integración del lector RFID al backend            | Como desarrollador, quiero integrar el lector RFID con la base de datos en tiempo real.     | 5                                |
+| 12      | US12          | API REST para comunicación app-backend            | Como desarrollador, quiero que la app consuma datos del backend con seguridad.              | 3                                |
+| 13      | US13          | Autenticación con JWT                             | Como desarrollador, quiero implementar JWT para proteger el acceso de usuarios.             | 3                                |
+| 14      | US14          | Almacenamiento en base geoespacial                | Como desarrollador, quiero guardar coordenadas GPS en base de datos espacial.               | 5                                |
+| 15      | US15          | Visualización y comparación de rutas predefinidas | Como desarrollador, quiero comparar rutas reales vs predefinidas para detectar desvíos.     | 5                                |
+| 16      | US16          | Modificación manual de ruta por conductor         | Como conductor, quiero cambiar manualmente la ruta si hay desvíos o tráfico.                | 3                                |
+| 17      | US17          | Marcar estudiantes ausentes desde la app          | Como conductor, quiero marcar ausencias desde la app para optimizar el trayecto.            | 2                                |
+| 18      | US18          | Acceso con roles en el panel web                  | Como desarrollador, quiero controlar el acceso según el rol del usuario.                    | 3                                |
+| 19      | US19          | Resumen de alertas en panel web                   | Como administrador, quiero ver alertas importantes agrupadas y ordenadas.                   | 3                                |
+| 20      | US20          | Soporte multilenguaje en app móvil                | Como padre, quiero cambiar el idioma de la aplicación según mi preferencia.                 | 2                                |
