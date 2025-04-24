@@ -46,6 +46,11 @@ Se asignó un comando a cada evento, junto con el actor responsable de ejecutarl
 
 ![step5-Timeline 2](assets/chapter4/step5-timeline2.jpg)
 
+**Step 6: Policies**
+
+Durante esta etapa, se identifican los escenarios en el que un evento desencadena la
+ejecución de un comando
+
 #### 4.1.1.1 Candidate Context Discovery.
 
 #### 4.1.1.2 Domain Message Flows Modeling.
