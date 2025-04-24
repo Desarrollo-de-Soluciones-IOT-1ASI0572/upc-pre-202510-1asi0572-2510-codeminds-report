@@ -53,6 +53,14 @@ ejecución de un comando
 
 ![step6-Timeline 1](assets/chapter4/step6-timeline1.jpg)
 
+**Step 7: Read Models**
+
+En esta etapa se definen y construyen los modelos de lectura correspondientes a cada contexto del sistema. El objetivo es garantizar que estos modelos presenten la información requerida de forma clara, eficiente y alineada con las necesidades específicas de cada usuario o funcionalidad.
+
+![step7-Timeline 1](assets/chapter4/step7-timeline1.jpg)
+
+![step7-Timeline 1](assets/chapter4/step7-timeline2.jpg)
+
 #### 4.1.1.1 Candidate Context Discovery.
 
 #### 4.1.1.2 Domain Message Flows Modeling.
