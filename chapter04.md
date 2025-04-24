@@ -42,9 +42,9 @@ Se identificaron los puntos clave del sistema, es decir, aquellos eventos críti
 
 Se asignó un comando a cada evento, junto con el actor responsable de ejecutarlo. Esto permitió definir con claridad quién inicia cada acción y cómo los distintos usuarios interactúan con el sistema.
 
-![step5-Timeline 1](assets/chapter4/Step5-timeline1_.jpg)
+![step5-Timeline 1](assets/chapter4/step5-timeline1_.jpg)
 
-![step5-Timeline 2](assets/chapter4/Step5-timeline2_.jpg)
+![step5-Timeline 2](assets/chapter4/step5-timeline2_.jpg)
 
 **Step 6: Policies**
 
