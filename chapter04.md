@@ -30,6 +30,14 @@ A lo largo del proceso, se detectaron ciertos puntos críticos o problemáticos 
 
 ![step3-Timeline 2](assets/chapter4/step3-timeline2.jpg)
 
+**Step 4: Pivotal Points**
+
+Se identificaron los puntos clave del sistema, es decir, aquellos eventos críticos que representan hitos importantes dentro del flujo de trabajo. Estos momentos tienen un efecto considerable tanto en el funcionamiento del sistema como en la experiencia del usuario.
+
+![step4-Timeline 1](assets/chapter4/step4-timeline1.jpg)
+
+![step4-Timeline 2](assets/chapter4/step4-timeline2.jpg)
+
 #### 4.1.1.1 Candidate Context Discovery.
 
 #### 4.1.1.2 Domain Message Flows Modeling.
