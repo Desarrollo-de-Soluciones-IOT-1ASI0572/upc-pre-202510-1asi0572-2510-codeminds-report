@@ -38,6 +38,14 @@ Se identificaron los puntos clave del sistema, es decir, aquellos eventos críti
 
 ![step4-Timeline 2](assets/chapter4/step4-timeline2.jpg)
 
+**Step 5: Commands**
+
+Se asignó un comando a cada evento, junto con el actor responsable de ejecutarlo. Esto permitió definir con claridad quién inicia cada acción y cómo los distintos usuarios interactúan con el sistema.
+
+![step5-Timeline 1](assets/chapter4/step5-timeline1.jpg)
+
+![step5-Timeline 2](assets/chapter4/step5-timeline2.jpg)
+
 #### 4.1.1.1 Candidate Context Discovery.
 
 #### 4.1.1.2 Domain Message Flows Modeling.
