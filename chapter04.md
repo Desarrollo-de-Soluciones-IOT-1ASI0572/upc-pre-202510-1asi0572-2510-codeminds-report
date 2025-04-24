@@ -7,12 +7,20 @@
 Durante la sesión de event storming, llevamos a cabo una reunión en la que compartimos nuestras ideas sobre este segmento del proyecto. A lo largo de la sesión, logramos identificar conceptos clave que resultan fundamentales para nuestra aplicación, además de esbozar las primeras versiones de los bounded contexts.
 En esta sección, presentaremos cómo fue el desarrollo del event storming utilizando la herramienta Miro.
 
-Step 1: Unstructured Exploration
+**Step 1: Unstructured Exploration**
 
 En esta etapa, se identificaron los eventos clave que representan las acciones
 significativas dentro del sistema.
 
 ![Step 1](assets/chapter4/step1.jpg)
+
+**Step 2: Timelines**
+
+En esta etapa, los eventos previamente identificados fueron organizados en subgrupos, cada uno encabezado por un evento principal que resume la función principal del grupo. Dentro de cada subgrupo se contemplaron tanto los happy paths, que describen los escenarios ideales de ejecución, como los unhappy paths, que reflejan posibles fallos o situaciones no deseadas. Esta organización permitió estructurar los eventos de forma lógica y facilitó una mejor comprensión de las distintas secuencias de acciones en el sistema.
+
+![Timeline 1](assets/chapter4/step2-timeline1.jpg)
+
+![Timeline 2](assets/chapter4/step2-timeline2.jpg)
 
 #### 4.1.1.1 Candidate Context Discovery.
 
