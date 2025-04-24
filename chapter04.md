@@ -18,9 +18,17 @@ significativas dentro del sistema.
 
 En esta etapa, los eventos previamente identificados fueron organizados en subgrupos, cada uno encabezado por un evento principal que resume la función principal del grupo. Dentro de cada subgrupo se contemplaron tanto los happy paths, que describen los escenarios ideales de ejecución, como los unhappy paths, que reflejan posibles fallos o situaciones no deseadas. Esta organización permitió estructurar los eventos de forma lógica y facilitó una mejor comprensión de las distintas secuencias de acciones en el sistema.
 
-![Timeline 1](assets/chapter4/step2-timeline1.jpg)
+![step2-Timeline 1](assets/chapter4/step2-timeline1.jpg)
 
-![Timeline 2](assets/chapter4/step2-timeline2.jpg)
+![step2-Timeline 2](assets/chapter4/step2-timeline2.jpg)
+
+**Step 3: Pain Points**
+
+A lo largo del proceso, se detectaron ciertos puntos críticos o problemáticos dentro del flujo. Estos elementos resultan fundamentales para identificar oportunidades de mejora en la experiencia del usuario y en la eficiencia del diseño del sistema.
+
+![step3-Timeline 1](assets/chapter4/step3-timeline1.jpg)
+
+![step3-Timeline 2](assets/chapter4/step3-timeline2.jpg)
 
 #### 4.1.1.1 Candidate Context Discovery.
 
