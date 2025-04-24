@@ -67,6 +67,13 @@ Durante esta etapa, se identifican los sistemas externos relevantes.
 
 ![step8](assets/chapter4/step8.jpg)
 
+**Step 9: Aggregates**
+
+En esta fase se identifican y estructuran los agregados dentro de cada contexto del sistema. Estos agregados agrupan entidades y operaciones relacionadas que deben mantenerse consistentes, garantizando la integridad de las transacciones y el comportamiento coherente del sistema.
+
+![step9-Timeline 1](assets/chapter4/step9-timeline1.jpg)
+![step9-Timeline 1](assets/chapter4/step9-timeline2.jpg)
+
 #### 4.1.1.1 Candidate Context Discovery.
 
 #### 4.1.1.2 Domain Message Flows Modeling.
