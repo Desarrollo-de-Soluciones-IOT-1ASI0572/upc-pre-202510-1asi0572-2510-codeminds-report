@@ -61,6 +61,12 @@ En esta etapa se definen y construyen los modelos de lectura correspondientes a 
 
 ![step7-Timeline 1](assets/chapter4/step7-timeline2.jpg)
 
+**Step 8: External Systems**
+
+Durante esta etapa, se identifican los sistemas externos relevantes.
+
+![step8](assets/chapter4/step8.jpg)
+
 #### 4.1.1.1 Candidate Context Discovery.
 
 #### 4.1.1.2 Domain Message Flows Modeling.
