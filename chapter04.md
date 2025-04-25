@@ -140,6 +140,12 @@ En esta sección se presenta el container diagram, el cual muestra cómo los dif
 El dominio de Identity and Access Management representa en detalle las funciones y procesos necesarios para la gestión de cuentas de usuario dentro de nuestra plataforma. Este dominio es responsable de gestionar las operaciones relacionadas con el registro, actualización y eliminación de cuentas.
 ###### Diccionario de Clases
 
+El Diccionario de Clases es una herramienta clave en el proceso de diseño y desarrollo del sistema de gestión de usuarios y perfiles. Proporciona una descripción detallada de las clases fundamentales que forman la base del modelo de dominio. Este diccionario documenta las entidades, sus atributos, métodos y relaciones, lo que facilita la comprensión y colaboración entre los desarrolladores, garantizando una base sólida para la solución implementada en el proyecto de User & Profile Management.
+
+![userclass](assets/chapter4/user-class.jpg)
+
+![profileclass](assets/chapter4/profile-class.jpg)
+
 #### 4.2.1.1. Domain Layer.
 
 #### 4.2.1.2. Interface Layer.
