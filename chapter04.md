@@ -105,6 +105,12 @@ https://miro.com/app/board/uXjVI_ESDBw=/?share_link_id=91933122181
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
+En esta sección se presenta el context diagram, el cual muestra el sistema 
+“EduGo” como un recuadro en el centro, rodeado por sus usuarios y otros 
+sistemas con los que interactúa. Este diagrama ayuda a entender cómo cada 
+componente del sistema se interrelaciona.
+
+![iotcontextdiagram](assets/chapter4/iot-context-diagram.png)
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 
