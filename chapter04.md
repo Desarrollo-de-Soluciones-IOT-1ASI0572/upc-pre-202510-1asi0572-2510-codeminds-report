@@ -114,6 +114,10 @@ componente del sistema se interrelaciona.
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 
+En esta sección se presenta el container diagram, el cual ilustra cómo los diferentes contenedores del sistema "EduGo" interactúan entre sí y con los usuarios finales.
+
+![componentdiagram](assets/chapter4/container-diagram.png)
+
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
 
 ## 4.2. Tactical-Level Domain-Driven Design
