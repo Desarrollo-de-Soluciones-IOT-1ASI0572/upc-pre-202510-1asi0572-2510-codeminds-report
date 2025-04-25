@@ -140,7 +140,6 @@ En esta sección se presenta el container diagram, el cual muestra cómo los dif
 El dominio de Identity and Access Management representa en detalle las funciones y procesos necesarios para la gestión de cuentas de usuario dentro de nuestra plataforma. Este dominio es responsable de gestionar las operaciones relacionadas con el registro, actualización y eliminación de cuentas.
 ###### Diccionario de Clases
 
-
 #### 4.2.1.1. Domain Layer.
 
 #### 4.2.1.2. Interface Layer.
@@ -158,10 +157,14 @@ El dominio de Identity and Access Management representa en detalle las funciones
 #### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
 ### 4.2.2. Bounded Context: Identity Assignment
-El dominio de Identity Assignment representa una abstraccion de los procesos y funciones involucrados en la asignacion de identidad de los estudiantes dentro de la plataforma. Este dominio es responsable de la vinculacion del codigo unico en la pulsera RFID y el escaneo de la pulsera RFID para la verificacion de identidad del estudiante al momento de subir y bajar de la unidad.
+El dominio de Identity Assignment representa una abstracción de los procesos y funciones involucrados en la asignación de identidad de los estudiantes dentro de la plataforma. Este dominio es responsable de la vinculación del código único en la pulsera RFID y el escaneo de la pulsera RFID para la verificación de identidad del estudiante al momento de subir y bajar de la unidad.
 ###### Diccionario de Clases
 
+El Diccionario de Clases es una herramienta clave en el diseño y desarrollo del sistema de Identity Assignment. En este diccionario se documentan las entidades, sus atributos, métodos y relaciones, lo que facilita la comprensión y garantiza una base sólida para el desarrollo e implementación de Identity Assignment.
+
 #### 4.2.2.1. Domain Layer.
+Dentro de la capa de dominio de Identity Assignment, encontramos las entidades clave que permiten la gestión de los procesos de vinculación de la pulsera RFID con el alumno y el escaneo de la pulsera al momento de abordar y bajar de la unidad.
+
 
 #### 4.2.2.2. Interface Layer.
 
