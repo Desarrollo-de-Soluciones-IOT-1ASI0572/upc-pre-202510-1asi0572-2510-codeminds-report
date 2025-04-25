@@ -113,6 +113,11 @@ componente del sistema se interrelaciona.
 ![iotcontextdiagram](assets/chapter4/context-diagram.jpg)
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
+En esta sección se presenta el container diagram, el cual muestra cómo los diferentes contenedores del sistema interactúan entre sí y con los usuarios finales.
+
+![containerdiagram](assets/chapter4/container-diagram.png)
+
+
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
 
