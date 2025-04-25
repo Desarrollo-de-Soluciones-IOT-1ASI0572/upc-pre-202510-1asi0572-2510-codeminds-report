@@ -167,6 +167,10 @@ ProfileController
 
 #### 4.2.1.3. Application Layer.
 
+En esta sección, presentamos la Capa de Aplicación (Application Layer) dentro del contexto de Identity And Access Management siguiendo el enfoque de diseño Domain-Driven Design (DDD). La Capa de Aplicación es responsable de coordinar las acciones y el flujo de datos entre la Capa de Dominio y la Capa de Infraestructura, actuando como intermediario y gestionando las interacciones entre estas capas. Esta capa asegura que la lógica de negocio, representada por la Capa de Dominio, se ejecute de manera eficiente y coherente.
+
+![applicationlayer](assets/chapter4/application-layer.jpeg)
+
 #### 4.2.1.4. Infrastructure Layer.
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
