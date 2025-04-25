@@ -110,7 +110,7 @@ En esta sección se presenta el context diagram, el cual muestra el sistema
 sistemas con los que interactúa. Este diagrama ayuda a entender cómo cada 
 componente del sistema se interrelaciona.
 
-![iotcontextdiagram](assets\chapter4\context-diagram.jpg)
+![iotcontextdiagram](assets/chapter4/context-diagram.jpg)
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
 
