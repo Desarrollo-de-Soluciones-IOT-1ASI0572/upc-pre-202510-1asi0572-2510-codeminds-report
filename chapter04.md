@@ -233,6 +233,7 @@ Dentro de la capa de dominio de Identity Assignment, encontramos las entidades c
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram.
+![Identity-Assignment-DB](assets/chapter4/identity-assignment-db.jpg)
 
 ### 4.2.3. Bounded Context: Vehicle Tracking
 
