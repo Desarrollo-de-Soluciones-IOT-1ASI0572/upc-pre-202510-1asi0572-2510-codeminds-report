@@ -156,6 +156,15 @@ A continuación, se muestran todos los objetos relacionados con el dominio.
 
 #### 4.2.1.2. Interface Layer.
 
+En esta sección, presentamos la Capa de Interfaz para el Identity And Access Management, que actúa como el punto de entrada para las interacciones de los usuarios con el sistema. La Capa de Interfaz incluye controladores que procesan las solicitudes entrantes relacionadas con usuarios y perfiles, gestionando las respuestas del sistema y permitiendo una comunicación efectiva entre la plataforma y los usuarios.
+
+Este contexto incluye los siguientes controladores:
+
+UserController
+ProfileController
+
+![interfacelayer](assets/chapter4/interface-layer.jpeg)
+
 #### 4.2.1.3. Application Layer.
 
 #### 4.2.1.4. Infrastructure Layer.
