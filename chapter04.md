@@ -191,6 +191,8 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
+![iam-database-diagram](assets/chapter4/iam-database-diagram.png)
+
 ### 4.2.2. Bounded Context: Identity Assignment
 El dominio de Identity Assignment representa una abstracción de los procesos y funciones involucrados en la asignación de identidad de los estudiantes dentro de la plataforma. Este dominio es responsable de la vinculación del código único en la pulsera RFID y el escaneo de la pulsera RFID para la verificación de identidad del estudiante al momento de subir y bajar de la unidad.
 ###### Diccionario de Clases
