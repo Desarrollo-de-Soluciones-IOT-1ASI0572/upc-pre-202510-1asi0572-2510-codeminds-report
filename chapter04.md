@@ -137,6 +137,9 @@ En esta sección se presenta el container diagram, el cual muestra cómo los dif
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.1. Bounded Context: Identity and Access Management
+El dominio de Identity and Access Management representa en detalle las funciones y procesos necesarios para la gestión de cuentas de usuario dentro de nuestra plataforma. Este dominio es responsable de gestionar las operaciones relacionadas con el registro, actualización y eliminación de cuentas.
+###### Diccionario de Clases
+
 
 #### 4.2.1.1. Domain Layer.
 
@@ -156,6 +159,8 @@ En esta sección se presenta el container diagram, el cual muestra cómo los dif
 
 ### 4.2.2. Bounded Context: Identity Assignment
 
+###### Diccionario de Clases
+
 #### 4.2.2.1. Domain Layer.
 
 #### 4.2.2.2. Interface Layer.
@@ -173,6 +178,8 @@ En esta sección se presenta el container diagram, el cual muestra cómo los dif
 #### 4.2.2.6.2. Bounded Context Database Design Diagram.
 
 ### 4.2.3. Bounded Context: Vehicle Tracking
+
+###### Diccionario de Clases
 
 #### 4.2.3.1. Domain Layer.
 
@@ -192,6 +199,8 @@ En esta sección se presenta el container diagram, el cual muestra cómo los dif
 
 ### 4.2.4. Bounded Context: Notification
 
+###### Diccionario de Clases
+
 #### 4.2.4.1. Domain Layer.
 
 #### 4.2.4.2. Interface Layer.
@@ -209,6 +218,8 @@ En esta sección se presenta el container diagram, el cual muestra cómo los dif
 #### 4.2.4.6.2. Bounded Context Database Design Diagram.
 
 ### 4.2.5. Bounded Context: Analytics
+
+###### Diccionario de Clases
 
 #### 4.2.5.1. Domain Layer.
 
