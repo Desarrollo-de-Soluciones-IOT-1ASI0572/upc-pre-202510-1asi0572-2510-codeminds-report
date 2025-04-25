@@ -99,6 +99,17 @@ https://miro.com/app/board/uXjVI_ESDBw=/?share_link_id=91933122181
 #### 4.1.1.3 Bounded Context Canvases.
 
 ### 4.1.2. Context Mapping.
+![ContextMapping](assets/chapter4/ContextMapping.PNG)
+<br>
+El mapa de contexto ilustra las relaciones clave entre los diferentes contextos de nuestro sistema. Se identifican dos tipos principales de interacciones:
+
+- **Partnership:** Representada por una flecha bidireccional, esta relación indica una colaboración estrecha y objetivos compartidos entre los contextos de "Identity Assignment" y "Vehicle Tracking". Los cambios en cualquiera de estos contextos tienen un impacto significativo en el otro debido a su naturaleza colaborativa.
+
+- **Customer/Supplier:** Indicada por una flecha unidireccional, esta relación describe una dependencia donde un contexto actúa como proveedor de servicios para otro. La flecha apunta desde el proveedor hacia el cliente. Si bien existe una dependencia funcional, estos contextos no colaboran directamente en el diseño o la estrategia. Las relaciones de Customer/Supplier identificadas son:
+    - "IAM Commodity" provee servicios a "Vehicle Tracking".
+    - "Identity Assignment" provee servicios a "Notification Soporte".
+    - "Vehicle Tracking" provee servicios a "Analytics Soporte".
+    - "Notification Soporte" provee servicios a "Analytics Soporte".
 
 ### 4.1.3. Software Architecture.
 
