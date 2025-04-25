@@ -97,6 +97,13 @@ https://miro.com/app/board/uXjVI_ESDBw=/?share_link_id=91933122181
 #### 4.1.1.2 Domain Message Flows Modeling.
 
 #### 4.1.1.3 Bounded Context Canvases.
+Se crearon los Canvases en base a los Bounded Context definidos anteriormente
+###### Identity and Access Management Canvas
+###### Identity Assignment Canvas
+![IdentityAssignmentCanvas](assets/chapter4/bccanvas-identity-assignment.jpg)
+###### Vehicle Tracking Canvas
+###### Notification Canvas
+###### Analytics Canvas
 
 ### 4.1.2. Context Mapping.
 ![ContextMapping](assets/chapter4/ContextMapping.PNG)
