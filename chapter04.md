@@ -173,6 +173,12 @@ En esta sección, presentamos la Capa de Aplicación (Application Layer) dentro 
 
 #### 4.2.1.4. Infrastructure Layer.
 
+En esta sección, presentamos la Capa de Infraestructura (Infrastructure Layer) dentro del contexto de Identity And Access Management. Esta capa es crucial para proporcionar los componentes técnicos y de soporte necesarios para que las otras capas del sistema funcionen correctamente.
+
+Los repositorios en la Capa de Infraestructura implementan las interfaces definidas en la Capa de Dominio y se encargan de la persistencia y gestión de datos.
+
+![infrastructurelayer](assets/chapter4/infrastructure-layer.jpeg)
+
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
