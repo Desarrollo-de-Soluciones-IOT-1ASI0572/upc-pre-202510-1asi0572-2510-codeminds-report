@@ -158,7 +158,7 @@ El dominio de Identity and Access Management representa en detalle las funciones
 #### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
 ### 4.2.2. Bounded Context: Identity Assignment
-
+El dominio de Identity Assignment representa una abstraccion de los procesos y funciones involucrados en la asignacion de identidad de los estudiantes dentro de la plataforma. Este dominio es responsable de la vinculacion del codigo unico en la pulsera RFID y el escaneo de la pulsera RFID para la verificacion de identidad del estudiante al momento de subir y bajar de la unidad.
 ###### Diccionario de Clases
 
 #### 4.2.2.1. Domain Layer.
