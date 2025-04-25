@@ -181,6 +181,8 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
+![iam-component-diagram](assets/chapter4/iam-component-diagram.png)
+
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
