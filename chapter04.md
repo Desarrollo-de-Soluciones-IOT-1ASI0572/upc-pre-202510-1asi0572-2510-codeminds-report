@@ -103,6 +103,8 @@ https://miro.com/app/board/uXjVI_ESDBw=/?share_link_id=91933122181
 ### 4.1.3. Software Architecture.
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
+Diagrama en el que se visualiza la estructura general del sistema
+![landscapediagram](assets/chapter4/landscape-diagram-iot.png)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
 En esta sección se presenta el context diagram, el cual muestra el sistema 
