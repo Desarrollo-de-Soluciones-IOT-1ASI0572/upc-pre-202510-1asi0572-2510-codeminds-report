@@ -159,8 +159,18 @@ El dominio de Identity and Access Management representa en detalle las funciones
 ### 4.2.2. Bounded Context: Identity Assignment
 El dominio de Identity Assignment representa una abstracción de los procesos y funciones involucrados en la asignación de identidad de los estudiantes dentro de la plataforma. Este dominio es responsable de la vinculación del código único en la pulsera RFID y el escaneo de la pulsera RFID para la verificación de identidad del estudiante al momento de subir y bajar de la unidad.
 ###### Diccionario de Clases
-
 El Diccionario de Clases es una herramienta clave en el diseño y desarrollo del sistema de Identity Assignment. En este diccionario se documentan las entidades, sus atributos, métodos y relaciones, lo que facilita la comprensión y garantiza una base sólida para el desarrollo e implementación de Identity Assignment.
+#### Student
+![studentclass](assets/chapter4/student-class.jpg)
+#### Parent
+![parentclass](assets/chapter4/parent-class.jpg)
+#### Wristband
+![wristbandclass](assets/chapter4/wristband-class.jpg)
+#### Sensor
+![sensorclass](assets/chapter4/sensor-class.jpg)
+#### SensorScan
+![sensorscanclass](assets/chapter4/sensorscan-class.jpg)
+
 
 #### 4.2.2.1. Domain Layer.
 Dentro de la capa de dominio de Identity Assignment, encontramos las entidades clave que permiten la gestión de los procesos de vinculación de la pulsera RFID con el alumno y el escaneo de la pulsera al momento de abordar y bajar de la unidad.
