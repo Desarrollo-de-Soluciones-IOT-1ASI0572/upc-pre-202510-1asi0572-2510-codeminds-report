@@ -148,6 +148,12 @@ El Diccionario de Clases es una herramienta clave en el proceso de diseño y des
 
 #### 4.2.1.1. Domain Layer.
 
+Dentro del dominio de Identity And Access Management, se encuentran entidades clave como lo escrito anteriormente. Estas entidades desempeñan un papel fundamental en los procesos necesarios para gestionar a los usuarios y sus perfiles, permitiendo a la plataforma administrar la información personal de los usuarios, así como los y roles asignados a cada perfil. Este dominio también garantiza que las interacciones entre los usuarios y el sistema se realicen de manera segura y eficiente, proporcionando acceso controlado a las distintas funcionalidades y recursos disponibles en la plataforma.
+
+A continuación, se muestran todos los objetos relacionados con el dominio.
+
+![domainlayer](assets/chapter4/domain-layer.jpeg)
+
 #### 4.2.1.2. Interface Layer.
 
 #### 4.2.1.3. Application Layer.
