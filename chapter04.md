@@ -236,7 +236,11 @@ En esta sección, se presenta la Capa de Aplicación (Application Layer) dentro 
 ![ApplicationLayer](assets/chapter4/identity-assignment-application-layer.jpg)
 
 #### 4.2.2.4. Infrastructure Layer.
+En esta sección, se presenta la Capa de Infraestructura (Infrastructure Layer) dentro del contexto de Identity Assignment. Esta capa es de vital importancia para proporcionar los componentes técnicos y de soporte necesarios para que las otras capas del sistema funcionen correctamente.
 
+Los repositorios en la Capa de Infraestructura implementan las interfaces definidas en la Capa de Dominio y se encargan de la persistencia y gestión de datos.
+
+![InfrastructureLayer](assets/chapter4/identity-assignment-infrastructure-layer.png)
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
