@@ -416,6 +416,10 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 #### 4.2.5.1. Domain Layer.
 
+Dentro de la capa de dominio de Analytics, encontramos las entidades clave que permiten la recolección, análisis y generación de reportes a partir de los datos de rutas, asistencia de estudiantes y desempeño de conductores. Esta capa contiene los Aggregates, Entities, Value Objects, Domain Services, y define las interfaces de Repositories que modelan el núcleo analítico del sistema.
+
+![AnalyticsDomainLayer](assets/chapter4/DomainLayerAnalytics.png)
+
 #### 4.2.5.2. Interface Layer.
 
 #### 4.2.5.3. Application Layer.
