@@ -303,8 +303,10 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 ### 4.2.3. Bounded Context: Vehicle Tracking
 
 ###### Diccionario de Clases
+
 El Diccionario de Clases es una herramienta clave en el diseño y desarrollo del sistema de Vehicle Tracking.
 Aquí se documentan las entidades, sus atributos, métodos y relaciones, lo que facilita la comprensión y garantiza una base sólida para el desarrollo e implementación de las funcionalidades del seguimiento de vehículos.
+
 #### Vehicule
 
 ![Vehiculeclass](assets/chapter4/vehicule-class.PNG)
@@ -314,35 +316,42 @@ Aquí se documentan las entidades, sus atributos, métodos y relaciones, lo que 
 ![Locationclass](assets/chapter4/Location-class.PNG)
 
 #### 4.2.3.1. Domain Layer.
+
 Dentro de la capa de dominio de Vehicle Tracking, encontramos las entidades clave que permiten la gestión del estado de los vehículos, la actualización de sus ubicaciones, y el control del cumplimiento de las rutas y límites de velocidad.
 Esta capa contiene los Aggregates, Entities, Value Objects, Domain Services, y define las interfaces de repositorios que modelan el núcleo del sistema.
 ![DomainLayer](assets/chapter4/Domain-Layer-vehicule1.PNG)
 ![DomainLayer](assets/chapter4/Domain-Layer-vehicule2.PNG)
 
 #### 4.2.3.2. Interface Layer.
+
 La Capa de Interfaz de Vehicle Tracking actúa como el punto de entrada para las interacciones de los sistemas externos y usuarios con este bounded context.Aquí se encuentra el VehicleController, que expone endpoints para iniciar rutas, actualizar ubicaciones en tiempo real, consultar la ubicación actual del vehículo y recuperar el historial de trayectos.
 <br>
 ![InterfaceLayer](assets/chapter4/Interface-Layer-vehicule.PNG)
 
 #### 4.2.3.3. Application Layer.
+
 La Capa de Aplicación dentro del contexto de Vehicle Tracking es responsable de coordinar las acciones entre la Capa de Interfaz, la Capa de Dominio y la Capa de Infraestructura.
 Aquí residen los Command Handlers que gestionan comandos como el inicio de una ruta, la actualización de la ubicación GPS, el reporte de velocidad y la consulta del historial de ubicaciones, asegurando que la lógica denegocio definida en la Capa de Dominio se ejecute correctamente.
 <br>
 ![InfrastructureLayer](assets/chapter4/Application-Layer-vehicule.PNG)
 
 #### 4.2.3.4. Infrastructure Layer.
+
 La Capa de Infraestructura dentro del contexto de Vehicle Tracking proporciona los componentes técnicos y de soporte necesarios para persistir y recuperar los datos de vehículos y ubicaciones.
 Los repositorios en esta capa se implementan las interfaces de la Capa de Dominio, conectándose a la base de datos PostgreSQL para garantizar la gestión eficiente de la persistencia y el acceso a la información crítica de seguimiento vehicular.
 <br>
 ![InfrastructureLayer](assets/chapter4/Infrastructure-Layer-vehicule.PNG)
 
-
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
+
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+
 ![identity-assignment-class-diagram](assets/chapter4/Bounded-Context-Domain-Layer-Class-Diagrams-Vehicule.PNG)
+
 #### 4.2.3.6.2. Bounded Context Database Design Diagram.
+
 ![Identity-Assignment-DB](assets/chapter4/Bounded-Context-Database-Design-Diagram..PNG)
 
 ### 4.2.4. Bounded Context: Notification
@@ -372,6 +381,12 @@ El contexto de esta capa incluye principalmente el NotificationController, encar
 ![notification-controller](assets/chapter4/notification-controller.png)
 
 #### 4.2.4.3. Application Layer.
+
+En esta sección, presentamos la Capa de Aplicación (Application Layer) dentro del contexto de Notification. Esta capa actúa como intermediaria entre la lógica de negocio y la infraestructura del sistema, gestionando el flujo de datos y coordinando las interacciones necesarias para el procesamiento de notificaciones. Los Command Handlers y Event Handlers son responsables de ejecutar acciones de escritura y de reaccionar a eventos relevantes, trabajando en conjunto con los servicios de dominio para realizar sus operaciones.
+
+Cada Handler en esta capa utiliza servicios específicos para gestionar la creación, el envío y la actualización del estado de las notificaciones.
+
+![application-handler](assets/chapter4/application-handler.png)
 
 #### 4.2.4.4. Infrastructure Layer.
 
