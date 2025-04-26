@@ -168,6 +168,16 @@ Se han identificado distintos segmentos como padres de familia y conductores de 
 
 ### 2.3.4. Empathy Mapping.
 
+En este apartado se presenta el Empathy Mapping, una herramienta que utilizamos para comprender mejor al usuario desde una perspectiva más humana. A través de este mapa, identificamos lo que el usuario piensa, siente, dice y hace, lo cual nos permite tener una visión más completa de sus necesidades, motivaciones y posibles frustraciones.
+
+Segmento: Padre
+
+![EmpathyMappingPadre](assets/chapter2/EmpathyMapping(Padre).png)
+
+Segmento: Conductor
+![EmpathyMappingPadre](assets/chapter2/Empathy%20map(Conductores).png)
+
+
 ### 2.3.5. As-is Scenario Mapping.
 
 Para desarrollar el As-Is Scenario Mapping, se llevó a cabo un análisis detallado de los escenarios actuales de los User Personas previamente definidos, complementado con una lluvia de ideas que consideró su contexto actual, necesidades, preferencias y las condiciones del mercado. A continuación, se presentan los escenarios actuales (As-Is) correspondientes a cada User Persona identificado.
