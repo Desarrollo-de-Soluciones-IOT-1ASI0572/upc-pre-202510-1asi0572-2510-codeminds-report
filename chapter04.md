@@ -111,17 +111,27 @@ Scenario: Fin de ruta y generación de reporte
 ![DomainMessageE1](assets/chapter4/DMFM3.jpg)
 
 #### 4.1.1.3 Bounded Context Canvases.
+
 Se crearon los Canvases en base a los Bounded Context definidos anteriormente
+
 ###### Identity and Access Management Canvas
+
 ![IdentityAccessCanvas](assets/chapter4/iam-bounded-context-canvas.jpeg)
+
 ###### Identity Assignment Canvas
+
 ![IdentityAssignmentCanvas](assets/chapter4/bccanvas-identity-assignment.jpg)
+
 ###### Vehicle Tracking Canvas
+
 ![VehicleTrackingCanvas](assets/chapter4/bccanvas-vehicule-tracking.PNG)
+
 ###### Notification Canvas
+
 ###### Analytics Canvas
 
 ### 4.1.2. Context Mapping.
+
 ![ContextMapping](assets/chapter4/ContextMapping.PNG)
 <br>
 El mapa de contexto ilustra las relaciones clave entre los diferentes contextos de nuestro sistema. Se identifican dos tipos principales de interacciones:
@@ -129,38 +139,41 @@ El mapa de contexto ilustra las relaciones clave entre los diferentes contextos 
 - **Partnership:** Representada por una flecha bidireccional, esta relación indica una colaboración estrecha y objetivos compartidos entre los contextos de "Identity Assignment" y "Vehicle Tracking". Los cambios en cualquiera de estos contextos tienen un impacto significativo en el otro debido a su naturaleza colaborativa.
 
 - **Customer/Supplier:** Indicada por una flecha unidireccional, esta relación describe una dependencia donde un contexto actúa como proveedor de servicios para otro. La flecha apunta desde el proveedor hacia el cliente. Si bien existe una dependencia funcional, estos contextos no colaboran directamente en el diseño o la estrategia. Las relaciones de Customer/Supplier identificadas son:
-    - "IAM Commodity" provee servicios a "Vehicle Tracking".
-    - "Identity Assignment" provee servicios a "Notification Soporte".
-    - "Vehicle Tracking" provee servicios a "Analytics Soporte".
-    - "Notification Soporte" provee servicios a "Analytics Soporte".
+  - "IAM Commodity" provee servicios a "Vehicle Tracking".
+  - "Identity Assignment" provee servicios a "Notification Soporte".
+  - "Vehicle Tracking" provee servicios a "Analytics Soporte".
+  - "Notification Soporte" provee servicios a "Analytics Soporte".
 
 ### 4.1.3. Software Architecture.
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
+
 Diagrama en el que se visualiza la estructura general del sistema
 ![landscapediagram](assets/chapter4/landscape-diagram-iot.png)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
-En esta sección se presenta el context diagram, el cual muestra el sistema 
-“EduGo” como un recuadro en el centro, rodeado por sus usuarios y otros 
-sistemas con los que interactúa. Este diagrama ayuda a entender cómo cada 
+
+En esta sección se presenta el context diagram, el cual muestra el sistema
+“EduGo” como un recuadro en el centro, rodeado por sus usuarios y otros
+sistemas con los que interactúa. Este diagrama ayuda a entender cómo cada
 componente del sistema se interrelaciona.
 
 ![iotcontextdiagram](assets/chapter4/context-diagram.jpg)
 
 #### 4.1.3.2. Software Architecture Container Level Diagrams.
+
 En esta sección se presenta el container diagram, el cual muestra cómo los diferentes contenedores del sistema interactúan entre sí y con los usuarios finales.
 
 ![containerdiagram](assets/chapter4/container-diagram.png)
-
-
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.1. Bounded Context: Identity and Access Management
+
 El dominio de Identity and Access Management representa en detalle las funciones y procesos necesarios para la gestión de cuentas de usuario dentro de nuestra plataforma. Este dominio es responsable de gestionar las operaciones relacionadas con el registro, actualización y eliminación de cuentas.
+
 ###### Diccionario de Clases
 
 El Diccionario de Clases es una herramienta clave en el proceso de diseño y desarrollo del sistema de gestión de usuarios y perfiles. Proporciona una descripción detallada de las clases fundamentales que forman la base del modelo de dominio. Este diccionario documenta las entidades, sus atributos, métodos y relaciones, lo que facilita la comprensión y colaboración entre los desarrolladores, garantizando una base sólida para la solución implementada en el proyecto de User & Profile Management.
@@ -217,39 +230,54 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 ![iam-database-diagram](assets/chapter4/iam-database-diagram.png)
 
 ### 4.2.2. Bounded Context: Identity Assignment
+
 El dominio de Identity Assignment representa una abstracción de los procesos y funciones involucrados en la asignación de identidad de los estudiantes dentro de la plataforma. Este dominio es responsable de la vinculación del código único en la pulsera RFID y el escaneo de la pulsera RFID para la verificación de identidad del estudiante al momento de subir y bajar de la unidad.
+
 ###### Diccionario de Clases
+
 El Diccionario de Clases es una herramienta clave en el diseño y desarrollo del sistema de Identity Assignment. En este diccionario se documentan las entidades, sus atributos, métodos y relaciones, lo que facilita la comprensión y garantiza una base sólida para el desarrollo e implementación de Identity Assignment.
+
 #### Student
+
 ![studentclass](assets/chapter4/student-class.jpg)
+
 #### Parent
+
 ![parentclass](assets/chapter4/parent-class.jpg)
+
 #### Wristband
+
 ![wristbandclass](assets/chapter4/wristband-class.jpg)
+
 #### Sensor
+
 ![sensorclass](assets/chapter4/sensor-class.jpg)
+
 #### SensorScan
+
 ![sensorscanclass](assets/chapter4/sensorscan-class.jpg)
 
-
 #### 4.2.2.1. Domain Layer.
+
 Dentro de la capa de dominio de Identity Assignment, encontramos las entidades clave que permiten la gestión de los procesos de vinculación de la pulsera RFID con el alumno y el escaneo de la pulsera al momento de abordar y bajar de la unidad.
 
 ![DomainLayer](assets/chapter4/identity-assignment-domain-layer-p1.png)
 ![DomainLayer](assets/chapter4/identity-assignment-domain-layer-p2.png)
 
-
 #### 4.2.2.2. Interface Layer.
+
 En esta sección, se presenta la Capa de Interfaz para el Identity Assignment, que actúa como el punto de entrada para las interacciones de los usuarios con el sistema. La Capa de Interfaz incluye controladores que procesan tanto la vinculacion como los escaneos de la pulsera RFID.
 
 ![InterfaceLayer](assets/chapter4/identity-assignment-interface-layer.jpg)
 
 #### 4.2.2.3. Application Layer.
+
 En esta sección, se presenta la Capa de Aplicación (Application Layer) dentro del contexto de Identity Assignment siguiendo el enfoque de diseño Domain-Driven Design (DDD). La Capa de Aplicación es responsable de coordinar las acciones y el flujo de datos entre la Capa de Dominio y la Capa de Infraestructura, actuando como intermediario y gestionando las interacciones entre estas capas. Esta capa asegura que la lógica de negocio, representada por la Capa de Dominio, se ejecute de manera eficiente y coherente.
 
 ![ApplicationLayer](assets/chapter4/identity-assignment-application-layer.jpg)
 
 #### 4.2.2.4. Infrastructure Layer.
+
 En esta sección, se presenta la Capa de Infraestructura (Infrastructure Layer) dentro del contexto de Identity Assignment. Esta capa es de vital importancia para proporcionar los componentes técnicos y de soporte necesarios para que las otras capas del sistema funcionen correctamente.
 
 Los repositorios en la Capa de Infraestructura implementan las interfaces definidas en la Capa de Dominio y se encargan de la persistencia y gestión de datos.
@@ -257,14 +285,17 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 ![InfrastructureLayer](assets/chapter4/identity-assignment-infrastructure-layer.png)
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+
 ![identity-assignment-component-diagram](assets/chapter4/identity-assignment-component-diagram.png)
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
+
 ![identity-assignment-class-diagram](assets/chapter4/identity-assignment-class-diagram.jpg.png)
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram.
+
 ![Identity-Assignment-DB](assets/chapter4/identity-assignment-db.jpg)
 
 ### 4.2.3. Bounded Context: Vehicle Tracking
@@ -290,6 +321,20 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 ### 4.2.4. Bounded Context: Notification
 
 ###### Diccionario de Clases
+
+El dominio de Notification describe de forma detallada las funciones y procesos encargados de la gestión de notificaciones dentro de nuestra plataforma. Este dominio se ocupa de administrar el envío, recepción y seguimiento de notificaciones a los distintos actores del sistema, ya sea por medios electrónicos como correo o notificaciones push. Incluye la lógica para generar notificaciones a partir de eventos del sistema, su almacenamiento, el marcado como leídas y el control del historial. Su objetivo es asegurar que la información crítica llegue a los usuarios correctos en el momento oportuno, facilitando una comunicación clara, oportuna y eficiente entre el sistema y sus usuarios.
+
+###### Diccionario de Clases
+
+El Diccionario de Clases en el contexto de Notification es una herramienta fundamental para el diseño y desarrollo del sistema de notificaciones. Detalla las principales clases del modelo de dominio, incluyendo sus atributos, responsabilidades y relaciones. Esta documentación permite a los desarrolladores tener una comprensión clara del funcionamiento interno del módulo de notificaciones, favoreciendo la coherencia en el desarrollo y la evolución del sistema.
+
+#### Notification
+
+![notification-entity](assets/chapter4/notification-entity.png)
+
+#### 4.2.4.1. Domain Layer.
+
+Dentro del dominio de Notification, existen entidades clave que permiten gestionar eficazmente la generación, envío y seguimiento de notificaciones dentro de nuestra plataforma. Estas entidades desempeñan un rol fundamental en la creación, actualización y control del estado de las notificaciones enviadas a los distintos usuarios del sistema. Incluyen tanto los datos necesarios para construir la notificación (como el tipo, mensaje, destinatario y canal) como la información sobre su estado (por ejemplo, si fue enviada o leída). Estas entidades aseguran que el sistema pueda mantener un registro claro y actualizado de las comunicaciones, facilitando una experiencia informativa, organizada y orientada a la acción para los usuarios.
 
 #### 4.2.4.1. Domain Layer.
 
