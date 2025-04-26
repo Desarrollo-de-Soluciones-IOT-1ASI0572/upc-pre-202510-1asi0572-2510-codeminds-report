@@ -320,8 +320,6 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 ### 4.2.4. Bounded Context: Notification
 
-###### Diccionario de Clases
-
 El dominio de Notification describe de forma detallada las funciones y procesos encargados de la gestión de notificaciones dentro de nuestra plataforma. Este dominio se ocupa de administrar el envío, recepción y seguimiento de notificaciones a los distintos actores del sistema, ya sea por medios electrónicos como correo o notificaciones push. Incluye la lógica para generar notificaciones a partir de eventos del sistema, su almacenamiento, el marcado como leídas y el control del historial. Su objetivo es asegurar que la información crítica llegue a los usuarios correctos en el momento oportuno, facilitando una comunicación clara, oportuna y eficiente entre el sistema y sus usuarios.
 
 ###### Diccionario de Clases
@@ -336,7 +334,7 @@ El Diccionario de Clases en el contexto de Notification es una herramienta funda
 
 Dentro del dominio de Notification, existen entidades clave que permiten gestionar eficazmente la generación, envío y seguimiento de notificaciones dentro de nuestra plataforma. Estas entidades desempeñan un rol fundamental en la creación, actualización y control del estado de las notificaciones enviadas a los distintos usuarios del sistema. Incluyen tanto los datos necesarios para construir la notificación (como el tipo, mensaje, destinatario y canal) como la información sobre su estado (por ejemplo, si fue enviada o leída). Estas entidades aseguran que el sistema pueda mantener un registro claro y actualizado de las comunicaciones, facilitando una experiencia informativa, organizada y orientada a la acción para los usuarios.
 
-#### 4.2.4.1. Domain Layer.
+![domain-layer](assets/chapter4/domain-layer_.png)
 
 #### 4.2.4.2. Interface Layer.
 
