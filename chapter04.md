@@ -99,6 +99,7 @@ https://miro.com/app/board/uXjVI_ESDBw=/?share_link_id=91933122181
 #### 4.1.1.3 Bounded Context Canvases.
 Se crearon los Canvases en base a los Bounded Context definidos anteriormente
 ###### Identity and Access Management Canvas
+![IdentityAccessCanvas](assets/chapter4/iam-bounded-context-canvas.jpeg)
 ###### Identity Assignment Canvas
 ![IdentityAssignmentCanvas](assets/chapter4/bccanvas-identity-assignment.jpg)
 ###### Vehicle Tracking Canvas
