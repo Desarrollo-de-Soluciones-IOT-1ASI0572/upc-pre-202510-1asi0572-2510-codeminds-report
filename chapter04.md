@@ -318,14 +318,14 @@ Esta capa contiene los Aggregates, Entities, Value Objects, Domain Services, y d
 ![DomainLayer](assets/chapter4/Domain-Layer-vehicule2.PNG)
 
 #### 4.2.3.2. Interface Layer.
-La Capa de Interfaz de Vehicle Tracking actúa como el punto de entrada para las interacciones de los sistemas externos y usuarios con este bounded context.
-Aquí se encuentra el VehicleController, que expone endpoints para iniciar rutas, actualizar ubicaciones en tiempo real, consultar la ubicación actual del vehículo y recuperar el historial de trayectos.
+La Capa de Interfaz de Vehicle Tracking actúa como el punto de entrada para las interacciones de los sistemas externos y usuarios con este bounded context.Aquí se encuentra el VehicleController, que expone endpoints para iniciar rutas, actualizar ubicaciones en tiempo real, consultar la ubicación actual del vehículo y recuperar el historial de trayectos.
+<br>
 ![InterfaceLayer](assets/chapter4/Interface-Layer-vehicule.PNG)
+
 #### 4.2.3.3. Application Layer.
 La Capa de Aplicación dentro del contexto de Vehicle Tracking es responsable de coordinar las acciones entre la Capa de Interfaz, la Capa de Dominio y la Capa de Infraestructura.
-Aquí residen los Command Handlers que gestionan comandos como el inicio de una ruta, la actualización de la ubicación GPS, el reporte de velocidad y la consulta del historial de ubicaciones, asegurando que la lógica de negocio definida en la Capa de Dominio se ejecute correctamente.
+Aquí residen los Command Handlers que gestionan comandos como el inicio de una ruta, la actualización de la ubicación GPS, el reporte de velocidad y la consulta del historial de ubicaciones, asegurando que la lógica denegocio definida en la Capa de Dominio se ejecute correctamente.
 ![InfrastructureLayer](assets/chapter4/Application-Layer-vehicule.PNG)
-
 
 #### 4.2.3.4. Infrastructure Layer.
 La Capa de Infraestructura dentro del contexto de Vehicle Tracking proporciona los componentes técnicos y de soporte necesarios para persistir y recuperar los datos de vehículos y ubicaciones.
