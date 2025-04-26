@@ -325,11 +325,13 @@ La Capa de Interfaz de Vehicle Tracking actúa como el punto de entrada para las
 #### 4.2.3.3. Application Layer.
 La Capa de Aplicación dentro del contexto de Vehicle Tracking es responsable de coordinar las acciones entre la Capa de Interfaz, la Capa de Dominio y la Capa de Infraestructura.
 Aquí residen los Command Handlers que gestionan comandos como el inicio de una ruta, la actualización de la ubicación GPS, el reporte de velocidad y la consulta del historial de ubicaciones, asegurando que la lógica denegocio definida en la Capa de Dominio se ejecute correctamente.
+<br>
 ![InfrastructureLayer](assets/chapter4/Application-Layer-vehicule.PNG)
 
 #### 4.2.3.4. Infrastructure Layer.
 La Capa de Infraestructura dentro del contexto de Vehicle Tracking proporciona los componentes técnicos y de soporte necesarios para persistir y recuperar los datos de vehículos y ubicaciones.
-Los repositorios en esta capa (PostgresVehicleRepository y PostgresLocationRepository) implementan las interfaces de la Capa de Dominio, conectándose a la base de datos PostgreSQL para garantizar la gestión eficiente de la persistencia y el acceso a la información crítica de seguimiento vehicular.
+Los repositorios en esta capa se implementan las interfaces de la Capa de Dominio, conectándose a la base de datos PostgreSQL para garantizar la gestión eficiente de la persistencia y el acceso a la información crítica de seguimiento vehicular.
+<br>
 ![InfrastructureLayer](assets/chapter4/Infrastructure-Layer-vehicule.PNG)
 
 
