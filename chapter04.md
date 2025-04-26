@@ -243,6 +243,7 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 ![InfrastructureLayer](assets/chapter4/identity-assignment-infrastructure-layer.png)
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
+![identity-assignment-component-diagram](assets/chapter4/identity-assignment-component-diagram.png)
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 
