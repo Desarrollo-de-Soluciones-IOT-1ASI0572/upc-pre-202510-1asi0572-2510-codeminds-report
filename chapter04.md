@@ -219,6 +219,9 @@ El Diccionario de Clases es una herramienta clave en el diseño y desarrollo del
 #### 4.2.2.1. Domain Layer.
 Dentro de la capa de dominio de Identity Assignment, encontramos las entidades clave que permiten la gestión de los procesos de vinculación de la pulsera RFID con el alumno y el escaneo de la pulsera al momento de abordar y bajar de la unidad.
 
+![DomainLayer](assets/chapter4/identity-assignment-domain-layer-p1.png)
+![DomainLayer](assets/chapter4/identity-assignment-domain-layer-p2.png)
+
 
 #### 4.2.2.2. Interface Layer.
 
