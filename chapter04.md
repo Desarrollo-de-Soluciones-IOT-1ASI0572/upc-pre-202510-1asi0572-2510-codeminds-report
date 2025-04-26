@@ -338,6 +338,12 @@ Dentro del dominio de Notification, existen entidades clave que permiten gestion
 
 #### 4.2.4.2. Interface Layer.
 
+En esta sección, presentamos la Capa de Interfaz del dominio de Notification, que constituye el punto de entrada para la interacción entre los usuarios y el sistema de notificaciones. Esta capa está compuesta por un conjunto de controladores que gestionan las solicitudes entrantes relacionadas con las notificaciones y generan las respuestas correspondientes, asegurando una comunicación efectiva y oportuna dentro de la plataforma.
+
+El contexto de esta capa incluye principalmente el NotificationController, encargado de manejar las operaciones relacionadas con la creación, envío, visualización y actualización del estado de las notificaciones.
+
+![notification-controller](assets/chapter4/notification-controller.png)
+
 #### 4.2.4.3. Application Layer.
 
 #### 4.2.4.4. Infrastructure Layer.
