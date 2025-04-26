@@ -404,6 +404,8 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 #### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
 
+![diagram_class](assets/chapter4/diagram_class.png)
+
 #### 4.2.4.6.2. Bounded Context Database Design Diagram.
 
 ### 4.2.5. Bounded Context: Analytics
