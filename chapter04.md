@@ -390,6 +390,12 @@ Cada Handler en esta capa utiliza servicios específicos para gestionar la creac
 
 #### 4.2.4.4. Infrastructure Layer.
 
+En esta sección, presentamos la Capa de Infraestructura (Infrastructure Layer) dentro del contexto de Notification. Esta capa es responsable de proporcionar los componentes técnicos y de soporte necesarios para que las demás capas del sistema funcionen correctamente. Incluye la implementación de repositorios y adaptadores que interactúan con sistemas externos para gestionar la persistencia de datos y el envío de notificaciones.
+
+Los repositorios en la Capa de Infraestructura implementan las interfaces definidas en la Capa de Dominio y se encargan de interactuar con la base de datos. Además, los adaptadores permiten la integración con servicios de mensajería externa, como correos electrónicos y notificaciones push. Los componentes clave en este contexto incluyen el NotificationRepository, que maneja la persistencia de las notificaciones, el EmailNotificationSender, que gestiona el envío de correos electrónicos, y el PushNotificationSender, que administra el envío de notificaciones push.
+
+![infrastructure-layer](assets/chapter4/infrastructure-layer.png)
+
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
