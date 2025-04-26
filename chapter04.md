@@ -102,6 +102,7 @@ Se crearon los Canvases en base a los Bounded Context definidos anteriormente
 ###### Identity Assignment Canvas
 ![IdentityAssignmentCanvas](assets/chapter4/bccanvas-identity-assignment.jpg)
 ###### Vehicle Tracking Canvas
+![VehicleTrackingCanvas](assets/chapter4/bccanvas-vehicule-tracking.PNG)
 ###### Notification Canvas
 ###### Analytics Canvas
 
