@@ -434,6 +434,10 @@ La Capa de Aplicación dentro del contexto de Analytics se encarga de coordinar 
 
 #### 4.2.5.4. Infrastructure Layer.
 
+La Capa de Infraestructura dentro del contexto de Analytics ofrece los recursos técnicos y de soporte esenciales para almacenar y recuperar los datos relacionados con el análisis del transporte escolar.
+
+![InfrastructureAnalytics](assets/chapter4/InfrastructureAnalytics.png)
+
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
