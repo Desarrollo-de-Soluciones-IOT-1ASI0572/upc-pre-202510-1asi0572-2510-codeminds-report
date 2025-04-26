@@ -394,9 +394,11 @@ En esta sección, presentamos la Capa de Infraestructura (Infrastructure Layer) 
 
 Los repositorios en la Capa de Infraestructura implementan las interfaces definidas en la Capa de Dominio y se encargan de interactuar con la base de datos. Además, los adaptadores permiten la integración con servicios de mensajería externa, como correos electrónicos y notificaciones push. Los componentes clave en este contexto incluyen el NotificationRepository, que maneja la persistencia de las notificaciones, el EmailNotificationSender, que gestiona el envío de correos electrónicos, y el PushNotificationSender, que administra el envío de notificaciones push.
 
-![infrastructure-layer](assets/chapter4/infrastructure-layer.png)
+![infrastructure-layer](assets/chapter4/infrastructure-layer_.png)
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
+
+![component-level-dagrams](assets/chapter4/component-level-dagrams.png)
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
