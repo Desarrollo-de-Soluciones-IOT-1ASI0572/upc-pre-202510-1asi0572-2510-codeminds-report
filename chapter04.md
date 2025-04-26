@@ -422,6 +422,10 @@ Dentro de la capa de dominio de Analytics, encontramos las entidades clave que p
 
 #### 4.2.5.2. Interface Layer.
 
+En esta sección, presentamos la Capa de Interfaz para el contexto de Analytics, que actúa como el punto de entrada para las interacciones de los usuarios con el sistema de análisis. La Capa de Interfaz incluye controladores que procesan las solicitudes entrantes relacionadas con el monitoreo, análisis y visualización de datos del sistema de transporte escolar, gestionando las respuestas y permitiendo una comunicación eficiente entre la plataforma y los usuarios. Este contexto incluye los siguientes controladores:
+
+![LayerAnalytics](assets/chapter4/LayerAnalytics.png)
+
 #### 4.2.5.3. Application Layer.
 
 #### 4.2.5.4. Infrastructure Layer.
