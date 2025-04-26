@@ -224,6 +224,9 @@ Dentro de la capa de dominio de Identity Assignment, encontramos las entidades c
 
 
 #### 4.2.2.2. Interface Layer.
+En esta sección, se presenta la Capa de Interfaz para el Identity Assignment, que actúa como el punto de entrada para las interacciones de los usuarios con el sistema. La Capa de Interfaz incluye controladores que procesan tanto la vinculacion como los escaneos de la pulsera RFID.
+
+![InterfaceLayer](assets/chapter4/identity-assignment-interface-layer.jpg)
 
 #### 4.2.2.3. Application Layer.
 
