@@ -428,6 +428,10 @@ En esta sección, presentamos la Capa de Interfaz para el contexto de Analytics,
 
 #### 4.2.5.3. Application Layer.
 
+La Capa de Aplicación dentro del contexto de Analytics se encarga de coordinar las interacciones entre la Capa de Interfaz, la Capa de Dominio y la Capa de Infraestructura. En esta capa se encuentran los Command Handlers, que gestionan tareas como la recolección de datos relacionados con el rendimiento del transporte, la generación de informes de eficiencia y la consulta de datos históricos, garantizando que la lógica de negocio definida en la Capa de Dominio se ejecute de manera adecuada.
+
+![ApplicationAnalytics](assets/chapter4/ApplicationAnalytics.png)
+
 #### 4.2.5.4. Infrastructure Layer.
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
