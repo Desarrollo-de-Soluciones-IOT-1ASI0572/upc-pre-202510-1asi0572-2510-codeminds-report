@@ -11,20 +11,20 @@
 
 # "Informe de Trabajo Final"
 ## Docente: Angel Augusto Velasquez Nuñez
-## Startup: 
-## Producto: 
+## Startup: CodeMinds
+## Producto: EduGo
 
 </center> 
 
 ## Relación de integrantes:
 
 
-* **Nombre    Codigo**
+* **Angel Antonio Cancho Corilla    U201721995**
 * **Juan Diego Cueto Dominguez         U202012207**
-* **Nombre    Codigo**
-* **Nombre    Codigo**
-* **Nombre    Codigo**
-
+* **Xiao Lian Li Zegarra   U202118784**
+* **Marcelo Sebastian Ramirez Ramirez    U202210582**
+* **Scott Jacobo Huachaca Advincula    U201914294**
+* **Paolo Del Carmen Martinez Villanueva    U202010039**
 
 
 <center>
@@ -53,7 +53,7 @@
         <tr>
             <td>1.0</td>
             <td>05/04/2025</td>
-            <td>M</td>
+            <td>Marcelo Ramirez</td>
             <td>Se creó el Repositorio y se añadio archivos para la base del proyecto</td>
         </tr>
          <!-- Fila 2-->
@@ -109,7 +109,7 @@
         <tr>
             <td>1.8</td>
             <td>11/04/2025</td>
-            <td>M</td>
+            <td>Marcelo Ramirez</td>
             <td>Se añadio el Lean UX Canvas y el Impact Mapping.</td>
         </tr>
          <!-- Fila 10-->
@@ -130,7 +130,7 @@
         <tr>
             <td>1.11</td>
             <td>15/04/2025</td>
-            <td>M</td>
+            <td>Marecelo Ramirez</td>
             <td>Se añadieron los diseños para las entrevistas y el logo de la aplicación.</td>
         </tr>
          <!-- Fila 13-->
