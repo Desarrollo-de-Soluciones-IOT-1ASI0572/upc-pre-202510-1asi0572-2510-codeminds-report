@@ -96,6 +96,20 @@ https://miro.com/app/board/uXjVI_ESDBw=/?share_link_id=91933122181
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 
+Se empleó una técnica de modelado colaborativo para identificar los eventos principales y las interacciones relevantes dentro del dominio. A partir de estos eventos, se elaboraron diagramas que describen el flujo de mensajes entre los distintos componentes del sistema, reflejando cómo se coordinan para cumplir con los objetivos del negocio. A continuación, se presentan los diagramas correspondientes a los contextos definidos previamente
+
+Scenario: Abordaje del estudiante y notificación a los padres
+
+![DomainMessageE1](assets/chapter4/DMFM1.jpg)
+
+Scenario: El chofer inicia la ruta y comienza el seguimiento GPS
+
+![DomainMessageE1](assets/chapter4/DMFM2.jpg)
+
+Scenario: Fin de ruta y generación de reporte
+
+![DomainMessageE1](assets/chapter4/DMFM3.jpg)
+
 #### 4.1.1.3 Bounded Context Canvases.
 Se crearon los Canvases en base a los Bounded Context definidos anteriormente
 ###### Identity and Access Management Canvas
