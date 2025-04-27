@@ -129,6 +129,16 @@ Sebastián Campero, de 27 años, vive en Chorrillos y trabaja como operario de p
 
 Liliana Ramirez, de 56 años, vive en San Juan de Miraflores y es ama de casa. Tiene un hijo de 14 años en secundaria. Su principal preocupación es la falta de información en tiempo real sobre el transporte escolar. Desea recibir notificaciones sobre la ubicación del bus y el momento en que su hijo sube o baja. Está familiarizada con el uso de GPS y aunque no conozca acerca de la tecnología RFID, se ve interesada por informarse más sobre el tema. Cambiaría de proveedor si no siente seguridad o si la comunicación es deficiente.
 
+**Segmento 2: Padres de Familia**<br>
+**Entrevista 3 (realizado por Juan Diego Cueto):**<br>
+**Nombre:** Janetlis Colon<br>
+**Edad:** 29 años<br>
+**Ocupación:** Diseñadora gráfica
+
+[![entrevista janetlis](assets/chapter2/entrevista-janetlis.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012207_upc_edu_pe/EXA6KZSDBtVNi_aEh1tkvOUBDyF5CqQJRzg-7VMH4Di8Xg?e=RLefmX)
+
+Janetlis, de 29 años, vive en Miraflores, Lima, y es diseñadora gráfica. Tiene un hijo pequeño en nivel inicial o primaria. Su principal preocupación es la seguridad durante el traslado escolar y la falta de información en tiempo real. Le gustaría recibir notificaciones sobre la ubicación del vehículo y alertas cuando su hijo suba o baje del transporte. Está familiarizada con el uso de GPS y tecnologías móviles, y aunque no ha usado pulseras RFID, está abierta a aprender más sobre su aplicación en el transporte escolar. Consideraría cambiar de proveedor si percibe deficiencia en la seguridad o en la comunicación directa con los padres.
+
 ### 2.2.3. Análisis de entrevistas.
 **Segmento Conductores**
 <br>
