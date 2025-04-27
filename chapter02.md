@@ -100,6 +100,15 @@ competidores. Dicha información resulta relevante para plasmar estrategias y t�
 
 Víctor Gonzáles Cabell, de 69 años, trabaja como taxista y transportista escolar en Chorrillos, donde realiza rutas hacia dos colegios. Transporta hasta 7 estudiantes, de grados inicial, primaria y secundaria, ajustándose a los diferentes horarios de entrada y salida. Se comunica con los padres mediante teléfono o cedulación cuando los recoge. Es estricto con la puntualidad y siempre dispuesto a ayudar a los alumnos y padres en lo que pueda. Enfrenta desafíos como el tráfico y los retrasos de los estudiantes, pero usa herramientas tecnológicas como el aplicativo del GPC para monitorear el transporte y mejorar la experiencia.
 
+**Entrevista 1 (realizada por Xiao Li):**<br>
+**Nombre:** Eduardo Araujo<br>
+**Edad:** 27 años<br>
+**Ocupación:** Taxista y transportista escolar
+
+![entrevista eduardo](assets/chapter2/entrevista.eduardo.png)
+
+Eduardo Araujo, de 27 años, trabaja como taxista y transportista escolar en Villa Maria, donde realiza rutas de movilidad escolar. . Se comunica con los padres mediante llamadas telefonicas o WhatsApp. Es muy comprometido con la puntualidad y la seguridad en sus viajes. Enfrenta desafíos como el tráfico, el mal estado de las pistas y la desconfianza y preocupacion de los padres de familia, usa herramientas tecnológicas como Waze, considera que una aplicacion como sencilla, intuitiva seria beneficiosa para su linea de trabajo.
+
 **Segmento 2: Padres de Familia**<br>
 **Entrevista 1 (realizado por Angel Cancho):**<br>
 **Nombre:** Sebastian Campero<br>
