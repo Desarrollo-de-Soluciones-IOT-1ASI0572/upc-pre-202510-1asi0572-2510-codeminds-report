@@ -131,9 +131,11 @@ Liliana Ramirez, de 56 años, vive en San Juan de Miraflores y es ama de casa. T
 
 ### 2.2.3. Análisis de entrevistas.
 **Segmento Conductores**
+<br>
 El análisis del segmento de conductores revela Víctor y Eduardo, aunque de edades y contextos diferentes, comparten una fuerte orientación hacia la puntualidad y la seguridad en su trabajo como transportistas escolares. Ambos enfrentan desafíos similares, como el tráfico y los retrasos en las rutas, y utilizan tecnología para optimizar su labor, aunque de manera diferente. Víctor, con más experiencia, emplea herramientas como el GPC y mantiene una comunicación más tradicional con los padres, mientras que Eduardo, más joven, está abierto a usar aplicaciones como Waze y busca soluciones más modernas y sencillas para mejorar la interacción. En general, ambos valoran la tecnología que facilite su trabajo y permita una mejor comunicación con los padres, lo que destaca la necesidad de una herramienta intuitiva y eficiente que optimice su servicio y aumente la confianza de los padres.
 
 **Segmento padres**
+<br>
 El análisis del segmento de padres de familia revela que tanto Liliana como Sebastián tienen una fuerte preocupación por la seguridad de sus hijos en el transporte escolar. Ambos valoran la posibilidad de recibir notificaciones en tiempo real sobre la ubicación del bus y el estado de sus hijos. Liliana, aunque no está completamente familiarizada con tecnologías como RFID, ya tiene conocimientos sobre GPS y está dispuesta a aprender más si la tecnología mejora la seguridad de su hijo. Sebastián, por su parte, está más familiarizado con el uso de tecnologías avanzadas como GPS y RFID, lo que demuestra que valora aún más las soluciones innovadoras. Ambos están dispuestos a cambiar de proveedor si sienten que la comunicación es deficiente o si no se garantiza la seguridad de sus hijos, lo que subraya la importancia de ofrecer un servicio confiable, fácil de usar y con comunicación constante. En resumen, el segmento busca soluciones tecnológicas que brinden tranquilidad y seguridad, con un enfoque en la facilidad de uso y la transparencia.
 
 ## 2.3. Needfinding.
