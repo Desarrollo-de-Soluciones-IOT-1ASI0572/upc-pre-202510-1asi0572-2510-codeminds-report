@@ -89,6 +89,14 @@ competidores. Dicha información resulta relevante para plasmar estrategias y t�
 7. ¿Qué necesitaría para adaptarse fácilmente a un sistema tecnológico como el que ofrece CodeMinds?
 
 ### 2.2.2. Registro de entrevistas.
+**Segmento 1: Conductores escolares**<br>
+**Entrevista 1 (realizada por Marcelo Ramirez):**<br>
+**Nombre:** Victor Gonzáles cabell
+**Edad:** 69 años
+**Ocupación:** Taxista y transportista escolar
+![entrevista victor](assets/chapter2/entrevista-victor.png)
+Víctor Gonzáles Cabell, de 69 años, trabaja como taxista y transportista escolar en Chorrillos, donde realiza rutas hacia dos colegios. Transporta hasta 7 estudiantes, de grados inicial, primaria y secundaria, ajustándose a los diferentes horarios de entrada y salida. Se comunica con los padres mediante teléfono o cedulación cuando los recoge. Es estricto con la puntualidad y siempre dispuesto a ayudar a los alumnos y padres en lo que pueda. Enfrenta desafíos como el tráfico y los retrasos de los estudiantes, pero usa herramientas tecnológicas como el aplicativo del GPC para monitorear el transporte y mejorar la experiencia.
+
 
 ### 2.2.3. Análisis de entrevistas.
 
