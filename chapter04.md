@@ -170,6 +170,8 @@ En esta sección se presenta el container diagram, el cual muestra cómo los dif
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
 
+![deploymentdiagram](assets/chapter4/deployment-diagram.jpg)
+
 ## 4.2. Tactical-Level Domain-Driven Design
 
 ### 4.2.1. Bounded Context: Identity and Access Management
