@@ -100,7 +100,7 @@ competidores. Dicha información resulta relevante para plasmar estrategias y t�
 
 Víctor Gonzáles Cabell, de 69 años, trabaja como taxista y transportista escolar en Chorrillos, donde realiza rutas hacia dos colegios. Transporta hasta 7 estudiantes, de grados inicial, primaria y secundaria, ajustándose a los diferentes horarios de entrada y salida. Se comunica con los padres mediante teléfono o cedulación cuando los recoge. Es estricto con la puntualidad y siempre dispuesto a ayudar a los alumnos y padres en lo que pueda. Enfrenta desafíos como el tráfico y los retrasos de los estudiantes, pero usa herramientas tecnológicas como el aplicativo del GPC para monitorear el transporte y mejorar la experiencia.
 
-**Entrevista 1 (realizada por Xiao Li):**<br>
+**Entrevista 2 (realizada por Xiao Li):**<br>
 **Nombre:** Eduardo Araujo<br>
 **Edad:** 27 años<br>
 **Ocupación:** Taxista y transportista escolar
@@ -119,7 +119,6 @@ Eduardo Araujo, de 27 años, trabaja como taxista y transportista escolar en Vil
 
 Sebastián Campero, de 27 años, vive en Chorrillos y trabaja como operario de picking. Tiene un hijo de 5 años que está en inicial. Está preocupado por la seguridad y desea recibir notificaciones en tiempo real sobre la ubicación del bus y el estado de su hijo. Valora el uso de tecnologías como GPS y RFID. Cambiaría de proveedor si se le garantiza mayor seguridad y monitoreo constante.
 
-**Segmento 2: Padres de Familia**<br>
 **Entrevista 2 (realizado por Paolo Martinez):**<br>
 **Nombre:** Liliana Ramirez<br>
 **Edad:** 56 años<br>
@@ -129,7 +128,6 @@ Sebastián Campero, de 27 años, vive en Chorrillos y trabaja como operario de p
 
 Liliana Ramirez, de 56 años, vive en San Juan de Miraflores y es ama de casa. Tiene un hijo de 14 años en secundaria. Su principal preocupación es la falta de información en tiempo real sobre el transporte escolar. Desea recibir notificaciones sobre la ubicación del bus y el momento en que su hijo sube o baja. Está familiarizada con el uso de GPS y aunque no conozca acerca de la tecnología RFID, se ve interesada por informarse más sobre el tema. Cambiaría de proveedor si no siente seguridad o si la comunicación es deficiente.
 
-**Segmento 2: Padres de Familia**<br>
 **Entrevista 3 (realizado por Juan Diego Cueto):**<br>
 **Nombre:** Janetlis Colon<br>
 **Edad:** 29 años<br>
