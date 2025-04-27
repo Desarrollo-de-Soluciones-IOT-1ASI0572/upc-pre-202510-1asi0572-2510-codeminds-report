@@ -410,7 +410,13 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 ### 4.2.5. Bounded Context: Analytics
 
+El dominio de Analytics abarca los datos analíticos generados a partir de los viajes realizados por los buses escolares, incluyendo información como la duración del viaje, la velocidad promedio, las alertas de seguridad y otros indicadores de rendimiento. Este dominio es responsable de procesar y analizar estos datos para proporcionar métricas clave que permitan mejorar la eficiencia, seguridad y monitoreo en tiempo real de los viajes escolares.
+
 ###### Diccionario de Clases
+
+El Diccionario de Clases es una herramienta que describe las principales clases del modelo de dominio, incluyendo sus atributos, métodos y relaciones. Facilita la comprensión del sistema y mejora la colaboración entre los desarrolladores, sirviendo como base para el diseño y desarrollo del proyecto.
+
+![TripReport](assets/chapter4/TripReport.png)
 
 #### 4.2.5.1. Domain Layer.
 
