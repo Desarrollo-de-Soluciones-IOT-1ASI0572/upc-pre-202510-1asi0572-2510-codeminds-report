@@ -449,5 +449,8 @@ La Capa de Infraestructura dentro del contexto de Analytics ofrece los recursos 
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
+En este punto, se presentan los diagramas de clases que representan la estructura interna del modelo de dominio del contexto Analytics. Estos diagramas muestran las principales entidades, sus atributos, métodos relevantes y las relaciones entre ellas, proporcionando una visión clara de cómo se organiza y gestiona la lógica de negocio en este contexto.
+
+![ClassAnalytics](assets/chapter4/ClassAnalytics.png)
 
 #### 4.2.5.6.2. Bounded Context Database Design Diagram.
