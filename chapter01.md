@@ -12,12 +12,13 @@ CodeMinds es una startup que surge con la finalidad de transformar la experienci
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Integrantes | Descripción |
-| ----------- | ----------- |
-| <img src="assets/chapter1/angel.png" alt="Angel" width="300"/> | Mi nombre es Angel Cancho Corilla y soy estudiante de la carrera de Ingeniería de Software. Mi experiencia en proyectos de software se ha fortalecido gracias a cursos de desarrollo de aplicaciones web y móviles. Me destaco por mi compromiso y dedicación para cumplir con cada una de las tareas asignadas. |
-| <img src="assets/chapter1/marcelo.jpeg" alt="Marcelo" width="300"/> | Mi nombre es Marcelo Sebastian Ramirez Ramirez y soy estudiante de la carrera de Ingeniería de Software. Tengo experiencia en el desarrollo de páginas web tanto en HTML como en frontend, también en el desarrollo de backend y aplicaciones, siempre comprometido a cumplir todo a tiempo. |
-| <img src="assets/chapter1/paolo.jpg" alt="Paolo" width="300"/> | Mi nombre es Paolo Del Carmen Martinez Villanueva y soy estudiante de la carrera de Ingeniería de Software. Cuento con conocimientos en lenguajes de programación como C++, C#, JavaScript, Python, HTML y CSS. Como miembro del equipo me comprometo a apoyar y colaborar con mis compañeros durante la realización del proyecto para poder brindar una solución de calidad innovadora. |
-| <img src="assets/chapter1/Lian.png" alt="Lian" width="300"/> | Mi nombre es Xiao Lian Li Zegarra y soy estudiante de la carrera de Ingeniería de Software. Cuento con conocimiento en Desarrollo Web con Angular y en lenguajes de programacion como C++, C#, Python y Java. Me considero una persona comprometida, responsable y de mente ágil. |
+| Integrantes                                                         | Descripción                                                                                                                                                                                                                                                                                                                                                                              |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="assets/chapter1/angel.png" alt="Angel" width="300"/>      | Mi nombre es Angel Cancho Corilla y soy estudiante de la carrera de Ingeniería de Software. Mi experiencia en proyectos de software se ha fortalecido gracias a cursos de desarrollo de aplicaciones web y móviles. Me destaco por mi compromiso y dedicación para cumplir con cada una de las tareas asignadas.                                                                         |
+| <img src="assets/chapter1/marcelo.jpeg" alt="Marcelo" width="300"/> | Mi nombre es Marcelo Sebastian Ramirez Ramirez y soy estudiante de la carrera de Ingeniería de Software. Tengo experiencia en el desarrollo de páginas web tanto en HTML como en frontend, también en el desarrollo de backend y aplicaciones, siempre comprometido a cumplir todo a tiempo.                                                                                             |
+| <img src="assets/chapter1/paolo.jpg" alt="Paolo" width="300"/>      | Mi nombre es Paolo Del Carmen Martinez Villanueva y soy estudiante de la carrera de Ingeniería de Software. Cuento con conocimientos en lenguajes de programación como C++, C#, JavaScript, Python, HTML y CSS. Como miembro del equipo me comprometo a apoyar y colaborar con mis compañeros durante la realización del proyecto para poder brindar una solución de calidad innovadora. |
+| <img src="assets/chapter1/Lian.png" alt="Lian" width="300"/>        | Mi nombre es Xiao Lian Li Zegarra y soy estudiante de la carrera de Ingeniería de Software. Cuento con conocimiento en Desarrollo Web con Angular y en lenguajes de programacion como C++, C#, Python y Java. Me considero una persona comprometida, responsable y de mente ágil.                                                                                                        |
+
 ## 1.2. Solution Profile
 
 A continuación, se presentan las secciones de Antecedentes y Problemática, y Lean UX
@@ -50,53 +51,50 @@ En este proceso se aplica un enfoque ágil y centrado en el usuario, que integra
 
 #### Dominio (Domain)
 
-La solución se enmarca en el ámbito del **transporte escolar**, donde se busca mejorar la seguridad y eficiencia mediante la integración de tecnologías IoT (pulseras RFID, sensores de aforo y velocidad, y dispositivos GPS) junto con aplicaciones digitales para la gestión y monitoreo en tiempo real.
+La solución se enmarca en el ámbito del **transporte escolar**, con el objetivo de mejorar la **seguridad** y **eficiencia** mediante la integración de tecnologías **IoT** (pulseras RFID para los estudiantes, sensores de aforo y velocidad, y dispositivos GPS) junto con aplicaciones digitales para la **gestión** y **monitoreo en tiempo real**. La aplicación está dirigida tanto a los **conductores** como a los **padres de familia**, mejorando la interacción y comunicación en el transporte escolar, mientras que los **estudiantes** llevan la pulsera RFID como medio de **identificación** y **control**.
 
-#### Segmentos de Clientes (Customer Segments)
+#### **Segmentos de Clientes (Customer Segments)**
 
 - **Padres de familia:**  
-  Requieren conocer la ubicación en tiempo real de la unidad escolar, recibir alertas de seguridad y disponer de información clara para generar confianza.
+  Necesitan conocer la **ubicación en tiempo real** del transporte escolar, recibir **alertas de seguridad** y estar informados sobre el **estado del trayecto** de sus hijos para generar **confianza** y **seguridad**.
 
 - **Conductores y operadores de transporte:**  
-  Necesitan herramientas para controlar el vehículo, gestionar incidencias y verificar la identificación y el aforo de los pasajeros de forma automatizada.
-
-- **Instituciones educativas/escuelas:**  
-  Buscan sistemas que garanticen la seguridad de los estudiantes y mejoren la operatividad del transporte escolar.
+  Buscan herramientas para **gestionar el vehículo**, controlar la **identificación de los pasajeros** (a través de pulseras RFID), asegurar el cumplimiento de la normativa de **velocidad** y manejar **incidencias** durante el trayecto.
 
 - **Estudiantes:**  
-  Son los beneficiarios directos de un sistema que ofrece mayor seguridad y un entorno controlado durante sus traslados.
+  Son los beneficiarios directos del sistema, ya que la **pulsera RFID** facilita su **identificación** y asegura que su presencia en el transporte sea registrada de manera precisa, aumentando su **seguridad** durante el viaje.
 
-#### Pain Points (Puntos de Dolor)
+#### **Pain Points (Puntos de Dolor)**
 
 - **Seguridad insuficiente:**  
-  Falta de mecanismos automáticos para la identificación y control de estudiantes, lo cual puede derivar en registros incorrectos y riesgos en momentos críticos (subida y bajada de la unidad).
+  Los padres no tienen forma de verificar de manera confiable si sus hijos están seguros durante el transporte, y los conductores no tienen un sistema eficiente para asegurar el **aforo** y la correcta **identificación** de los estudiantes.
 
 - **Falta de transparencia:**  
-  Los padres no disponen de información en tiempo real acerca del trayecto y ubicación del transporte, lo que genera incertidumbre y desconfianza.
+  Los padres no pueden conocer la **ubicación exacta** del vehículo en tiempo real, lo que genera **incertidumbre** sobre el estado del transporte y la llegada de sus hijos a la escuela.
 
 - **Ineficiencias operativas:**  
-  La dependencia de procesos manuales para el registro de estudiantes y control de aforo resulta en errores y demoras, impactando negativamente la operación diaria.
+  La dependencia de procesos manuales para gestionar el **registro de asistencia** y el **control de aforo** genera **retrasos** y **errores operativos**, afectando la eficiencia de la operación.
 
-- **Sistemas fragmentados:**  
-  Los procesos actuales se llevan a cabo mediante dispositivos dispersos y sin integración centralizada, lo que dificulta la toma de decisiones en tiempo real.
+- **Falta de integración:**  
+  Los procesos y dispositivos actuales no están integrados de manera **centralizada**, lo que dificulta la toma de decisiones rápidas y la coordinación entre conductores, padres y operadores de transporte.
 
-#### Gap (Brecha Identificada)
+#### **Gap (Brecha Identificada)**
 
-Existe una desconexión entre la información que se requiere para garantizar la seguridad y la eficiencia en el transporte escolar y la forma en que se gestiona actualmente. La falta de un sistema integrado provoca ineficiencias y limita la capacidad de respuesta ante incidencias. Se necesita una solución integral que centralice la información y permita automatizar procesos críticos.
+Existen desconexiones en el flujo de información entre los actores clave (**padres**, **conductores**, **operadores**) durante el transporte escolar. La falta de un sistema **integrado** que centralice la información y automatice los procesos críticos de monitoreo y gestión del transporte limita la eficiencia operativa y la seguridad del servicio. Es necesario desarrollar una solución que conecte a estos actores de forma eficiente y que permita un **monitoreo más seguro y preciso** de los estudiantes, utilizando las **pulseras RFID** para la **identificación**.
 
-#### Visión / Strategy (Visión y Estrategia)
+#### **Visión / Strategy (Visión y Estrategia)**
 
 - **Visión:**  
-  Transformar el transporte escolar en un servicio seguro, transparente y eficiente mediante la integración de tecnologías IoT y plataformas digitales que brinden información en tiempo real.
+  Transformar el **transporte escolar** en un servicio **seguro**, **eficiente** y **transparente**, mediante la integración de tecnologías **IoT** (incluyendo las **pulseras RFID** para los estudiantes) y plataformas digitales que permitan el **monitoreo en tiempo real** y la interacción directa entre **padres** y **conductores**.
 
 - **Estrategia:**
-  - **Tecnológica:** Integrar dispositivos IoT (RFID, sensores y GPS) en una plataforma centralizada que se comunique a través de aplicaciones intuitivas (web y móvil).
-  - **Operativa:** Automatizar el registro de asistencia, el control de aforo y el monitoreo de velocidad para minimizar errores y responder de manera oportuna ante incidencias.
-  - **De mercado:** Iniciar con pilotos en áreas urbanas con alta densidad de usuarios (instituciones escolares y rutas de alto tránsito) para validar la solución y escalar progresivamente.
+  - **Tecnológica:** Integrar dispositivos **IoT** (RFID, sensores de aforo y GPS) en una **plataforma centralizada** accesible a través de aplicaciones móviles y web para conductores y padres, con un sistema de **pulseras RFID** para los estudiantes.
+  - **Operativa:** Automatizar el **registro de asistencia**, **control de aforo**, **monitoreo de velocidad**, y la **comunicación en tiempo real** con los padres y conductores para garantizar el cumplimiento de los tiempos y la seguridad.
+  - **De mercado:** Iniciar con **pilotos** en **áreas urbanas** con alta densidad de usuarios (instituciones escolares y rutas de alto tránsito) para validar la solución y escalar progresivamente a otros segmentos.
 
-#### Initial Segment (Segmento Inicial)
+#### **Initial Segment (Segmento Inicial)**
 
-Enfocar el producto en **instituciones educativas y rutas de transporte escolar en áreas urbanas**, donde se concentran suficientes usuarios (padres, conductores y escuelas) y donde la adopción de tecnologías innovadoras pueda generar un impacto visible y validable, facilitando la escalabilidad a otros segmentos.
+El enfoque inicial estará en **instituciones educativas** y **rutas de transporte escolar** en **áreas urbanas**, donde la adopción de tecnologías innovadoras pueda tener un **impacto visible** y facilitar la escalabilidad. Este segmento incluirá tanto a los **padres** que buscan **seguridad** y **visibilidad**, como a los **conductores** que requieren herramientas eficientes para gestionar el transporte. Los **estudiantes**, al llevar la **pulsera RFID**, podrán ser fácilmente identificados y registrados de manera precisa durante el trayecto.
 
 #### 1.2.2.2. Lean UX Assumptions.
 
@@ -144,7 +142,7 @@ Las asunciones son suposiciones que se consideran verdaderas al inicio del proye
 ## 1.3. Segmentos objetivo.
 
 | Tipo de Usuario  | **Padres**                                                                                                                                                                                              | **Conductores**                                                                                                                                                        |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
 | **Geográfico**   | **País:** Perú <br>**Zona residencial:** Urbana y periurbana, especialmente zonas donde se utiliza transporte escolar.                                                                                  | **País:** Perú <br>**Zona residencial:** Principalmente urbana y zonas cercanas a colegios.                                                                            |
 | **Psicográfico** | **Clase Social:** Media y media-alta. <br>**Estilo de vida:** Padres preocupados por la seguridad, bienestar y puntualidad de sus hijos. Valoran la tecnología como herramienta de monitoreo y control. | **Clase Social:** Media y media-baja. <br>**Estilo de vida:** Personas responsables, organizadas y comprometidas con la seguridad vial y el transporte escolar.        |
-| **Demográfico**  | **Edad:** Entre 28 y 50 años. <br>**Nivel de ingreso:** Medio a medio-alto. <br>**Nacionalidad:** Peruana o extranjera con hijos estudiando en el país.                                                 | **Edad:** Entre 25 y 55 años. <br>**Nivel de ingreso:** Medio a medio-bajo. <br>**Nacionalidad:** Peruana. Deben contar con licencia de conducir y experiencia previa. |                                                                                                     |
+| **Demográfico**  | **Edad:** Entre 28 y 50 años. <br>**Nivel de ingreso:** Medio a medio-alto. <br>**Nacionalidad:** Peruana o extranjera con hijos estudiando en el país.                                                 | **Edad:** Entre 25 y 55 años. <br>**Nivel de ingreso:** Medio a medio-bajo. <br>**Nacionalidad:** Peruana. Deben contar con licencia de conducir y experiencia previa. |     |
