@@ -443,7 +443,7 @@ La Capa de Infraestructura dentro del contexto de Analytics ofrece los recursos 
 ![InfrastructureAnalytics](assets/chapter4/InfrastructureAnalytics.png)
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
-
+![C4Analytis](assets/chapter4/C4Analytics.png)
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
