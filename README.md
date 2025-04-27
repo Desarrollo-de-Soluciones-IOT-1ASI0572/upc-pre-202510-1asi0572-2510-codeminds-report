@@ -140,6 +140,34 @@
             <td>Juan Diego Cueto Dominguez</td>
             <td>Se implementó la carátula para el reporte, también se añadió user stories junto con sus epics y se organizó el product backlog priorizando las respectivas user stories a implementar.</td>
         </tr>
+         <!-- Fila 14-->
+        <tr>
+            <td>1.13</td>
+            <td>23/04/2025</td>
+            <td>Angel Cancho</td>
+            <td> Se implementó el logo de la aplicación y se añadio todo lo relacionado al event storming con la determinación de los bounded context</td>
+        </tr>
+         <!-- Fila 15-->
+        <tr>
+            <td>1.14</td>
+            <td>25/04/2025</td>
+            <td>Lian</td>
+            <td>Se implementó las primeras versiones del diagrama de C4 además de describir y analizar los bounded context del proyecto</td>
+        </tr>
+         <!-- Fila 16-->
+        <tr>
+            <td>1.15</td>
+            <td>25/04/2025</td>
+            <td>Paolo y Lian</td>
+            <td> Se añadió el diccionario de clases para las clases de padres y usuarios, también se implementó el diagrama de la base de datos y el identity assignment context</td>
+        </tr>
+         <!-- Fila 16-->
+        <tr>
+            <td>1.16</td>
+            <td>26/04/2025</td>
+            <td>Angel Cancho, Marcelo Ramirez y Scott Huachaca</td>
+            <td> Se implementó todo el domain layer y diseños de Analytics, Notification y Vehicle context incluyendo su diccionario de clases y diagrama de base de datos</td>
+        </tr>
     </tbody>
 </table>
 
