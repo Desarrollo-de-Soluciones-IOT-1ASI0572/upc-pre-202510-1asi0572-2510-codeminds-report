@@ -128,6 +128,8 @@ Se crearon los Canvases en base a los Bounded Context definidos anteriormente
 
 ###### Notification Canvas
 
+![notification-canvas](assets/chapter4/notification-canvas.jpg)
+
 ###### Analytics Canvas
 
 ![AnalyticsCanvas](assets/chapter4/AnalyticsCanvas.jpg)
@@ -345,13 +347,17 @@ Los repositorios en esta capa se implementan las interfaces de la Capa de Domini
 ![InfrastructureLayer](assets/chapter4/Infrastructure-Layer-vehicule.PNG)
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
+
 ![vehicule-tracking-component-diagram](assets/chapter4/component-level-dagrams-vehicule.png)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
+
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
+
 ![identity-assignment-class-diagram](assets/chapter4/Bounded-Context-Domain-Layer-Class-Diagrams-Vehicule.PNG)
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram.
+
 ![Identity-Assignment-DB](assets/chapter4/Bounded-Context-Database-Design-Diagram..PNG)
 
 ### 4.2.4. Bounded Context: Notification
@@ -445,10 +451,13 @@ La Capa de Infraestructura dentro del contexto de Analytics ofrece los recursos 
 ![InfrastructureAnalytics](assets/chapter4/InfrastructureAnalytics.png)
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
+
 ![C4Analytis](assets/chapter4/C4Analytics.png)
+
 #### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.
+
 En este punto, se presentan los diagramas de clases que representan la estructura interna del modelo de dominio del contexto Analytics. Estos diagramas muestran las principales entidades, sus atributos, métodos relevantes y las relaciones entre ellas, proporcionando una visión clara de cómo se organiza y gestiona la lógica de negocio en este contexto.
 
 ![ClassAnalytics](assets/chapter4/ClassAnalytics.png)
