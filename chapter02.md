@@ -119,6 +119,16 @@ Eduardo Araujo, de 27 años, trabaja como taxista y transportista escolar en Vil
 
 Sebastián Campero, de 27 años, vive en Chorrillos y trabaja como operario de picking. Tiene un hijo de 5 años que está en inicial. Está preocupado por la seguridad y desea recibir notificaciones en tiempo real sobre la ubicación del bus y el estado de su hijo. Valora el uso de tecnologías como GPS y RFID. Cambiaría de proveedor si se le garantiza mayor seguridad y monitoreo constante.
 
+**Segmento 2: Padres de Familia**<br>
+**Entrevista 2 (realizado por Paolo Martinez):**<br>
+**Nombre:** Liliana Ramirez<br>
+**Edad:** 56 años<br>
+**Ocupación:** Ama de casa
+
+![entrevista_liliana](assets/chapter2/entrevista-liliana.jpg)
+
+Liliana Ramirez, de 56 años, vive en San Juan de Miraflores y es ama de casa. Tiene un hijo de 14 años en secundaria. Su principal preocupación es la falta de información en tiempo real sobre el transporte escolar. Desea recibir notificaciones sobre la ubicación del bus y el momento en que su hijo sube o baja. Está familiarizada con el uso de GPS y aunque no conozca acerca de la tecnología RFID, se ve interesada por informarse más sobre el tema. Cambiaría de proveedor si no siente seguridad o si la comunicación es deficiente.
+
 ### 2.2.3. Análisis de entrevistas.
 
 ## 2.3. Needfinding.
