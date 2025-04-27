@@ -89,14 +89,26 @@ competidores. Dicha información resulta relevante para plasmar estrategias y t�
 7. ¿Qué necesitaría para adaptarse fácilmente a un sistema tecnológico como el que ofrece CodeMinds?
 
 ### 2.2.2. Registro de entrevistas.
+
 **Segmento 1: Conductores escolares**<br>
 **Entrevista 1 (realizada por Marcelo Ramirez):**<br>
-**Nombre:** Victor Gonzáles cabell
-**Edad:** 69 años
+**Nombre:** Victor Gonzáles cabell<br>
+**Edad:** 69 años<br>
 **Ocupación:** Taxista y transportista escolar
+
 ![entrevista victor](assets/chapter2/entrevista-victor.PNG)
+
 Víctor Gonzáles Cabell, de 69 años, trabaja como taxista y transportista escolar en Chorrillos, donde realiza rutas hacia dos colegios. Transporta hasta 7 estudiantes, de grados inicial, primaria y secundaria, ajustándose a los diferentes horarios de entrada y salida. Se comunica con los padres mediante teléfono o cedulación cuando los recoge. Es estricto con la puntualidad y siempre dispuesto a ayudar a los alumnos y padres en lo que pueda. Enfrenta desafíos como el tráfico y los retrasos de los estudiantes, pero usa herramientas tecnológicas como el aplicativo del GPC para monitorear el transporte y mejorar la experiencia.
 
+**Segmento 2: Padres de Familia**<br>
+**Entrevista 1 (realizado por Angel Cancho):**<br>
+**Nombre:** Sebastian Campero<br>
+**Edad:** 27 años<br>
+**Ocupación:** Operario en un centro de distribución
+
+![entrevista sebastian](assets/chapter2/entrevista-sebastian.png)
+
+Sebastián Campero, de 27 años, vive en Chorrillos y trabaja como operario de picking. Tiene un hijo de 5 años que está en inicial. Está preocupado por la seguridad y desea recibir notificaciones en tiempo real sobre la ubicación del bus y el estado de su hijo. Valora el uso de tecnologías como GPS y RFID. Cambiaría de proveedor si se le garantiza mayor seguridad y monitoreo constante.
 
 ### 2.2.3. Análisis de entrevistas.
 
@@ -180,11 +192,10 @@ En este apartado se presenta el Empathy Mapping, una herramienta que utilizamos 
 
 Segmento: Padre
 
-![EmpathyMappingPadre](assets/chapter2/EmpathyMapping(Padre).png)
+![EmpathyMappingPadre](<assets/chapter2/EmpathyMapping(Padre).png>)
 
 Segmento: Conductor
-![EmpathyMappingPadre](assets/chapter2/Empathy%20map(Conductores).png)
-
+![EmpathyMappingPadre](<assets/chapter2/Empathy%20map(Conductores).png>)
 
 ### 2.3.5. As-is Scenario Mapping.
 
