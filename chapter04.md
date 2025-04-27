@@ -454,3 +454,7 @@ En este punto, se presentan los diagramas de clases que representan la estructur
 ![ClassAnalytics](assets/chapter4/ClassAnalytics.png)
 
 #### 4.2.5.6.2. Bounded Context Database Design Diagram.
+
+En este punto, presentamos el diseño de la base de datos para el contexto Analytics, detallando las tablas principales, sus atributos y las relaciones entre ellas.
+
+![DatabaseAnalytics](assets/chapter4/DatabaseAnalytics.png)
