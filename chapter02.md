@@ -94,7 +94,7 @@ competidores. Dicha información resulta relevante para plasmar estrategias y t�
 **Nombre:** Victor Gonzáles cabell
 **Edad:** 69 años
 **Ocupación:** Taxista y transportista escolar
-![entrevista victor](assets/chapter2/entrevista-victor.png)
+![entrevista victor](assets/chapter2/entrevista-victor.PNG)
 Víctor Gonzáles Cabell, de 69 años, trabaja como taxista y transportista escolar en Chorrillos, donde realiza rutas hacia dos colegios. Transporta hasta 7 estudiantes, de grados inicial, primaria y secundaria, ajustándose a los diferentes horarios de entrada y salida. Se comunica con los padres mediante teléfono o cedulación cuando los recoge. Es estricto con la puntualidad y siempre dispuesto a ayudar a los alumnos y padres en lo que pueda. Enfrenta desafíos como el tráfico y los retrasos de los estudiantes, pero usa herramientas tecnológicas como el aplicativo del GPC para monitorear el transporte y mejorar la experiencia.
 
 
