@@ -4,11 +4,11 @@
 
 ### To-Be Scenario Mapping – User Persona: Padre de Familia
 
-![toBePadre](/assets/chapter3/to-be_scenario_map_padre.png)
+![toBePadre](assets/chapter3/to-be_scenario_map_padre.png)
 
 ### To-Be Scenario Mapping – User Persona: Conductor
 
-![toBeConductor](/assets/chapter3/to-be_scenarip_map_conductor.png)
+![toBeConductor](assets/chapter3/to-be_scenarip_map_conductor.png)
 
 ## 3.2. User Stories.
 ###### Tabla de épicas establecidas para las historias de usuarios.
@@ -79,7 +79,7 @@
 
 ## 3.3. Impact Mapping.
 
-![toBePropietario](/assets/chapter3/impactMap2025.PNG)
+![toBePropietario](assets/chapter3/impactMap2025.PNG)
 
 ## 3.4. Product Backlog.
 
