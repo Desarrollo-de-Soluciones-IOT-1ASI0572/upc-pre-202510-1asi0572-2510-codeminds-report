@@ -343,15 +343,13 @@ Los repositorios en esta capa se implementan las interfaces de la Capa de Domini
 ![InfrastructureLayer](assets/chapter4/Infrastructure-Layer-vehicule.PNG)
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
+![vehicule-tracking-component-diagram](assets/chapter4/component-level-dagrams-vehicule.png)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
-
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
-
 ![identity-assignment-class-diagram](assets/chapter4/Bounded-Context-Domain-Layer-Class-Diagrams-Vehicule.PNG)
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram.
-
 ![Identity-Assignment-DB](assets/chapter4/Bounded-Context-Database-Design-Diagram..PNG)
 
 ### 4.2.4. Bounded Context: Notification
