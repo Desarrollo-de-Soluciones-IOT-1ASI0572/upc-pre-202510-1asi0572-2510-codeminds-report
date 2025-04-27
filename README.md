@@ -172,7 +172,7 @@
 </table>
 
 # Project Report Collaboration Insights
-
+![Lean UX Canvas](assets/teamcollabortaion-tb1.PNG)
 
 # Student Outcome 5
 
