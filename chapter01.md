@@ -13,7 +13,7 @@ CodeMinds es una startup que surge con la finalidad de transformar la experienci
 ### 1.1.2. Perfiles de integrantes del equipo
 
 | Integrantes                                                            | Descripción                                                                                                                                                                                                                                                                                                                                                                              |
-|------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img src="assets/chapter1/angel.png" alt="Angel" width="300"/>         | Mi nombre es Angel Cancho Corilla y soy estudiante de la carrera de Ingeniería de Software. Mi experiencia en proyectos de software se ha fortalecido gracias a cursos de desarrollo de aplicaciones web y móviles. Me destaco por mi compromiso y dedicación para cumplir con cada una de las tareas asignadas.                                                                         |
 | <img src="assets/chapter1/marcelo.jpeg" alt="Marcelo" width="300"/>    | Mi nombre es Marcelo Sebastian Ramirez Ramirez y soy estudiante de la carrera de Ingeniería de Software. Tengo experiencia en el desarrollo de páginas web tanto en HTML como en frontend, también en el desarrollo de backend y aplicaciones, siempre comprometido a cumplir todo a tiempo.                                                                                             |
 | <img src="assets/chapter1/paolo.jpg" alt="Paolo" width="300"/>         | Mi nombre es Paolo Del Carmen Martinez Villanueva y soy estudiante de la carrera de Ingeniería de Software. Cuento con conocimientos en lenguajes de programación como C++, C#, JavaScript, Python, HTML y CSS. Como miembro del equipo me comprometo a apoyar y colaborar con mis compañeros durante la realización del proyecto para poder brindar una solución de calidad innovadora. |
@@ -100,32 +100,40 @@ El enfoque inicial estará en **instituciones educativas** y **rutas de transpor
 
 #### 1.2.2.2. Lean UX Assumptions.
 
-Las asunciones son suposiciones que se consideran verdaderas al inicio del proyecto y que deben ser validadas a lo largo del proceso iterativo de diseño y desarrollo. A continuación, se detallan algunas de las principales asunciones para este proyecto:
+#### **Business Assumptions**
 
-#### Asunciones Tecnológicas
+Suponen que la solución generará valor para el negocio.
 
-- **Infraestructura y conectividad:**  
-  Se asume que la infraestructura de comunicación (redes móviles y Wi-Fi) es suficientemente robusta para soportar la transmisión de datos en tiempo real desde los dispositivos IoT.
-- **Integración de dispositivos IoT:**  
-  Se supone que la integración de sensores, dispositivos RFID y GPS en una única plataforma es técnicamente viable y que los dispositivos podrán comunicarse sin problemas con la aplicación central.
+- Asumimos que la institución educativa invertirá en esta tecnología porque mejorará su propuesta de seguridad y atraerá más matrículas.
+- Asumimos que el modelo de suscripción mensual para acceso a datos en tiempo real es económicamente viable.
 
-#### Asunciones de Uso y Adopción
+#### **Value Assumptions**
 
-- **Valoración de la seguridad en tiempo real:**  
-  Se asume que los padres valoran significativamente contar con información en tiempo real sobre la ubicación del transporte escolar y estarán dispuestos a utilizar la plataforma.
-- **Adopción por parte de conductores y operadores:**  
-  Se presupone que el personal encargado del transporte (conductores y operadores) aceptará y utilizará la solución para mejorar la eficiencia y seguridad en sus operaciones diarias.
-- **Interés de las instituciones educativas:**  
-  Se asume que las escuelas reconocen la necesidad de implementar sistemas innovadores para la seguridad y el control del transporte, lo que facilitará la adopción del sistema como valor agregado en su oferta educativa.
+Suponen que los usuarios percibirán valor en las funcionalidades.
 
-#### Asunciones de Mercado y Valor
+- Asumimos que los padres verán las notificaciones push de ubicación en tiempo real como una mejora clara de su tranquilidad.
+- Asumimos que los conductores valorarán la automatización del registro de asistencia por RFID y lo usarán diariamente.
 
-- **Disposición a invertir en seguridad:**  
-  Se supone que tanto las instituciones educativas como los padres considerarán la inversión en esta tecnología como una mejora significativa en la seguridad y eficiencia del transporte escolar.
-- **Escalabilidad:**  
-  Se asume que una vez validado en el segmento inicial, el sistema podrá escalarse a otras regiones y segmentos, adaptándose a diferentes contextos operativos y requerimientos normativos.
+#### **Usability Assumptions**
 
----
+Suponen que la interfaz será fácil de usar y entender.
+
+- Asumimos que los conductores podrán escanear pulseras RFID en menos de 3 segundos por estudiante sin formación previa.
+- Asumimos que los padres entenderán y navegarán la app móvil con un flujo de notificaciones y mapa integrado sin problemas.
+
+#### **Feasibility / Technical Assumptions**
+
+Suponen que es técnicamente posible implementar la solución.
+
+- Asumimos que la red móvil/​Wi-Fi disponible en rutas escolares soporta la transmisión de datos GPS y RFID en tiempo real.
+- Asumimos que los sensores de aforo y velocidad se integran sin latencia perceptible con nuestro backend.
+
+#### **Market / Growth Assumptions**
+
+Suponen que el producto puede crecer y escalar.
+
+- Asumimos que, tras un piloto exitoso en una escuela urbana, otras escuelas replicarán la solución en los siguientes 6 meses.
+- Asumimos que el mercado de transporte escolar en zonas urbanas adoptará nuevas tecnologías IoT en un 30 % en el primer año.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
@@ -148,4 +156,3 @@ Las asunciones son suposiciones que se consideran verdaderas al inicio del proye
 | **Geográfico**   | **País:** Perú <br>**Zona residencial:** Urbana y periurbana, especialmente zonas donde se utiliza transporte escolar.                                                                                  | **País:** Perú <br>**Zona residencial:** Principalmente urbana y zonas cercanas a colegios.                                                                            |
 | **Psicográfico** | **Clase Social:** Media y media-alta. <br>**Estilo de vida:** Padres preocupados por la seguridad, bienestar y puntualidad de sus hijos. Valoran la tecnología como herramienta de monitoreo y control. | **Clase Social:** Media y media-baja. <br>**Estilo de vida:** Personas responsables, organizadas y comprometidas con la seguridad vial y el transporte escolar.        |
 | **Demográfico**  | **Edad:** Entre 28 y 50 años. <br>**Nivel de ingreso:** Medio a medio-alto. <br>**Nacionalidad:** Peruana o extranjera con hijos estudiando en el país.                                                 | **Edad:** Entre 25 y 55 años. <br>**Nivel de ingreso:** Medio a medio-bajo. <br>**Nacionalidad:** Peruana. Deben contar con licencia de conducir y experiencia previa. |
-
