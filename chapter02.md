@@ -315,57 +315,58 @@ recogida en las entrevistas.
 
 ### 2.3.2. User Task Matrix.
 
-<table>
-  <tr>
-    <th colspan="3">User Persona 1: Padres de familia </th>
-  </tr>
-  <tr>
-    <td>Descripción</td>
-    <td>Frecuencia</td>
-    <td>Importancia</td>
-  </tr>
-  <tr>
-    <td>Consultar ubicación en tiempo real</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Ver velocidad promedio del vehículo</td>
-    <td>Sometime</td>
-    <td>Medium</td>
-  </tr>
-  <tr>
-    <td>Recibir notificación al subir/bajar el niño</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-</table>
+Se consideraron los **dos segmentos objetivo** identificados en las entrevistas y formalizados como User Personas:
 
-<table>
-  <tr>
-    <th colspan="3">User Persona 1: Conductores de unidades de transporte </th>
-  </tr>
-  <tr>
-    <td>Descripción</td>
-    <td>Frecuencia</td>
-    <td>Importancia</td>
-  </tr>
-  <tr>
-    <td>Ver datos del estudiante al pasar RFID</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-  <tr>
-    <td>Revisar lista de estudiantes y asistencia</td>
-    <td>Sometime</td>
-    <td>Medium</td>
-  </tr>
-  <tr>
-    <td>Confirmar puntos de recogida y bajada</td>
-    <td>Often</td>
-    <td>High</td>
-  </tr>
-</table>
+1. **Padre/Madre preocupado(a) por la seguridad** (PP)
+2. **Conductor escolar responsable** (CE)
+
+Las tareas listadas son aquellas que **ambos segmentos realizan en la vida real para cumplir sus objetivos**, independientemente de que exista la solución propuesta.  
+Escala utilizada:
+
+| Valor | Frecuencia         | Importancia |
+| ----- | ------------------ | ----------- |
+| 1     | Muy rara vez       | Muy baja    |
+| 2     | Ocasionalmente     | Baja        |
+| 3     | A veces            | Media       |
+| 4     | Frecuentemente     | Alta        |
+| 5     | Siempre / a diario | Muy alta    |
+
+### Matriz de tareas
+
+| Tarea clave                                     | PP Freq | PP Imp | CE Freq | CE Imp |
+| ----------------------------------------------- | :-----: | :----: | :-----: | :----: |
+| Preparar al niño para abordar a hora fija       |    5    |   5    |    –    |   –    |
+| Verificar que el niño suba al vehículo (bordo)  |    4    |   5    |    5    |   5    |
+| Verificar que el niño baje en destino           |    4    |   5    |    5    |   5    |
+| Consultar ubicación del vehículo en ruta        |    5    |   5    |    –    |   –    |
+| Revisar velocidad / conducción segura           |    3    |   4    |    5    |   5    |
+| Comunicarse con el conductor ante incidencias   |    3    |   5    |    4    |   5    |
+| Evaluar / elegir proveedor de transporte seguro |    2    |   4    |    –    |   –    |
+| Navegar la ruta evitando tráfico (GPS/Waze)     |    –    |   –    |    5    |   5    |
+| Planificar rutas y horarios múltiples escuelas  |    –    |   –    |    4    |   5    |
+| Verificar identidad del alumno (RFC / lista)    |    –    |   –    |    5    |   5    |
+| Registrar aforo y cumplir normativa             |    –    |   –    |    5    |   4    |
+| Manejar retrasos o tráfico imprevisto           |    –    |   –    |    4    |   5    |
+| Informar retrasos a padres / colegio            |    –    |   –    |    4    |   5    |
+
+_(“–” indica que la tarea no corresponde al segmento.)_
+
+### Observaciones
+
+- **Tareas críticas y compartidas**
+
+  - _Verificar abordo / descenso_ y _comunicación ante incidencias_ alcanzan **frecuencia ≥ 4** e **importancia = 5** para ambos segmentos — son el núcleo de la interacción y deben quedar totalmente cubiertas por la solución.
+
+- **Diferencias notables**
+
+  - **Padres** concentran su esfuerzo en _monitorizar_ (ubicación, seguridad) y _preparar_ al niño; no navegan rutas.
+  - **Conductores** se enfocan en _navegación_, _puntualidad_, _verificación de identidad_ y _gestión de tráfico_; no evalúan proveedores.
+
+- **Coincidencias**
+  - Ambos valoran la **comunicación eficaz** — aunque la frecuencia varía (PP = 3, CE = 4), la importancia es máxima (5).
+  - **Seguridad** subyace a cada tarea: para padres en forma de tracking/velocidad; para conductores en control de aforo y conducción responsable.
+
+Estos hallazgos confirmaron las funcionalidades prioritarias de la solución (notificaciones RFID, rastreo GPS, canal de mensajería integrado y panel de control de aforo/velocidad).
 
 ### 2.3.3. User Journey Mapping.
 
