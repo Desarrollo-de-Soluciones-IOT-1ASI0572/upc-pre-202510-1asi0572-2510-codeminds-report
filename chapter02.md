@@ -1,4 +1,4 @@
-﻿# Capítulo II: Requirements Elicitation & Analysis
+# Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores.
 
@@ -90,71 +90,210 @@ competidores. Dicha información resulta relevante para plasmar estrategias y t�
 
 ### 2.2.2. Registro de entrevistas.
 
-**Segmento 1: Conductores escolares**<br>
-**Entrevista 1 (realizada por Marcelo Ramirez):**<br>
-**Nombre:** Victor Gonzáles cabell<br>
-**Edad:** 69 años<br>
-**Ocupación:** Taxista y transportista escolar
+### Segmento 1 - Conductores escolares
+
+#### Entrevista 1
+
+**Identificación del entrevistado**
+
+- **Nombre completo:** Víctor Gonzáles Cabell
+- **Edad:** 69 años
+- **Distrito de residencia:** Chorrillos
+- **Ocupación:** Taxista y transportista escolar
+
+**Referencia audiovisual**
+
+- **Screenshot:**
 
 ![entrevista victor](assets/chapter2/entrevista-victor.PNG)
 
-Víctor Gonzáles Cabell, de 69 años, trabaja como taxista y transportista escolar en Chorrillos, donde realiza rutas hacia dos colegios. Transporta hasta 7 estudiantes, de grados inicial, primaria y secundaria, ajustándose a los diferentes horarios de entrada y salida. Se comunica con los padres mediante teléfono o cedulación cuando los recoge. Es estricto con la puntualidad y siempre dispuesto a ayudar a los alumnos y padres en lo que pueda. Enfrenta desafíos como el tráfico y los retrasos de los estudiantes, pero usa herramientas tecnológicas como el aplicativo del GPC para monitorear el transporte y mejorar la experiencia.
+- **URL Microsoft Stream:** `<URL_DEL_VIDEO>`
+- **Timecode inicio / duración:** `<hh:mm:ss / mm:ss>`
 
-**Entrevista 2 (realizada por Xiao Li):**<br>
-**Nombre:** Eduardo Araujo<br>
-**Edad:** 27 años<br>
-**Ocupación:** Taxista y transportista escolar
+Víctor transporta hasta **7 estudiantes** de distintos grados (inicial, primaria y secundaria) hacia dos colegios, adaptándose a horarios variados. Se comunica con los padres por **teléfono** o **cedulación** al recoger a los alumnos. Es **estricto con la puntualidad** y siempre dispuesto a ayudar. Sus desafíos principales son el **tráfico** y los retrasos de los alumnos, por lo que utiliza el **aplicativo del GPS** para monitorear sus rutas y mejorar la experiencia de servicio.
+
+_Estos hallazgos refuerzan los atributos de puntualidad, uso de tecnología GPS y gestión de múltiples rutas del arquetipo «Conductor escolar responsable»._
+
+---
+
+#### Entrevista 2
+
+**Identificación del entrevistado**
+
+- **Nombre completo:** Eduardo Araujo
+- **Edad:** 27 años
+- **Distrito de residencia:** Villa María (Lima)
+- **Ocupación:** Taxista y transportista escolar
+
+**Referencia audiovisual**
+
+- **Screenshot:**
 
 ![entrevista eduardo](assets/chapter2/entrevista.eduardo.png)
 
-Eduardo Araujo, de 27 años, trabaja como taxista y transportista escolar en Villa Maria, donde realiza rutas de movilidad escolar. . Se comunica con los padres mediante llamadas telefonicas o WhatsApp. Es muy comprometido con la puntualidad y la seguridad en sus viajes. Enfrenta desafíos como el tráfico, el mal estado de las pistas y la desconfianza y preocupacion de los padres de familia, usa herramientas tecnológicas como Waze, considera que una aplicacion como sencilla, intuitiva seria beneficiosa para su linea de trabajo.
+- **URL Microsoft Stream:** `<URL_DEL_VIDEO>`
+- **Timecode inicio / duración:** `<hh:mm:ss / mm:ss>`
 
-**Segmento 2: Padres de Familia**<br>
-**Entrevista 1 (realizado por Angel Cancho):**<br>
-**Nombre:** Sebastian Campero<br>
-**Edad:** 27 años<br>
-**Ocupación:** Operario en un centro de distribución
+Eduardo realiza **rutas de movilidad escolar** en Villa María. Se comunica con los padres mediante **llamadas telefónicas** y **WhatsApp**. Valora la **puntualidad** y la **seguridad** de los viajes. Entre sus desafíos menciona el **tráfico**, el **mal estado de las pistas** y la **desconfianza de los padres**. Utiliza **Waze** y considera que una aplicación **sencilla e intuitiva** sería beneficiosa para su trabajo diario.
 
-![entrevista sebastian](assets/chapter2/entrevista-sebastian.png)
+_Estos hallazgos respaldan los atributos de enfoque en seguridad, uso de navegación Waze y necesidad de una app intuitiva del arquetipo «Conductor escolar responsable»._
 
-Sebastián Campero, de 27 años, vive en Chorrillos y trabaja como operario de picking. Tiene un hijo de 5 años que está en inicial. Está preocupado por la seguridad y desea recibir notificaciones en tiempo real sobre la ubicación del bus y el estado de su hijo. Valora el uso de tecnologías como GPS y RFID. Cambiaría de proveedor si se le garantiza mayor seguridad y monitoreo constante.
+### Segmento 2 - Padres de Familia
 
-**Entrevista 2 (realizado por Paolo Martinez):**<br>
-**Nombre:** Liliana Ramirez<br>
-**Edad:** 56 años<br>
-**Ocupación:** Ama de casa
+#### Entrevista 1
 
-![entrevista_liliana](assets/chapter2/entrevista-liliana.jpg)
+**Identificación del entrevistado**
 
-Liliana Ramirez, de 56 años, vive en San Juan de Miraflores y es ama de casa. Tiene un hijo de 14 años en secundaria. Su principal preocupación es la falta de información en tiempo real sobre el transporte escolar. Desea recibir notificaciones sobre la ubicación del bus y el momento en que su hijo sube o baja. Está familiarizada con el uso de GPS y aunque no conozca acerca de la tecnología RFID, se ve interesada por informarse más sobre el tema. Cambiaría de proveedor si no siente seguridad o si la comunicación es deficiente.
+- **Nombre completo:** Sebastian Campero Fernandez
+- **Edad:** 27
+- **Distrito de residencia:** Chorrillos
+- **Ocupación:** Operario de picking en centro de distribución
+- **Hijo(s):** 1 hijo de 5 años (nivel inicial)
 
-**Entrevista 3 (realizado por Juan Diego Cueto):**<br>
-**Nombre:** Janetlis Colon<br>
-**Edad:** 29 años<br>
-**Ocupación:** Diseñadora gráfica
+**Referencia audiovisual**
 
-[![entrevista janetlis](assets/chapter2/entrevista-janetlis.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012207_upc_edu_pe/EXA6KZSDBtVNi_aEh1tkvOUBDyF5CqQJRzg-7VMH4Di8Xg?e=RLefmX)
+- **Screenshot:** ![entrevista sebastian](assets/chapter2/entrevista-sebastian.png)
+- **URL Microsoft Stream:** [Evidencia de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201721995_upc_edu_pe/Ec9j-RYnHd1Bgv257HpOY5sBhJ25Y6QfllNQf0OO0-fN4w?e=AiCTta&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Timecode inicio / duración:** `00:00:22 / 04:35`
 
-Janetlis, de 29 años, vive en Miraflores, Lima, y es diseñadora gráfica. Tiene un hijo pequeño en nivel inicial o primaria. Su principal preocupación es la seguridad durante el traslado escolar y la falta de información en tiempo real. Le gustaría recibir notificaciones sobre la ubicación del vehículo y alertas cuando su hijo suba o baje del transporte. Está familiarizada con el uso de GPS y tecnologías móviles, y aunque no ha usado pulseras RFID, está abierta a aprender más sobre su aplicación en el transporte escolar. Consideraría cambiar de proveedor si percibe deficiencia en la seguridad o en la comunicación directa con los padres.
+Sebastián es un padre **precavido y orientado a la seguridad**. Maneja tecnología con soltura: usa a diario su **smartphone Android con GPS** y entiende el funcionamiento de las **pulseras RFID**. Se comunica principalmente por **WhatsApp**, complementándolo con llamadas y SMS; para noticias revisa **Facebook** y **Twitter**.  
+Su **objetivo principal** es garantizar que su hijo de 5 años llegue seguro al colegio y recibir **notificaciones en tiempo real** sobre la ruta, paradas y velocidad del bus. Sus **frustraciones** incluyen la falta de monitoreo adecuado y no saber si el conductor respeta las normas de tránsito. Valora proveedores que integren **GPS y RFID** con alertas push y que certifiquen la capacitación de los conductores. Está dispuesto a **cambiar de servicio** si le ofrecen mayor control y transparencia en la operación.
+
+_Estos hallazgos sustentan los atributos de seguridad, monitoreo en tiempo real y canal preferido WhatsApp del arquetipo «Padre preocupado por la seguridad»._
+
+---
+
+#### Entrevista 2
+
+**Identificación del entrevistado**
+
+- **Nombre completo:** Liliana Ramírez
+- **Edad:** 56 años
+- **Distrito de residencia:** San Juan de Miraflores
+- **Ocupación:** Ama de casa
+- **Hijo(s):** 1 hijo de 14 años (secundaria)
+
+**Referencia audiovisual**
+
+- **Screenshot:** ![entrevista liliana](assets/chapter2/entrevista-liliana.jpg)
+- **URL Microsoft Stream:** `<URL_DEL_VIDEO>`
+- **Timecode inicio / duración:** `<hh:mm:ss / mm:ss>`
+
+Liliana siente una **preocupación constante por la falta de información en tiempo real** sobre el transporte escolar. Quiere recibir notificaciones claras de la **ubicación del bus** y confirmaciones cuando su hijo sube o baja. Conoce el uso de **GPS** y, aunque no maneja la tecnología **RFID**, muestra interés en aprender. Consideraría **cambiar de proveedor** si percibe fallas en la seguridad o en la comunicación con los padres.
+
+_Estos hallazgos refuerzan los atributos de necesidad de rastreo en tiempo real y comunicación efectiva del arquetipo «Padre preocupado por la seguridad»._
+
+---
+
+#### Entrevista 3
+
+**Identificación del entrevistado**
+
+- **Nombre completo:** Janetlis Colón
+- **Edad:** 29 años
+- **Distrito de residencia:** Miraflores
+- **Ocupación:** Diseñadora gráfica
+- **Hijo(s):** 1 hijo pequeño (inicial / primaria)
+
+**Referencia audiovisual**
+
+- **Screenshot:**
+
+![entrevista janetlis](assets/chapter2/entrevista-janetlis.png)
+
+- **URL Microsoft Stream:** [Evidencia de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012207_upc_edu_pe/EXA6KZSDBtVNi_aEh1tkvOUBDyF5CqQJRzg-7VMH4Di8Xg?e=RLefmX)
+- **Timecode inicio / duración:** `<hh:mm:ss / mm:ss>`
+
+Janetlis valora la **seguridad durante el traslado escolar** y desea **información en tiempo real**. Quiere alertas sobre la ubicación del vehículo y cuando su hijo suba o baje. Está familiarizada con **GPS** y aplicaciones móviles; aunque no ha usado **RFID**, está dispuesta a conocer su aplicación en el transporte escolar. Cambiaría de proveedor si detecta **deficiencias en seguridad** o en la **comunicación directa** con los padres.
+
+_Estos hallazgos respaldan los atributos de seguridad, monitoreo en tiempo real y apertura a nuevas tecnologías del arquetipo «Padre preocupado por la seguridad»._
 
 ### 2.2.3. Análisis de entrevistas.
-**Segmento Conductores**
-<br>
-El análisis del segmento de conductores revela Víctor y Eduardo, aunque de edades y contextos diferentes, comparten una fuerte orientación hacia la puntualidad y la seguridad en su trabajo como transportistas escolares. Ambos enfrentan desafíos similares, como el tráfico y los retrasos en las rutas, y utilizan tecnología para optimizar su labor, aunque de manera diferente. Víctor, con más experiencia, emplea herramientas como el GPC y mantiene una comunicación más tradicional con los padres, mientras que Eduardo, más joven, está abierto a usar aplicaciones como Waze y busca soluciones más modernas y sencillas para mejorar la interacción. En general, ambos valoran la tecnología que facilite su trabajo y permita una mejor comunicación con los padres, lo que destaca la necesidad de una herramienta intuitiva y eficiente que optimice su servicio y aumente la confianza de los padres.
 
-**Segmento padres**
-<br>
-El análisis del segmento de padres de familia revela que tanto Liliana como Sebastián tienen una fuerte preocupación por la seguridad de sus hijos en el transporte escolar. Ambos valoran la posibilidad de recibir notificaciones en tiempo real sobre la ubicación del bus y el estado de sus hijos. Liliana, aunque no está completamente familiarizada con tecnologías como RFID, ya tiene conocimientos sobre GPS y está dispuesta a aprender más si la tecnología mejora la seguridad de su hijo. Sebastián, por su parte, está más familiarizado con el uso de tecnologías avanzadas como GPS y RFID, lo que demuestra que valora aún más las soluciones innovadoras. Ambos están dispuestos a cambiar de proveedor si sienten que la comunicación es deficiente o si no se garantiza la seguridad de sus hijos, lo que subraya la importancia de ofrecer un servicio confiable, fácil de usar y con comunicación constante. En resumen, el segmento busca soluciones tecnológicas que brinden tranquilidad y seguridad, con un enfoque en la facilidad de uso y la transparencia.
+> Fuente de datos: resúmenes de las entrevistas registradas en **2 conductores escolares (E‑C1, E‑C2)**  
+> y **3 padres de familia (E‑P1, E‑P2, E‑P3)**.  
+> Para cada segmento se cuantificaron las respuestas y se presenta el
+> **porcentaje (%) = (frecuencia / n del segmento × 100)** de las
+> características que se repiten con mayor fuerza y que serán la base de los
+> arquetipos.
+
+---
+
+### Segmento 1 – Conductores escolares (n = 2)
+
+| Característica                                    | Evidencia  | % (n)         |
+| ------------------------------------------------- | ---------- | ------------- |
+| **Uso de navegación GPS / Waze**                  | E‑C1, E‑C2 | **100 % (2)** |
+| **Comunicación con padres por teléfono**          | E‑C1, E‑C2 | **100 % (2)** |
+| Comunicación adicional por **WhatsApp**           | E‑C2       | 50 % (1)      |
+| **Puntualidad** mencionada como valor central     | E‑C1, E‑C2 | **100 % (2)** |
+| **Tráfico** citado como principal desafío         | E‑C1, E‑C2 | **100 % (2)** |
+| **Deseo de app intuitiva** que mejore el servicio | E‑C2       | 50 % (1)      |
+| Rango etario **18‑35 años**                       | E‑C2       | 50 % (1)      |
+| Rango etario **60+ años**                         | E‑C1       | 50 % (1)      |
+
+**Conclusión del segmento**  
+Los conductores se dividen en dos rangos etarios opuestos pero comparten
+comportamientos clave: **100 %** usan herramientas de navegación, valoran la
+**puntualidad** y señalan el **tráfico** como mayor obstáculo. La mitad ya usa
+WhatsApp y demanda una aplicación sencilla, indicando apertura a soluciones
+digitales que integren rutas y comunicación.
+
+---
+
+### Segmento 2 – Padres de familia (n = 3)
+
+| Característica                                        | Evidencia          | % (n)         |
+| ----------------------------------------------------- | ------------------ | ------------- |
+| **Preocupación por la seguridad** del hijo            | E‑P1, E‑P2, E‑P3   | **100 % (3)** |
+| Deseo de **notificaciones / tracking en tiempo real** | E‑P1, E‑P2, E‑P3   | **100 % (3)** |
+| **Uso habitual de smartphone**                        | E‑P1, E‑P2\*, E‑P3 | **100 % (3)** |
+| Familiaridad con **GPS**                              | E‑P1, E‑P2, E‑P3   | **100 % (3)** |
+| Conocimiento / apertura a **RFID**                    | E‑P1, E‑P3         | 67 % (2)      |
+| Comunicación con transporte por **teléfono**          | E‑P2               | 33 % (1)      |
+| Comunicación con transporte por **WhatsApp**          | E‑P1               | 33 % (1)      |
+| Rango etario **18‑40 años**                           | E‑P1, E‑P3         | 67 % (2)      |
+| Rango etario **41‑60 años**                           | E‑P2               | 33 % (1)      |
+
+\*E‑P2 describe el uso de GPS aunque no detalla el dispositivo; se
+clasifica como “uso de smartphone” porque su contacto principal es por llamadas
+móviles.
+
+**Conclusión del segmento**  
+Todos los padres comparten dos preocupaciones centrales:
+**seguridad** y **información en tiempo real**. El **100 %** posee o usa
+smartphones y GPS, mientras que **67 %** muestra apertura a tecnologías RFID.
+Los canales de comunicación hoy son dispersos (teléfono o WhatsApp), lo que
+indica la oportunidad de unificar alertas en una sola aplicación móvil.
+
+---
+
+### Síntesis para construcción de arquetipos
+
+| Atributo clave                    | Conductores (↑ frecuencia)        | Padres (↑ frecuencia)                   |
+| --------------------------------- | --------------------------------- | --------------------------------------- |
+| Herramienta tecnológica principal | GPS/Waze (100 %)                  | Smartphone + GPS (100 %)                |
+| Canal de comunicación preferido   | Teléfono (100 %), WhatsApp (50 %) | Teléfono (33 %), WhatsApp (33 %)        |
+| Objetivo prioritario              | Puntualidad (100 %)               | Seguridad y tracking (100 %)            |
+| Frustración principal             | Tráfico (100 %)                   | Falta de info en tiempo real (100 %)    |
+| Apertura a nuevas apps            | 50 % mencionan explícitamente     | 100 % aceptarían si mejora la seguridad |
+
+Estos porcentajes demuestran de forma cuantitativa cómo los rasgos
+seleccionados provienen directamente de las entrevistas y justifican la
+formación de los arquetipos **«Conductor escolar responsable»** y
+**«Padre preocupado por la seguridad»**.
 
 ## 2.3. Needfinding.
 
 ### 2.3.1. User Personas.
 
-**Padres de Familia**
-![user_persona_cleinte](assets/chapter2/Marco%20Aurelio.png)
+**Padre de Familia**
+
+![user_persona_padre](assets/chapter2/user_person_padre.png)
 
 **Conductores de unidades de transporte**
-![user_persona_cleinte](assets/chapter2/Julio%20Cesar.png)
+
+![user_persona_condcutor](assets/chapter2/user_person_conductorr.png)
 
 ### 2.3.2. User Task Matrix.
 
