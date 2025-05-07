@@ -208,80 +208,98 @@ Janetlis valora la **seguridad durante el traslado escolar** y desea **informaci
 
 _Estos hallazgos respaldan los atributos de seguridad, monitoreo en tiempo real y apertura a nuevas tecnologías del arquetipo «Padre preocupado por la seguridad»._
 
-### 2.2.3. Análisis de entrevistas.
+### 2.2.3. Análisis de entrevistas
 
-> Fuente de datos: resúmenes de las entrevistas registradas en **2 conductores escolares (E‑C1, E‑C2)**  
-> y **3 padres de familia (E‑P1, E‑P2, E‑P3)**.  
-> Para cada segmento se cuantificaron las respuestas y se presenta el
+> Fuente de datos: resúmenes de las entrevistas registradas en  
+> **2 conductores escolares (E‑C1, E‑C2)** y **3 padres de familia (E‑P1, E‑P2, E‑P3)**.  
+> Para cada segmento se cuantificaron las respuestas y se calculó el  
 > **porcentaje (%) = (frecuencia / n del segmento × 100)** de las
 > características que se repiten con mayor fuerza y que serán la base de los
 > arquetipos.
 
 ---
 
-### Segmento 1 – Conductores escolares (n = 2)
+### 1. Frecuencias cuantitativas
+
+#### Segmento 1 – Conductores escolares (n = 2)
 
 | Característica                                    | Evidencia  | % (n)         |
 | ------------------------------------------------- | ---------- | ------------- |
-| **Uso de navegación GPS / Waze**                  | E‑C1, E‑C2 | **100 % (2)** |
-| **Comunicación con padres por teléfono**          | E‑C1, E‑C2 | **100 % (2)** |
-| Comunicación adicional por **WhatsApp**           | E‑C2       | 50 % (1)      |
-| **Puntualidad** mencionada como valor central     | E‑C1, E‑C2 | **100 % (2)** |
-| **Tráfico** citado como principal desafío         | E‑C1, E‑C2 | **100 % (2)** |
-| **Deseo de app intuitiva** que mejore el servicio | E‑C2       | 50 % (1)      |
-| Rango etario **18‑35 años**                       | E‑C2       | 50 % (1)      |
-| Rango etario **60+ años**                         | E‑C1       | 50 % (1)      |
+| **Uso de navegación GPS / Waze**                  | E‑C1, E‑C2 | **100 % (2)** |
+| **Comunicación con padres por teléfono**          | E‑C1, E‑C2 | **100 % (2)** |
+| Comunicación adicional por **WhatsApp**           | E‑C2       | 50 % (1)      |
+| **Puntualidad** mencionada como valor central     | E‑C1, E‑C2 | **100 % (2)** |
+| **Tráfico** citado como principal desafío         | E‑C1, E‑C2 | **100 % (2)** |
+| **Deseo de app intuitiva** que mejore el servicio | E‑C2       | 50 % (1)      |
 
-**Conclusión del segmento**  
-Los conductores se dividen en dos rangos etarios opuestos pero comparten
-comportamientos clave: **100 %** usan herramientas de navegación, valoran la
-**puntualidad** y señalan el **tráfico** como mayor obstáculo. La mitad ya usa
-WhatsApp y demanda una aplicación sencilla, indicando apertura a soluciones
-digitales que integren rutas y comunicación.
+#### Segmento 2 – Padres de familia (n = 3)
 
----
+| Característica                               | Evidencia          | % (n)         |
+| -------------------------------------------- | ------------------ | ------------- |
+| **Preocupación por la seguridad del hijo**   | E‑P1, E‑P2, E‑P3   | **100 % (3)** |
+| **Notificaciones / tracking en tiempo real** | E‑P1, E‑P2, E‑P3   | **100 % (3)** |
+| **Uso habitual de smartphone**               | E‑P1, E‑P2\*, E‑P3 | **100 % (3)** |
+| Familiaridad con **GPS**                     | E‑P1, E‑P2, E‑P3   | **100 % (3)** |
+| Conocimiento / apertura a **RFID**           | E‑P1, E‑P3         | 67 % (2)      |
+| Comunicación con transporte por **teléfono** | E‑P2               | 33 % (1)      |
+| Comunicación con transporte por **WhatsApp** | E‑P1               | 33 % (1)      |
 
-### Segmento 2 – Padres de familia (n = 3)
-
-| Característica                                        | Evidencia          | % (n)         |
-| ----------------------------------------------------- | ------------------ | ------------- |
-| **Preocupación por la seguridad** del hijo            | E‑P1, E‑P2, E‑P3   | **100 % (3)** |
-| Deseo de **notificaciones / tracking en tiempo real** | E‑P1, E‑P2, E‑P3   | **100 % (3)** |
-| **Uso habitual de smartphone**                        | E‑P1, E‑P2\*, E‑P3 | **100 % (3)** |
-| Familiaridad con **GPS**                              | E‑P1, E‑P2, E‑P3   | **100 % (3)** |
-| Conocimiento / apertura a **RFID**                    | E‑P1, E‑P3         | 67 % (2)      |
-| Comunicación con transporte por **teléfono**          | E‑P2               | 33 % (1)      |
-| Comunicación con transporte por **WhatsApp**          | E‑P1               | 33 % (1)      |
-| Rango etario **18‑40 años**                           | E‑P1, E‑P3         | 67 % (2)      |
-| Rango etario **41‑60 años**                           | E‑P2               | 33 % (1)      |
-
-\*E‑P2 describe el uso de GPS aunque no detalla el dispositivo; se
-clasifica como “uso de smartphone” porque su contacto principal es por llamadas
-móviles.
-
-**Conclusión del segmento**  
-Todos los padres comparten dos preocupaciones centrales:
-**seguridad** y **información en tiempo real**. El **100 %** posee o usa
-smartphones y GPS, mientras que **67 %** muestra apertura a tecnologías RFID.
-Los canales de comunicación hoy son dispersos (teléfono o WhatsApp), lo que
-indica la oportunidad de unificar alertas en una sola aplicación móvil.
+\*E‑P2 usa GPS vía móvil aunque no menciona explícitamente “smartphone”.
 
 ---
 
-### Síntesis para construcción de arquetipos
+### 2. Visualización de frecuencias
 
-| Atributo clave                    | Conductores (↑ frecuencia)        | Padres (↑ frecuencia)                   |
-| --------------------------------- | --------------------------------- | --------------------------------------- |
-| Herramienta tecnológica principal | GPS/Waze (100 %)                  | Smartphone + GPS (100 %)                |
-| Canal de comunicación preferido   | Teléfono (100 %), WhatsApp (50 %) | Teléfono (33 %), WhatsApp (33 %)        |
-| Objetivo prioritario              | Puntualidad (100 %)               | Seguridad y tracking (100 %)            |
-| Frustración principal             | Tráfico (100 %)                   | Falta de info en tiempo real (100 %)    |
-| Apertura a nuevas apps            | 50 % mencionan explícitamente     | 100 % aceptarían si mejora la seguridad |
+<div align="center">
 
-Estos porcentajes demuestran de forma cuantitativa cómo los rasgos
-seleccionados provienen directamente de las entrevistas y justifican la
-formación de los arquetipos **«Conductor escolar responsable»** y
-**«Padre preocupado por la seguridad»**.
+![Conductores escolares – Frecuencias](assets/chapter2/conductores-bar.png)  
+_Fig. 1  Atributos con mayor repetición en conductores escolares_
+
+![Padres de familia – Frecuencias](assets/chapter2/padres-bar.png)  
+_Fig. 2  Atributos con mayor repetición en padres de familia_
+
+</div>
+
+_(Los gráficos de barras muestran el mismo % que las tablas, facilitando la
+comprensión visual de la dominancia de cada rasgo.)_
+
+---
+
+### 3. Matriz de trazabilidad → User Personas
+
+| Atributo (≥ 67 %) | %     | Campo en **Conductor** Persona                           |
+| ----------------- | ----- | -------------------------------------------------------- |
+| GPS/Waze          | 100 % | **Skill** “Navegación GPS/Waze”; **Technology** icon     |
+| Puntualidad       | 100 % | **Skill** + **Goal** “Puntualidad / gestión de horarios” |
+| Tráfico como reto | 100 % | **Frustration**                                          |
+| Teléfono          | 100 % | **Skill** + **Technology** “Comunicación teléfono”       |
+| WhatsApp          | 50 %  | **Skill** + **Technology** “WhatsApp” (slider 70 %)      |
+
+| Atributo (≥ 67 %)       | %        | Campo en **Padre** Persona                                          |
+| ----------------------- | -------- | ------------------------------------------------------------------- |
+| Seguridad               | 100 %    | **Goal** + **Motivation**                                           |
+| Tracking en tiempo real | 100 %    | **Goal**, **Technology** (GPS)                                      |
+| Smartphone & GPS        | 100 %    | **Skills** “Uso de smartphone”, “Tracking GPS”; **Technology** icon |
+| RFID (apertura)         | 67 %     | **Technology** (RFID tag)                                           |
+| WhatsApp / Teléfono     | 33 % c/u | **Skill** “Comunicación con conductor”; slider ajustado a ~60 %     |
+
+> **Interpretación:** Cada campo incluido en las fichas de User Persona se
+> apoya en un atributo que alcanza al menos 50 % de frecuencia; los atributos
+> ≥ 67 % se consideran representativos del segmento y, por tanto, definen Skills,
+> Goals, Motivations, Frustrations y Technology en la plantilla de Uxpressia.
+
+---
+
+### 4. Conclusión
+
+Los porcentajes y gráficas confirman que:
+
+- Conductores → dominan GPS/Waze, puntualidad y lidian con el tráfico.
+- Padres → priorizan seguridad y tracking en tiempo real vía smartphone + GPS.
+
+Por ello, los arquetipos **«Conductor escolar responsable»** y
+**«Padre preocupado por la seguridad»** reflejan fielmente la evidencia
+recogida en las entrevistas.
 
 ## 2.3. Needfinding.
 
