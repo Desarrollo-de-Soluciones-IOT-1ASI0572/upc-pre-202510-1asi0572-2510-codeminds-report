@@ -138,6 +138,30 @@ Eduardo realiza **rutas de movilidad escolar** en Villa María. Se comunica co
 
 _Estos hallazgos respaldan los atributos de enfoque en seguridad, uso de navegación Waze y necesidad de una app intuitiva del arquetipo «Conductor escolar responsable»._
 
+#### Entrevista 3
+
+**Identificación del entrevistado**
+
+- **Nombre completo:** Shirley Aponte
+- **Edad:** 43 años
+- **Distrito de residencia:** Villa el salvador (Lima)
+- **Ocupación:** Transportista escolar
+
+**Referencia audiovisual**
+
+- **Screenshot:**
+![Entrevista_Shirley](assets/chapter2/Entrevista3(Conductor).png)
+
+- **URL Microsoft Stream:** `<URL_DEL_VIDEO>`
+- **Timecode inicio / duración:** `<hh:mm:ss / mm:ss>`
+
+Shirley es una conductora de movilidad escolar en Villa María del Triunfo. Mantiene comunicación con los padres de familia a través de **llamadas telefónicas** y **WhatsApp** para coordinar horarios y detalles del servicio. Prioriza la **puntualidad** y la **seguridad** en cada traslado, asegurando que los estudiantes lleguen a tiempo y sin contratiempos a sus destinos.
+
+Entre los desafíos que enfrenta en su labor diaria, Shirley destaca el **tráfico intenso**, el mal estado de las vías y la desconfianza inicial de algunos padres al dejar a sus hijos bajo su responsabilidad. Para mitigar estos inconvenientes, utiliza aplicaciones de navegación como **Waze**, que le permiten identificar rutas más eficientes y evitar congestionamientos.
+
+_Estos hallazgos respaldan los atributos de enfoque en seguridad, puntualidad, uso de navegación Waze y WhatsApp. Estos aspectos reflejan las características del arquetipo «Conductor escolar responsable»._
+
+
 ### Segmento 2 - Padres de Familia
 
 #### Entrevista 1
