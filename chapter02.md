@@ -403,11 +403,24 @@ Para desarrollar el As-Is Scenario Mapping, se llevó a cabo un análisis detall
 En el contexto de la solucion, se ha definido un lenguaje compartido que permite una mejor comunicación entre
 desarrolladores y usuarios. Estos son algunos de los términos clave:
 
-- **Unidad de transporte:** Vehículo escolar equipado con dispositivos IoT.
-- **Dispositivo IoT:** Módulo instalado en la unidad, que incluye sensores RFID y GPS.
-- **Sensor RFID:** Componente que lee la pulsera del estudiante para registrarlo al subir o bajar.
-- **Sensor GPS:** Dispositivo que transmite la ubicación y velocidad de la unidad en tiempo real.
-- **Pulsera RFID:** Pulsera usada por el estudiante que contiene un identificador único.
-- **Aforo:** Número total de estudiantes dentro de la unidad de transporte en un momento dado.
-- **Notificación:** Alerta enviada a los padres cuando el estudiante sube o baja del transporte.
-- **Ruta escolar:** Recorrido asignado para recoger y dejar a los estudiantes.
+- **Pulsera RFID (RFID Wristband):** Pulsera que lleva el estudiante, que contiene un identificador único utilizado para el registro automático al abordar o descender del transporte.
+
+- **Identificación de estudiantes (Student Identification):** Proceso de verificar la presencia de un estudiante mediante el escaneo de su pulsera RFID al subir o bajar del vehículo.
+
+- **Aforo (Passenger Count):** Número total de estudiantes dentro de la unidad de transporte en un momento dado, calculado a través del sistema de identificación RFID.
+
+- **Sistema de rastreo en tiempo real (Real-time Tracking System):** Tecnología que transmite en tiempo real la ubicación y velocidad de la unidad de transporte, proporcionando datos actualizados para su monitoreo y control.
+
+- **Notificación (Notification):** Alerta enviada a los padres cuando el estudiante sube o baja del transporte, proporcionando actualizaciones en tiempo real sobre su seguridad.
+
+- **Monitoreo de velocidad (Speed Monitoring):** Supervisión de la velocidad del transporte escolar para garantizar el cumplimiento de los límites de velocidad y mantener la seguridad.
+
+- **Unidad de transporte (Transport Unit):** El vehículo utilizado para trasladar a los estudiantes, equipado con tecnología de monitoreo como sistemas de identificación RFID y seguimiento en tiempo real.
+
+- **Sistema de identificación RFID (RFID Identification System):** Dispositivo que lee la pulsera RFID del estudiante cuando sube o baja del transporte, registrando su presencia en el vehículo.
+
+- **Ruta escolar (School Route):** Recorrido asignado para recoger y dejar a los estudiantes en puntos específicos, como su casa o la escuela.
+
+- **Parada (Stop):** Punto de recogida o bajada de estudiantes en la ruta escolar.
+
+- **Seguimiento en tiempo real (Real-time Tracking):** Monitoreo continuo de la ubicación y velocidad de la unidad de transporte, accesible para los padres y administradores a través de la aplicación móvil o web.
