@@ -137,13 +137,95 @@ Suponen que el producto puede crecer y escalar.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
-| **Business Outcome**                                                             | **Persona**                                | **User Outcome**                                                                                       | **Feature/Solution**                                                                                  |
-| -------------------------------------------------------------------------------- | ------------------------------------------ | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- |
-| Incrementar la confianza de los padres en el servicio de transporte escolar      | Padres de familia                          | Sentirse tranquilos al conocer la ubicación de sus hijos en tiempo real y recibir alertas de seguridad | Aplicación móvil con rastreo GPS en tiempo real, notificaciones push y alertas de subida/bajada       |
-| Reducir los errores en el registro y control de pasajeros                        | Conductores y operadores                   | Controlar automáticamente el aforo y validar la identidad de los estudiantes sin procesos manuales     | Sistema integrado de pulseras RFID, sensores de aforo y panel de control en la app del conductor      |
-| Mejorar la capacidad de respuesta ante incidencias durante el transporte escolar | Instituciones educativas                   | Monitorear el estado de las rutas y responder a eventos con información precisa y centralizada         | Plataforma web con dashboard en tiempo real, reportes de incidencias y acceso a historial de rutas    |
-| Aumentar la percepción de seguridad entre los estudiantes                        | Estudiantes                                | Sentirse protegidos y seguros durante sus trayectos                                                    | Pulsera RFID personalizada para identificación rápida, control de velocidad y asistencia automatizada |
-| Facilitar la expansión del sistema a otras instituciones y regiones              | Instituciones educativas (nuevos mercados) | Adoptar una solución flexible y adaptable a su realidad                                                | Plataforma escalable con configuración modular, conectividad multi-dispositivo y soporte multiruta    |
+### Business Assumptions
+
+#### Suposición:
+
+"Asumimos que la institución educativa invertirá en esta tecnología porque mejorará su propuesta de seguridad y atraerá más matrículas."
+
+#### Hipótesis:
+
+"Si implementamos un sistema de seguridad mejorada mediante tecnologías IoT (RFID, GPS, sensores de aforo) para el transporte escolar, entonces las instituciones educativas verán un aumento del 15% en las matrículas en los primeros 6 meses debido a la mejora de la seguridad y la transparencia que proporciona el sistema."
+
+---
+
+### Value Assumptions
+
+#### Suposición:
+
+"Asumimos que los padres verán las notificaciones push de ubicación en tiempo real como una mejora clara de su tranquilidad."
+
+#### Hipótesis:
+
+"Si implementamos notificaciones push que informen a los padres sobre la ubicación y el estatus del transporte escolar en tiempo real, entonces el 85% de los padres reportarán una mejora significativa en su percepción de seguridad y satisfacción con el servicio."
+
+#### Suposición:
+
+"Asumimos que los conductores valorarán la automatización del registro de asistencia por RFID y lo usarán diariamente."
+
+#### Hipótesis:
+
+"Si implementamos un sistema automatizado de registro de estudiantes con pulseras RFID, entonces el 90% de los conductores utilizarán el sistema a diario, reduciendo el tiempo dedicado al registro manual en un 40%."
+
+---
+
+### Usability Assumptions
+
+#### Suposición:
+
+"Asumimos que los conductores podrán escanear pulseras RFID en menos de 3 segundos por estudiante sin formación previa."
+
+#### Hipótesis:
+
+"Si los conductores pueden escoger y escanear pulseras RFID en menos de 3 segundos sin formación previa, entonces el proceso de registro de estudiantes se completará de manera un 50% más rápida, sin necesidad de formación adicional para los conductores."
+
+#### Suposición:
+
+"Asumimos que los padres entenderán y navegarán la app móvil con un flujo de notificaciones y mapa integrado sin problemas."
+
+#### Hipótesis:
+
+"Si diseñamos una aplicación móvil intuitiva para los padres, con un flujo sencillo para ver notificaciones y el mapa del transporte escolar, entonces el 95% de los padres podrán navegarla sin dificultades y encontrar la información en menos de 2 minutos de uso."
+
+---
+
+### Feasibility / Technical Assumptions
+
+#### Suposición:
+
+"Asumimos que la red móvil/Wi-Fi disponible en rutas escolares soporta la transmisión de datos GPS y RFID en tiempo real."
+
+#### Hipótesis:
+
+"Si las redes móviles y Wi-Fi disponibles en las rutas escolares son capaces de soportar la transmisión de datos GPS y RFID en tiempo real, entonces se logrará un monitoreo continuo de la ubicación del vehículo y los estudiantes sin interrupciones, con un 99% de disponibilidad en todo momento."
+
+#### Suposición:
+
+"Asumimos que los sensores de aforo y velocidad se integran sin latencia perceptible con nuestro backend."
+
+#### Hipótesis:
+
+"Si los sensores de aforo y velocidad se integran eficientemente con el backend sin latencia perceptible, entonces el sistema podrá ofrecer información en tiempo real sobre la ocupación del vehículo y el cumplimiento de la velocidad, sin errores y con una latencia menor a 1 segundo."
+
+---
+
+### Market / Growth Assumptions
+
+#### Suposición:
+
+"Asumimos que, tras un piloto exitoso en una escuela urbana, otras escuelas replicarán la solución en los siguientes 6 meses."
+
+#### Hipótesis:
+
+"Si realizamos un piloto exitoso en una escuela urbana, entonces podemos esperar que el 30% de las escuelas urbanas adopten la solución en los siguientes 6 meses, generando una tasa de crecimiento acelerada de la solución en áreas urbanas."
+
+#### Suposición:
+
+"Asumimos que el mercado de transporte escolar en zonas urbanas adoptará nuevas tecnologías IoT en un 30% en el primer año."
+
+#### Hipótesis:
+
+"Si el mercado de transporte escolar urbano adopta tecnologías IoT, entonces un 30% de los proveedores de transporte escolar implementarán soluciones de RFID y GPS en sus vehículos durante el primer año, acelerando la adopción tecnológica en el sector."
 
 #### 1.2.2.4. Lean UX Canvas.
 
