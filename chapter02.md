@@ -107,8 +107,7 @@ competidores. Dicha información resulta relevante para plasmar estrategias y t�
 
 ![entrevista victor](assets/chapter2/entrevista-victor.PNG)
 
-- **URL Microsoft Stream:** `<URL_DEL_VIDEO>`
-- **Timecode inicio / duración:** `<hh:mm:ss / mm:ss>`
+- **Timecode inicio / duración:** `00:00:39 / 08:02`
 
 Víctor transporta hasta **7 estudiantes** de distintos grados (inicial, primaria y secundaria) hacia dos colegios, adaptándose a horarios variados. Se comunica con los padres por **teléfono** o **cedulación** al recoger a los alumnos. Es **estricto con la puntualidad** y siempre dispuesto a ayudar. Sus desafíos principales son el **tráfico** y los retrasos de los alumnos, por lo que utiliza el **aplicativo del GPS** para monitorear sus rutas y mejorar la experiencia de servicio.
 
@@ -131,12 +130,13 @@ _Estos hallazgos refuerzan los atributos de puntualidad, uso de tecnología GPS 
 
 ![entrevista eduardo](assets/chapter2/entrevista.eduardo.png)
 
-- **URL Microsoft Stream:** `<URL_DEL_VIDEO>`
-- **Timecode inicio / duración:** `<hh:mm:ss / mm:ss>`
+- **Timecode inicio / duración:** `00:08:15 / 02:08`
 
 Eduardo realiza **rutas de movilidad escolar** en Villa María. Se comunica con los padres mediante **llamadas telefónicas** y **WhatsApp**. Valora la **puntualidad** y la **seguridad** de los viajes. Entre sus desafíos menciona el **tráfico**, el **mal estado de las pistas** y la **desconfianza de los padres**. Utiliza **Waze** y considera que una aplicación **sencilla e intuitiva** sería beneficiosa para su trabajo diario.
 
 _Estos hallazgos respaldan los atributos de enfoque en seguridad, uso de navegación Waze y necesidad de una app intuitiva del arquetipo «Conductor escolar responsable»._
+
+---
 
 #### Entrevista 3
 
@@ -150,17 +150,16 @@ _Estos hallazgos respaldan los atributos de enfoque en seguridad, uso de navegac
 **Referencia audiovisual**
 
 - **Screenshot:**
-![Entrevista_Shirley](assets/chapter2/Entrevista3(Conductor).png)
 
-- **URL Microsoft Stream:** `<URL_DEL_VIDEO>`
-- **Timecode inicio / duración:** `<hh:mm:ss / mm:ss>`
+![Entrevista_Shirley](<assets/chapter2/Entrevista3(Conductor).png>)
+
+- **Timecode inicio / duración:** `00:15:56 / 04:12>`
 
 Shirley es una conductora de movilidad escolar en Villa María del Triunfo. Mantiene comunicación con los padres de familia a través de **llamadas telefónicas** y **WhatsApp** para coordinar horarios y detalles del servicio. Prioriza la **puntualidad** y la **seguridad** en cada traslado, asegurando que los estudiantes lleguen a tiempo y sin contratiempos a sus destinos.
 
 Entre los desafíos que enfrenta en su labor diaria, Shirley destaca el **tráfico intenso**, el mal estado de las vías y la desconfianza inicial de algunos padres al dejar a sus hijos bajo su responsabilidad. Para mitigar estos inconvenientes, utiliza aplicaciones de navegación como **Waze**, que le permiten identificar rutas más eficientes y evitar congestionamientos.
 
 _Estos hallazgos respaldan los atributos de enfoque en seguridad, puntualidad, uso de navegación Waze y WhatsApp. Estos aspectos reflejan las características del arquetipo «Conductor escolar responsable»._
-
 
 ### Segmento 2 - Padres de Familia
 
@@ -177,8 +176,8 @@ _Estos hallazgos respaldan los atributos de enfoque en seguridad, puntualidad, u
 **Referencia audiovisual**
 
 - **Screenshot:** ![entrevista sebastian](assets/chapter2/entrevista-sebastian.png)
-- **URL Microsoft Stream:** [Evidencia de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201721995_upc_edu_pe/Ec9j-RYnHd1Bgv257HpOY5sBhJ25Y6QfllNQf0OO0-fN4w?e=AiCTta&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-- **Timecode inicio / duración:** `00:00:22 / 04:35`
+
+- **Timecode inicio / duración:** `00:20:28 / 04:35`
 
 Sebastián es un padre **precavido y orientado a la seguridad**. Maneja tecnología con soltura: usa a diario su **smartphone Android con GPS** y entiende el funcionamiento de las **pulseras RFID**. Se comunica principalmente por **WhatsApp**, complementándolo con llamadas y SMS; para noticias revisa **Facebook** y **Twitter**.  
 Su **objetivo principal** es garantizar que su hijo de 5 años llegue seguro al colegio y recibir **notificaciones en tiempo real** sobre la ruta, paradas y velocidad del bus. Sus **frustraciones** incluyen la falta de monitoreo adecuado y no saber si el conductor respeta las normas de tránsito. Valora proveedores que integren **GPS y RFID** con alertas push y que certifiquen la capacitación de los conductores. Está dispuesto a **cambiar de servicio** si le ofrecen mayor control y transparencia en la operación.
@@ -200,8 +199,8 @@ _Estos hallazgos sustentan los atributos de seguridad, monitoreo en tiempo real 
 **Referencia audiovisual**
 
 - **Screenshot:** ![entrevista liliana](assets/chapter2/entrevista-liliana.jpg)
-- **URL Microsoft Stream:** `<URL_DEL_VIDEO>`
-- **Timecode inicio / duración:** `<hh:mm:ss / mm:ss>`
+
+- **Timecode inicio / duración:** `00:11:10 / 04:54`
 
 Liliana siente una **preocupación constante por la falta de información en tiempo real** sobre el transporte escolar. Quiere recibir notificaciones claras de la **ubicación del bus** y confirmaciones cuando su hijo sube o baja. Conoce el uso de **GPS** y, aunque no maneja la tecnología **RFID**, muestra interés en aprender. Consideraría **cambiar de proveedor** si percibe fallas en la seguridad o en la comunicación con los padres.
 
@@ -225,12 +224,15 @@ _Estos hallazgos refuerzan los atributos de necesidad de rastreo en tiempo real 
 
 ![entrevista janetlis](assets/chapter2/entrevista-janetlis.png)
 
-- **URL Microsoft Stream:** [Evidencia de la entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202012207_upc_edu_pe/EXA6KZSDBtVNi_aEh1tkvOUBDyF5CqQJRzg-7VMH4Di8Xg?e=RLefmX)
-- **Timecode inicio / duración:** `<hh:mm:ss / mm:ss>`
+- **Timecode inicio / duración:** `00:24:48 / 02:52`
 
 Janetlis valora la **seguridad durante el traslado escolar** y desea **información en tiempo real**. Quiere alertas sobre la ubicación del vehículo y cuando su hijo suba o baje. Está familiarizada con **GPS** y aplicaciones móviles; aunque no ha usado **RFID**, está dispuesta a conocer su aplicación en el transporte escolar. Cambiaría de proveedor si detecta **deficiencias en seguridad** o en la **comunicación directa** con los padres.
 
 _Estos hallazgos respaldan los atributos de seguridad, monitoreo en tiempo real y apertura a nuevas tecnologías del arquetipo «Padre preocupado por la seguridad»._
+
+---
+
+**URL Microsoft Stream:** [`Evidencia de entrevista`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210582_upc_edu_pe/EdMgkMqtL39FjDfyJFefR6YBtRIt8PBmhvyA1yBKXGeSwQ?e=luQckS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ### 2.2.3. Análisis de entrevistas
 
