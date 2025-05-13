@@ -25,12 +25,20 @@
 ### 5.3.2. Landing Page Mock-up.
 
 ## 5.4. Applications UX/UI Design.
-
 ### 5.4.1. Applications Wireframes.
+**Web Application**<br>
+<img src="/assets/chapter4/WebApp-Wireframes/Login.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="/assets/chapter4/WebApp-Wireframes/Dashboard.png" alt="Web app wireframes 2" style="width:100%;">
+<img src="/assets/chapter4/WebApp-Wireframes/Drivers.png" alt="Web app wireframes 3" style="width:100%;">
+<img src="/assets/chapter4/WebApp-Wireframes/Students.png" alt="Web app wireframes 4" style="width:100%;">
+<img src="/assets/chapter4/WebApp-Wireframes/Report.png" alt="Web app wireframes 5" style="width:100%;">
 
 ### 5.4.2. Applications Wireflow Diagrams.
+**Web Application**<br>
+<img src="/assets/chapter4/WebApp-Wireflows/Flow-WebHome.png" alt="Web app wireframes 1" style="width:100%;">
 
 ### 5.4.2. Applications Mock-ups.
+
 
 ### 5.4.3. Applications User Flow Diagrams.
 
