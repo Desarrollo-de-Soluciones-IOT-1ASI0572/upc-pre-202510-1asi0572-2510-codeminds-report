@@ -410,10 +410,10 @@ En este apartado se presenta el Empathy Mapping, una herramienta que utilizamos 
 
 Segmento: Padre
 
-![EmpathyMappingPadre](<assets/chapter2/EmpathyMapping(Padre).png>)
+![EmpathyMappingPadre](assets/chapter2/EmpathyMapping(Padre).png)
 
 Segmento: Conductor
-![EmpathyMappingPadre](<assets/chapter2/Empathy%20map(Conductores).png>)
+![EmpathyMappingPadre](assets/chapter2/Empathy%20map(Conductores).png)
 
 ### 2.3.5. As-is Scenario Mapping.
 
