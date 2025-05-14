@@ -12,23 +12,27 @@ En esta sección, presentaremos cómo fue el desarrollo del event storming utili
 En esta etapa, se identificaron los eventos clave que representan las acciones
 significativas dentro del sistema.
 
-![Step 1](assets/chapter4/step1_.jpg)
+![Step 1](assets/chapter4/step1.jpg)
 
 **Step 2: Timelines**
 
 En esta etapa, los eventos previamente identificados fueron organizados en subgrupos, cada uno encabezado por un evento principal que resume la función principal del grupo. Dentro de cada subgrupo se contemplaron tanto los happy paths, que describen los escenarios ideales de ejecución, como los unhappy paths, que reflejan posibles fallos o situaciones no deseadas. Esta organización permitió estructurar los eventos de forma lógica y facilitó una mejor comprensión de las distintas secuencias de acciones en el sistema.
 
-![step2-Timeline 1](assets/chapter4/step2-timeline1_.jpg)
+![step2-Timeline 1](assets/chapter4/step2-timeline1.jpg)
 
-![step2-Timeline 2](assets/chapter4/step2-timeline2_.jpg)
+![step2-Timeline 2](assets/chapter4/step2-timeline2.jpg)
+
+![step2-Timeline 2](assets/chapter4/step2-timeline3.jpg)
 
 **Step 3: Pain Points**
 
 A lo largo del proceso, se detectaron ciertos puntos críticos o problemáticos dentro del flujo. Estos elementos resultan fundamentales para identificar oportunidades de mejora en la experiencia del usuario y en la eficiencia del diseño del sistema.
 
-![step3-Timeline 1](assets/chapter4/step3-timeline1_.jpg)
+![step3-Timeline 1](assets/chapter4/step3-timeline1.jpg)
 
-![step3-Timeline 2](assets/chapter4/step3-timeline2_.jpg)
+![step3-Timeline 2](assets/chapter4/step3-timeline2.jpg)
+
+![step3-Timeline 2](assets/chapter4/step3-timeline3.jpg)
 
 **Step 4: Pivotal Points**
 
@@ -38,13 +42,17 @@ Se identificaron los puntos clave del sistema, es decir, aquellos eventos críti
 
 ![step4-Timeline 2](assets/chapter4/step4-timeline2_.jpg)
 
+![step4-Timeline 2](assets/chapter4/step4-timeline2.jpg)
+
 **Step 5: Commands**
 
 Se asignó un comando a cada evento, junto con el actor responsable de ejecutarlo. Esto permitió definir con claridad quién inicia cada acción y cómo los distintos usuarios interactúan con el sistema.
 
-![step5-Timeline 1](assets/chapter4/step5-timeline1_.jpg)
+![step5-Timeline 1](assets/chapter4/step5-timeline1.jpg)
 
-![step5-Timeline 2](assets/chapter4/step5-timeline2_.jpg)
+![step5-Timeline 2](assets/chapter4/step5-timeline2.jpg)
+
+![step5-Timeline 2](assets/chapter4/step5-timeline3.jpg)
 
 **Step 6: Policies**
 
@@ -57,22 +65,27 @@ ejecución de un comando
 
 En esta etapa se definen y construyen los modelos de lectura correspondientes a cada contexto del sistema. El objetivo es garantizar que estos modelos presenten la información requerida de forma clara, eficiente y alineada con las necesidades específicas de cada usuario o funcionalidad.
 
-![step7-Timeline 1](assets/chapter4/step7-timeline1_.jpg)
+![step7-Timeline 1](assets/chapter4/step7-timeline1.jpg)
 
-![step7-Timeline 1](assets/chapter4/step7-timeline2_.jpg)
+![step7-Timeline 1](assets/chapter4/step7-timeline2.jpg)
+
+![step7-Timeline 1](assets/chapter4/step7-timeline3.jpg)
 
 **Step 8: External Systems**
 
 Durante esta etapa, se identifican los sistemas externos relevantes.
 
-![step8](assets/chapter4/step8_.jpg)
+![step8](assets/chapter4/step8.jpg)
 
 **Step 9: Aggregates**
 
 En esta fase se identifican y estructuran los agregados dentro de cada contexto del sistema. Estos agregados agrupan entidades y operaciones relacionadas que deben mantenerse consistentes, garantizando la integridad de las transacciones y el comportamiento coherente del sistema.
 
-![step9-Timeline 1](assets/chapter4/step9-timeline1_.jpg)
-![step9-Timeline 1](assets/chapter4/step9-timeline2_.jpg)
+![step9-Timeline 1](assets/chapter4/step9-timeline1.jpg)
+
+![step9-Timeline 1](assets/chapter4/step9-timeline2.jpg)
+
+![step9-Timeline 1](assets/chapter4/step9-timeline3.jpg)
 
 #### 4.1.1.1 Candidate Context Discovery.
 
@@ -81,18 +94,22 @@ En esta parte, se describe cómo, a partir del modelo generado mediante EventSto
 Al final, obtuvimos 5 bounded context, que son:
 
 ![identity](assets/chapter4/identity.jpg)
+
 ![iam](assets/chapter4/iam.jpg)
+
 ![analytics](assets/chapter4/analytics.jpg)
+
 ![tracking](assets/chapter4/tracking.jpg)
+
 ![notification](assets/chapter4/notification.jpg)
+
+![notification](assets/chapter4/profile.jpg)
 
 Lo que queda de la siguiente manera:
 
 ![step10](assets/chapter4/step10.jpg)
 
-Link al miro:
-
-https://miro.com/app/board/uXjVI_ESDBw=/?share_link_id=91933122181
+Link al miro: https://miro.com/app/board/uXjVI1_yeP0=/?share_link_id=516096367099
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 
