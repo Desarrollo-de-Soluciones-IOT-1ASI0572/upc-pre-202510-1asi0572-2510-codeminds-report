@@ -358,7 +358,7 @@ Los repositorios en esta capa se implementan las interfaces de la Capa de Domini
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram.
 
-![Identity-Assignment-DB](assets/chapter4/Bounded-Context-Database-Design-Diagram..PNG)
+![Identity-Assignment-DB](assets/chapter4/Database_Design_Diagram-Vehicule.png)
 
 ### 4.2.4. Bounded Context: Notification
 
