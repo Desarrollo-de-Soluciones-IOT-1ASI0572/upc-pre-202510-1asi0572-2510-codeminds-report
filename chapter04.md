@@ -151,6 +151,10 @@ Se crearon los Canvases en base a los Bounded Context definidos anteriormente
 
 ![AnalyticsCanvas](assets/chapter4/AnalyticsCanvas.jpg)
 
+###### Profile Assignment Canvas
+
+![AnalyticsCanvas](assets/chapter4/ProfileCanvas.jpg)
+
 ### 4.1.2. Context Mapping.
 
 ![ContextMapping](assets/chapter4/ContextMapping.PNG)
