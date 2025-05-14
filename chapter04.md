@@ -153,7 +153,7 @@ El mapa de contexto ilustra las relaciones clave entre los diferentes contextos 
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
 
 Diagrama en el que se visualiza la estructura general del sistema
-![landscapediagram](assets/chapter4/landscape-diagram-iot.png)
+![landscapediagram](assets/chapter4/fixed-landscape-diagram-iot.png)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
 
