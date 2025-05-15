@@ -32,7 +32,7 @@ La combinación de ambas tipografías crea un sistema coherente donde Inter atra
 
 
 #### SPACING
-Se definió utilizar un espaciado amplio entre los elementos de la interfaz con el objetivo de ofrecer una experiencia visual más clara y ordenada. Esta decisión busca reducir la sobrecarga visual, permitiendo que cada componente tenga su propio espacio y se perciba con mayor facilidad.<br>
+Se optó por emplear un espaciado generoso entre los elementos de la interfaz para lograr una experiencia visual más limpia y estructurada. Esta elección tiene como finalidad minimizar la sobrecarga visual, facilitando que cada componente destaque por separado y sea identificado con mayor claridad.<br>
 <img src="/assets/chapter4/SPACING.png" alt="SPACING" style="width:60%; height:60%;">
 </br>
 
@@ -51,16 +51,97 @@ Este diseño es versátil y funcional en distintos formatos (digital, impresos o
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
 
 ## 5.2. Information Architecture.
-
 ### 5.2.1. Organization Systems.
+La organización de la información y la interacción del usuario es fundamental para la usabilidad y efectividad de la plataforma EduGo. Se han definido distintos enfoques organizativos considerando las necesidades y flujos de trabajo de los diferentes tipos de usuarios.  Además, se establecen esquemas de categorización que permiten una clasificación lógica y accesible de la información clave del sistema:
+
+- Landing Page: Se aplicará una organización jerárquica visual, presentando primero una propuesta de valor clara (“Transporte Escolar Seguro e Inteligente”), seguida de secciones como beneficios, cómo funciona, contacto y testimonios.
+
+Aplicación Web:
+
+- Para padres: organización  secuencial, guiándolos paso a paso desde el inicio de sesión, acceso al estado del transporte, hasta el historial de viajes.
+
+- Para conductores y administradores: organización matricial, permitiendo gestionar múltiples rutas, estudiantes y reportes desde un panel administrativo.
+
+Esquemas de categorización:
+
+- Por audiencia: padres, conductores, administradores.
+
+- Por tópicos: ubicación en tiempo real, control de velocidad, asistencia con RFID, reportes históricos.
 
 ### 5.2.2. Labeling Systems.
+La aplicación web y movil contará con un sistema de etiquetado simple y sencillo para captar el rápido entendimiento del usuario, evitando confusiones y facilitando la navegación.
+Las siguientes etiquetas serán utilizadas para ambos contextos de los segmentos objetivos.
+
+Para la aplicacion web
+| Etiqueta | Descripción |
+|----------|-------------|
+| Inicio   | Seccion donde el administrador se logea al sistema |
+| Dashboard | Sección donde se visualizan gráficos sobre el desempeño del conductor (tiempos de llegada, número de incidentes y distancia recorrida)  |
+| Drivers and students  | Sección donde se visualiza la informacion de los conductores y estudiantes. |
+| Report  | Sección donde se visualiza datos escritos sobre las acciones del conductor(Incidentes e historia de recorrido) |
+
+Para la app movil-Padres
+| Etiqueta | Descripción |
+|----------|-------------|
+| Home | Pantalla principal donde se puede visualizar la opcion de ver a sus hijos y notificaiones . |
+| Tracking | Sección donde se visualiza un mapa en el cual el padre puede seguir la  ruta de su hijo|
+| Notification | Sección donde se registra las notificaciones o alertas al padre. |
+| Account | Sección donde se puede ver los datos personales del padre. |
+
+Para la app movil-Conductores
+| Etiqueta | Descripción |
+|----------|-------------|
+| Home | Pantalla principal donde se puede visualizar la opcion de ver sus viajes pasados,la asistencia de cada estudiante y el boton de emergencia en caso de reportar algun incidente . |
+| Map | Sección donde se visualiza un mapa en el cual el conductor selecciona la ruta de viaje para ir a su destino|
+| Notification | Sección donde se registra las notificaciones o alertas al conductor. |
+| Account | Sección donde se puede ver los datos personales del conductore. |
 
 ### 5.2.3. SEO Tags and Meta Tags
+Meta tags estratégicos se usarán para posicionar la landingpag y aplicacion web, mejorando su visibilidad y acceso
+* Title tag: Titulo principal que será visualizado tanto para el landing,mobile y web ```<title> EduGo </title>```
+* Meta Description: Descripción que explica de que  trata EduGo ```<meta name = "description" content = "Seguridad Inteligente en el Transporte Escolar | Monitoreo en tiempo real de la ubicación y seguridad de tus hijos"/>```
+* Meta Keywords: Palabras clave para que los usuarios encuentren la aplicación web más rápido y sencillo ```<meta name = "keyword" content = "DashBoard,Drivers and students,Reports"/>```
+* Author and Copyright: Enmarcar derechos de autor para EduGo ```<meta name = "author" content = "Codeminds"/>```
+* Viewport: Sirve para indicar al navegador como ajustar el tamaño de la página en medida al dispositivo ```<meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>```
+
 
 ### 5.2.4. Searching Systems.
+En la aplicación web EduGo se busca implementar un sistema facil de usar y efectivo para que los administradores puedan monitorear a los conductores . Se utilizará un sistema de navegacion simple y directo, con la posibilidad de visualizar graficos de la acciones del conductor,los reportes y la lista de todos los conductores y estudiantes
+
+**¿Que se busca?:** El administrador quiere ver un grafico donde se muestre el numero de incidentes,distanciamiento de recorrido y el tiempo de llegada al colegio.<br>
+**¿Que resultados se mostrarán?:** Graficos variados. <br>
+**Interface de busqueda:** El administrador puede encontrar información de cada conductor mediante un filtro busqueda rapida en el se le mostrara un grafico circular de barras y de lineas.
+<br>
+<br>
+**¿Que se busca?:** El administrador quiere visualizar a todos los conductores y estudiantes registrados.<br>
+**¿Que resultados se mostrarán?:** El nombre de conductor o estudiante con su foto correspondiante.<br>
+**Interface de busqueda:** El administrador puede visualizar a todos los estudiantes y conductores atraves de un filtro de busqueda rapida donde puede ver tanto a los conductores y estudiantes.
+<br>
+<br>
+**¿Que se busca?:** El administrador busca ver y filtrar registros de incidentes o el historial de rutas de cada conductor. <br>
+**¿Que resultados se mostrarán?:** La tabla muestra la lista de incidentes registrados o el historial de rutas. <br>
+**Interface de busqueda:** La interfaz de búsqueda ofrece varias opciones para que el administrador encuentre la información deseada donde selecciona al Conductor,el Tipo de Reporte y la Fecha. Finalmente, se incluye un Botón Search, que el administrador debe presionar para aplicar los filtros seleccionados y obtener los resultados correspondientes."
+
 
 ### 5.2.5. Navigation Systems.
+Landing Page:
+
+- Menú superior con scroll automático a secciones: Inicio, Beneficios, Funcionamiento, Contacto.
+
+- Botón flotante para cambiar idioma.
+
+- Botón “Solicita una demo” en múltiples ubicaciones.
+
+Aplicación Web:
+
+- Menu al lado izquierdo con secciones diferentes: Dashboard,Drivers and Students,report.
+
+Aplicación Móvil:
+
+- Padres: Menú inferior con íconos → [Home | Tracking | Notification | Account]
+
+- Conductores: Menú inferior con íconos → [Home | Map | Notification | Account]
+
 
 ## 5.3. Landing Page UI Design.
 ### 5.3.1. Landing Page Wireframe.
