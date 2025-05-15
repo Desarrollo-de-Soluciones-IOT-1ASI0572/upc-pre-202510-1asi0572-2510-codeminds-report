@@ -1,12 +1,86 @@
 ﻿# Capítulo VI: Product Implementation, Validation & Deployment
 
 ## 6.1. Software Configuration Management.
-
 ### 6.1.1. Software Development Environment Configuration.
+#### Project Management
+- Trello:
+Trello es una herramienta web para la gestión de proyectos que funciona en la mayoría de los navegadores. Se utilizó para organizar y registrar las tareas pendientes, en proceso y completadas, lo que permitió mantener un control claro del progreso del proyecto y las responsabilidades de cada miembro del equipo.
+
+#### Product UX/UI Design
+- Miro:
+Miro fue empleado para el desarrollo de mapas de escenarios y planificación visual, facilitando la comprensión y comunicación entre los distintos segmentos objetivo.
+
+- Figma:
+Figma jugó un papel fundamental en la creación colaborativa de wireframes, maquetas y prototipos para el landing page, aplicaciones web y moviles. Su acceso es gratuito mediante una cuenta registrada, lo que facilita la colaboración remota entre los miembros del equipo.
+
+#### Software Developement
+**Landing Page:** <br>
+El desarrollo de la Landing Page se realizó utilizando las tecnologías fundamentales para el diseño web moderno:
+<br>
+- HTML5: Para la estructura semántica del contenido. <br>
+- CSS3: Para el diseño visual, uso de media queries y animaciones básicas. <br>
+- JavaScript: Para la interactividad, validaciones de formularios y manipulación del DOM.
+<br>
+Estas tecnologías permiten una página ligera, responsive y optimizada para dispositivos móviles, garantizando una experiencia de usuario accesible y clara.
+
+<br>
+<br>
+
+**Frontend Web:** <br>
+Para el desarrollo de la aplicación web se emplearon tecnologías del entorno frontend moderno:
+
+- **HTML5**, **CSS3** y **JavaScript** como fundamentos esenciales.
+- **Angular** como framework principal, permitiendo una arquitectura basada en componentes, enrutamiento interno, servicios reutilizables y vinculación bidireccional de datos.
+
+Angular facilitó la creación de una interfaz dinámica y escalable, especialmente útil para usuarios como padres y administradores, quienes requieren acceso en tiempo real a información del transporte escolar.
+
+<br>
+
+**Aplicacion Movil** :<br>
+La aplicación móvil fue desarrollada de forma **nativa para Android** utilizando:
+- **Android Studio** como entorno de desarrollo integrado (IDE).
+- **Kotlin** como lenguaje principal, por su interoperabilidad con Java, su sintaxis moderna y su orientación a la seguridad.
+<br>
+Esta aplicación móvil complementa la experiencia web y ofrece a los padres una herramienta confiable para el seguimiento diario de sus hijos en el transporte escolar, directamente desde su smartphone.
+
+#### IDE's de desarrollo
+- WebStorm :
+Utilizado para la creación del **Landing Page** y la **aplicación web**. Este IDE, desarrollado por JetBrains, está optimizado para tecnologías web como **HTML5**, **CSS3**, **JavaScript** y frameworks modernos como **Angular**, lo que permite una codificación más eficiente, estructurada y mantenible.
+- Android Studio :
+Fue la herramienta principal para el desarrollo de la **aplicación móvil**. Esta se implementó en **Kotlin**, siguiendo las prácticas recomendadas para el desarrollo nativo en Android. Esto garantiza una experiencia de usuario fluida y una compatibilidad robusta con las versiones más recientes del sistema operativo.
+- IntelliJ IDEA :
+Se empleó para el desarrollo del **backend** del sistema. Este potente IDE también desarrollado por JetBrains, permite integrar múltiples tecnologías y facilita la implementación de servicios, controladores y lógica de negocio. Además, ofrece herramientas avanzadas como **depuración**, integración con **bases de datos**, y compatibilidad con herramientas de construcción como **Gradle** o **Maven**.
+
+#### Software Testing
+- Para verificar el correcto funcionamiento del sistema en cada una de sus partes, se realizaron diversas pruebas utilizando herramientas específicas según el entorno. En el caso de la landing page y la aplicación web, se utilizaron navegadores modernos como Google Chrome, Microsoft Edge y Mozilla Firefox, tanto en sus versiones de escritorio como móviles, lo cual permitió inspeccionar el comportamiento visual, la interacción del usuario y la correcta adaptación del diseño responsivo. Para el backend, se empleó Postman, una herramienta que permitió validar el funcionamiento de cada API desarrollada, comprobando los métodos HTTP, las respuestas recibidas, los códigos de estado y el formato de los datos enviados y recibidos. Finalmente, para la aplicación móvil, se utilizó el emulador integrado en Android Studio, que permitió simular dispositivos con distintas resoluciones y versiones de Android, lo cual facilitó la detección de errores y la comprobación de la experiencia del usuario en diferentes escenarios sin necesidad de usar un dispositivo físico.
+
+#### Software Deployment
+- **Vercel** :
+ Plataforma en la nube que proporciona un conjunto completo de herramientas para el desarrollo, despliegue y alojamiento de aplicaciones web. Facilita a los desarrolladores la creación y publicación eficiente y escalable de sitios estáticos o dinámicos.
+
+#### Software Documentation
+- Markdown :
+Lenguaje de marcado ligero que permite dar formato al texto de forma sencilla utilizando texto plano. Se utiliza para documentar información relevante sobre el contexto, organización, producción y creación del proyecto.
+- Structurizr:
+Herramienta para la creación rápida de diagramas C4 mediante una sintaxis similar a un lenguaje de programación. Requiere una cuenta registrada para su uso en la aplicación web.
+
+- Vertabelo: 
+Es una aplicación web colaborativa que facilita el diseño e implementación de bases de datos en una amplia variedad de motores. 
 
 ### 6.1.2. Source Code Management.
 
 ### 6.1.3. Source Code Style Guide & Conventions.
+Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones en el código:
+
+**Idioma:**  
+- La documentación y elaboración de informes se realizarán en español.  
+- Los nombres de archivos, variables, clases, funciones y constantes en HTML, CSS, JavaScript, TypeScript y Java estarán en inglés.
+
+**Clases y funciones:**  
+- Los identificadores para clases y funciones se escribirán en inglés.
+
+**Comentarios y documentación del código:**  
+- Se promoverá el uso de comentarios claros y breves en español, para explicar el propósito y funcionamiento de las partes relevantes del código, facilitando así la comprensión para todo el equipo de desarrollo.
 
 ### 6.1.4. Software Deployment Configuration.
 
