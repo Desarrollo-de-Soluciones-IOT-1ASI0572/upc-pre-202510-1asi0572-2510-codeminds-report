@@ -32,12 +32,12 @@ La combinación de ambas tipografías crea un sistema coherente donde Inter atra
 
 
 #### SPACING
-Se definió utilizar un espaciado amplio entre los elementos de la interfaz con el objetivo de ofrecer una experiencia visual más clara y ordenada. Esta decisión busca reducir la sobrecarga visual, permitiendo que cada componente tenga su propio espacio y se perciba con mayor facilidad.
-<img src="../assets/chapter4/SPACING.png" alt="SPACING" style="width:60%; height:60%;">
-<br></br>
+Se definió utilizar un espaciado amplio entre los elementos de la interfaz con el objetivo de ofrecer una experiencia visual más clara y ordenada. Esta decisión busca reducir la sobrecarga visual, permitiendo que cada componente tenga su propio espacio y se perciba con mayor facilidad.<br>
+<img src="/assets/chapter4/SPACING.png" alt="SPACING" style="width:60%; height:60%;">
+</br>
 
 #### BRANDING  
-<center><img src="../assets/chapter4/CodeMinds-Logo.png" alt="LOGO" style="width:10%"></center>
+<center><img src="/assets/chapter4/CodeMinds-Logo.png" alt="LOGO" style="width:50%"></center>
 <br></br>
 
 Se escogió este diseño para el logo de EduGo porque combina elementos visuales que representan movimiento, educación y tecnología de forma clara y moderna. El ícono del autobús escolar, acompañado de un marcador de ubicación, comunica de inmediato el propósito de la marca: un servicio inteligente y accesible de transporte escolar.
@@ -63,10 +63,21 @@ Este diseño es versátil y funcional en distintos formatos (digital, impresos o
 ### 5.2.5. Navigation Systems.
 
 ## 5.3. Landing Page UI Design.
-
 ### 5.3.1. Landing Page Wireframe.
+<img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Caracteristicas y beneficios.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-teamweb.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-teamList.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Contacto.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Footer.png" alt="Web app wireframes 1" style="width:100%;">
 
 ### 5.3.2. Landing Page Mock-up.
+<img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Caracteristicas y beneficios.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-team y web.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-teamList.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Contacto.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Footer.png" alt="Web app wireframes 1" style="width:100%;">
 
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
@@ -101,7 +112,12 @@ Este diseño es versátil y funcional en distintos formatos (digital, impresos o
 <img src="/assets/chapter4/WebApp-UserFlow/UserFlow-WebAppHome.png" alt="Web app wireframes 1" style="width:100%;">
 <img src="/assets/chapter4/WebApp-UserFlow/UserFlow-WebAppReport.png" alt="Web app wireframes 1" style="width:100%;">
 ## 5.5. Applications Prototyping.
+
 **Web Application :** <br>
-[https://www.figma.com/proto/27YLKQmieuwzcaSKuPucG2/Web?node-id=82-514&p=f&t=gEB7y5RLh908G3lG-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=82%3A514&show-proto-sidebar=1](https://www.figma.com/proto/27YLKQmieuwzcaSKuPucG2/Web?node-id=82-514&p=f&t=gEB7y5RLh908G3lG-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=82%3A514&show-proto-sidebar=1)
-**App Movil :** <br>
+<img src="/assets/chapter4/WebApp-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
+<br>
+[https://www.figma.com/proto/27YLKQmieuwzcaSKuPucG2/Web?node-id=82-514&p=f&t=gEB7y5RLh908G3lG-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=82%3A514&show-proto-sidebar=1](https://www.figma.com/proto/27YLKQmieuwzcaSKuPucG2/Web?node-id=82-514&p=f&t=gEB7y5RLh908G3lG-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=82%3A514&show-proto-sidebar=1) <br>
+**App Movil :**
+<img src="/assets/chapter4/AppMovil-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
+<br>
 [https://www.figma.com/proto/aFhwXAsZUzKZCf7WFTepW5/Mobile?node-id=1-370&p=f&t=gbUbh6U2UpBSJiLp-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A370&show-proto-sidebar=1](https://www.figma.com/proto/aFhwXAsZUzKZCf7WFTepW5/Mobile?node-id=1-370&p=f&t=gbUbh6U2UpBSJiLp-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A370&show-proto-sidebar=1)
