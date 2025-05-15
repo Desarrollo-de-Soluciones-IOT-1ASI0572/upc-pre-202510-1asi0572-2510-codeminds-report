@@ -240,11 +240,26 @@ _Estos hallazgos refuerzan los atributos de necesidad de rastreo en tiempo real 
 
 ![entrevista janetlis](assets/chapter2/entrevista-janetlis.png)
 
-- **Timecode inicio / duración:** `00:24:48 / 02:52`
+- **Timecode inicio / duración:** `24:47 / 27:12`
 
 Janetlis valora la **seguridad durante el traslado escolar** y desea **información en tiempo real**. Quiere alertas sobre la ubicación del vehículo y cuando su hijo suba o baje. Está familiarizada con **GPS** y aplicaciones móviles; aunque no ha usado **RFID**, está dispuesta a conocer su aplicación en el transporte escolar. Cambiaría de proveedor si detecta **deficiencias en seguridad** o en la **comunicación directa** con los padres.
 
 _Estos hallazgos respaldan los atributos de seguridad, monitoreo en tiempo real y apertura a nuevas tecnologías del arquetipo «Padre preocupado por la seguridad»._
+
+| Pregunta                                                                                                                 | Timestamp | Respuesta                                                                                                                                                    |
+|--------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ¿Cuál es su nombre?                                                                                                      | 24:47     | Janetlis.                                                                                                                                                    |
+| ¿Qué edad tiene?                                                                                                         | 24:50     | 27 años.                                                                                                                                                     |
+| ¿En qué distrito reside?                                                                                                 | 24:53     | Vivo en Lima, Miraflores.                                                                                                                                    |
+| ¿Cuál es su ocupación actual?                                                                                            | 24:58     | Diseño gráfico.                                                                                                                                              |
+| ¿Cuántos hijos tiene y en qué nivel escolar están?                                                                       | 25:02     | Tengo un hijo y está en la primaria.                                                                                                                         |
+| ¿Cómo trasladan sus hijos al colegio actualmente?                                                                        | 25:15     | Actualmente traslado a mi hijo en la movilidad escolar privada, contratada directamente con el conductor que no recomendado.                                 |
+| ¿Ha tenido alguna preocupación relacionada con la seguridad durante el transporte escolar?                               | 25:31     | Sí, siempre está la preocupación de no saber exactamente dónde está el vehículo, si se traza o si hubo algún inconveniente en el camino.                     |
+| ¿Qué tipo de información le gustaría recibir en tiempo real sobre el transporte de sus hijos?                            | 25:50     | Me gustaría recibir la ubicación en tiempo real del vehículo, alertas cuando mi hijo sube o baja de la movilidad, y notificaciones si hay retrasos.          |
+| ¿Cómo suele comunicarse con el conductor o con la empresa de transporte?                                                 | 26:15     | Usualmente por Whatsapp o llamada telefónica directamente al conductor.                                                                                      |
+| ¿Está familiarizado/a con el uso de tecnología como GPS o pulseras RFID?                                                 | 26:30     | Sí, he usado aplicaciones que muestran ubicación en el tiempo real y también he escuchado del uso de la pulsera RFID para registrar asistencia.              |
+| ¿Qué lo motivaría a cambiar de proveedor de transporte escolar?                                                          | 26:50     | Principalmente la seguridad, la puntualidad y la calidad de la comunicación con los padres. Si el servicio ofreciera mejor control y seguimiento, cambiaría. |
+| ¿Qué aplicaciones o redes sociales utiliza con mayor frecuencia para mantenerse informado?                               | 27:12     | Principalmente WhatsApp, Facebook y algunas veces Instagram. También reviso noticias locales a través de aplicaciones móviles.                               |
 
 ---
 
