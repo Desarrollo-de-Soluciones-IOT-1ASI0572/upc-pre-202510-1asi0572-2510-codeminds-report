@@ -488,3 +488,49 @@ En este punto, se presentan los diagramas de clases que representan la estructur
 En este punto, presentamos el diseño de la base de datos para el contexto Analytics, detallando las tablas principales, sus atributos y las relaciones entre ellas.
 
 ![DatabaseAnalytics](assets/chapter4/analytics_db.png)
+
+### 4.2.6. Bounded Context: Profile Assignment
+
+Este contexto se encarga de la gestión de los perfiles personales dentro del sistema de transporte escolar. Incluye la creación, actualización, verificación y vinculación de perfiles de padres y administradores, así como la gestión de perfiles de estudiantes como entidades del dominio, sin acceso directo al sistema.
+
+![DomainLayer](assets/chapter4/profile_1.png)
+
+![DomainLayer](assets/chapter4/profile_2.png)
+
+#### 4.2.6.1. Domain Layer.
+
+En esta capa se representa el núcleo del dominio para el bounded context Profile Assignment, modelando las entidades, objetos de valor, agregados, fábricas, servicios de dominio y repositorios que encapsulan la lógica y reglas de negocio relacionadas con la gestión de perfiles y su vinculación en el sistema de transporte escolar.
+
+![DomainLayer](assets/chapter4/domainLayerProfile.png)
+
+#### 4.2.6.2. Interface Layer.
+
+La Interface Layer es responsable de recibir las solicitudes del usuario o sistemas externos, procesarlas (validación básica, autorización) y delegar la ejecución de las operaciones al Domain Layer. Contiene controladores que representan puntos de entrada para las funcionalidades del bounded context Profile Assignment.
+
+![Layer](assets/chapter4/layerProfile.png)
+
+#### 4.2.6.3. Application Layer.
+
+La Application Layer es responsable de coordinar los flujos de procesos del negocio, gestionando la interacción entre la interfaz de usuario, los servicios del dominio y la infraestructura. En este contexto, se implementan los Command Handlers y Event Handlers que permiten manejar comandos emitidos por la UI o eventos generados internamente, respetando las capacidades de la aplicación.
+
+![ApplicationAnalytics](assets/chapter4/applicationProfile.png)
+
+#### 4.2.6.4. Infrastructure Layer.
+
+Esta capa contiene la implementación técnica que permite la interacción con servicios externos, bases de datos y sistemas de mensajería. Aquí se implementan las interfaces definidas en el Domain Layer, como los repositorios para el acceso a datos y adaptadores para otros servicios externos necesarios.
+
+![InfrastructureAnalytics](assets/chapter4/infrastructureProfile.png)
+
+#### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
+
+![ComponentProfile](assets/chapter4/componen-profile.png)
+
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
+
+#### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
+
+![ClassProfile](assets/chapter4/class-profile.png)
+
+#### 4.2.6.6.2. Bounded Context Database Design Diagram.
+
+![DatabaseProfile](assets/chapter4/bd-profile.png)
