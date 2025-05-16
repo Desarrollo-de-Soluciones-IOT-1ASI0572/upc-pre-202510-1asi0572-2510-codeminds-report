@@ -264,19 +264,19 @@ El Diccionario de Clases es una herramienta clave en el diseño y desarrollo del
 
 #### Student
 
-![studentclass](assets/chapter4/student-class.jpg)
+![studentclass](assets/chapter4/student-class.png)
 
 #### Wristband
 
-![wristbandclass](assets/chapter4/wristband-class.jpg)
+![wristbandclass](assets/chapter4/wristband-class.png)
 
 #### Sensor
 
-![sensorclass](assets/chapter4/sensor-class.jpg)
+![sensorclass](assets/chapter4/sensor-class.png)
 
 #### SensorScan
 
-![sensorscanclass](assets/chapter4/sensorscan-class.jpg)
+![sensorscanclass](assets/chapter4/sensorscan-class.png)
 
 #### 4.2.2.1. Domain Layer.
 
