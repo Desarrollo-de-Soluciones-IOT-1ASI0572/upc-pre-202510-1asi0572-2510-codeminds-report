@@ -232,9 +232,10 @@ Para este primer sprint se decidió trbajar en una rama diferente para despues u
 **Para el FrontEnd**
 <img src="/assets/chapter4/frontend-execution.PNG" alt="Contact" style="width:100%;">
 [https://edugo-web-app.web.app/sign-in](https://edugo-web-app.web.app/sign-in)
-#### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
 **Enlace del video de evidencia:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202010039_upc_edu_pe/EYbOPwF2r8dKos3HTZF4OBEBfZsGa5nbYHwv3INGKTWRkA?e=G3PElV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+#### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
 A continuación se presenta la documentación de los servicios de la aplicación web, incluyendo la descripción de los
 endpoints disponibles.
