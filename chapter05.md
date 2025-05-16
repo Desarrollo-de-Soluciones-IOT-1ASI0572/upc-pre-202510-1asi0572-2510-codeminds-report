@@ -305,48 +305,48 @@ Aplicación Móvil:
 <img src="/assets/chapter4/WebApp-Wireflows/Flow-WebHome.png" alt="Web app wireframes 1" style="width:100%;">
 
 **AppMovil:** <br>
-**AppMovilWireflow Login/Register Driver**
+**AppMovilWireflow Login/Register Driver** <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Login-Register-Driver.PNG" alt="Web app wireframes 1" > <br>
-**AppMovilWireflow Login/Register Parent**
+**AppMovilWireflow Login/Register Parent** <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Login-Register-Parent.PNG" alt="Web app wireframes 1" > <br>
-**AppMovilWireflow Error Register**
+**AppMovilWireflow Error Register** <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Error-Register.PNG" alt="Web app wireframes 1" > <br>
-**AppMovilWireflow Home Driver**
+**AppMovilWireflow Home Driver** <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Home-Driver.PNG" alt="Web app wireframes 1" > <br>
-**AppMovilWireflow PastTrip**
+**AppMovilWireflow PastTrip** <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Past-Trips.PNG" alt="Web app wireframes 1" > <br>
-**AppMovilWireflow Students**
+**AppMovilWireflow Students** <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Students-Driver.PNG" alt="Web app wireframes 1" > <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Students-Driver-Checkout.PNG" alt="Web app wireframes 1" > <br>
-**AppMovilWireflow Tracking**
+**AppMovilWireflow Tracking** <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Tracking.PNG" alt="Web app wireframes 1" > <br>
-**AppMovilWireflow Notification**
+**AppMovilWireflow Notification** <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Notification.PNG" alt="Web app wireframes 1" > <br>
-**AppMovilWireflow Children**
+**AppMovilWireflow Children** <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Children.PNG" alt="Web app wireframes 1" > <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Children-ConnectBluetooh.PNG" alt="Web app wireframes 1" > <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-DeleteChildren.PNG" alt="Web app wireframes 1" > <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-AddChildren.PNG" alt="Web app wireframes 1" > <br>
-**AppMovilWireflow Edit Account**
+**AppMovilWireflow Edit Account** <br>
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Account-EditAccount.PNG" alt="Web app wireframes 1" > <br>
 
 ### 5.4.2. Applications Mock-ups.
 **Web Application: ** 
 <br>
-**WebApp MockUp Login**
-<img src="/assets/chapter4/WebApp-MockUp/Login.png" alt="Web app wireframes 1" style="width:100%;">
-**WebApp MockUp DashBoard**
-<img src="/assets/chapter4/WebApp-MockUp/Dashboard.png" alt="Web app wireframes 2" style="width:100%;">
-**WebApp MockUp Drivers and students-Drivers**
-<img src="/assets/chapter4/WebApp-MockUp/Drivers.png" alt="Web app wireframes 3" style="width:100%;">
-<img src="/assets/chapter4/WebApp-MockUp/Drivers and Students - Drivers.png" alt="Web app wireframes 5" style="width:100%;">
-**WebApp MockUp Drivers and students-Students**
-<img src="/assets/chapter4/WebApp-MockUp/Students.png" alt="Web app wireframes 4" style="width:100%;">
-<img src="/assets/chapter4/WebApp-MockUp/Drivers and Students - Students.png" alt="Web app wireframes 5" style="width:100%;">
-**WebApp MockUp Drivers and students-Report**
-<img src="/assets/chapter4/WebApp-MockUp/Reports.png" alt="Web app wireframes 5" style="width:100%;">
-<img src="/assets/chapter4/WebApp-MockUp/Reports - Incidents.png" alt="Web app wireframes 5" style="width:100%;">
-<img src="/assets/chapter4/WebApp-MockUp/Reports - Route history.png" alt="Web app wireframes 5" style="width:100%;">
+**WebApp MockUp Login** <br>
+<img src="/assets/chapter4/WebApp-MockUp/Login.png" alt="Web app wireframes 1" style="width:100%;"> <br>
+**WebApp MockUp DashBoard** <br>
+<img src="/assets/chapter4/WebApp-MockUp/Dashboard.png" alt="Web app wireframes 2" style="width:100%;"> <br>
+**WebApp MockUp Drivers and students-Drivers** <br>
+<img src="/assets/chapter4/WebApp-MockUp/Drivers.png" alt="Web app wireframes 3" style="width:100%;"> <br>
+<img src="/assets/chapter4/WebApp-MockUp/Drivers and Students - Drivers.png" alt="Web app wireframes 5" style="width:100%;"> <br>
+**WebApp MockUp Drivers and students-Students** <br>
+<img src="/assets/chapter4/WebApp-MockUp/Students.png" alt="Web app wireframes 4" style="width:100%;"> <br>
+<img src="/assets/chapter4/WebApp-MockUp/Drivers and Students - Students.png" alt="Web app wireframes 5" style="width:100%;"> <br>
+**WebApp MockUp Drivers and students-Report** <br>
+<img src="/assets/chapter4/WebApp-MockUp/Reports.png" alt="Web app wireframes 5" style="width:100%;"> <br>
+<img src="/assets/chapter4/WebApp-MockUp/Reports - Incidents.png" alt="Web app wireframes 5" style="width:100%;"> <br>
+<img src="/assets/chapter4/WebApp-MockUp/Reports - Route history.png" alt="Web app wireframes 5" style="width:100%;"> 
 
 <br>
 
@@ -364,7 +364,7 @@ Aplicación Móvil:
 <img src="/assets/chapter4/MockUp-Movil/Trip Description.png" alt="Web app wireframes 5" > <br>
 <img src="/assets/chapter4/MockUp-Movil/Change trip name.png" alt="Web app wireframes 5"> <br>
 <img src="/assets/chapter4/MockUp-Movil/Delete Trip.png" alt="Web app wireframes 5" > <br>
-**AppMovil MockUp Home Past Attendance**
+**AppMovil MockUp Home Past Attendance** <br>
 <img src="/assets/chapter4/MockUp-Movil/Attendance.png" alt="Web app wireframes 5" > <br>
 <img src="/assets/chapter4/MockUp-Movil/Attendance_Present.png" alt="Web app wireframes 5" > <br>
 <img src="/assets/chapter4/MockUp-Movil/Attendance_absent.png" alt="Web app wireframes 5" > <br>
