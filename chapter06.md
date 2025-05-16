@@ -195,4 +195,5 @@ Para el despliegue de la landing page, se configuró el servicio de GitHub Pages
 4. En la sección **"Source"**, se eligió la rama `main` como origen y la carpeta raíz (`/`) como directorio de publicación.
 5. Finalmente, se hizo clic en **"Save"** para guardar los cambios y activar el despliegue.
 <img src="/assets/chapter4/DeployLanding.PNG" alt="Contact" style="width:100%;">
+
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
