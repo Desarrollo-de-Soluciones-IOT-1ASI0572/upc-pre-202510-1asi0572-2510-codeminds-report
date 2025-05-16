@@ -9,7 +9,7 @@ El lenguaje utilizado en la aplicación es una mezcla equilibrada entre formal y
 #### COLORES 
 En el siguiente cuadro está la paleta de colores actualizada que se usará en toda la plataforma Edugo, incluyendo la Landing Page,la aplicación web y la aplicacion movil. Hemos seleccionado cuidadosamente esta gama de azules y tonos complementarios para transmitir profesionalismo, confianza y calidez, adaptándose perfectamente a un servicio de transporte escolar donde la seguridad y la claridad son prioritarias.
 
-#### Tabla de la paleta de colores para la implementación del Landing page y Web Application de Officetech
+#### Tabla de la paleta de colores para la implementación del Landing page y Web Application de EduGo
 
 | Código   | Nombre             | Descripción                                                                 |
 |----------|--------------------|-----------------------------------------------------------------------------|
@@ -145,60 +145,212 @@ Aplicación Móvil:
 
 ## 5.3. Landing Page UI Design.
 ### 5.3.1. Landing Page Wireframe.
+**LandingPage Wireframe Inicio**
 <img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
+**LandingPage Wireframe Caracteristicas y beneficios**
 <img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Caracteristicas y beneficios.png" alt="Web app wireframes 1" style="width:100%;">
+**LandingPage Wireframe Team**
 <img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-teamweb.png" alt="Web app wireframes 1" style="width:100%;">
+**LandingPage Wireframe Full Team**
 <img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-teamList.png" alt="Web app wireframes 1" style="width:100%;">
+**LandingPage Wireframe Contacto**
 <img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Contacto.png" alt="Web app wireframes 1" style="width:100%;">
+**LandingPage Wireframe Footer**
 <img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Footer.png" alt="Web app wireframes 1" style="width:100%;">
 
 ### 5.3.2. Landing Page Mock-up.
+**LandingPage MockUp Inicio**
 <img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
+**LandingPage MockUp Caracteristicas y beneficios**
 <img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Caracteristicas y beneficios.png" alt="Web app wireframes 1" style="width:100%;">
+**LandingPage MockUp Team**
 <img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-team y web.png" alt="Web app wireframes 1" style="width:100%;">
+**LandingPage MockUp Full Team**
 <img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-teamList.png" alt="Web app wireframes 1" style="width:100%;">
+**LandingPage MockUp Contacto**
 <img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Contacto.png" alt="Web app wireframes 1" style="width:100%;">
+**LandingPage MockUp Footer**
 <img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Footer.png" alt="Web app wireframes 1" style="width:100%;">
 
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
-**Web Application**<br>
+**Web Application: **<br>
+**Web Application Wireframe Login**
 <img src="/assets/chapter4/WebApp-Wireframes/Login.png" alt="Web app wireframes 1" style="width:100%;">
+**Web Application Wireframe Dashboard**
 <img src="/assets/chapter4/WebApp-Wireframes/Dashboard.png" alt="Web app wireframes 2" style="width:100%;">
+**Web Application Wireframe Drivers**
 <img src="/assets/chapter4/WebApp-Wireframes/Drivers.png" alt="Web app wireframes 3" style="width:100%;">
+**Web Application Wireframe Students**
 <img src="/assets/chapter4/WebApp-Wireframes/Students.png" alt="Web app wireframes 4" style="width:100%;">
+**Web Application Wireframe Report**
 <img src="/assets/chapter4/WebApp-Wireframes/Report.png" alt="Web app wireframes 5" style="width:100%;">
 
+**AppMovil:** <br>
+**AppMovil Wireframe Login/Register** <br>
+<img src="/assets/chapter4/Wireframes-Movil/Login_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/Wireframes-Movil/Register_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/Wireframes-Movil/Register Error 4_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/Wireframes-Movil/Register Error 5_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/Wireframes-Movil/Driver_SetUp_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/Wireframes-Movil/Upload photo_Wireframe'.png" alt="Web app wireframes 5" > <br>
+**AppMovil Wireframe Home Parent** <br>
+<img src="/assets/chapter4/Wireframes-Movil/Home_Page_Parent_Wireframe.png" alt="Web app wireframes 5" > <br>
+**AppMovil Wireframe Children** <br>
+<img src="/assets/chapter4/Wireframes-Movil/Children_Wireframe.png" alt="Web app wireframes 5"> <br>
+<img src="/assets/chapter4/Wireframes-Movil/Add_New_Children_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/Wireframes-Movil/Delete_Kid_Wireframe.png" alt="Web app wireframes 5"> <br>
+<img src="/assets/chapter4/Wireframes-Movil/Children_Wireframe (1).png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/Wireframes-Movil/Agregar_Hijo_Wireframe.png" alt="Web app wireframes 5" > <br>
+**AppMovil Wireframe Tracking** <br>
+<img src="/assets/chapter4/Wireframes-Movil/Rastrear_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/Wireframes-Movil/Avisos_Wireframe.png" alt="Web app wireframes 5" > <br>
+**AppMovil Wireframe Profile** <br>
+<img src="/assets/chapter4/Wireframes-Movil/Perfil_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/Wireframes-Movil/Update_Wireframe.png" alt="Web app wireframes 5" > <br>
+**AppMovil Wireframe Home Driver** <br>
+<img src="/assets/chapter4/Wireframes-Movil/Home_Page_Driver_Wireframe.png" alt="Web app wireframes 5" > <br>
+**AppMovil Wireframe Past Trip** <br>
+<img src="/assets/chapter4/Wireframes-Movil/Past Trips Wireframe.png" alt="Web app wireframes 5" > <br>
+**AppMovil Wireframe DriverMap** <br>
+<img src="/assets/chapter4/Wireframes-Movil/Driver_Map_Wireframe.png" alt="Web app wireframes 5" > <br>
+**AppMovil Wireframe Perfil Driver** <br>
+<img src="/assets/chapter4/Wireframes-Movil/Perfil_Driver_Wireframe.png" alt="Web app wireframes 5" > <br>
+**AppMovil Wireframe Attendece** <br>
+<img src="/assets/chapter4/Wireframes-Movil/Attendance_Kid_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/Wireframes-Movil/Manage_Attendance_Kid_Wireframe.png" alt="Web app wireframes 5" > <br>
+
+
 ### 5.4.2. Applications Wireflow Diagrams.
-**Web Application**<br>
+**Web Application:** <br>
+**WebApp Wireflow Home**
 <img src="/assets/chapter4/WebApp-Wireflows/Flow-WebHome.png" alt="Web app wireframes 1" style="width:100%;">
 
+**AppMovil:** <br>
+**AppMovilWireflow Login/Register Driver**
+<img src="/assets/chapter4/Wireflows-Movil/Flow-Login-Register-Driver.PNG" alt="Web app wireframes 1" > <br>
+**AppMovilWireflow Login/Register Parent**
+<img src="/assets/chapter4/Wireflows-Movil/Flow-Login-Register-Parent.PNG" alt="Web app wireframes 1" > <br>
+**AppMovilWireflow Error Register**
+<img src="/assets/chapter4/Wireflows-Movil/Flow-Error-Register.PNG" alt="Web app wireframes 1" > <br>
+**AppMovilWireflow Home Driver**
+<img src="/assets/chapter4/Wireflows-Movil/Flow-Home-Driver.PNG" alt="Web app wireframes 1" > <br>
+**AppMovilWireflow PastTrip**
+<img src="/assets/chapter4/Wireflows-Movil/Flow-Past-Trips.PNG" alt="Web app wireframes 1" > <br>
+**AppMovilWireflow Students**
+<img src="/assets/chapter4/Wireflows-Movil/Flow-Students-Driver.PNG" alt="Web app wireframes 1" > <br>
+<img src="/assets/chapter4/Wireflows-Movil/Flow-Students-Driver-Checkout.PNG" alt="Web app wireframes 1" > <br>
+**AppMovilWireflow Tracking**
+<img src="/assets/chapter4/Wireflows-Movil/Flow-Tracking.PNG" alt="Web app wireframes 1" > <br>
+**AppMovilWireflow Notification**
+<img src="/assets/chapter4/Wireflows-Movil/Flow-Notification.PNG" alt="Web app wireframes 1" > <br>
+**AppMovilWireflow Children**
+<img src="/assets/chapter4/Wireflows-Movil/Flow-Children.PNG" alt="Web app wireframes 1" > <br>
+<img src="/assets/chapter4/Wireflows-Movil/Flow-Children-ConnectBluetooh.PNG" alt="Web app wireframes 1" > <br>
+<img src="/assets/chapter4/Wireflows-Movil/Flow-DeleteChildren.PNG" alt="Web app wireframes 1" > <br>
+<img src="/assets/chapter4/Wireflows-Movil/Flow-AddChildren.PNG" alt="Web app wireframes 1" > <br>
+**AppMovilWireflow Edit Account**
+<img src="/assets/chapter4/Wireflows-Movil/Flow-Account-EditAccount.PNG" alt="Web app wireframes 1" > <br>
+
 ### 5.4.2. Applications Mock-ups.
-**Web Application** <br>
+**Web Application: ** 
+<br>
+**WebApp MockUp Login**
 <img src="/assets/chapter4/WebApp-MockUp/Login.png" alt="Web app wireframes 1" style="width:100%;">
+**WebApp MockUp DashBoard**
 <img src="/assets/chapter4/WebApp-MockUp/Dashboard.png" alt="Web app wireframes 2" style="width:100%;">
+**WebApp MockUp Drivers and students-Drivers**
 <img src="/assets/chapter4/WebApp-MockUp/Drivers.png" alt="Web app wireframes 3" style="width:100%;">
 <img src="/assets/chapter4/WebApp-MockUp/Drivers and Students - Drivers.png" alt="Web app wireframes 5" style="width:100%;">
-
+**WebApp MockUp Drivers and students-Students**
 <img src="/assets/chapter4/WebApp-MockUp/Students.png" alt="Web app wireframes 4" style="width:100%;">
 <img src="/assets/chapter4/WebApp-MockUp/Drivers and Students - Students.png" alt="Web app wireframes 5" style="width:100%;">
-
+**WebApp MockUp Drivers and students-Report**
 <img src="/assets/chapter4/WebApp-MockUp/Reports.png" alt="Web app wireframes 5" style="width:100%;">
 <img src="/assets/chapter4/WebApp-MockUp/Reports - Incidents.png" alt="Web app wireframes 5" style="width:100%;">
 <img src="/assets/chapter4/WebApp-MockUp/Reports - Route history.png" alt="Web app wireframes 5" style="width:100%;">
 
+<br>
+
+**App Movil: **<br>
+**AppMovil MockUp Login/Register Driver** <br>
+<img src="/assets/chapter4/MockUp-Movil/Login_Driver.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Register.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Register_Driver.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Register_error.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Register_Upload_Photo.png" alt="Web app wireframes 5" > <br>
+**AppMovil MockUp Home Driver** <br>
+<img src="/assets/chapter4/MockUp-Movil/Home_Driver.png" alt="Web app wireframes 5" > <br>
+**AppMovil MockUp Home Past Trip** <br>
+<img src="/assets/chapter4/MockUp-Movil/Past_Trips.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Trip Description.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Change trip name.png" alt="Web app wireframes 5"> <br>
+<img src="/assets/chapter4/MockUp-Movil/Delete Trip.png" alt="Web app wireframes 5" > <br>
+**AppMovil MockUp Home Past Attendance**
+<img src="/assets/chapter4/MockUp-Movil/Attendance.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Attendance_Present.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Attendance_absent.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Attendance_Managment.png" alt="Web app wireframes 5" > <br>
+
+**AppMovil MockUp Login/Register Parent** <br>
+<img src="/assets/chapter4/MockUp-Movil/Login_Parent.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Register.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Register_error.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Register_Upload_Photo.png" alt="Web app wireframes 5" > <br>
+**AppMovil MockUp Home Parent** <br>
+<img src="/assets/chapter4/MockUp-Movil/Home_Parent.png" alt="Web app wireframes 5" > <br>
+**AppMovil MockUp Children** <br>
+<img src="/assets/chapter4/MockUp-Movil/Track_Parent.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Android Large - 8.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Android Large - 16.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Android Large - 15.png" alt="Web app wireframes 5" > <br>
+**AppMovil MockUp Tracking** <br>
+<img src="/assets/chapter4/MockUp-Movil/Tracking_Parent.png" alt="Web app wireframes 5" > <br>
+
+**AppMovil MockUp Notification Parent/Student** <br>
+<img src="/assets/chapter4/MockUp-Movil/Notifacation_Parent.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Notification_Driver.png" alt="Web app wireframes 5" > <br>
+
+**AppMovil MockUp Acount Parent/Student** <br>
+<img src="/assets/chapter4/MockUp-Movil/Account_Parent.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Account_Parent_Update.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Account_Driver.png" alt="Web app wireframes 5" > <br>
+<img src="/assets/chapter4/MockUp-Movil/Account_Driver_Update.png" alt="Web app wireframes 5" > <br>
+
+
 ### 5.4.3. Applications User Flow Diagrams.
 **Web Application** <br>
+**Web Application UserFlow DriversStudents-Details**
 <img src="/assets/chapter4/WebApp-UserFlow/UserFlow-WebAppDriversStudents-Details.png" alt="Web app wireframes 1" style="width:100%;">
+**Web Application UserFlow Home**
 <img src="/assets/chapter4/WebApp-UserFlow/UserFlow-WebAppHome.png" alt="Web app wireframes 1" style="width:100%;">
+**Web Application UserFlow Report**
 <img src="/assets/chapter4/WebApp-UserFlow/UserFlow-WebAppReport.png" alt="Web app wireframes 1" style="width:100%;">
-## 5.5. Applications Prototyping.
 
+**AppMovil** <br>
+**AppMovil User Flow Login/Register Driver**
+<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Login-Register-Driver.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Login/Register Parent**
+<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Login-Register-Parent.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Home Driver**
+<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Home-Driver.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Home Parent**
+<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Home-Parent.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Driver PastTrips**
+<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Driver-PastTrips.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Driver Attendace**
+<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Driver-Attendace.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Parent Children**
+<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Parent-Children.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Driver upload profile Parent/Driver**
+<img src="/assets/chapter4/UserFlow-Movil/UserFlow-UploadProfile-Parent-DriverPNG.PNG" alt="Web app wireframes 5" >
+
+## 5.5. Applications Prototyping.
 **Web Application :** <br>
 <img src="/assets/chapter4/WebApp-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
 <br>
 [https://www.figma.com/proto/27YLKQmieuwzcaSKuPucG2/Web?node-id=82-514&p=f&t=gEB7y5RLh908G3lG-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=82%3A514&show-proto-sidebar=1](https://www.figma.com/proto/27YLKQmieuwzcaSKuPucG2/Web?node-id=82-514&p=f&t=gEB7y5RLh908G3lG-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=82%3A514&show-proto-sidebar=1) <br>
-**App Movil :**
+**App Movil :** <br>
 <img src="/assets/chapter4/AppMovil-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
 <br>
 [https://www.figma.com/proto/aFhwXAsZUzKZCf7WFTepW5/Mobile?node-id=1-370&p=f&t=gbUbh6U2UpBSJiLp-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A370&show-proto-sidebar=1](https://www.figma.com/proto/aFhwXAsZUzKZCf7WFTepW5/Mobile?node-id=1-370&p=f&t=gbUbh6U2UpBSJiLp-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A370&show-proto-sidebar=1)
