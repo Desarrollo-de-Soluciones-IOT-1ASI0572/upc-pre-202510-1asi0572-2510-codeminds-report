@@ -489,8 +489,6 @@ Este contexto se encarga de la gestión de los perfiles personales dentro del si
 
 ![DomainLayer](assets/chapter4/profile_1.png)
 
-![DomainLayer](assets/chapter4/profile_2.png)
-
 #### 4.2.6.1. Domain Layer.
 
 En esta capa se representa el núcleo del dominio para el bounded context Profile Assignment, modelando las entidades, objetos de valor, agregados, fábricas, servicios de dominio y repositorios que encapsulan la lógica y reglas de negocio relacionadas con la gestión de perfiles y su vinculación en el sistema de transporte escolar.
@@ -501,7 +499,7 @@ En esta capa se representa el núcleo del dominio para el bounded context Profil
 
 La Interface Layer es responsable de recibir las solicitudes del usuario o sistemas externos, procesarlas (validación básica, autorización) y delegar la ejecución de las operaciones al Domain Layer. Contiene controladores que representan puntos de entrada para las funcionalidades del bounded context Profile Assignment.
 
-![Layer](assets/chapter4/layerProfile.png)
+![Layer](assets/chapter4/profilelayer.png)
 
 #### 4.2.6.3. Application Layer.
 
