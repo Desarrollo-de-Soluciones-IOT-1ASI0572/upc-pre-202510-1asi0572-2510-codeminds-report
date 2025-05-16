@@ -212,6 +212,16 @@ Para este primer sprint se decidió trbajar en una rama diferente para despues u
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
+A continuación se presenta la documentación de los servicios de la aplicación web, incluyendo la descripción de los
+endpoints disponibles.
+
+| Endpoint                                                          | Http Verb | Accion               | Descripcion                                                                                                                                                                              |
+|-------------------------------------------------------------------|-----------|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| https://jdu202012207.github.io/pruebas-api/drivers.json           | GET       | Obtener conductores  | Devuelve información de los conductores registrados, incluyendo datos personales, número de licencia, vehículo asignado y estudiantes a su cargo.                                        |
+| https://jdu202012207.github.io/pruebas-api/parents.json           | GET       | Obtener apoderados   | Devuelve información de los padres de familia registrados, incluyendo nombre, DNI, número telefónico, foto y los estudiantes a su cargo                                                  |
+| https://jdu202012207.github.io/pruebas-api/students.json          | GET       | Obtener estudiantes	 | Devuelve información de los estudiantes registrados, incluyendo su nombre, colegio, grado, código RFID, foto y relación con su apoderado y conductor asignado.                           |
+| https://jdu202012207.github.io/pruebas-api/analytics-drivers.json | GET       | Obtener analíticas	  | Devuelve analíticas de rendimiento de los conductores, incluyendo resumen de incidentes (desvíos, tardanzas, excesos de velocidad), tiempos de llegada y distancias recorridas por día.  |
+
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
 Para el sprint presentado de la landing page y FrontEnd se optó por varias herramientas para su desarrollo.
