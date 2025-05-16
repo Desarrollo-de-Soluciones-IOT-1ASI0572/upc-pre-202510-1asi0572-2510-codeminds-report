@@ -236,7 +236,7 @@ En esta sección, presentamos la Capa de Aplicación (Application Layer) dentro 
 
 En esta sección, presentamos la Capa de Infraestructura (Infrastructure Layer) dentro del contexto de Identity And Access Management. Esta capa es crucial para proporcionar los componentes técnicos y de soporte necesarios para que las otras capas del sistema funcionen correctamente.
 
-Los repositorios en la Capa de Infraestructura implementan las interfaces definidas en la Capa de Dominio y se encargan de la persistencia y gestión de datos.
+Los repositorios en la Capa de Infraestructura implementan las interfaces definidas en la Capa de Dominio y se encargan de la autenticacion.
 
 ![infrastructurelayer](assets/chapter4/infrastructure-layer.jpeg)
 
