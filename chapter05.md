@@ -115,7 +115,11 @@ La organización de la información y la interacción del usuario es fundamental
 
 - Landing Page: Se aplicará una organización jerárquica visual, presentando primero una propuesta de valor clara , seguida de secciones como beneficios, cómo funciona, contacto y testimonios.
 
-Aplicación Web:
+Aplicaciones Web:
+
+-Administradores: Se utiliza una **organización matricial** que permite a los administradores gestionar múltiples rutas, estudiantes, conductores y reportes desde un panel de control centralizado. Este enfoque facilita el acceso simultáneo a distintos tipos de datos y operaciones administrativas.
+
+Aplicacion Movil:
 
 - Para padres: organización  secuencial, guiándolos paso a paso desde el inicio de sesión, acceso al estado del transporte, hasta el historial de viajes.
 
