@@ -170,10 +170,15 @@ Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones
 
 # Sprint 1
 
-| User Story |       | Work-Item/Task |        |             |            |             |
-| ---------- | ----- | -------------- | ------ | ----------- | ---------- | ----------- | ------ |
-| ID         | Title | ID             | Title  | Description | Estimation | Assigned To | Status |
-| HU0x       | xxxxx |                | xxxxxx | xxxxxxx     | horas      | xxxxxxx     | Done   |
+| User Story |      | Work-Item / Task |      |             |             |             |             |
+|------------|------|------------------|------|-------------|-------------|-------------|-------------|
+| Id         | Title| Id               | Title| Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+|    HU10    |Generación de reportes automáticos|TA01|Lógica para la generacion de reportes|Programacion de la logica vinculada a la generacion de reportes|5 horas|Angel Cancho- Paolo Martinez|Done|
+|    HU45    |Visualización del historial de incidentes|TA02|Desarrollo del listado de incidentes|Listado de incidentes recibidos de un endpoint|2.5 horas|Juan Diego Cueto|Done|
+|            |      |TA03|Vista de Incidentes|Desarrollo de la vista de que muestra informacion detallada de la lista de incidentes|2.5 horas|Scott Huachaca|Done|
+|    HU52    |Visualizacion de proposito y beneficios del servicio|TA04|Navegacion|Implementacion de una barra de navegacion|1 hora|Xiao Li|Done|
+|            |      |TA05|Contenido Principal|Insercion de informacion en la landing page|2 horas|Xiao Li|Done|
+|    HU53    |Formulario de Contacto|TA06|Formulario|Desarrollo de formulario con campos de contacto(nombre, correo, mensaje, etc.)|2 horas|Marcelo Ramirez|Done|
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
 
