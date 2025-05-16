@@ -526,3 +526,11 @@ Esta capa contiene la implementación técnica que permite la interacción con s
 #### 4.2.6.6.2. Bounded Context Database Design Diagram.
 
 ![DatabaseProfile](assets/chapter4/bd-profile.png)
+
+### 4.2.6.6.3. Applications Component Diagrams
+
+#### Web Application Component Diagram
+
+![webContainerDiagram](assets/chapter4/web-application-components-diagram.png)
+
+![singlePageContainerDiagram](assets/chapter4/single-page-application-components-diagram.png)
