@@ -534,3 +534,7 @@ Esta capa contiene la implementación técnica que permite la interacción con s
 ![webContainerDiagram](assets/chapter4/web-application-components-diagram.png)
 
 ![singlePageContainerDiagram](assets/chapter4/single-page-application-components-diagram.png)
+
+#### Mobile Application Component Diagram
+
+![mobileContainerDiagram](assets/chapter4/mobile-application-components-diagram.png)
