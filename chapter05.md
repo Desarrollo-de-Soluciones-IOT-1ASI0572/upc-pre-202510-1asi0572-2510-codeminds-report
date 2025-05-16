@@ -110,26 +110,41 @@ Para la visualización o gestión desde interfaces IoT (pantallas embebidas, das
 
 
 ## 5.2. Information Architecture.
-### 5.2.1. Organization Systems.
-La organización de la información y la interacción del usuario es fundamental para la usabilidad y efectividad de la plataforma EduGo. Se han definido distintos enfoques organizativos considerando las necesidades y flujos de trabajo de los diferentes tipos de usuarios.  Además, se establecen esquemas de categorización que permiten una clasificación lógica y accesible de la información clave del sistema:
+## 5.2.1. Organization Systems
 
-- Landing Page: Se aplicará una organización jerárquica visual, presentando primero una propuesta de valor clara , seguida de secciones como beneficios, cómo funciona, contacto y testimonios.
+En nuestras aplicaciones web y móvil para la plataforma **EduGo**, se emplean distintos sistemas de organización de la información que garantizan una experiencia clara, rápida y eficiente para los usuarios, de acuerdo con el rol que desempeñan.
 
-Aplicaciones Web:
+### Sistemas de Organización de la Información
 
--Administradores: Se utiliza una **organización matricial** que permite a los administradores gestionar múltiples rutas, estudiantes, conductores y reportes desde un panel de control centralizado. Este enfoque facilita el acceso simultáneo a distintos tipos de datos y operaciones administrativas.
+- **Jerarquía Visual (Visual Hierarchy):**  
+  Se aplica especialmente en la Landing Page y en las pantallas de inicio de las aplicaciones, destacando elementos críticos como el estado del transporte, alertas importantes, notificaciones de asistencia y mensajes del administrador. Esta jerarquía permite a los usuarios identificar rápidamente la información clave para una acción inmediata.
 
-Aplicacion Movil:
+- **Secuencial (Paso a paso):**  
+  Este sistema se aplica en flujos como el registro de usuarios, inicio de sesión, y navegación para los padres, donde deben seguir pasos específicos para visualizar información como: estado del bus en tiempo real, nombre del conductor, y seguimiento del historial de viajes. La presentación guiada reduce errores y mejora la comprensión.
 
-- Para padres: organización  secuencial, guiándolos paso a paso desde el inicio de sesión, acceso al estado del transporte, hasta el historial de viajes.
+- **Matricial:**  
+  Utilizado en los paneles administrativos (tanto en la app móvil como en la versión web), este sistema agrupa múltiples entidades como rutas, estudiantes y vehículos en tarjetas o tablas. Cada grupo contiene datos clave y botones de acción rápida, facilitando decisiones como reasignar rutas, generar reportes o contactar con los conductores.
 
-- Para conductores y administradores: organización matricial, permitiendo gestionar múltiples rutas, estudiantes y reportes desde un panel administrativo.
+---
 
-Esquemas de categorización:
+### Esquemas de Categorización de Contenido
 
-- Por audiencia: padres, conductores, administradores.
+- **Alfabético:**  
+  Se aplica en listados de estudiantes, rutas y conductores, para facilitar la búsqueda eficiente y organizada de elementos mediante filtros o scroll.
 
-- Por tópicos: ubicación en tiempo real, control de velocidad, asistencia con RFID, reportes históricos.
+- **Cronológico:**  
+  Utilizado en los reportes de asistencia, historial de rutas y notificaciones de eventos (por ejemplo, retrasos o ausencias), donde la información se muestra desde lo más reciente a lo más antiguo.
+
+- **Por tópicos:**  
+  La información se clasifica según categorías como:
+  - Estado de transporte (activo/inactivo)
+  - Control de velocidad
+  - Registro RFID
+  - Alertas de seguridad
+  - Información del conductor
+
+Estos sistemas de organización, adaptados a cada perfil de usuario (padres, administradores y conductores), aseguran que la interacción con EduGo sea clara, intuitiva y alineada con los objetivos de seguridad y eficiencia del transporte escolar.
+
 
 ### 5.2.2. Labeling Systems.
 La aplicación web y movil contará con un sistema de etiquetado simple y sencillo para captar el rápido entendimiento del usuario, evitando confusiones y facilitando la navegación.
