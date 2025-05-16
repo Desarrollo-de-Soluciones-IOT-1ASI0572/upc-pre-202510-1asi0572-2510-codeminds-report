@@ -222,6 +222,21 @@ Liliana siente una **preocupación constante por la falta de información en tie
 
 _Estos hallazgos refuerzan los atributos de necesidad de rastreo en tiempo real y comunicación efectiva del arquetipo «Padre preocupado por la seguridad»._
 
+| Pregunta                                                                                                                 | Timestamp | Respuesta                                                                                                                                                    |
+|--------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ¿Cuál es su nombre?                                                                                                      | 11:13     | Liliana Ramirez.                                                                                                                                                    |
+| ¿Qué edad tiene?                                                                                                         | 11:17    | 56 años.                                                                                                                                                     |
+| ¿En qué distrito reside?                                                                                                 | 11:22     | Vivo en San Juan de Miraflores.                                                                                                                                    |
+| ¿Cuál es su ocupación actual?                                                                                            | 11:30     | Soy ama de casa.                                                                                                                                              |
+| ¿Cuántos hijos tiene y en qué nivel escolar están?                                                                       | 11:34     | Tengo un hijo de 14 años y está en secundaria.                                                                                                                         |
+| ¿Cómo trasladan sus hijos al colegio actualmente?                                                                        | 11:57     | Actualmente traslado a mi hijo en el servicio de movilidad privada brindado por el colegio.                                 |
+| ¿Ha tenido alguna preocupación relacionada con la seguridad durante el transporte escolar?                               | 12:35     | Sí, me preocupa no saber si mi hijo ya llegó al colegio o si la movilidad ha tenido algun accidente en la ruta.                     |
+| ¿Qué tipo de información le gustaría recibir en tiempo real sobre el transporte de sus hijos?                            | 12:55     | Me gustaría recibir la ubicación en tiempo real del vehículo, alertas cuando mi hijo sube o baja de la movilidad, y notificaciones si hay algún cambio en la ruta.          |
+| ¿Cómo suele comunicarse con el conductor o con la empresa de transporte?                                                 | 13:42     | Usualmente por Whatsapp mediante el grupo de padres donde también se encuentra el conductor de la movilidad.                                                                                      |
+| ¿Está familiarizado/a con el uso de tecnología como GPS o pulseras RFID?                                                 | 14:19     | Sí, he usado aplicaciones que muestran ubicación en el tiempo real de vehículos como Uber, pero no he escuchado acerca de las pulseras RFID.             |
+| ¿Qué lo motivaría a cambiar de proveedor de transporte escolar?                                                          | 14:55    | Principalmente la falta de comunicación o algún accidente que involucre al conductor. |
+| ¿Qué aplicaciones o redes sociales utiliza con mayor frecuencia para mantenerse informado?                               | 15:29    | Principalmente WhatsApp para mensajería y Facebook para enterarme de novedades relacionadas a la institución.                               |
+
 ---
 
 #### Entrevista 3
