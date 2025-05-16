@@ -185,6 +185,11 @@ Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones
 Para este primer sprint se decidió trbajar en una rama diferente para despues unirlo todo en develop . Cada miembro ha realizado un commit para luego hacer merge.
 | Repository | Branch | Commit ID | Commit Message | Committed on(date) |
 |----------------------------------------|----------------------------|--------------------------------------------|---------------------------|--------------------|
+| CodeMinds-LandingPage | main | de87e5cb957edb9c71d78843c64ff5b761060c2b | fix(landing-page): set english as default language | 13/05/2025 |
+| CodeMinds-LandingPage | main | 3bfbb3898b963e1e82bd4551dfaae948e3b1504f | feat(landing-page): add language configuration file | 13/05/2025 |
+| CodeMinds-LandingPage | main | 3b1c3c3320f227ac5f1ab5d909b52c19414b1fcd | feat(landing-page): style sheet initial commit | 13/05/2025 |
+| CodeMinds-LandingPage | main | 0093fdb53adc93987efdc078f1d54d1d49024dd3 | feat(landing-page): script file initial commit | 13/05/2025 |
+| CodeMinds-LandingPage | main | 4cf928b3881c5245f13d654fb9b879f57f2c830c | feat(landing-page): html file initial commit | 13/05/2025 |
 | CodeMinds-LandingPage | main | 67d79de6195f29a88e98b6614db9878c3b22bbd7 | feat(Landing-Page): Add team description in portugues | 15/05/2025 |
 | CodeMinds-LandingPage | main | e4592aab9c36bcfd1e116e55597a408ad2ea5e08 | feat(Landing-Page): add team description translation | 15/05/2025 |
 | CodeMinds-LandingPage | main | 790ce5d99a62f0be973d0fffb3ef3e9738df9553 | feat(Landing-Page): add Team photo | 15/05/2025 |
@@ -195,12 +200,21 @@ Para este primer sprint se decidió trbajar en una rama diferente para despues u
 | CodeMinds-LandingPage | main | 2b6750085efaf5a521b69be888e9d8eacf4581f6 | feat(landing-page): add team html file | 15/05/2025 |
 | CodeMinds-LandingPage | main | cfe4749e33cbd6eebd0e3b76ffaf629ee433f2aa | feat(landing-page): add contact html file | 15/05/2025 |
 | CodeMinds-LandingPage | main | 22ef41e8c68294a78d49acae7b62fbd6b90f7bdc | chore(landing-page): set english as default language | 15/05/2025 |
-| CodeMinds-LandingPage | main | de87e5cb957edb9c71d78843c64ff5b761060c2b | fix(landing-page): set english as default language | 13/05/2025 |
-| CodeMinds-LandingPage | main | 3bfbb3898b963e1e82bd4551dfaae948e3b1504f | feat(landing-page): add language configuration file | 13/05/2025 |
-| CodeMinds-LandingPage | main | 3b1c3c3320f227ac5f1ab5d909b52c19414b1fcd | feat(landing-page): style sheet initial commit | 13/05/2025 |
-| CodeMinds-LandingPage | main | 0093fdb53adc93987efdc078f1d54d1d49024dd3 | feat(landing-page): script file initial commit | 13/05/2025 |
-| CodeMinds-LandingPage | main | 4cf928b3881c5245f13d654fb9b879f57f2c830c | feat(landing-page): html file initial commit | 13/05/2025 |
-| edugo-web-application | xxxxx | xxxxxxx | xxxxxx | 0x/05/25 |
+| edugo-web-application   | develop                    | b8307949e7b3234859c51b4ccf784a6959713c58                                  | feat(dashboard): add view dashboard                                             | 15/05/25             |
+| edugo-web-application   | develop                    | 35dd827d518592fdab57c292c46249fa541d1411                                  | feat(develop): add header component                                             | 15/05/25             |
+| edugo-web-application   | main                       | 2c4ecee3371b8c08c8944ad06a791beb948494ba                                | docs: update readme with installation instructions                              | 15/05/25             |
+| edugo-web-application   | main                       | 117a7e4348fd934cbfac10a7766f4f80cca3ee04                                 | chore: initial commit                                                           | 15/05/25             |
+| edugo-web-application   | develop                    | 87a4baf387429c8bd1e8309b153ababfe861d8c3                                  | refactor: update navigation routes with semantic rules                          | 16/05/25             |
+| edugo-web-application   | develop                    | 025e6e36dd321a23530898339d6ba9ecdca36a82                                 | feat(profiles): add component for profile                                       | 16/05/25             |
+| edugo-web-application   | develop                    | 2b2888b8dacc6ad889d6e8c6395a66c15187602a                                  | fix(develop): fix merge errors                                                  | 16/05/25             |
+| edugo-web-application   | feature/add-reports-table  | fe48c3d8be5a2120fb85b1ff60610cced0431a57                                  | feat(add-reports-table): merged in develop branch                               | 16/05/25             |
+| edugo-web-application   | feature/add-analytics-dashboard | efcd0c7f72f4eddb0aa078419bdeccc544543940                             | refactor(analytics): update models and services for new fake API data          | 16/05/25             |
+| edugo-web-application   | develop                    | 79e054aa940d0e0b7cb05354505a92699aa3cde1                                 | refactor(iam): add logo icon to sign-in and route login to dashboard            | 16/05/25             |
+| edugo-web-application   | develop                    | f2237a290593f733df798f66e851da39b04dd133                                  | feat(iam): add sign-in page and set login as principal route                    | 16/05/25             |
+| edugo-web-application   | develop                    | fef1688972539792753109a14dca2df9206c4ee3                                  | chore(update): update api url                                                   | 16/05/25             |
+| edugo-web-application   | feature/add-reports-table  | 4f3143818ddce8c519eb2ae4c9d625fd11b86fa5                                  | feat(add-reports-table): add table filter                                       | 16/05/25             |
+| edugo-web-application   | feature/add-reports-table  | ce0fe99ebbdd4f3c38081342f6bcfcce57be3c6d                                 | feat(add-reports-table): add incidents model                                    | 16/05/25             |
+| edugo-web-application   | feature/add-reports-table  | 43f8f6d6c076908c8f2bccd7541ab074417ce025                                  | feat(add-reports-table): add reports table                                      | 16/05/25             |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
@@ -215,6 +229,9 @@ Para este primer sprint se decidió trbajar en una rama diferente para despues u
 <img src="/assets/chapter4/Execution-LandingPage.PNG" alt="Contact" style="width:100%;">
 [https://desarrollo-de-soluciones-iot-1asi0572.github.io/CodeMinds-LandingPage/](https://desarrollo-de-soluciones-iot-1asi0572.github.io/CodeMinds-LandingPage/)
 
+**Para el FrontEnd**
+<img src="/assets/chapter4/frontend-execution.PNG" alt="Contact" style="width:100%;">
+[https://edugo-web-app.web.app/sign-in](https://edugo-web-app.web.app/sign-in)
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
 A continuación se presenta la documentación de los servicios de la aplicación web, incluyendo la descripción de los
@@ -248,3 +265,8 @@ Para el despliegue de la landing page, se configuró el servicio de GitHub Pages
    <img src="/assets/chapter4/DeployLanding.PNG" alt="Contact" style="width:100%;">
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
+**Landing Page**
+<img src="/assets/chapter4/TeamLanding.PNG" alt="Contact" style="width:100%;">
+<br>
+**FrontEnd**
+<img src="/assets/chapter4/TeamFrontend.PNG" alt="Contact" style="width:100%;">
