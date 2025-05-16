@@ -323,7 +323,7 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram.
 
-![Identity-Assignment-DB](assets/chapter4/identity-assignment-db.jpg)
+![Identity-Assignment-DB](assets/chapter4/identity-assignment-db.png)
 
 ### 4.2.3. Bounded Context: Vehicle Tracking
 
