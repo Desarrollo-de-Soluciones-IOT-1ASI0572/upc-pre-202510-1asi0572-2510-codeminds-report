@@ -50,11 +50,70 @@ Este diseño es versátil y funcional en distintos formatos (digital, impresos o
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
 
+##### Dimensiones
+Se consideran dimensiones estándar para asegurar una experiencia de usuario adecuada en distintos dispositivos:
+- **Escritorio:** 1280 px de ancho
+- **Tablet:** 760 px de ancho
+- **Celular:** 480 px de ancho  
+
+##### Navegación
+El sistema de navegación web se basa en un diseño minimalista. Para resaltar la sección activa, el nombre se mostrará en **negrita**.
+
+<center><img src="/assets/chapter4/Navbar.PNG" alt="NAVIGATION" style="width:60%; height:60%;"></center>
+
+##### Iconos
+Para la sección de contacto se utilizarán los siguientes íconos:
+
+<center><img src="/assets/chapter4/ICONS2.png" alt="ICONS2" style="width:60%; height:60%;"></center>
+
+##### Formularios
+Los formularios siguen un diseño limpio que contempla estados como deshabilitado, correcto o con error.
+
+<center><img src="./assets/chapter4/FORMS.png" alt="FORMS" style="width:60%; height:60%;"></center>
+
+##### Checkboxes, Radio Buttons, Switches
+Se optó por un diseño visualmente atractivo e intuitivo para estos componentes:
+
+<center><img src="/assets/chapter4/Checkboxes, radio buttons, switch.png" alt="Checkboxes, radio buttons, switch" style="width:60%; height:60%;"></center>
+
+##### Colores de Fondo
+- **Primario:** Azul oscuro o neutro, para foco en contenido.
+- **Secundario:** Azul claro o gris, útil en zonas secundarias.
+- **Terciario:** Colores de acento, como llamados a la acción.
+
+##### Estilos de Texto
+- **H1:** Títulos principales con fuente sans-serif y tamaño destacado.
+- **H2:** Subtítulos con menor jerarquía que H1.
+- **Párrafo:** Fuente clara y legible.
+- **Enlaces (a):** Color destacado (terciario), con subrayado sutil.
+
+---
+
+#### Aplicación Móvil
+
+La versión móvil sigue los principios visuales del diseño web pero adaptados a pantallas táctiles y menores resoluciones.
+
+- **Dimensiones base:** Adaptativas, enfocadas en anchura mínima de 360 px hasta 480 px.
+- **Iconografía:** Se reutilizan los íconos definidos, optimizados para uso en botones y menús móviles.
+- **Navegación móvil:** Interfaz compacta, con navegación inferior o tipo hamburguesa, resaltando la sección activa en negrita.
+- **Componentes interactivos:** Formularios y botones táctiles adaptados con buen espaciado y retroalimentación visual.
+
+---
+
+#### IoT 
+
+Para la visualización o gestión desde interfaces IoT (pantallas embebidas, dashboards), se tomará como base el diseño web adaptado a resoluciones específicas según el dispositivo:
+
+- **Diseño simplificado:** Menús más grandes, botones de acción destacados.
+- **Contraste elevado:** Mejora la legibilidad en condiciones variables.
+- **Iconografía clara:** Íconos minimalistas con etiquetas visibles.
+
+
 ## 5.2. Information Architecture.
 ### 5.2.1. Organization Systems.
 La organización de la información y la interacción del usuario es fundamental para la usabilidad y efectividad de la plataforma EduGo. Se han definido distintos enfoques organizativos considerando las necesidades y flujos de trabajo de los diferentes tipos de usuarios.  Además, se establecen esquemas de categorización que permiten una clasificación lógica y accesible de la información clave del sistema:
 
-- Landing Page: Se aplicará una organización jerárquica visual, presentando primero una propuesta de valor clara (“Transporte Escolar Seguro e Inteligente”), seguida de secciones como beneficios, cómo funciona, contacto y testimonios.
+- Landing Page: Se aplicará una organización jerárquica visual, presentando primero una propuesta de valor clara , seguida de secciones como beneficios, cómo funciona, contacto y testimonios.
 
 Aplicación Web:
 
