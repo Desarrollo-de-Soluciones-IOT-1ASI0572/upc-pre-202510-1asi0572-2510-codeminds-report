@@ -65,7 +65,7 @@ La aplicación móvil fue desarrollada de forma **nativa para Android** utilizan
 
 #### Software Deployment
 
-- **Vercel** :
+- **Firebase** :
   Plataforma en la nube que proporciona un conjunto completo de herramientas para el desarrollo, despliegue y alojamiento de aplicaciones web. Facilita a los desarrolladores la creación y publicación eficiente y escalable de sitios estáticos o dinámicos.
 
 #### Software Documentation
@@ -131,6 +131,12 @@ Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones
 - Se promoverá el uso de comentarios claros y breves en español, para explicar el propósito y funcionamiento de las partes relevantes del código, facilitando así la comprensión para todo el equipo de desarrollo.
 
 ### 6.1.4. Software Deployment Configuration.
+#### Landing Page
+La landing page fue desplegada utilizando **GitHub Pages**, un servicio gratuito que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. Este servicio es ideal para proyectos de código abierto y proporciona una forma sencilla de compartir el trabajo con el público.
+<br><br> ![edugo-landing-page-github](assets/chapter4/edugo-landing-page-github-pages.jpg)
+#### Aplicación Web
+La aplicación web fue desplegada utilizando **Firebase Hosting**, un servicio de Google que permite alojar aplicaciones web de forma rápida y segura. Firebase Hosting es ideal para aplicaciones de una sola página (SPA) y proporciona características como SSL automático, integración con otras herramientas de Firebase y un CDN global para mejorar la velocidad de carga.
+<br><br> ![edugo-web-app-firebase](assets/chapter4/edugo-web-app-firebase.jpg)
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 
@@ -139,7 +145,7 @@ Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones
 #### 6.2.1.1. Sprint Planning 1.
 
 | Sprint #                                 | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Sprint Planning Background**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Date                                     | 2025-05-02                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Time                                     | 20:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -158,7 +164,7 @@ Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones
 # Leadership and Collaboration Matrix (LACX)
 
 | **Team Member (Last Name, First Name)**   | **GitHub Username** | **Landing Page Development (L/C)** | **Business Logic for Front-End (L/C)** | **Administration Interface (L/C)** | **Data Visualization (L/C)** | **Analytics (L/C)** |
-| ----------------------------------------- | ------------------- | ---------------------------------- | -------------------------------------- | ---------------------------------- | ---------------------------- | ------------------- |
+|-------------------------------------------|---------------------|------------------------------------|----------------------------------------|------------------------------------|------------------------------|---------------------|
 | **Cancho Corilla, Angel Antonio**         | `angerlessdev`      | **L**                              | **C**                                  | **C**                              | **C**                        | **L**               |
 | **Cueto Dominguez, Juan Diego**           | `JDu202012207`      | **C**                              | **L**                                  | **C**                              | **L**                        | **C**               |
 | **Huachaca Advincula, Scott Jacobo**      | `Scott-Huachaca`    | **C**                              | **C**                                  | **L**                              | **C**                        | **C**               |
@@ -170,58 +176,59 @@ Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones
 
 # Sprint 1
 
-| User Story |      | Work-Item / Task |      |             |             |             |             |
-|------------|------|------------------|------|-------------|-------------|-------------|-------------|
-| Id         | Title| Id               | Title| Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
-|    HU10    |Generación de reportes automáticos|TA01|Lógica para la generacion de reportes|Programacion de la logica vinculada a la generacion de reportes|5 horas|Angel Cancho- Paolo Martinez|Done|
-|    HU45    |Visualización del historial de incidentes|TA02|Desarrollo del listado de incidentes|Listado de incidentes recibidos de un endpoint|2.5 horas|Juan Diego Cueto|Done|
-|            |      |TA03|Vista de Incidentes|Desarrollo de la vista de que muestra informacion detallada de la lista de incidentes|2.5 horas|Scott Huachaca|Done|
-|    HU52    |Visualizacion de proposito y beneficios del servicio|TA04|Navegacion|Implementacion de una barra de navegacion|1 hora|Xiao Li|Done|
-|            |      |TA05|Contenido Principal|Insercion de informacion en la landing page|2 horas|Xiao Li|Done|
-|    HU53    |Formulario de Contacto|TA06|Formulario|Desarrollo de formulario con campos de contacto(nombre, correo, mensaje, etc.)|2 horas|Marcelo Ramirez|Done|
+| User Story |                                                      | Work-Item / Task |                                       |                                                                                       |                    |                              |                                                |
+|------------|------------------------------------------------------|------------------|---------------------------------------|---------------------------------------------------------------------------------------|--------------------|------------------------------|------------------------------------------------|
+| Id         | Title                                                | Id               | Title                                 | Description                                                                           | Estimation (Hours) | Assigned To                  | Status (To-do / In-Process / To-Review / Done) |
+| HU10       | Generación de reportes automáticos                   | TA01             | Lógica para la generacion de reportes | Programacion de la logica vinculada a la generacion de reportes                       | 5 horas            | Angel Cancho- Paolo Martinez | Done                                           |
+| HU45       | Visualización del historial de incidentes            | TA02             | Desarrollo del listado de incidentes  | Listado de incidentes recibidos de un endpoint                                        | 2.5 horas          | Juan Diego Cueto             | Done                                           |
+|            |                                                      | TA03             | Vista de Incidentes                   | Desarrollo de la vista de que muestra informacion detallada de la lista de incidentes | 2.5 horas          | Scott Huachaca               | Done                                           |
+| HU52       | Visualizacion de proposito y beneficios del servicio | TA04             | Navegacion                            | Implementacion de una barra de navegacion                                             | 1 hora             | Xiao Li                      | Done                                           |
+|            |                                                      | TA05             | Contenido Principal                   | Insercion de informacion en la landing page                                           | 2 horas            | Xiao Li                      | Done                                           |
+| HU53       | Formulario de Contacto                               | TA06             | Formulario                            | Desarrollo de formulario con campos de contacto(nombre, correo, mensaje, etc.)        | 2 horas            | Marcelo Ramirez              | Done                                           |
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
 
-Para este primer sprint se decidió trbajar en una rama diferente para despues unirlo todo en develop . Cada miembro ha realizado un commit para luego hacer merge.
-| Repository | Branch | Commit ID | Commit Message | Committed on(date) |
-|----------------------------------------|----------------------------|--------------------------------------------|---------------------------|--------------------|
-| CodeMinds-LandingPage | main | de87e5cb957edb9c71d78843c64ff5b761060c2b | fix(landing-page): set english as default language | 13/05/2025 |
-| CodeMinds-LandingPage | main | 3bfbb3898b963e1e82bd4551dfaae948e3b1504f | feat(landing-page): add language configuration file | 13/05/2025 |
-| CodeMinds-LandingPage | main | 3b1c3c3320f227ac5f1ab5d909b52c19414b1fcd | feat(landing-page): style sheet initial commit | 13/05/2025 |
-| CodeMinds-LandingPage | main | 0093fdb53adc93987efdc078f1d54d1d49024dd3 | feat(landing-page): script file initial commit | 13/05/2025 |
-| CodeMinds-LandingPage | main | 4cf928b3881c5245f13d654fb9b879f57f2c830c | feat(landing-page): html file initial commit | 13/05/2025 |
-| CodeMinds-LandingPage | main | 67d79de6195f29a88e98b6614db9878c3b22bbd7 | feat(Landing-Page): Add team description in portugues | 15/05/2025 |
-| CodeMinds-LandingPage | main | e4592aab9c36bcfd1e116e55597a408ad2ea5e08 | feat(Landing-Page): add team description translation | 15/05/2025 |
-| CodeMinds-LandingPage | main | 790ce5d99a62f0be973d0fffb3ef3e9738df9553 | feat(Landing-Page): add Team photo | 15/05/2025 |
-| CodeMinds-LandingPage | main | 8d945be380998242fd8dafe0e6d25f0abe678bb5 | feat(Landing-Page): add team profile images | 15/05/2025 |
-| CodeMinds-LandingPage | main | b93812f67ca125711b99050460703265f26fc929 | chore(landing-page): manage contact and team translations | 15/05/2025 |
-| CodeMinds-LandingPage | main | dfc49155d29e9517508dfa4516f63524cc51a9b2 | chore(landing-page): contact and team styles | 15/05/2025 |
-| CodeMinds-LandingPage | main | eb128daedcdf4758eb5710c8751e7770a11aa2cf | chore(landing-page): add contact and team references to the home | 15/05/2025 |
-| CodeMinds-LandingPage | main | 2b6750085efaf5a521b69be888e9d8eacf4581f6 | feat(landing-page): add team html file | 15/05/2025 |
-| CodeMinds-LandingPage | main | cfe4749e33cbd6eebd0e3b76ffaf629ee433f2aa | feat(landing-page): add contact html file | 15/05/2025 |
-| CodeMinds-LandingPage | main | 22ef41e8c68294a78d49acae7b62fbd6b90f7bdc | chore(landing-page): set english as default language | 15/05/2025 |
-| edugo-web-application   | develop                    | b8307949e7b3234859c51b4ccf784a6959713c58                                  | feat(dashboard): add view dashboard                                             | 15/05/25             |
-| edugo-web-application   | develop                    | 35dd827d518592fdab57c292c46249fa541d1411                                  | feat(develop): add header component                                             | 15/05/25             |
-| edugo-web-application   | main                       | 2c4ecee3371b8c08c8944ad06a791beb948494ba                                | docs: update readme with installation instructions                              | 15/05/25             |
-| edugo-web-application   | main                       | 117a7e4348fd934cbfac10a7766f4f80cca3ee04                                 | chore: initial commit                                                           | 15/05/25             |
-| edugo-web-application   | develop                    | 87a4baf387429c8bd1e8309b153ababfe861d8c3                                  | refactor: update navigation routes with semantic rules                          | 16/05/25             |
-| edugo-web-application   | develop                    | 025e6e36dd321a23530898339d6ba9ecdca36a82                                 | feat(profiles): add component for profile                                       | 16/05/25             |
-| edugo-web-application   | develop                    | 2b2888b8dacc6ad889d6e8c6395a66c15187602a                                  | fix(develop): fix merge errors                                                  | 16/05/25             |
-| edugo-web-application   | feature/add-reports-table  | fe48c3d8be5a2120fb85b1ff60610cced0431a57                                  | feat(add-reports-table): merged in develop branch                               | 16/05/25             |
-| edugo-web-application   | feature/add-analytics-dashboard | efcd0c7f72f4eddb0aa078419bdeccc544543940                             | refactor(analytics): update models and services for new fake API data          | 16/05/25             |
-| edugo-web-application   | develop                    | 79e054aa940d0e0b7cb05354505a92699aa3cde1                                 | refactor(iam): add logo icon to sign-in and route login to dashboard            | 16/05/25             |
-| edugo-web-application   | develop                    | f2237a290593f733df798f66e851da39b04dd133                                  | feat(iam): add sign-in page and set login as principal route                    | 16/05/25             |
-| edugo-web-application   | develop                    | fef1688972539792753109a14dca2df9206c4ee3                                  | chore(update): update api url                                                   | 16/05/25             |
-| edugo-web-application   | feature/add-reports-table  | 4f3143818ddce8c519eb2ae4c9d625fd11b86fa5                                  | feat(add-reports-table): add table filter                                       | 16/05/25             |
-| edugo-web-application   | feature/add-reports-table  | ce0fe99ebbdd4f3c38081342f6bcfcce57be3c6d                                 | feat(add-reports-table): add incidents model                                    | 16/05/25             |
-| edugo-web-application   | feature/add-reports-table  | 43f8f6d6c076908c8f2bccd7541ab074417ce025                                  | feat(add-reports-table): add reports table                                      | 16/05/25             |
+Para este primer sprint se decidió trbajar en una rama diferente para después unirlo todo en develop. Cada miembro ha realizado un commit para luego hacer merge.
+
+| Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
+|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
+| CodeMinds-LandingPage | main                            | de87e5cb957edb9c71d78843c64ff5b761060c2b | fix(landing-page): set english as default language                    | 13/05/2025            |
+| CodeMinds-LandingPage | main                            | 3bfbb3898b963e1e82bd4551dfaae948e3b1504f | feat(landing-page): add language configuration file                   | 13/05/2025            |
+| CodeMinds-LandingPage | main                            | 3b1c3c3320f227ac5f1ab5d909b52c19414b1fcd | feat(landing-page): style sheet initial commit                        | 13/05/2025            |
+| CodeMinds-LandingPage | main                            | 0093fdb53adc93987efdc078f1d54d1d49024dd3 | feat(landing-page): script file initial commit                        | 13/05/2025            |
+| CodeMinds-LandingPage | main                            | 4cf928b3881c5245f13d654fb9b879f57f2c830c | feat(landing-page): html file initial commit                          | 13/05/2025            |
+| CodeMinds-LandingPage | main                            | 67d79de6195f29a88e98b6614db9878c3b22bbd7 | feat(Landing-Page): Add team description in portugues                 | 15/05/2025            |
+| CodeMinds-LandingPage | main                            | e4592aab9c36bcfd1e116e55597a408ad2ea5e08 | feat(Landing-Page): add team description translation                  | 15/05/2025            |
+| CodeMinds-LandingPage | main                            | 790ce5d99a62f0be973d0fffb3ef3e9738df9553 | feat(Landing-Page): add Team photo                                    | 15/05/2025            |
+| CodeMinds-LandingPage | main                            | 8d945be380998242fd8dafe0e6d25f0abe678bb5 | feat(Landing-Page): add team profile images                           | 15/05/2025            |
+| CodeMinds-LandingPage | main                            | b93812f67ca125711b99050460703265f26fc929 | chore(landing-page): manage contact and team translations             | 15/05/2025            |
+| CodeMinds-LandingPage | main                            | dfc49155d29e9517508dfa4516f63524cc51a9b2 | chore(landing-page): contact and team styles                          | 15/05/2025            |
+| CodeMinds-LandingPage | main                            | eb128daedcdf4758eb5710c8751e7770a11aa2cf | chore(landing-page): add contact and team references to the home      | 15/05/2025            |
+| CodeMinds-LandingPage | main                            | 2b6750085efaf5a521b69be888e9d8eacf4581f6 | feat(landing-page): add team html file                                | 15/05/2025            |
+| CodeMinds-LandingPage | main                            | cfe4749e33cbd6eebd0e3b76ffaf629ee433f2aa | feat(landing-page): add contact html file                             | 15/05/2025            |
+| CodeMinds-LandingPage | main                            | 22ef41e8c68294a78d49acae7b62fbd6b90f7bdc | chore(landing-page): set english as default language                  | 15/05/2025            |
+| edugo-web-application | develop                         | b8307949e7b3234859c51b4ccf784a6959713c58 | feat(dashboard): add view dashboard                                   | 15/05/25              |
+| edugo-web-application | develop                         | 35dd827d518592fdab57c292c46249fa541d1411 | feat(develop): add header component                                   | 15/05/25              |
+| edugo-web-application | main                            | 2c4ecee3371b8c08c8944ad06a791beb948494ba | docs: update readme with installation instructions                    | 15/05/25              |
+| edugo-web-application | main                            | 117a7e4348fd934cbfac10a7766f4f80cca3ee04 | chore: initial commit                                                 | 15/05/25              |
+| edugo-web-application | develop                         | 87a4baf387429c8bd1e8309b153ababfe861d8c3 | refactor: update navigation routes with semantic rules                | 16/05/25              |
+| edugo-web-application | develop                         | 025e6e36dd321a23530898339d6ba9ecdca36a82 | feat(profiles): add component for profile                             | 16/05/25              |
+| edugo-web-application | develop                         | 2b2888b8dacc6ad889d6e8c6395a66c15187602a | fix(develop): fix merge errors                                        | 16/05/25              |
+| edugo-web-application | feature/add-reports-table       | fe48c3d8be5a2120fb85b1ff60610cced0431a57 | feat(add-reports-table): merged in develop branch                     | 16/05/25              |
+| edugo-web-application | feature/add-analytics-dashboard | efcd0c7f72f4eddb0aa078419bdeccc544543940 | refactor(analytics): update models and services for new fake API data | 16/05/25              |
+| edugo-web-application | develop                         | 79e054aa940d0e0b7cb05354505a92699aa3cde1 | refactor(iam): add logo icon to sign-in and route login to dashboard  | 16/05/25              |
+| edugo-web-application | develop                         | f2237a290593f733df798f66e851da39b04dd133 | feat(iam): add sign-in page and set login as principal route          | 16/05/25              |
+| edugo-web-application | develop                         | fef1688972539792753109a14dca2df9206c4ee3 | chore(update): update api url                                         | 16/05/25              |
+| edugo-web-application | feature/add-reports-table       | 4f3143818ddce8c519eb2ae4c9d625fd11b86fa5 | feat(add-reports-table): add table filter                             | 16/05/25              |
+| edugo-web-application | feature/add-reports-table       | ce0fe99ebbdd4f3c38081342f6bcfcce57be3c6d | feat(add-reports-table): add incidents model                          | 16/05/25              |
+| edugo-web-application | feature/add-reports-table       | 43f8f6d6c076908c8f2bccd7541ab074417ce025 | feat(add-reports-table): add reports table                            | 16/05/25              |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
-| Repository            | Branch | Commit ID                                | Commit Message                                       | Committed on(date) |
-| --------------------- | ------ | ---------------------------------------- | ---------------------------------------------------- | ------------------ |
-| CodeMinds-LandingPage | main   | 67d79de6195f29a88e98b6614db9878c3b22bbd7 | feat(Landing-Page):Add team description in portugues | 16/05/25           |
-| edugo-web-application | main   | 87a4baf387429c8bd1e8309b153ababfe861d8c3 | refactor: update navigation routes with semantic rules  | 16/05/25           |
+| Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
+|-----------------------|--------|------------------------------------------|--------------------------------------------------------|--------------------|
+| CodeMinds-LandingPage | main   | 67d79de6195f29a88e98b6614db9878c3b22bbd7 | feat(Landing-Page):Add team description in portugues   | 16/05/25           |
+| edugo-web-application | main   | 87a4baf387429c8bd1e8309b153ababfe861d8c3 | refactor: update navigation routes with semantic rules | 16/05/25           |
 
 #### 6.2.1.6. Execution Evidence for Sprint Review.
 
