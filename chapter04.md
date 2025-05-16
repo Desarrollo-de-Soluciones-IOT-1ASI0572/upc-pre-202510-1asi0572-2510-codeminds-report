@@ -199,23 +199,21 @@ En esta sección se presenta el container diagram, el cual muestra cómo los dif
 
 ### 4.2.1. Bounded Context: Identity and Access Management
 
-El dominio de Identity and Access Management representa en detalle las funciones y procesos necesarios para la gestión de cuentas de usuario dentro de nuestra plataforma. Este dominio es responsable de gestionar las operaciones relacionadas con el registro, actualización y eliminación de cuentas.
+El dominio de Identity and Access Management representa en detalle las funciones y procesos necesarios para la verificacion de credenciales de acceso. Este dominio es responsable de gestionar las operaciones relacionadas con la autenticacion.
 
 ###### Diccionario de Clases
 
-El Diccionario de Clases es una herramienta clave en el proceso de diseño y desarrollo del sistema de gestión de usuarios y perfiles. Proporciona una descripción detallada de las clases fundamentales que forman la base del modelo de dominio. Este diccionario documenta las entidades, sus atributos, métodos y relaciones, lo que facilita la comprensión y colaboración entre los desarrolladores, garantizando una base sólida para la solución implementada en el proyecto de User & Profile Management.
+El Diccionario de Clases es una herramienta clave en el proceso de diseño y desarrollo del sistema de gestión de usuarios y perfiles. Proporciona una descripción detallada de las clases fundamentales que forman la base del modelo de dominio. Este diccionario documenta las entidades, sus atributos, métodos y relaciones, lo que facilita la comprensión y colaboración entre los desarrolladores, garantizando una base sólida para la solución implementada.
 
-![userclass](assets/chapter4/user-class.jpg)
-
-![profileclass](assets/chapter4/profile-class.jpg)
+![userclass](assets/chapter4/user-class.png)
 
 #### 4.2.1.1. Domain Layer.
 
-Dentro del dominio de Identity And Access Management, se encuentran entidades clave como lo escrito anteriormente. Estas entidades desempeñan un papel fundamental en los procesos necesarios para gestionar a los usuarios y sus perfiles, permitiendo a la plataforma administrar la información personal de los usuarios, así como los y roles asignados a cada perfil. Este dominio también garantiza que las interacciones entre los usuarios y el sistema se realicen de manera segura y eficiente, proporcionando acceso controlado a las distintas funcionalidades y recursos disponibles en la plataforma.
+Dentro del dominio de Identity And Access Management, se encuentran entidades clave como lo escrito anteriormente. Estas entidades desempeñan un papel fundamental en los procesos necesarios para gestionar el acceso de los usuarios a la plataforma. Este dominio garantiza que el acceso de los usuarios se realice de manera segura y eficiente.
 
 A continuación, se muestran todos los objetos relacionados con el dominio.
 
-![domainlayer](assets/chapter4/domain-layer.jpeg)
+![domainlayer](assets/chapter4/iam-domain-layer.png)
 
 #### 4.2.1.2. Interface Layer.
 
@@ -226,13 +224,13 @@ Este contexto incluye los siguientes controladores:
 UserController
 ProfileController
 
-![interfacelayer](assets/chapter4/interface-layer.jpeg)
+![interfacelayer](assets/chapter4/iam-interface-layer.png)
 
 #### 4.2.1.3. Application Layer.
 
 En esta sección, presentamos la Capa de Aplicación (Application Layer) dentro del contexto de Identity And Access Management siguiendo el enfoque de diseño Domain-Driven Design (DDD). La Capa de Aplicación es responsable de coordinar las acciones y el flujo de datos entre la Capa de Dominio y la Capa de Infraestructura, actuando como intermediario y gestionando las interacciones entre estas capas. Esta capa asegura que la lógica de negocio, representada por la Capa de Dominio, se ejecute de manera eficiente y coherente.
 
-![applicationlayer](assets/chapter4/application-layer.jpeg)
+![applicationlayer](assets/chapter4/iam-application-layer.png)
 
 #### 4.2.1.4. Infrastructure Layer.
 
@@ -254,7 +252,7 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
-![iam-database-diagram](assets/chapter4/iam-db.png)
+![iam-database-diagram](assets/chapter4/iam-db.jpg)
 
 ### 4.2.2. Bounded Context: Identity Assignment
 
