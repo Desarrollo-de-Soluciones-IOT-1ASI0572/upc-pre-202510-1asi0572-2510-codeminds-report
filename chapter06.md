@@ -221,7 +221,7 @@ Para este primer sprint se decidió trbajar en una rama diferente para despues u
 | Repository            | Branch | Commit ID                                | Commit Message                                       | Committed on(date) |
 | --------------------- | ------ | ---------------------------------------- | ---------------------------------------------------- | ------------------ |
 | CodeMinds-LandingPage | main   | 67d79de6195f29a88e98b6614db9878c3b22bbd7 | feat(Landing-Page):Add team description in portugues | 16/05/25           |
-| edugo-web-application | main   | xxxxxxx                                  | xxxxxx                                               | 16/05/25           |
+| edugo-web-application | main   | 87a4baf387429c8bd1e8309b153ababfe861d8c3 | refactor: update navigation routes with semantic rules  | 16/05/25           |
 
 #### 6.2.1.6. Execution Evidence for Sprint Review.
 
