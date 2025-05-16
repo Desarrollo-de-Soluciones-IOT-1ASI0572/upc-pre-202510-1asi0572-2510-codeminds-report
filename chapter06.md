@@ -68,7 +68,36 @@ Herramienta para la creación rápida de diagramas C4 mediante una sintaxis simi
 Es una aplicación web colaborativa que facilita el diseño e implementación de bases de datos en una amplia variedad de motores. 
 
 ### 6.1.2. Source Code Management.
+## Organización y Gestión del Trabajo
+El trabajo colaborativo fue gestionado a través de la plataforma GitHub, utilizando una organización dedicada:
 
+- **Organización:** [Desarrollo-de-Soluciones-IOT-1ASI0572](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572)
+- **Repositorio de la Landing Page:** [EduGo-landing-page](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage)
+- **Repositorio del FrontEnd:** [EduGo-FrontEnd](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/edugo-web-application)
+---
+
+### Flujo de Trabajo con GitFlow
+
+Para garantizar un desarrollo ordenado, se adoptó la estrategia de ramas **GitFlow**, que permite un control riguroso del ciclo de vida del software.
+
+#### Ramas Principales
+
+- **`main`**
+  - Contiene versiones estables listas para producción.
+  - Solo recibe cambios desde ramas `release` o `hotfix`.
+
+- **`development`**
+  - Rama de integración para las funcionalidades en desarrollo.
+  - Se parte de esta rama para crear nuevas funcionalidades (`feature`).
+
+#### Ramas Secundarias
+
+- **`feature/<nombre_funcionalidad>`**
+  - Usadas para implementar nuevas características.
+  - Se crean desde `development`.
+  - Una vez completadas, se fusionan nuevamente con `development`.
+  - Ejemplo: `feature/add-analytics-dashboard`
+  
 ### 6.1.3. Source Code Style Guide & Conventions.
 Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones en el código:
 
@@ -83,6 +112,7 @@ Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones
 - Se promoverá el uso de comentarios claros y breves en español, para explicar el propósito y funcionamiento de las partes relevantes del código, facilitando así la comprensión para todo el equipo de desarrollo.
 
 ### 6.1.4. Software Deployment Configuration.
+
 
 ## 6.2. Landing Page, Services & Applications Implementation.
 ### 6.2.1. Sprint 1
@@ -118,10 +148,14 @@ Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones
 Para este primer sprint se decidió trbajar en una rama diferente para despues unirlo todo en develop . Cada miembro ha realizado un commit para luego hacer merge. 
 | Repository                             | Branch                     | Commit ID                                  | Commit Message            | Committed on(date) |
 |----------------------------------------|----------------------------|--------------------------------------------|---------------------------|--------------------|
-| OpenSourceSW53/CodeMinds-LandingPage | xxxxx            | xxxxxxx                 | xxxxxx         | 0x/05/25           |
-| OpenSourceSW53/CodeMinds-FrontEnd | xxxxx       | xxxxxxx                 | xxxxxx   | 0x/05/25           |
+| CodeMinds-LandingPage | main      | xxxxxxx                 | xxxxxx   | 0x/05/25           |
+| edugo-web-application | xxxxx            | xxxxxxx                 | xxxxxx         | 0x/05/25           |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+| Repository                             | Branch                     | Commit ID                                  | Commit Message            | Committed on(date) |
+|----------------------------------------|----------------------------|--------------------------------------------|---------------------------|--------------------|
+| CodeMinds-LandingPage | main      | 67d79de6195f29a88e98b6614db9878c3b22bbd7                | feat(Landing-Page):Add team description in portugues  | 16/05/25           |
+| edugo-web-application | main           | xxxxxxx                 | xxxxxx         | 16/05/25           |
 
 #### 6.2.1.6. Execution Evidence for Sprint Review.
 
