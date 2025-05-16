@@ -289,13 +289,13 @@ Dentro de la capa de dominio de Identity Assignment, encontramos las entidades c
 
 En esta sección, se presenta la Capa de Interfaz para el Identity Assignment, que actúa como el punto de entrada para las interacciones de los usuarios con el sistema. La Capa de Interfaz incluye controladores que procesan tanto la vinculacion como los escaneos de la pulsera RFID.
 
-![InterfaceLayer](assets/chapter4/identity-assignment-interface-layer.jpg)
+![InterfaceLayer](assets/chapter4/identity-assignment-interface-layer.png)
 
 #### 4.2.2.3. Application Layer.
 
 En esta sección, se presenta la Capa de Aplicación (Application Layer) dentro del contexto de Identity Assignment siguiendo el enfoque de diseño Domain-Driven Design (DDD). La Capa de Aplicación es responsable de coordinar las acciones y el flujo de datos entre la Capa de Dominio y la Capa de Infraestructura, actuando como intermediario y gestionando las interacciones entre estas capas. Esta capa asegura que la lógica de negocio, representada por la Capa de Dominio, se ejecute de manera eficiente y coherente.
 
-![ApplicationLayer](assets/chapter4/identity-assignment-application-layer.jpg)
+![ApplicationLayer](assets/chapter4/identity-assignment-application-layer.png)
 
 #### 4.2.2.4. Infrastructure Layer.
 
@@ -313,7 +313,7 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 
-![identity-assignment-class-diagram](assets/chapter4/identity-assignment-class-diagram.jpg.png)
+![identity-assignment-class-diagram](assets/chapter4/identity-assignment-class-diagram.png)
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram.
 
