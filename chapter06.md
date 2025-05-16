@@ -128,11 +128,7 @@ Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones
 | **Pre-Sprint Review Summary**       | Durante la fase de preparación, xxxxxxxx |
 | **Initial Sprint  Retrospective Summary** | xxxxxxxxxx.|
 | **Sprint Goal & User Stories** |                                                                                                 |
-| Sprint 1 Goal             | Our focus is on delivering a clear and simple landing page that communicates the main value of our service. Also an interface, that allows administrators, to visualize business related information and analytics.
-
-We believe the mentioned functionalities development will increase the value in the experience for our users.
-
-This will be confirmed when new visitors learn more about our service and users are using the implemented features|
+| Sprint 1 Goal             | Our focus is on delivering a clear and simple landing page that communicates the main value of our service. Also an interface, that allows administrators, to visualize business related information and analytics.We believe the mentioned functionalities development will increase the value in the experience for our users.This will be confirmed when new visitors learn more about our service and users are using the implemented features|
 | Sprint 1 Velocity         | xxxxxx. |
 | Sum of Story Points     |  |
 
