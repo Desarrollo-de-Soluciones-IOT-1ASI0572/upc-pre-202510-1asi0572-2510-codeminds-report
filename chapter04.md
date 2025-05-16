@@ -254,7 +254,7 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram.
 
-![iam-database-diagram](assets/chapter4/iam-database-diagram.png)
+![iam-database-diagram](assets/chapter4/iam-db.png)
 
 ### 4.2.2. Bounded Context: Identity Assignment
 
@@ -267,10 +267,6 @@ El Diccionario de Clases es una herramienta clave en el diseño y desarrollo del
 #### Student
 
 ![studentclass](assets/chapter4/student-class.jpg)
-
-#### Parent
-
-![parentclass](assets/chapter4/parent-class.jpg)
 
 #### Wristband
 
