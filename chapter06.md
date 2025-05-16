@@ -123,8 +123,8 @@ Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones
 | Date                     | 2025-05-02                                                                                    |
 | Time                     | 20:00 PM                                                                                    |
 | Location                 | Virtual meeting via Discord                                                                    |
-| Prepared By              | Angel Antonio Cancho Corilla / Juan Diego Cueto Dominguez / Scott Jacobo Huachaca Advincula / Marcelo Sebastian Ramirez Ramirez / Paolo Del Carmen Martinez Villanueva / Rubio Calixto Adrian Gustavo                                                                   |
-| Attendees (to planning meeting) | Angel Antonio Cancho Corilla / Juan Diego Cueto Dominguez / Scott Jacobo Huachaca Advincula / Marcelo Sebastian Ramirez Ramirez / Paolo Del Carmen Martinez Villanueva / Rubio Calixto Adrian Gustavo                 |
+| Prepared By              | Angel Antonio Cancho Corilla / Juan Diego Cueto Dominguez / Scott Jacobo Huachaca Advincula / Marcelo Sebastian Ramirez Ramirez / Paolo Del Carmen Martinez Villanueva / Xiao Lian Li Zegarra                                                                   |
+| Attendees (to planning meeting) | Angel Antonio Cancho Corilla / Juan Diego Cueto Dominguez / Scott Jacobo Huachaca Advincula / Marcelo Sebastian Ramirez Ramirez / Paolo Del Carmen Martinez Villanueva / Xiao Lian Li Zegarra                 |
 | **Pre-Sprint Review Summary**       | During the preparation phase, the sprint bases were defined, focusing on the development of the Landing Page and the business logic applied to the Front-End design of the web application. |
 | **Initial Sprint  Retrospective Summary** | The objectives set in Sprint 1 were met, however, opportunities for improvement in time and task management were identified.|
 | **Sprint Goal & User Stories** |                                                                                                 |
