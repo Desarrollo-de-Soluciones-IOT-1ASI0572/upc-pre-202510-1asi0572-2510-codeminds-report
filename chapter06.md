@@ -131,10 +131,14 @@ Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones
 - Se promoverá el uso de comentarios claros y breves en español, para explicar el propósito y funcionamiento de las partes relevantes del código, facilitando así la comprensión para todo el equipo de desarrollo.
 
 ### 6.1.4. Software Deployment Configuration.
+
 #### Landing Page
+
 La landing page fue desplegada utilizando **GitHub Pages**, un servicio gratuito que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. Este servicio es ideal para proyectos de código abierto y proporciona una forma sencilla de compartir el trabajo con el público.
 <br><br> ![edugo-landing-page-github](assets/chapter4/edugo-landing-page-github-pages.jpg)
+
 #### Aplicación Web
+
 La aplicación web fue desplegada utilizando **Firebase Hosting**, un servicio de Google que permite alojar aplicaciones web de forma rápida y segura. Firebase Hosting es ideal para aplicaciones de una sola página (SPA) y proporciona características como SSL automático, integración con otras herramientas de Firebase y un CDN global para mejorar la velocidad de carga.
 <br><br> ![edugo-web-app-firebase](assets/chapter4/edugo-web-app-firebase.jpg)
 
@@ -145,7 +149,7 @@ La aplicación web fue desplegada utilizando **Firebase Hosting**, un servicio d
 #### 6.2.1.1. Sprint Planning 1.
 
 | Sprint #                                 | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Sprint Planning Background**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Date                                     | 2025-05-02                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Time                                     | 20:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -164,7 +168,7 @@ La aplicación web fue desplegada utilizando **Firebase Hosting**, un servicio d
 # Leadership and Collaboration Matrix (LACX)
 
 | **Team Member (Last Name, First Name)**   | **GitHub Username** | **Landing Page Development (L/C)** | **Business Logic for Front-End (L/C)** | **Administration Interface (L/C)** | **Data Visualization (L/C)** | **Analytics (L/C)** |
-|-------------------------------------------|---------------------|------------------------------------|----------------------------------------|------------------------------------|------------------------------|---------------------|
+| ----------------------------------------- | ------------------- | ---------------------------------- | -------------------------------------- | ---------------------------------- | ---------------------------- | ------------------- |
 | **Cancho Corilla, Angel Antonio**         | `angerlessdev`      | **L**                              | **C**                                  | **C**                              | **C**                        | **L**               |
 | **Cueto Dominguez, Juan Diego**           | `JDu202012207`      | **C**                              | **L**                                  | **C**                              | **L**                        | **C**               |
 | **Huachaca Advincula, Scott Jacobo**      | `Scott-Huachaca`    | **C**                              | **C**                                  | **L**                              | **C**                        | **C**               |
@@ -177,7 +181,7 @@ La aplicación web fue desplegada utilizando **Firebase Hosting**, un servicio d
 # Sprint 1
 
 | User Story |                                                      | Work-Item / Task |                                       |                                                                                       |                    |                              |                                                |
-|------------|------------------------------------------------------|------------------|---------------------------------------|---------------------------------------------------------------------------------------|--------------------|------------------------------|------------------------------------------------|
+| ---------- | ---------------------------------------------------- | ---------------- | ------------------------------------- | ------------------------------------------------------------------------------------- | ------------------ | ---------------------------- | ---------------------------------------------- |
 | Id         | Title                                                | Id               | Title                                 | Description                                                                           | Estimation (Hours) | Assigned To                  | Status (To-do / In-Process / To-Review / Done) |
 | HU10       | Generación de reportes automáticos                   | TA01             | Lógica para la generacion de reportes | Programacion de la logica vinculada a la generacion de reportes                       | 5 horas            | Angel Cancho- Paolo Martinez | Done                                           |
 | HU45       | Visualización del historial de incidentes            | TA02             | Desarrollo del listado de incidentes  | Listado de incidentes recibidos de un endpoint                                        | 2.5 horas          | Juan Diego Cueto             | Done                                           |
@@ -191,7 +195,7 @@ La aplicación web fue desplegada utilizando **Firebase Hosting**, un servicio d
 Para este primer sprint se decidió trbajar en una rama diferente para después unirlo todo en develop. Cada miembro ha realizado un commit para luego hacer merge.
 
 | Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
-|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
+| --------------------- | ------------------------------- | ---------------------------------------- | --------------------------------------------------------------------- | --------------------- |
 | CodeMinds-LandingPage | main                            | de87e5cb957edb9c71d78843c64ff5b761060c2b | fix(landing-page): set english as default language                    | 13/05/2025            |
 | CodeMinds-LandingPage | main                            | 3bfbb3898b963e1e82bd4551dfaae948e3b1504f | feat(landing-page): add language configuration file                   | 13/05/2025            |
 | CodeMinds-LandingPage | main                            | 3b1c3c3320f227ac5f1ab5d909b52c19414b1fcd | feat(landing-page): style sheet initial commit                        | 13/05/2025            |
@@ -226,18 +230,18 @@ Para este primer sprint se decidió trbajar en una rama diferente para después 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
 
 | Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
-|-----------------------|--------|------------------------------------------|--------------------------------------------------------|--------------------|
+| --------------------- | ------ | ---------------------------------------- | ------------------------------------------------------ | ------------------ |
 | CodeMinds-LandingPage | main   | 67d79de6195f29a88e98b6614db9878c3b22bbd7 | feat(Landing-Page):Add team description in portugues   | 16/05/25           |
 | edugo-web-application | main   | 87a4baf387429c8bd1e8309b153ababfe861d8c3 | refactor: update navigation routes with semantic rules | 16/05/25           |
 
 #### 6.2.1.6. Execution Evidence for Sprint Review.
 
 **Para el landing page**
-<img src="/assets/chapter4/Execution-LandingPage.PNG" alt="Contact" style="width:100%;">
+<img src="assets/chapter4/Execution-LandingPage.PNG" alt="Contact" style="width:100%;">
 [https://desarrollo-de-soluciones-iot-1asi0572.github.io/CodeMinds-LandingPage/](https://desarrollo-de-soluciones-iot-1asi0572.github.io/CodeMinds-LandingPage/)
 
 **Para el FrontEnd**
-<img src="/assets/chapter4/frontend-execution.PNG" alt="Contact" style="width:100%;">
+<img src="assets/chapter4/frontend-execution.PNG" alt="Contact" style="width:100%;">
 [https://edugo-web-app.web.app/sign-in](https://edugo-web-app.web.app/sign-in)
 
 **Enlace del video de evidencia:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202010039_upc_edu_pe/EYbOPwF2r8dKos3HTZF4OBEBfZsGa5nbYHwv3INGKTWRkA?e=G3PElV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
@@ -247,12 +251,12 @@ Para este primer sprint se decidió trbajar en una rama diferente para después 
 A continuación se presenta la documentación de los servicios de la aplicación web, incluyendo la descripción de los
 endpoints disponibles.
 
-| Endpoint                                                          | Http Verb | Accion               | Descripcion                                                                                                                                                                              |
-|-------------------------------------------------------------------|-----------|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| https://jdu202012207.github.io/pruebas-api/drivers.json           | GET       | Obtener conductores  | Devuelve información de los conductores registrados, incluyendo datos personales, número de licencia, vehículo asignado y estudiantes a su cargo.                                        |
-| https://jdu202012207.github.io/pruebas-api/parents.json           | GET       | Obtener apoderados   | Devuelve información de los padres de familia registrados, incluyendo nombre, DNI, número telefónico, foto y los estudiantes a su cargo                                                  |
-| https://jdu202012207.github.io/pruebas-api/students.json          | GET       | Obtener estudiantes	 | Devuelve información de los estudiantes registrados, incluyendo su nombre, colegio, grado, código RFID, foto y relación con su apoderado y conductor asignado.                           |
-| https://jdu202012207.github.io/pruebas-api/analytics-drivers.json | GET       | Obtener analíticas	  | Devuelve analíticas de rendimiento de los conductores, incluyendo resumen de incidentes (desvíos, tardanzas, excesos de velocidad), tiempos de llegada y distancias recorridas por día.  |
+| Endpoint                                                          | Http Verb | Accion              | Descripcion                                                                                                                                                                             |
+| ----------------------------------------------------------------- | --------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| https://jdu202012207.github.io/pruebas-api/drivers.json           | GET       | Obtener conductores | Devuelve información de los conductores registrados, incluyendo datos personales, número de licencia, vehículo asignado y estudiantes a su cargo.                                       |
+| https://jdu202012207.github.io/pruebas-api/parents.json           | GET       | Obtener apoderados  | Devuelve información de los padres de familia registrados, incluyendo nombre, DNI, número telefónico, foto y los estudiantes a su cargo                                                 |
+| https://jdu202012207.github.io/pruebas-api/students.json          | GET       | Obtener estudiantes | Devuelve información de los estudiantes registrados, incluyendo su nombre, colegio, grado, código RFID, foto y relación con su apoderado y conductor asignado.                          |
+| https://jdu202012207.github.io/pruebas-api/analytics-drivers.json | GET       | Obtener analíticas  | Devuelve analíticas de rendimiento de los conductores, incluyendo resumen de incidentes (desvíos, tardanzas, excesos de velocidad), tiempos de llegada y distancias recorridas por día. |
 
 #### 6.2.1.8. Software Deployment Evidence for Sprint Review.
 
@@ -272,11 +276,12 @@ Para el despliegue de la landing page, se configuró el servicio de GitHub Pages
 3. En el menú lateral izquierdo, se seleccionó la opción **"Pages"**.
 4. En la sección **"Source"**, se eligió la rama `main` como origen y la carpeta raíz (`/`) como directorio de publicación.
 5. Finalmente, se hizo clic en **"Save"** para guardar los cambios y activar el despliegue.
-   <img src="/assets/chapter4/DeployLanding.PNG" alt="Contact" style="width:100%;">
+   <img src="assets/chapter4/DeployLanding.PNG" alt="Contact" style="width:100%;">
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
+
 **Landing Page**
-<img src="/assets/chapter4/TeamLanding.PNG" alt="Contact" style="width:100%;">
+<img src="assets/chapter4/TeamLanding.PNG" alt="Contact" style="width:100%;">
 <br>
 **FrontEnd**
-<img src="/assets/chapter4/TeamFrontend.PNG" alt="Contact" style="width:100%;">
+<img src="assets/chapter4/TeamFrontend.PNG" alt="Contact" style="width:100%;">
