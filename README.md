@@ -173,8 +173,9 @@
 
 # Project Report Collaboration Insights
 ![Lean UX Canvas](assets/teamcollabortaion-tb1.PNG)
-El presente informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del informe](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report)
-El landingPage se encuentra guardado en la organización de CodeMinds: [URL del repositorio del LandongPage](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage)
+<br>
+El presente informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del informe](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report) <br>
+El landingPage se encuentra guardado en la organización de CodeMinds: [URL del repositorio del LandongPage](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage) <br>
 El FrontEnd informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del Frontend](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/edugo-web-application)
 ## Contenido
 
