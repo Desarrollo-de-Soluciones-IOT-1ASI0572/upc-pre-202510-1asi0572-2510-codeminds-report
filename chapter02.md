@@ -2,6 +2,8 @@
 
 ## 2.1. Competidores.
 
+A continuación se presentan los competidores principales en el mercado de aplicaciones para transporte escolar, destacando sus características y funcionalidades clave:
+
 | Nombre del Competidor | Descripción de la Aplicación                                                                                                                             |
 | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | titiGO                | Plataforma de movilidad segura para escolares que permite rastreo GPS en tiempo real y comunicación entre padres y transportistas.                       |
@@ -9,6 +11,9 @@
 | Buseta Segura         | Aplicación enfocada en ofrecer seguimiento básico de rutas escolares mediante geolocalización, pensada para padres que priorizan seguridad y control.    |
 
 ### 2.1.1. Análisis competitivo.
+
+¿Por qué llevar a cabo este análisis? Necesitamos conocer las estrategias de nuestros
+competidores para tener un lugar en el mercado y ganar fidelización de sus clientes.
 
 | Competitive Analysis Landscape        |                                                                                                                                                                                                                                                              |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -90,6 +95,8 @@ competidores. Dicha información resulta relevante para plasmar estrategias y t�
 
 ### 2.2.2. Registro de entrevistas.
 
+A continuación, se presentan las entrevistas de Needfinding:
+
 ### Segmento 1 - Conductores escolares
 
 #### Entrevista 1
@@ -136,23 +143,21 @@ Eduardo realiza **rutas de movilidad escolar** en Villa María. Se comunica co
 
 _Estos hallazgos respaldan los atributos de enfoque en seguridad, uso de navegación Waze y necesidad de una app intuitiva del arquetipo «Conductor escolar responsable»._
 
-
-| Pregunta                                                                                                                | Timestamp | Respuesta                                                                                                                                                                                                                                                                                                                                                                 |
-| ----------------------------------------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ¿Cuál es su nombre?                                                                                                     | 08:16     | Eduardo Araujo                                                                                                                                                                                                                                                                                                                                                        |
-| ¿Qué edad tiene?                                                                                                        | 08:21     | Tengo 27 años.                                                                                                                                                                                                                                                                                                                                                                  |
-| ¿En qué distrito reside?                                                                                                | 08:26     | Villa Maria del Triunfo.                                                                                                                                                                                                                                                                                                                                        |
-| ¿Cuál es su ocupación actual?                                                                                           | 08:31     | Actualmente me dedico a lo que es el chofer y bueno conductor de movilidad escolar                                                                                                                                                                                                                                                                        |
-| ¿Cuántos años tiene de experiencia en transporte escolar?                                                               | 08:41     | En el transporte escolar llevo ya ejerciendo los 3 años                                                                                                                                                                                                                                                                                                                                 |
-| ¿Cómo organiza sus rutas y controla la cantidad de estudiantes en la unidad?                                                                       | 08:52     | En mi caso, lo hago de forma empírica mediante el aplicativo del Waze y el contacto directo con los padres.                                                                                                                                                                                                                                            |
-| ¿Se ha comunicado con los padres durante el servicio? ¿Cómo suele hacerlo?                              | 09:08     | frecuentemente si lo hago mediante llamadas por mensajes o también por Whatsapp.                                                                                                                                                                             |
-| ¿Está familiarizado con el uso de GPS, sensores u otras tecnologías para el monitoreo de rutas?                           | 09:26     | Sensores no, de por sí no, pero con el tema del GPS sí. Con respecto al uso del aplicativo del Waze                                                                                                    |
-| ¿Qué problemas comunes enfrenta en su trabajo diario? | 09:47     | De por sí el tráfico, las pistas en mal estado, la falta de comunicación y confianza por parte también del padre de familia.                                                                                                                                                               |
-| ¿Qué tan importante considera la puntualidad y seguridad en su trabajo?                                                | 10:09     | astante importante, porque como estoy ligado bajo el horario de entrada y salida de los colegios tenemos que estar, digamos, en hora exacto                                                                                                                                                                                            |
-| ¿Qué necesitaría para adaptarse fácilmente a un sistema tecnológico como el que ofrece CodeMinds?                                                | 10:31     | Primero, que sea intuitivo, que tenga funciones precisas,Que no sea tampoco tan saturado, porque sino me voy a estar distrayendo al momento de manejar y eso es lo que se quiere evitar.                                                                                                 |
+| Pregunta                                                                                          | Timestamp | Respuesta                                                                                                                                                                                |
+| ------------------------------------------------------------------------------------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ¿Cuál es su nombre?                                                                               | 08:16     | Eduardo Araujo                                                                                                                                                                           |
+| ¿Qué edad tiene?                                                                                  | 08:21     | Tengo 27 años.                                                                                                                                                                           |
+| ¿En qué distrito reside?                                                                          | 08:26     | Villa Maria del Triunfo.                                                                                                                                                                 |
+| ¿Cuál es su ocupación actual?                                                                     | 08:31     | Actualmente me dedico a lo que es el chofer y bueno conductor de movilidad escolar                                                                                                       |
+| ¿Cuántos años tiene de experiencia en transporte escolar?                                         | 08:41     | En el transporte escolar llevo ya ejerciendo los 3 años                                                                                                                                  |
+| ¿Cómo organiza sus rutas y controla la cantidad de estudiantes en la unidad?                      | 08:52     | En mi caso, lo hago de forma empírica mediante el aplicativo del Waze y el contacto directo con los padres.                                                                              |
+| ¿Se ha comunicado con los padres durante el servicio? ¿Cómo suele hacerlo?                        | 09:08     | frecuentemente si lo hago mediante llamadas por mensajes o también por Whatsapp.                                                                                                         |
+| ¿Está familiarizado con el uso de GPS, sensores u otras tecnologías para el monitoreo de rutas?   | 09:26     | Sensores no, de por sí no, pero con el tema del GPS sí. Con respecto al uso del aplicativo del Waze                                                                                      |
+| ¿Qué problemas comunes enfrenta en su trabajo diario?                                             | 09:47     | De por sí el tráfico, las pistas en mal estado, la falta de comunicación y confianza por parte también del padre de familia.                                                             |
+| ¿Qué tan importante considera la puntualidad y seguridad en su trabajo?                           | 10:09     | astante importante, porque como estoy ligado bajo el horario de entrada y salida de los colegios tenemos que estar, digamos, en hora exacto                                              |
+| ¿Qué necesitaría para adaptarse fácilmente a un sistema tecnológico como el que ofrece CodeMinds? | 10:31     | Primero, que sea intuitivo, que tenga funciones precisas,Que no sea tampoco tan saturado, porque sino me voy a estar distrayendo al momento de manejar y eso es lo que se quiere evitar. |
 
 ---
-
 
 ### Segmento 2 - Padres de Familia
 
@@ -215,20 +220,20 @@ Liliana siente una **preocupación constante por la falta de información en tie
 
 _Estos hallazgos refuerzan los atributos de necesidad de rastreo en tiempo real y comunicación efectiva del arquetipo «Padre preocupado por la seguridad»._
 
-| Pregunta                                                                                                                 | Timestamp | Respuesta                                                                                                                                                    |
-|--------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ¿Cuál es su nombre?                                                                                                      | 11:13     | Liliana Ramirez.                                                                                                                                                    |
-| ¿Qué edad tiene?                                                                                                         | 11:17    | 56 años.                                                                                                                                                     |
-| ¿En qué distrito reside?                                                                                                 | 11:22     | Vivo en San Juan de Miraflores.                                                                                                                                    |
-| ¿Cuál es su ocupación actual?                                                                                            | 11:30     | Soy ama de casa.                                                                                                                                              |
-| ¿Cuántos hijos tiene y en qué nivel escolar están?                                                                       | 11:34     | Tengo un hijo de 14 años y está en secundaria.                                                                                                                         |
-| ¿Cómo trasladan sus hijos al colegio actualmente?                                                                        | 11:57     | Actualmente traslado a mi hijo en el servicio de movilidad privada brindado por el colegio.                                 |
-| ¿Ha tenido alguna preocupación relacionada con la seguridad durante el transporte escolar?                               | 12:35     | Sí, me preocupa no saber si mi hijo ya llegó al colegio o si la movilidad ha tenido algun accidente en la ruta.                     |
-| ¿Qué tipo de información le gustaría recibir en tiempo real sobre el transporte de sus hijos?                            | 12:55     | Me gustaría recibir la ubicación en tiempo real del vehículo, alertas cuando mi hijo sube o baja de la movilidad, y notificaciones si hay algún cambio en la ruta.          |
-| ¿Cómo suele comunicarse con el conductor o con la empresa de transporte?                                                 | 13:42     | Usualmente por Whatsapp mediante el grupo de padres donde también se encuentra el conductor de la movilidad.                                                                                      |
-| ¿Está familiarizado/a con el uso de tecnología como GPS o pulseras RFID?                                                 | 14:19     | Sí, he usado aplicaciones que muestran ubicación en el tiempo real de vehículos como Uber, pero no he escuchado acerca de las pulseras RFID.             |
-| ¿Qué lo motivaría a cambiar de proveedor de transporte escolar?                                                          | 14:55    | Principalmente la falta de comunicación o algún accidente que involucre al conductor. |
-| ¿Qué aplicaciones o redes sociales utiliza con mayor frecuencia para mantenerse informado?                               | 15:29    | Principalmente WhatsApp para mensajería y Facebook para enterarme de novedades relacionadas a la institución.                               |
+| Pregunta                                                                                      | Timestamp | Respuesta                                                                                                                                                          |
+| --------------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ¿Cuál es su nombre?                                                                           | 11:13     | Liliana Ramirez.                                                                                                                                                   |
+| ¿Qué edad tiene?                                                                              | 11:17     | 56 años.                                                                                                                                                           |
+| ¿En qué distrito reside?                                                                      | 11:22     | Vivo en San Juan de Miraflores.                                                                                                                                    |
+| ¿Cuál es su ocupación actual?                                                                 | 11:30     | Soy ama de casa.                                                                                                                                                   |
+| ¿Cuántos hijos tiene y en qué nivel escolar están?                                            | 11:34     | Tengo un hijo de 14 años y está en secundaria.                                                                                                                     |
+| ¿Cómo trasladan sus hijos al colegio actualmente?                                             | 11:57     | Actualmente traslado a mi hijo en el servicio de movilidad privada brindado por el colegio.                                                                        |
+| ¿Ha tenido alguna preocupación relacionada con la seguridad durante el transporte escolar?    | 12:35     | Sí, me preocupa no saber si mi hijo ya llegó al colegio o si la movilidad ha tenido algun accidente en la ruta.                                                    |
+| ¿Qué tipo de información le gustaría recibir en tiempo real sobre el transporte de sus hijos? | 12:55     | Me gustaría recibir la ubicación en tiempo real del vehículo, alertas cuando mi hijo sube o baja de la movilidad, y notificaciones si hay algún cambio en la ruta. |
+| ¿Cómo suele comunicarse con el conductor o con la empresa de transporte?                      | 13:42     | Usualmente por Whatsapp mediante el grupo de padres donde también se encuentra el conductor de la movilidad.                                                       |
+| ¿Está familiarizado/a con el uso de tecnología como GPS o pulseras RFID?                      | 14:19     | Sí, he usado aplicaciones que muestran ubicación en el tiempo real de vehículos como Uber, pero no he escuchado acerca de las pulseras RFID.                       |
+| ¿Qué lo motivaría a cambiar de proveedor de transporte escolar?                               | 14:55     | Principalmente la falta de comunicación o algún accidente que involucre al conductor.                                                                              |
+| ¿Qué aplicaciones o redes sociales utiliza con mayor frecuencia para mantenerse informado?    | 15:29     | Principalmente WhatsApp para mensajería y Facebook para enterarme de novedades relacionadas a la institución.                                                      |
 
 ---
 
@@ -254,24 +259,24 @@ Janetlis valora la **seguridad durante el traslado escolar** y desea **informaci
 
 _Estos hallazgos respaldan los atributos de seguridad, monitoreo en tiempo real y apertura a nuevas tecnologías del arquetipo «Padre preocupado por la seguridad»._
 
-| Pregunta                                                                                                                 | Timestamp | Respuesta                                                                                                                                                    |
-|--------------------------------------------------------------------------------------------------------------------------|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ¿Cuál es su nombre?                                                                                                      | 24:47     | Janetlis.                                                                                                                                                    |
-| ¿Qué edad tiene?                                                                                                         | 24:50     | 27 años.                                                                                                                                                     |
-| ¿En qué distrito reside?                                                                                                 | 24:53     | Vivo en Lima, Miraflores.                                                                                                                                    |
-| ¿Cuál es su ocupación actual?                                                                                            | 24:58     | Diseño gráfico.                                                                                                                                              |
-| ¿Cuántos hijos tiene y en qué nivel escolar están?                                                                       | 25:02     | Tengo un hijo y está en la primaria.                                                                                                                         |
-| ¿Cómo trasladan sus hijos al colegio actualmente?                                                                        | 25:15     | Actualmente traslado a mi hijo en la movilidad escolar privada, contratada directamente con el conductor que no recomendado.                                 |
-| ¿Ha tenido alguna preocupación relacionada con la seguridad durante el transporte escolar?                               | 25:31     | Sí, siempre está la preocupación de no saber exactamente dónde está el vehículo, si se traza o si hubo algún inconveniente en el camino.                     |
-| ¿Qué tipo de información le gustaría recibir en tiempo real sobre el transporte de sus hijos?                            | 25:50     | Me gustaría recibir la ubicación en tiempo real del vehículo, alertas cuando mi hijo sube o baja de la movilidad, y notificaciones si hay retrasos.          |
-| ¿Cómo suele comunicarse con el conductor o con la empresa de transporte?                                                 | 26:15     | Usualmente por Whatsapp o llamada telefónica directamente al conductor.                                                                                      |
-| ¿Está familiarizado/a con el uso de tecnología como GPS o pulseras RFID?                                                 | 26:30     | Sí, he usado aplicaciones que muestran ubicación en el tiempo real y también he escuchado del uso de la pulsera RFID para registrar asistencia.              |
-| ¿Qué lo motivaría a cambiar de proveedor de transporte escolar?                                                          | 26:50     | Principalmente la seguridad, la puntualidad y la calidad de la comunicación con los padres. Si el servicio ofreciera mejor control y seguimiento, cambiaría. |
-| ¿Qué aplicaciones o redes sociales utiliza con mayor frecuencia para mantenerse informado?                               | 27:12     | Principalmente WhatsApp, Facebook y algunas veces Instagram. También reviso noticias locales a través de aplicaciones móviles.                               |
+| Pregunta                                                                                      | Timestamp | Respuesta                                                                                                                                                    |
+| --------------------------------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ¿Cuál es su nombre?                                                                           | 24:47     | Janetlis.                                                                                                                                                    |
+| ¿Qué edad tiene?                                                                              | 24:50     | 27 años.                                                                                                                                                     |
+| ¿En qué distrito reside?                                                                      | 24:53     | Vivo en Lima, Miraflores.                                                                                                                                    |
+| ¿Cuál es su ocupación actual?                                                                 | 24:58     | Diseño gráfico.                                                                                                                                              |
+| ¿Cuántos hijos tiene y en qué nivel escolar están?                                            | 25:02     | Tengo un hijo y está en la primaria.                                                                                                                         |
+| ¿Cómo trasladan sus hijos al colegio actualmente?                                             | 25:15     | Actualmente traslado a mi hijo en la movilidad escolar privada, contratada directamente con el conductor que no recomendado.                                 |
+| ¿Ha tenido alguna preocupación relacionada con la seguridad durante el transporte escolar?    | 25:31     | Sí, siempre está la preocupación de no saber exactamente dónde está el vehículo, si se traza o si hubo algún inconveniente en el camino.                     |
+| ¿Qué tipo de información le gustaría recibir en tiempo real sobre el transporte de sus hijos? | 25:50     | Me gustaría recibir la ubicación en tiempo real del vehículo, alertas cuando mi hijo sube o baja de la movilidad, y notificaciones si hay retrasos.          |
+| ¿Cómo suele comunicarse con el conductor o con la empresa de transporte?                      | 26:15     | Usualmente por Whatsapp o llamada telefónica directamente al conductor.                                                                                      |
+| ¿Está familiarizado/a con el uso de tecnología como GPS o pulseras RFID?                      | 26:30     | Sí, he usado aplicaciones que muestran ubicación en el tiempo real y también he escuchado del uso de la pulsera RFID para registrar asistencia.              |
+| ¿Qué lo motivaría a cambiar de proveedor de transporte escolar?                               | 26:50     | Principalmente la seguridad, la puntualidad y la calidad de la comunicación con los padres. Si el servicio ofreciera mejor control y seguimiento, cambiaría. |
+| ¿Qué aplicaciones o redes sociales utiliza con mayor frecuencia para mantenerse informado?    | 27:12     | Principalmente WhatsApp, Facebook y algunas veces Instagram. También reviso noticias locales a través de aplicaciones móviles.                               |
 
 ---
 
-**URL Microsoft Stream:** [`Evidencia de entrevista`](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210582_upc_edu_pe/EdMgkMqtL39FjDfyJFefR6YBtRIt8PBmhvyA1yBKXGeSwQ?e=luQckS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**URL Microsoft Stream:** https://shorturl.at/dG1cx
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -368,7 +373,14 @@ recogida en las entrevistas.
 
 ## 2.3. Needfinding.
 
+En esta sección, se buscarán las necesidades implícitas y explícitas de las personas o
+segmentos para poder diseñar y adaptar el producto solución de manera apropiada.
+
 ### 2.3.1. User Personas.
+
+A continuación, se presentan los User Persona para ambos segmentos objetivo: Padre de Familia
+y Conductores de unidades de transporte. Se están tomando todas las características recolectadas de las entrevistas
+y de esta manera se elaboraron las fichas de nuestros arquetipos.
 
 **Padre de Familia**
 
