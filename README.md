@@ -20,18 +20,21 @@
 
 </center>
 
-## Relación de integrantes:
+## Integrantes:
 
-- **Angel Antonio Cancho Corilla U201721995**
-- **Juan Diego Cueto Dominguez U202012207**
-- **Xiao Lian Li Zegarra U202118784**
-- **Marcelo Sebastian Ramirez Ramirez U202210582**
-- **Scott Jacobo Huachaca Advincula U201914294**
-- **Paolo Del Carmen Martinez Villanueva U202010039**
+| N° | Nombre completo                             | Código       |
+|----|---------------------------------------------|--------------|
+| 1  | Angel Antonio Cancho Corilla                | U201721995   |
+| 2  | Juan Diego Cueto Dominguez                  | U202012207   |
+| 3  | Xiao Lian Li Zegarra                        | U202118784   |
+| 4  | Marcelo Sebastian Ramirez Ramirez           | U202210582   |
+| 5  | Scott Jacobo Huachaca Advincula             | U201914294   |
+| 6  | Paolo Del Carmen Martinez Villanueva        | U202010039   |
+
 
 <center>
 
-### 2025 - 01
+### 2025 - 10
 
 </center>
 
@@ -189,11 +192,22 @@ Github Collaboration Insights proporciona un cronograma que muestra las principa
 
 main <br>
 develop <br>
+feature/tb1/chapter01 <br>
+feature/tb1/chapter02 <br>
+feature/tb1/chapter03 <br>
+feature/tb1/chapter04 <br>
+feature/tp1/chapter05<br>
+feature/tp1/chapter06 <br>
 
-#### **Entregable TB1 y TP1** <br>
-
-- A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro primer sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
+#### **Colaboracion de los entregables** <br>
+**TB1**<BR>
+A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro primer sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
   ![Lean UX Canvas](assets/teamcollabortaion-tb1.PNG)
+<BR>
+**TB1** <BR>
+A continuación, se presentan los gráficos correspondientes a la participación de los integrantes del equipo durante el desarrollo del segundo entregable del trabajo parcial. Estos gráficos ilustran de manera clara la actividad individual de cada miembro, incluyendo la frecuencia de commits y las modificaciones realizadas en el código. La visualización permite analizar la dinámica de colaboración del equipo durante este periodo, así como la distribución del esfuerzo técnico invertido en el repositorio.
+  ![Lean UX Canvas](assets/teamcollabortaion-tb1.PNG)
+  
   <br>
   El presente informe se encuentra guardado en la organización de CodeMinds: [https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report) <br>
   El landingPage se encuentra guardado en la organización de CodeMinds: [https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage) <br>
