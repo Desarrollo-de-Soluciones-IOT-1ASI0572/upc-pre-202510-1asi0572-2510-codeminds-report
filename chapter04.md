@@ -109,7 +109,7 @@ Lo que queda de la siguiente manera:
 
 ![step10](assets/chapter4/step10.jpg)
 
-Link al miro: https://miro.com/app/board/uXjVI1_yeP0=/?share_link_id=516096367099
+Link al miro: https://shorturl.at/3zSGc
 
 #### 4.1.1.2 Domain Message Flows Modeling.
 
@@ -157,8 +157,6 @@ Se crearon los Canvases en base a los Bounded Context definidos anteriormente
 
 ### 4.1.2. Context Mapping.
 
-![ContextMapping](assets/chapter4/ContextMapping.PNG)
-<br>
 El mapa de contexto ilustra las relaciones clave entre los diferentes contextos de nuestro sistema. Se identifican dos tipos principales de interacciones:
 
 - **Partnership:** Representada por una flecha bidireccional, esta relación indica una colaboración estrecha y objetivos compartidos entre los contextos de "Identity Assignment" y "Vehicle Tracking". Los cambios en cualquiera de estos contextos tienen un impacto significativo en el otro debido a su naturaleza colaborativa.
@@ -167,13 +165,16 @@ El mapa de contexto ilustra las relaciones clave entre los diferentes contextos 
   - "IAM Commodity" provee servicios a "Vehicle Tracking".
   - "Identity Assignment" provee servicios a "Notification Soporte".
   - "Vehicle Tracking" provee servicios a "Analytics Soporte".
-  - "Notification Soporte" provee servicios a "Analytics Soporte".
+  - "Notification Soporte" provee servicios a "Analytics Soporte".<br><br>
+
+![ContextMapping](assets/chapter4/ContextMapping.PNG)
 
 ### 4.1.3. Software Architecture.
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
 
 Diagrama en el que se visualiza la estructura general del sistema
+
 ![landscapediagram](assets/chapter4/fixed-landscape-diagram-iot.png)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams.
@@ -192,6 +193,8 @@ En esta sección se presenta el container diagram, el cual muestra cómo los dif
 ![containerdiagram](assets/chapter4/container-diagram.png)
 
 #### 4.1.3.3. Software Architecture Deployment Diagrams.
+
+Este diagrama muestra la arquitectura de despliegue de la solución EduGo, ilustrando cómo las diferentes aplicaciones (web, móvil y API) interactúan entre sí y con la base de datos para ofrecer la funcionalidad completa al usuario final.
 
 ![deploymentdiagram](assets/chapter4/deployment-diagram.jpg)
 
@@ -242,15 +245,21 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 #### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.
 
+En esta sección se presentan el diagrama de componente específico del contexto delimitado de Identity And Access Management, detallando la estructura interna, los módulos y las interacciones clave que soportan la gestión de identidades y control de acceso dentro del sistema.
+
 ![iam-component-diagram](assets/chapter4/iam-component-diagram.png)
 
 #### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.
 
+Esta sección muestra los diagramas de clases que representan el modelo de dominio dentro del contexto delimitado, detallando las entidades, agregados y relaciones que encapsulan la lógica de negocio específica del dominio.
+
 ![iam-class-diagram](assets/chapter4/iam-class-diagram.jpeg)
 
 #### 4.2.1.6.2. Bounded Context Database Design Diagram.
+
+En esta sección se presenta el diseño de la base de datos específico para el contexto delimitado, mostrando las tablas, relaciones y claves que soportan el modelo de dominio y garantizan la integridad y eficiencia en el almacenamiento de datos.
 
 ![iam-database-diagram](assets/chapter4/iam-db.jpg)
 
@@ -307,15 +316,21 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 #### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.
 
+Esta sección presenta los diagramas de componentes que describen la estructura interna del contexto delimitado Identity Assignment. Se ilustran los principales módulos y sus relaciones para comprender cómo se organiza y funciona la arquitectura de software en este contexto.
+
 ![identity-assignment-component-diagram](assets/chapter4/identity-assignment-component-diagram.png)
 
 #### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.
 
+Esta sección presenta el diagrama de clases del dominio, destacando las principales entidades y relaciones que definen la estructura y lógica del negocio dentro del contexto delimitado.
+
 ![identity-assignment-class-diagram](assets/chapter4/identity-assignment-class-diagram.png)
 
 #### 4.2.2.6.2. Bounded Context Database Design Diagram.
+
+En esta sección se presenta el diseño de la base de datos para el contexto delimitado, mostrando la estructura principal con sus tablas y relaciones clave para el almacenamiento eficiente de la información.
 
 ![Identity-Assignment-DB](assets/chapter4/identity-assignment-db.png)
 
@@ -363,15 +378,21 @@ Los repositorios en esta capa se implementan las interfaces de la Capa de Domini
 
 #### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.
 
+Presenta los componentes principales y sus interacciones dentro del contexto de Vehicle Tracking, mostrando cómo se organiza la arquitectura para cumplir con sus responsabilidades.
+
 ![vehicule-tracking-component-diagram](assets/chapter4/component-level-dagrams-vehicule.png)
 
 #### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.
 
+Muestra las entidades y relaciones clave del dominio relacionadas con el seguimiento de vehículos, reflejando la lógica de negocio y las reglas propias del contexto.
+
 ![identity-assignment-class-diagram](assets/chapter4/Bounded-Context-Domain-Layer-Class-Diagrams-Vehicule.PNG)
 
 #### 4.2.3.6.2. Bounded Context Database Design Diagram.
+
+Describe la estructura de la base de datos específica para el seguimiento de vehículos, con las tablas y relaciones necesarias para el almacenamiento y gestión de datos.
 
 ![Identity-Assignment-DB](assets/chapter4/Database_Design_Diagram-Vehicule.png)
 
@@ -419,15 +440,21 @@ Los repositorios en la Capa de Infraestructura implementan las interfaces defini
 
 #### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
 
+En esta sección se presenta el diagrama de componentes que ilustra los elementos principales y su interacción dentro del contexto delimitado de Notification, explicando cómo se gestionan, procesan y distribuyen las notificaciones en el sistema.
+
 ![component-level-dagrams](assets/chapter4/component-level-dagrams.png)
 
 #### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.
 
+Se muestra el diagrama de clases del dominio que representa las entidades fundamentales y sus relaciones en el contexto de Notification, reflejando la estructura lógica y las reglas de negocio asociadas a la gestión de notificaciones.
+
 ![diagram_class](assets/chapter4/diagram_class.png)
 
 #### 4.2.4.6.2. Bounded Context Database Design Diagram.
+
+Aquí se presenta el diseño de la base de datos específico para el contexto de Notification, detallando las tablas, sus atributos y las relaciones clave para el almacenamiento y administración eficiente de los datos de notificaciones.
 
 ![database](assets/chapter4/database.png)
 
@@ -464,6 +491,8 @@ La Capa de Aplicación dentro del contexto de Analytics se encarga de coordinar 
 La Capa de Infraestructura dentro del contexto de Analytics ofrece los recursos técnicos y de soporte esenciales para almacenar y recuperar los datos relacionados con el análisis del transporte escolar.
 
 ![InfrastructureAnalytics](assets/chapter4/InfrastructureAnalytics.png)
+
+En esta sección se presenta el diagrama de componentes que detalla la arquitectura del contexto delimitado de Analytics. Se muestran los módulos principales, sus responsabilidades y cómo interactúan para procesar, analizar y reportar datos relevantes dentro del sistema, facilitando la toma de decisiones basada en información precisa y oportuna.
 
 #### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.
 
@@ -515,26 +544,38 @@ Esta capa contiene la implementación técnica que permite la interacción con s
 
 #### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
 
+En esta sección se presenta el diagrama de componentes que muestra la arquitectura y los principales módulos del contexto Profile Assignment, describiendo cómo interactúan para gestionar perfiles y asignaciones dentro del sistema.
+
 ![ComponentProfile](assets/chapter4/componen-profile.png)
 
 #### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.
 
 #### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.
 
+Se presenta el diagrama de clases del dominio que refleja las entidades clave y sus relaciones dentro del contexto Profile Assignment, representando la estructura del negocio y la lógica asociada.
+
 ![ClassProfile](assets/chapter4/class-profile.png)
 
 #### 4.2.6.6.2. Bounded Context Database Design Diagram.
+
+Aquí se presenta el diseño de la base de datos para el contexto Profile Assignment, mostrando las tablas principales y las relaciones necesarias para el almacenamiento y gestión de datos.
 
 ![DatabaseProfile](assets/chapter4/bd-profile.png)
 
 ### 4.2.6.6.3. Applications Component Diagrams
 
+En esta sección se presentan los diagramas de componentes que ilustran la arquitectura interna y la interacción de los principales módulos dentro de las aplicaciones de EduGo. Se incluyen tanto los diagramas de componentes correspondientes a la aplicación web como a la aplicación móvil.
+
 #### Web Application Component Diagram
+
+Muestra la estructura de la aplicación web, destacando los componentes responsables de la presentación, la lógica de negocio y la comunicación con el backend, así como la entrega de funcionalidades a través de un entorno de navegador.
 
 ![webContainerDiagram](assets/chapter4/web-application-components-diagram.png)
 
 ![singlePageContainerDiagram](assets/chapter4/single-page-application-components-diagram.png)
 
 #### Mobile Application Component Diagram
+
+Describe la arquitectura de la aplicación móvil, resaltando los componentes que gestionan la interfaz de usuario, la conexión con dispositivos IoT, el procesamiento local de datos y la sincronización con el backend mediante servicios de fachada (facades).
 
 ![mobileContainerDiagram](assets/chapter4/mobile-application-components-diagram.png)
