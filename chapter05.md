@@ -223,6 +223,7 @@ Aplicación Móvil:
 
 ## 5.3. Landing Page UI Design.
 ### 5.3.1. Landing Page Wireframe.
+A continuación, los wireframes realizados para el proyecto:
 **LandingPage Wireframe Inicio**
 <img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage Wireframe Caracteristicas y beneficios**
@@ -237,6 +238,8 @@ Aplicación Móvil:
 <img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Footer.png" alt="Web app wireframes 1" style="width:100%;">
 
 ### 5.3.2. Landing Page Mock-up.
+Una vez definido el wireframe, aplicamos los estilos definidos previamente en el punto 5.1. (Style Guidelines). A continuación, presentamos los mock-ups realizados para el proyecto:
+
 **LandingPage MockUp Inicio**
 <img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage MockUp Caracteristicas y beneficios**
@@ -252,7 +255,10 @@ Aplicación Móvil:
 
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
-**Web Application: **<br>
+
+En esta sección se presentan los wireframes de las aplicaciones, que muestran el diseño estructural y la disposición de los elementos clave para la experiencia de usuario tanto en la aplicación web como en la móvil.
+**Web Application:**
+
 **Web Application Wireframe Login**
 <img src="/assets/chapter4/WebApp-Wireframes/Login.png" alt="Web app wireframes 1" style="width:100%;">
 **Web Application Wireframe Dashboard**
@@ -271,7 +277,6 @@ Aplicación Móvil:
 <img src="/assets/chapter4/Wireframes-Movil/Register Error 4_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="/assets/chapter4/Wireframes-Movil/Register Error 5_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="/assets/chapter4/Wireframes-Movil/Driver_SetUp_Wireframe.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/Wireframes-Movil/Upload photo_Wireframe'.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Home Parent** <br>
 <img src="/assets/chapter4/Wireframes-Movil/Home_Page_Parent_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Children** <br>
@@ -300,7 +305,9 @@ Aplicación Móvil:
 
 
 ### 5.4.2. Applications Wireflow Diagrams.
-**Web Application:** <br>
+Esta sección presenta los diagramas de flujo (wireflows) de las aplicaciones, que ilustran la navegación y las interacciones del usuario entre las diferentes pantallas, facilitando la comprensión del recorrido dentro del sistema.
+
+**Web Application:**<br>
 **WebApp Wireflow Home**
 <img src="/assets/chapter4/WebApp-Wireflows/Flow-WebHome.png" alt="Web app wireframes 1" style="width:100%;">
 
@@ -331,7 +338,9 @@ Aplicación Móvil:
 <img src="/assets/chapter4/Wireflows-Movil/Flow-Account-EditAccount.PNG" alt="Web app wireframes 1" > <br>
 
 ### 5.4.2. Applications Mock-ups.
-**Web Application: ** 
+En esta sección se presentan los mock-ups de las aplicaciones, mostrando representaciones visuales detalladas de las interfaces de usuario finales para web y móvil, que reflejan el diseño, estilo y funcionalidad planeados.
+
+**Web Application:** 
 <br>
 **WebApp MockUp Login** <br>
 <img src="/assets/chapter4/WebApp-MockUp/Login.png" alt="Web app wireframes 1" style="width:100%;"> <br>
@@ -350,7 +359,7 @@ Aplicación Móvil:
 
 <br>
 
-**App Movil: **<br>
+**App Movil:**<br>
 **AppMovil MockUp Login/Register Driver** <br>
 <img src="/assets/chapter4/MockUp-Movil/Login_Driver.png" alt="Web app wireframes 5" > <br>
 <img src="/assets/chapter4/MockUp-Movil/Register.png" alt="Web app wireframes 5" > <br>
@@ -397,7 +406,11 @@ Aplicación Móvil:
 
 
 ### 5.4.3. Applications User Flow Diagrams.
-**Web Application** <br>
+
+Esta sección presenta los diagramas de flujo de usuario, que ilustran las rutas y procesos que siguen los usuarios dentro de las aplicaciones, facilitando la comprensión de la navegación y las interacciones clave
+
+**Web Application**<br>
+
 **Web Application UserFlow DriversStudents-Details**
 <img src="/assets/chapter4/WebApp-UserFlow/UserFlow-WebAppDriversStudents-Details.png" alt="Web app wireframes 1" style="width:100%;">
 **Web Application UserFlow Home**
@@ -424,11 +437,15 @@ Aplicación Móvil:
 <img src="/assets/chapter4/UserFlow-Movil/UserFlow-UploadProfile-Parent-DriverPNG.PNG" alt="Web app wireframes 5" >
 
 ## 5.5. Applications Prototyping.
+
+En esta sección se presentan los prototipos interactivos de las aplicaciones, que permiten visualizar y probar la experiencia de usuario antes del desarrollo final. Incluye enlaces a prototipos navegables para las versiones web y móvil.
+
 **Web Application :** <br>
 <img src="/assets/chapter4/WebApp-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
 <br>
-[https://www.figma.com/proto/27YLKQmieuwzcaSKuPucG2/Web?node-id=82-514&p=f&t=gEB7y5RLh908G3lG-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=82%3A514&show-proto-sidebar=1](https://www.figma.com/proto/27YLKQmieuwzcaSKuPucG2/Web?node-id=82-514&p=f&t=gEB7y5RLh908G3lG-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=82%3A514&show-proto-sidebar=1) <br>
+Enlace al prototipo de la aplicación web: https://shorturl.at/hS4i2
+
 **App Movil :** <br>
 <img src="/assets/chapter4/AppMovil-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
 <br>
-[https://www.figma.com/proto/aFhwXAsZUzKZCf7WFTepW5/Mobile?node-id=1-370&p=f&t=gbUbh6U2UpBSJiLp-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A370&show-proto-sidebar=1](https://www.figma.com/proto/aFhwXAsZUzKZCf7WFTepW5/Mobile?node-id=1-370&p=f&t=gbUbh6U2UpBSJiLp-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A370&show-proto-sidebar=1)
+Enlace al protitpo de la aplicación movil: https://shorturl.at/2Ohhx
