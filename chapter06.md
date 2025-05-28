@@ -234,13 +234,13 @@ Para este primer sprint se decidió trbajar en una rama diferente para después 
 
 **Para el landing page**
 <img src="/assets/chapter4/Execution-LandingPage.PNG" alt="Contact" style="width:100%;">
-[https://desarrollo-de-soluciones-iot-1asi0572.github.io/CodeMinds-LandingPage/](https://desarrollo-de-soluciones-iot-1asi0572.github.io/CodeMinds-LandingPage/)
+Enlace a la Landing Page: https://shorturl.at/gUWFP
 
 **Para el FrontEnd**
 <img src="/assets/chapter4/frontend-execution.PNG" alt="Contact" style="width:100%;">
-[https://edugo-web-app.web.app/sign-in](https://edugo-web-app.web.app/sign-in)
+Enlace al FrontEnd: https://edugo-web-app.web.app/sign-in
 
-**Enlace del video de evidencia:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202010039_upc_edu_pe/EYbOPwF2r8dKos3HTZF4OBEBfZsGa5nbYHwv3INGKTWRkA?e=G3PElV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Enlace del video de evidencia:** https://shorturl.at/ca4qS
 
 #### 6.2.1.7. Services Documentation Evidence for Sprint Review.
 
