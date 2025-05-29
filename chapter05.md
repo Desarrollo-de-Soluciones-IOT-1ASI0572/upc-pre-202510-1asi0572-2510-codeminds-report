@@ -3,6 +3,9 @@
 ## 5.1. Style Guidelines.
 
 ### 5.1.1. General Style Guidelines.
+
+Esta sección define las pautas generales de estilo para EduGo, incluyendo el lenguaje, la paleta de colores, la tipografía, el espaciado y la identidad visual de la marca.
+
 #### LENGUAJE
 El lenguaje utilizado en la aplicación es una mezcla equilibrada entre formal y casual. Por un lado, el tono formal busca transmitir confianza y seguridad, especialmente en funciones críticas como el seguimiento del transporte escolar. Esto se refleja en frases como "Seguridad Inteligente en el Transporte Escolar" o "Mundirá con un tiempo real de la inclusión y seguridad de sus hijos", que destacan profesionalismo y precisión. Por otro lado, el lenguaje casual se incorpora para crear una experiencia amigable y cercana, evitando que el usuario se confunda. Ejemplos de esto son términos sencillos como "Contáctanos" o "Iniciado", que facilitan la interacción diaria.
 
@@ -37,6 +40,9 @@ Se optó por emplear un espaciado generoso entre los elementos de la interfaz pa
 </br>
 
 #### BRANDING  
+
+En esta sección se presenta la identidad visual de EduGo, representada a través del diseño de su logotipo. El branding fue concebido para reflejar de forma clara los valores del proyecto: movimiento, educación, tecnología y seguridad.
+
 <center><img src="/assets/chapter4/CodeMinds-Logo.png" alt="LOGO" style="width:50%"></center>
 <br></br>
 
@@ -49,6 +55,8 @@ La tipografía moderna y amigable utilizada para el nombre “EduGo” refuerza 
 Este diseño es versátil y funcional en distintos formatos (digital, impresos o material promocional), y mantiene su legibilidad e identidad incluso a escalas pequeñas, gracias a su simplicidad visual y colores distintivos.
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
+
+En esta sección se detallan los lineamientos visuales y de diseño implementados en la interfaz de usuario para las diferentes plataformas del sistema: web, móvil e IoT.
 
 ##### Dimensiones
 Se consideran dimensiones estándar para asegurar una experiencia de usuario adecuada en distintos dispositivos:
@@ -151,6 +159,7 @@ La aplicación web y movil contará con un sistema de etiquetado simple y sencil
 Las siguientes etiquetas serán utilizadas para ambos contextos de los segmentos objetivos.
 
 Para la aplicacion web
+
 | Etiqueta | Descripción |
 |----------|-------------|
 | Inicio   | Seccion donde el administrador se logea al sistema |
@@ -159,6 +168,7 @@ Para la aplicacion web
 | Report  | Sección donde se visualiza datos escritos sobre las acciones del conductor(Incidentes e historia de recorrido) |
 
 Para la app movil-Padres
+
 | Etiqueta | Descripción |
 |----------|-------------|
 | Home | Pantalla principal donde se puede visualizar la opcion de ver a sus hijos y notificaiones . |
@@ -167,6 +177,7 @@ Para la app movil-Padres
 | Account | Sección donde se puede ver los datos personales del padre. |
 
 Para la app movil-Conductores
+
 | Etiqueta | Descripción |
 |----------|-------------|
 | Home | Pantalla principal donde se puede visualizar la opcion de ver sus viajes pasados,la asistencia de cada estudiante y el boton de emergencia en caso de reportar algun incidente . |
@@ -175,6 +186,9 @@ Para la app movil-Conductores
 | Account | Sección donde se puede ver los datos personales del conductore. |
 
 ### 5.2.3. SEO Tags and Meta Tags
+
+En esta sección se especifican las etiquetas SEO y metaetiquetas utilizadas para mejorar el posicionamiento y la visibilidad de la landing page y la aplicación web de EduGo.
+
 Meta tags estratégicos se usarán para posicionar la landingpag y aplicacion web, mejorando su visibilidad y acceso
 * Title tag: Titulo principal que será visualizado tanto para el landing,mobile y web ```<title> EduGo </title>```
 * Meta Description: Descripción que explica de que  trata EduGo ```<meta name = "description" content = "Seguridad Inteligente en el Transporte Escolar | Monitoreo en tiempo real de la ubicación y seguridad de tus hijos"/>```
@@ -202,6 +216,9 @@ En la aplicación web EduGo se busca implementar un sistema facil de usar y efec
 
 
 ### 5.2.5. Navigation Systems.
+
+En esta sección se describe la estructura y organización de los sistemas de navegación diseñados para la landing page, la aplicación web y la aplicación móvil de EduGo. Se detallan los menús y elementos interactivos que permiten a los usuarios acceder de manera sencilla y rápida a las distintas secciones y funcionalidades según el dispositivo y perfil de usuario. La navegación está pensada para ser clara, accesible y coherente, adaptándose a las necesidades específicas de cada plataforma.
+
 Landing Page:
 
 - Menú superior con scroll automático a secciones: Inicio, Beneficios, Funcionamiento, Contacto.
@@ -223,6 +240,9 @@ Aplicación Móvil:
 
 ## 5.3. Landing Page UI Design.
 ### 5.3.1. Landing Page Wireframe.
+
+En esta sección se presentan los wireframes desarrollados para la landing page del proyecto. Cada imagen ilustra la estructura y distribución de las diferentes secciones, incluyendo la página de inicio, características y beneficios, equipo, contacto y el pie de página. Estos wireframes sirvieron como guía visual para validar la organización del contenido y la experiencia de usuario antes de proceder con el diseño final y la implementación.
+
 A continuación, los wireframes realizados para el proyecto:
 **LandingPage Wireframe Inicio**
 <img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
