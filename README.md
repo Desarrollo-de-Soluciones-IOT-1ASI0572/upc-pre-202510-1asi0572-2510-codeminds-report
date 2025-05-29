@@ -206,7 +206,7 @@ A continuación se presentan los gráficos de colaboración de los integrantes d
 <BR>
 **TB1** <BR>
 A continuación, se presentan los gráficos correspondientes a la participación de los integrantes del equipo durante el desarrollo del segundo entregable del trabajo parcial. Estos gráficos ilustran de manera clara la actividad individual de cada miembro, incluyendo la frecuencia de commits y las modificaciones realizadas en el código. La visualización permite analizar la dinámica de colaboración del equipo durante este periodo, así como la distribución del esfuerzo técnico invertido en el repositorio.
-  ![Lean UX Canvas](assets/teamcollabortaion-tb1.PNG)
+  ![Lean UX Canvas](assets/teamcollabortaion-tp1.jpg)
   
   <br>
   El presente informe se encuentra guardado en la organización de CodeMinds: [https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report) <br>
