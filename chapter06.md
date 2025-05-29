@@ -2,7 +2,11 @@
 
 ## 6.1. Software Configuration Management.
 
+En esta sección, el equipo establece las decisiones y convenciones que permitirán mantener la consistencia durante todo el ciclo de vida del desarrollo de software. La configuración abarca la gestión del código fuente, la configuración del entorno de desarrollo y el despliegue de las aplicaciones. Estas decisiones garantizan una colaboración eficiente, asegurando que todos los miembros del equipo trabajen de manera coherente y organizada.
+
 ### 6.1.1. Software Development Environment Configuration.
+
+En esta sección se especifican y describen las herramientas y productos de software que los miembros del equipo deben utilizar durante el ciclo de vida del desarrollo, para garantizar la colaboración eficiente y la consistencia en el proyecto. Estas herramientas cubren todas las áreas clave, incluyendo la gestión del proyecto, el diseño UX/UI, el desarrollo, las pruebas y el despliegue.
 
 #### Project Management
 
@@ -80,6 +84,8 @@ La aplicación móvil fue desarrollada de forma **nativa para Android** utilizan
 
 ### 6.1.2. Source Code Management.
 
+En esta sección se detalla cómo el equipo gestionará el código fuente utilizando GitHub como plataforma y sistema de control de versiones. A continuación, se describen los medios y el esquema de organización que se implementarán para el seguimiento de modificaciones. El equipo aplicará el workflow GitFlow para organizar las ramas de desarrollo y mantendrá un seguimiento estricto del versionado y los commits.
+
 ## Organización y Gestión del Trabajo
 
 El trabajo colaborativo fue gestionado a través de la plataforma GitHub, utilizando una organización dedicada:
@@ -131,6 +137,9 @@ Para el desarrollo de futuros sprints se utilizarán las siguientes convenciones
 - Se promoverá el uso de comentarios claros y breves en español, para explicar el propósito y funcionamiento de las partes relevantes del código, facilitando así la comprensión para todo el equipo de desarrollo.
 
 ### 6.1.4. Software Deployment Configuration.
+
+La configuración de despliegue de software para la solución propuesta depende del componente específico que se esté desplegando. A continuación, se detallan las configuraciones de despliegue para cada uno de los componentes principales del proyecto.
+
 #### Landing Page
 La landing page fue desplegada utilizando **GitHub Pages**, un servicio gratuito que permite alojar sitios web estáticos directamente desde un repositorio de GitHub. Este servicio es ideal para proyectos de código abierto y proporciona una forma sencilla de compartir el trabajo con el público.
 <br><br> ![edugo-landing-page-github](assets/chapter4/edugo-landing-page-github-pages.jpg)
@@ -139,6 +148,10 @@ La aplicación web fue desplegada utilizando **Firebase Hosting**, un servicio d
 <br><br> ![edugo-web-app-firebase](assets/chapter4/edugo-web-app-firebase.jpg)
 
 ## 6.2. Landing Page, Services & Applications Implementation.
+
+En esta sección, detallamos el proceso completo de implementación, pruebas, documentación y despliegue de los distintos componentes que conforman la solución. Esto incluye el desarrollo de nuestra Landing Page, que sirve como punto de entrada y presentación de nuestro producto al público general, así como la implementación de los Servicios Web, Aplicaciones Web, Aplicaciones Móviles y Aplicaciones Embebidas que constituyen el núcleo funcional de nuestra propuesta.
+
+A lo largo de esta sección, explicamos cómo hemos abordado cada fase del ciclo de vida del desarrollo de software para estos componentes, desde la planificación inicial y el diseño, hasta la ejecución de pruebas y el despliegue en entornos de producción. Detallamos las tecnologías utilizadas, los desafíos enfrentados y las soluciones implementadas para asegurar que cada componente cumpla con los requisitos establecidos y proporcione una experiencia de usuario óptima.
 
 ### 6.2.1. Sprint 1
 
@@ -232,11 +245,13 @@ Para este primer sprint se decidió trbajar en una rama diferente para después 
 
 #### 6.2.1.6. Execution Evidence for Sprint Review.
 
+Para el logro de este proyecto, se realizó el despliegue tanto de la Landing Page, como la primera versión de la aplicación web, las cuales se encuentran en los siguientes enlaces a continuación:
+
 **Para el landing page**
 <img src="/assets/chapter4/Execution-LandingPage.PNG" alt="Contact" style="width:100%;">
 Enlace a la Landing Page: https://shorturl.at/gUWFP
 
-**Para el FrontEnd**
+**Para la aplicación web**
 <img src="/assets/chapter4/frontend-execution.PNG" alt="Contact" style="width:100%;">
 Enlace al FrontEnd: https://edugo-web-app.web.app/sign-in
 
@@ -275,8 +290,12 @@ Para el despliegue de la landing page, se configuró el servicio de GitHub Pages
    <img src="/assets/chapter4/DeployLanding.PNG" alt="Contact" style="width:100%;">
 
 #### 6.2.1.9. Team Collaboration Insights during Sprint.
-**Landing Page**
+
+Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización de la aplicación web, como el landing page:
+
+Insights del LandingPage, donde se muestran los commits realizados al repositorio en el ultimo mes
 <img src="/assets/chapter4/TeamLanding.PNG" alt="Contact" style="width:100%;">
 <br>
-**FrontEnd**
+
+Insights del FrontEnd, donde se muestran los commits realizados al repositorio en el ultimo mes
 <img src="/assets/chapter4/TeamFrontend.PNG" alt="Contact" style="width:100%;">
