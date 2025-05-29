@@ -171,6 +171,8 @@ El mapa de contexto ilustra las relaciones clave entre los diferentes contextos 
 
 ### 4.1.3. Software Architecture.
 
+En esta sección, se presenta la arquitectura de software del sistema, que describe cómo están organizados los diferentes componentes y cómo interactúan entre sí. También se explica cómo se toman las decisiones de diseño para asegurar que el sistema sea eficiente, fácil de mantener y de usar.
+
 #### 4.1.3.1. Software Architecture System Landscape Diagram.
 
 Diagrama en el que se visualiza la estructura general del sistema
