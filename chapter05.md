@@ -447,22 +447,45 @@ El administrador selecciona la opción de “Reportes” en el menú principal, 
 <img src="/assets/chapter4/WebApp-UserFlow/ug03.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
 
 **AppMovil** <br>
-**AppMovil User Flow Login/Register Driver**
-<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Login-Register-Driver.PNG" alt="Web app wireframes 5" >
-**AppMovil User Flow Login/Register Parent**
-<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Login-Register-Parent.PNG" alt="Web app wireframes 5" >
-**AppMovil User Flow Home Driver**
-<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Home-Driver.PNG" alt="Web app wireframes 5" >
-**AppMovil User Flow Home Parent**
-<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Home-Parent.PNG" alt="Web app wireframes 5" >
-**AppMovil User Flow Driver PastTrips**
-<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Driver-PastTrips.PNG" alt="Web app wireframes 5" >
-**AppMovil User Flow Driver Attendace**
-<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Driver-Attendace.PNG" alt="Web app wireframes 5" >
-**AppMovil User Flow Parent Children**
-<img src="/assets/chapter4/UserFlow-Movil/UserFlow-Parent-Children.PNG" alt="Web app wireframes 5" >
-**AppMovil User Flow Driver upload profile Parent/Driver**
-<img src="/assets/chapter4/UserFlow-Movil/UserFlow-UploadProfile-Parent-DriverPNG.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Login/Register Driver** <br>
+**UG04: Registrar una cuenta de conductor en la app móvil** <br>
+El conductor abre la app móvil de EduGo, selecciona “Registrarse”, y completa el formulario con sus datos personales, licencia y credenciales. Tras enviar la información, el sistema valida los datos y notifica al conductor que su cuenta fue creada correctamente y está lista para ser usada.
+<img src="/assets/chapter4/UserFlow-Movil/ug04.jpg" alt="Web app wireframes 5" > <br><br>
+
+**AppMovil User Flow Login/Register Parent** <br>
+**UG05: Registrar una cuenta de padre de familia en la app móvil** <br>
+El padre accede a la aplicación móvil y selecciona “Registrarse”. Luego, completa el formulario con sus datos personales, número de identificación y código de vínculo del estudiante. Una vez enviado, recibe una confirmación de que su cuenta fue registrada exitosamente y puede acceder a los datos de sus hijos.
+<img src="/assets/chapter4/UserFlow-Movil/ug05.jpg" alt="Web app wireframes 5" > <br><br>
+
+**AppMovil User Flow Home Driver**<br>
+**UG06: Iniciar sesión como conductor y acceder al panel de inicio**<br>
+El conductor abre la aplicación móvil, introduce sus credenciales y accede a la pantalla principal. Desde allí puede visualizar su ruta asignada, los estudiantes esperados, el estado del vehículo y botones de acción como “Iniciar Ruta” o “Modo Emergencia”.
+<img src="/assets/chapter4/UserFlow-Movil/ug06.jpg" alt="Web app wireframes 5" ><br><br>
+
+**AppMovil User Flow Home Parent**<br>
+**UG07: Iniciar sesión como padre y visualizar información de los hijos**<br>
+El padre inicia sesión y es redirigido al panel principal. En esta vista puede ver un resumen del estado del transporte, si sus hijos están a bordo, los viajes recientes, y notificaciones de subida/bajada. Además, puede acceder a secciones como historial, incidencias y perfil.
+<img src="/assets/chapter4/UserFlow-Movil/ug07.jpg" alt="Web app wireframes 5" ><br><br>
+
+**AppMovil User Flow Driver PastTrips**<br>
+**UG08: Visualizar viajes anteriores como conductor**<br>
+El conductor inicia sesión en la app móvil, accede al menú y selecciona la opción “Viajes anteriores”. En esta sección puede consultar una lista de viajes realizados, con detalles como fecha, ruta, número de estudiantes transportados y cualquier incidente registrado. Puede seleccionar cada viaje para ver información más detallada si lo desea.
+<img src="/assets/chapter4/UserFlow-Movil/ug08.jpg" alt="Web app wireframes 5" ><br><br>
+
+**AppMovil User Flow Driver Attendace**<br>
+**UG09: Gestionar asistencia de estudiantes durante el viaje**<br>
+Una vez iniciada la ruta, el conductor accede a la lista de estudiantes asignados y puede registrar su asistencia conforme abordan el vehículo. Si un estudiante no se presenta o no tiene pulsera, el conductor puede marcarlo manualmente como ausente. Al finalizar el viaje, se guarda un resumen con los registros de asistencia.
+<img src="/assets/chapter4/UserFlow-Movil/ug09.jpg" alt="Web app wireframes 5" ><br><br>
+
+**AppMovil User Flow Parent Children**<br>
+**UG10: Ver información detallada de los hijos en la app móvil**<br>
+El padre accede a la sección “Hijos” en el menú de la app. Allí puede seleccionar el perfil de cada hijo para consultar datos como nombre, ruta asignada, estado actual (en viaje, ausente, bajado), historial de asistencia, incidentes reportados y detalles del conductor asignado.
+<img src="/assets/chapter4/UserFlow-Movil/ug10.jpg" alt="Web app wireframes 5" ><br><br>
+
+**AppMovil User Flow Driver upload profile Parent/Driver**<br>
+**UG11: Subir o modificar la foto de perfil desde la app móvil**<br>
+Tanto el padre como el conductor acceden a su perfil desde la app móvil y seleccionan la opción para editar. Desde allí pueden subir una nueva foto de perfil desde la galería o tomando una foto con la cámara. Al confirmar, el sistema actualiza la imagen y muestra una vista previa actualizada.
+<img src="/assets/chapter4/UserFlow-Movil/UserFlow-UploadProfile-Parent-DriverPNG.PNG" alt="Web app wireframes 5" ><br><br>
 
 ## 5.5. Applications Prototyping.
 
