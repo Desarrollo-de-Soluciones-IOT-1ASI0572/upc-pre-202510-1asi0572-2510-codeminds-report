@@ -431,12 +431,20 @@ Esta sección presenta los diagramas de flujo de usuario, que ilustran las rutas
 
 **Web Application**<br>
 
-**Web Application UserFlow DriversStudents-Details**
-<img src="/assets/chapter4/WebApp-UserFlow/UserFlow-WebAppDriversStudents-Details.png" alt="Web app wireframes 1" style="width:100%;">
-**Web Application UserFlow Home**
-<img src="/assets/chapter4/WebApp-UserFlow/UserFlow-WebAppHome.png" alt="Web app wireframes 1" style="width:100%;">
-**Web Application UserFlow Report**
-<img src="/assets/chapter4/WebApp-UserFlow/UserFlow-WebAppReport.png" alt="Web app wireframes 1" style="width:100%;">
+**Web Application UserFlow DriversStudents-Details** <br>
+**UG01**: Consultar información detallada de conductores y estudiantes <br>
+El administrador accede al panel principal de EduGo Web, selecciona la opción “Conductores y Estudiantes” en el menú lateral, y visualiza una lista. Luego, elige un usuario para revisar su perfil completo, incluyendo nombre, documento, rutas asignadas, historial de asistencia y contacto. Desde este perfil puede editar o actualizar la información según sea necesario.
+<img src="/assets/chapter4/WebApp-UserFlow/ug01.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
+
+**Web Application UserFlow Home** <br>
+**UG02: Navegar por el panel principal y acceder a las secciones clave** <br>
+El administrador inicia sesión y es redirigido al panel de inicio de la plataforma web. Desde allí puede consultar métricas generales, notificaciones recientes y accesos directos. Utiliza el menú de navegación lateral para acceder rápidamente a otras secciones como reportes, vehículos, rutas o configuración del sistema.
+<img src="/assets/chapter4/WebApp-UserFlow/ug02.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
+
+**Web Application UserFlow Report** <br>
+**UG03: Generar y visualizar reportes institucionales** <br>
+El administrador selecciona la opción de “Reportes” en el menú principal, elige el tipo de reporte (asistencia, velocidad, desvíos, etc.), y define un rango de fechas. Al generar el reporte, puede visualizarlo en formato gráfico y tabular. Finalmente, tiene la opción de exportar el archivo en formato Excel o PDF para su análisis o entrega a terceros.
+<img src="/assets/chapter4/WebApp-UserFlow/ug03.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
 
 **AppMovil** <br>
 **AppMovil User Flow Login/Register Driver**
