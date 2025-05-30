@@ -37,3 +37,6 @@ Enlace: https://shorturl.at/s9TkH
 
 **Video entrevistas**: Presentación del equipo y explicación del proyecto<br>
 Enlace: https://shorturl.at/YUbz8
+
+**Video TP1**: Presentación del LandingPage y Frontend<br>
+Enlace:https://acortar.link/DuMSLJ
