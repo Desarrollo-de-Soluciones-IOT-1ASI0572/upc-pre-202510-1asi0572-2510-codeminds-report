@@ -299,3 +299,239 @@ Insights del LandingPage, donde se muestran los commits realizados al repositori
 
 Insights del FrontEnd, donde se muestran los commits realizados al repositorio en el ultimo mes
 <img src="/assets/chapter4/TeamFrontend.PNG" alt="Contact" style="width:100%;">
+
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2.
+
+| Sprint #                                 | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Date                                     | 2025-05-26                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Time                                     | 20:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Location                                 | Virtual meeting via Discord                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Prepared By                              | Angel Antonio Cancho Corilla / Juan Diego Cueto Dominguez / Scott Jacobo Huachaca Advincula / Marcelo Sebastian Ramirez Ramirez / Paolo Del Carmen Martinez Villanueva / Xiao Lian Li Zegarra                                                                                                                                                                                                                                                      |
+| Attendees (to planning meeting)          | Angel Antonio Cancho Corilla / Juan Diego Cueto Dominguez / Scott Jacobo Huachaca Advincula / Marcelo Sebastian Ramirez Ramirez / Paolo Del Carmen Martinez Villanueva / Xiao Lian Li Zegarra                                                                                                                                                                                                                                                      |
+| **Pre-Sprint Review Summary**            | During the preparation phase, the sprint bases were defined, focusing on the development of the Landing Page and the business logic applied to the Front-End design of the web application.                                                                                                                                                                                                                                                        |
+| **Initial Sprint Retrospective Summary** | The objectives set in Sprint 1 were met, however, opportunities for improvement in time and task management were identified.                                                                                                                                                                                                                                                                                                                       |
+| **Sprint Goal & User Stories**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 2 Goal                            | Our focus is on delivering _____. Also an interface, that allows administrators, to visualize business related information and analytics.We believe the mentioned functionalities development will increase the value in the experience for our users.This will be confirmed when ______ |
+| Sprint 2 Velocity                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points                      |  Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+
+#### 6.2.2.2. Aspect Leaders and Collaborators.
+
+# Leadership and Collaboration Matrix (LACX)
+
+| **Team Member (Last Name, First Name)**   | **GitHub Username** | **Landing Page Development (L/C)** | **Business Logic for Front-End (L/C)** | **Administration Interface (L/C)** | **Data Visualization (L/C)** | **Analytics (L/C)** |
+|-------------------------------------------|---------------------|------------------------------------|----------------------------------------|------------------------------------|------------------------------|---------------------|
+| **Cancho Corilla, Angel Antonio**         | `angerlessdev`      | **L**                              | **C**                                  | **C**                              | **C**                        | **L**               |
+| **Cueto Dominguez, Juan Diego**           | `JDu202012207`      | **C**                              | **L**                                  | **C**                              | **L**                        | **C**               |
+| **Huachaca Advincula, Scott Jacobo**      | `Scott-Huachaca`    | **C**                              | **C**                                  | **L**                              | **C**                        | **C**               |
+| **Ramirez Ramirez, Marcelo Sebastian**    | `MRamirez202210582` | **C**                              | **C**                                  | **C**                              | **C**                        | **L**               |
+| **Del Carmen Martinez Villanueva, Paolo** | `paolomv02`         | **C**                              | **L**                                  | **C**                              | **C**                        | **C**               |
+| **Li Zegarra, Xiao Lian**                 | `XLianLZ`           | **C**                              | **C**                                  | **L**                              | **C**                        | **C**               |
+
+#### 6.2.2.3. Sprint Backlog 2.
+
+# Sprint 2
+
+| User Story |                                                      | Work-Item / Task |                                       |                                                                                       |                    |                              |                                                |
+|------------|------------------------------------------------------|------------------|---------------------------------------|---------------------------------------------------------------------------------------|--------------------|------------------------------|------------------------------------------------|
+| Id         | Title                                                | Id               | Title                                 | Description                                                                           | Estimation (Hours) | Assigned To                  | Status (To-do / In-Process / To-Review / Done) |
+| HU10       | Generación de reportes automáticos                   | TA01             | Lógica para la generacion de reportes | Programacion de la logica vinculada a la generacion de reportes                       | 5 horas            | Angel Cancho- Paolo Martinez | Done                                           |
+| HU45       | Visualización del historial de incidentes            | TA02             | Desarrollo del listado de incidentes  | Listado de incidentes recibidos de un endpoint                                        | 2.5 horas          | Juan Diego Cueto             | Done                                           |
+|            |                                                      | TA03             | Vista de Incidentes                   | Desarrollo de la vista de que muestra informacion detallada de la lista de incidentes | 2.5 horas          | Scott Huachaca               | Done                                           |
+| HU52       | Visualizacion de proposito y beneficios del servicio | TA04             | Navegacion                            | Implementacion de una barra de navegacion                                             | 1 hora             | Xiao Li                      | Done                                           |
+|            |                                                      | TA05             | Contenido Principal                   | Insercion de informacion en la landing page                                           | 2 horas            | Xiao Li                      | Done                                           |
+| HU53       | Formulario de Contacto                               | TA06             | Formulario                            | Desarrollo de formulario con campos de contacto(nombre, correo, mensaje, etc.)        | 2 horas            | Marcelo Ramirez              | Done                                           |
+
+#### 6.2.2.4. Development Evidence for Sprint Review.
+
+Para este segunfo sprint se decidió trbajar en ramas diferente para después unirlo todo en develop. Cada miembro ha realizado un commit para luego hacer merge.
+
+**CodeMinds-Backend**:
+
+| Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
+|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
+| CodeMinds-Backend     | feature/analytics      | d5d79ac6f6d8e069abde9e471c8a08099a055823 | feat(analytics): add analytics                                        | 05/06/2025            |
+| CodeMinds-Backend     | feature/iam            | 47bd4e33395c449f916244bf43093054df48c3fa | feat(iam): add user and role management with exception handling       | 12/06/2025            |
+| CodeMinds-Backend     | feature/iam   | 786b2c3891934e37b08a5af573b2d892ee40d6f3 | feat(iam): implement query and command services for user and role management | 12/06/2025              |
+| CodeMinds-Backend     | feature/iam   | 4fd0fe2181ddba12a324cc1bea4151e580025e9d | feat(iam): add implementation of JWT and BCrypt token services with security filters  | 12/06/2025    |
+| CodeMinds-Backend     | feature/iam   | dbf7f23a418d68b8632232b9d0be97e52db6c143 | feat(iam): add authentication and user management endpoints with role seeding   | 12/06/2025        |
+| CodeMinds-Backend     | feature/iam   | 9ca324d6f49b15bcc57b8db00f74f1e38a153129 | feat(iam): add auditing support with abstract models and open-api configuration  | 13/05/2025      |
+| CodeMinds-Backend     | feature/iam   | a2c8dc5a5e11b6261869bf13811c5ae08d8f4ed4 | feat(iam): add message resource record for standardized message handling     | 13/06/2025            |
+| CodeMinds-Backend  | feature/profiles                | 0da3d186af2de80578618004fa6a817326077edc | feat(profiles): add profiles bc                 | 09/06/2025            |
+| CodeMinds-Backend  | feature/profiles                | ce7666060d2838f51baa725a018b14c6d1493410 | fix(profiles): fix profiles services         | 12/06/2025            |
+| CodeMinds-Backend  | feature/profiles                | 033f78099cb9e70cf3c30d8b17c519db29086f5a | feat(profiles): add acl with IAM             | 12/06/2025            |
+| CodeMinds-Backend | feature/real-time-notification | 8316928 | feat: add RealTimeNotificationQueryService interface | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 6142322 | feat: add RealTimeNotificationCommandService interface | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 1065866 | feat: add CreateRealTimeNotificationCommand record | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 6663388 | feat: add CorsConfig | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 7642576 | feat: add AuditableAbstractAggregateRoot | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 3674709 | feat: add AuditableModel | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 536317c | feat: add RealTimeNotification | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 23edb52 | feat: add RealTimeNotificationController with CRUD endpoints | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 4042965 | feat: add CreateRealTimeNotificationCommandFromResourceAssembler class | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 2e0440c | feat: add NotificationStatus enum | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 089956a | feat: add RealTimeNotificationCommandServiceImpl implementation | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 405f783 | feat: add OpenApiConfiguration for API documentation | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 5ac09fa | feat: add NotificationEvent value object | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 3cf4ada | feat: add GetRealNotificationsForUserType record | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 21cf693 | feat: add GetRealNotificationsForUserId record | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | ddb0999 | feat: add GetAllRealTimeNotificationsQuery record | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | ea7685b | feat: add CreateRealTimeNotificationResource record | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 7fefc11 | feat: add SnakeCaseWithPluralizedTablePhysicalNamingStrategy class | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 9d5248e | feat: add RealTimeNotificationResource record | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 795387a | feat: add RealTimeNotificationRepository interface | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 895347 | feat: add RealTimeNotificationQueryServiceImpl implementation | 06/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 8ds288s | feat: update CreateRealTimeNotificationCommandFromResourceAssembler to include tripid and studentId | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | [7s2s64c | feat: extend CreateRealTimeNotificationResource to include tripid and studentId | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification |  | feat: add GetRealNotificationsForStudentId record for student notification queries | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | e5b1ec2 | feat: add GetRealNotificationsForTripid record for trip notification queries | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 9f189d7 | feat: add GetRealNotificationsForUserAndTrip record for user and trip notification queries | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 9aa6713 | feat: update RealTimeNotificationCommandServiceImpl to include tripid and studentId in notification creation | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 39e918c | feat: add query methods in RealTimeNotificationQueryService for studentId, tripid, and userId with tripid | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 937c5bd | feat: add query methods in RealTimeNotificationQueryServiceImpl for studentId, tripid, and userId with tripid | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 7128a5f | feat: add methods to RealTimeNotificationRepository for querying by studentId, tripid, and userId with tripid | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 353356e | feat: expand RealTimeNotificationResource to include eventType, description, timestamp, tripid, and studentId | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 29f1eb6 | feat: enhance RealTimeNotificationResourceFromEntityAssembler to include additional fields | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 311488a | feat: add StudentBoardedEventListener to handle student boarding events | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 6b0b068 | feat: add getters for eventType and description in NotificationEvent class | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | bea106d | feat: add tripid and studentId fields to RealTimeNotification class | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | ba574fe | feat: add TripStartedEventListener to handle trip start events and create notifications | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 6145883 | feat: add SpeedExceededEventListener to handle speed exceeded events and create notifications | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 5374288 | feat: add TripStartedEventListener to handle trip start events and create notifications | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | a283796 | feat: add TriplEndedEventListener to handle trip end events and create notifications | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 211cfba | feat: add StudentExitedEventListener to handle student exit events and create notifications | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | eSDtec2 | feat: add endpoints to retrieve notifications by tripid, studentId, and userId with tripid | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 9f18947 | feat: extend CreateRealTimeNotificationCommand to include tripid and studentId | 12/06/2025 |
+| CodeMinds-Backend | feature/real-time-notification | 9aa6713 | feat: update CreateRealTimeNotificationCommandFromResourceAssembler to include tripid and studentId | 12/06/2025 | 
+| CodeMinds-Backend | feature/vehicule-tracking | b7fdbf5 | feat: add vehicule repositories | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 64aae9e | feat: add vehicule services | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | a97f58b | feat: add vehicule value object | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 7d5fd31 | feat: add vehicule queries | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 69bbde9 | feat: add vehicule entitle | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 19sbs88 | feat: add vehicule commands | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 82d3sa5 | feat: add vehicule aggregate | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 88aefi9 | feat: add vehicule queryservices | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 3274e8b | feat: add vehicule commandservices | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 4dcd271 | feat: disable Spring Security | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 617d5db | feat(vehicle-tracking): add EndRouteCommand and associated resource assembler for ending trips | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 4d16ae2 | feat(vehicle-tracking): add query classes for active trip, current location, past trips by driver, and trip students | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 8184920 | feat(vehicle-tracking): add command classes and assemblers for trip student and vehicle creation | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 776ef96 | feat(vehicle-tracking): add resource and command classes for trip and vehicle creation | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 53fc5cb | feat(vehicle-tracking): update database password for local development | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | ad1690c | feat(vehicle-tracking): [commit message missing] | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 5c08541 | feat(vehicle-tracking): add TripRepository for managing trip data | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 19c2580 | feat(vehicle-tracking): update Location entity to use Long for vehicleId and id, and add speed limit check | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 24476eb | feat(vehicle-tracking): add vehiclestatus enum for tracking vehicle states | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | cb8411b | feat(vehicle-tracking): add VehicleStatus enum for tracking vehicle states | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 43a971e | feat(vehicle-tracking): enhance Vehicle entity with status and trips management | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 8263151 | feat(vehicle-tracking): add Trip entity | 12/06/2025 |
+| Repository | Branch | Commit Hash | Message | Date |
+|------------|--------|-------------|---------|------|
+| CodeMinds-Backend | feature/vehicle-tracking | dagc443e | feat(vehicle-tracking): update updateLocation method and add getCurrentLocation and getLocationsByTripId endpoints | 15/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 9781852 | feat(vehicle-tracking): add handle method for GetLocationsByTripIdQuery to retrieve locations by trip ID | 15/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | dagc521 | feat(vehicle-tracking): add handle method for GetLocationsByTripIdQuery to retrieve locations by trip ID | 15/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | dagc555a9b | feat(vehicle-tracking): refactor handle method to use CreateLocationCommand and add getCurrentLocation method | 15/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | dagc527a9b | feat(vehicle-tracking): update handle method to use CreateLocationCommand and add getCurrentLocation method | 15/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | dagc546a | feat(vehicle-tracking): add GetLocationsByTripIdQuery for querying locations by trip ID | 15/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | dagc153a8 | feat(vehicle-tracking): add CreateLocationResource for location creation data transfer | 15/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | dagc354a | feat(vehicle-tracking): add CreateLocationCommandFromResourceAssembler for command transformation | 15/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | dagc759a6e | feat(vehicle-tracking): add methods to find locations by tripId for enhanced querying | 15/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | dagc227a | feat(vehicle-tracking): add trip association to Location entity for improved tracking | 15/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | dagc910a | feat(vehicle-tracking): rename UpdateLocationCommand to CreateLocationCommand and add tripId for location creation | 15/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | a1b2c3d | feat(vehicle-tracking): add RegisterStudentBoardingCommandFromResourceAssembler and RegisterStudentExitCommandFromResourceAssembler | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | e4f5g6h | feat(vehicle-tracking): add RegisterStudentBoardingCommand and RegisterStudentBoardingResource | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | i7j8k9l | feat(vehicle-tracking): add RegisterStudentExitCommand | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | m1n2o3p | feat(vehicle-tracking): add RegisterStudentExitResource | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | q4r5s6t | feat(vehicle-tracking): implement SpringDomainEventPublisher | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | u7v8w9x | feat(vehicle-tracking): add TripStudentResourceFromEntityAssembler | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | y1z2a3b | feat(vehicle-tracking): add TripStudentResource | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | c4d5e6f | feat(vehicle-tracking): add TripStudentRepository | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | g7h8i9j | feat(vehicle-tracking): add TripResourceFromEntityAssembler | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | k1l2m3n | feat(vehicle-tracking): add TripResource | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | o4p5q6r | feat(vehicle-tracking): add event records for route deviations, speed exceedance, etc | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | s7t8u9v | feat(vehicle-tracking): add DomainEventPublisher interface | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | w1x2y3z | feat(vehicle-tracking): enhance TrackingQueryServiceImpl | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | a4b5c6d | feat(vehicle-tracking): refactor VehicleResource and VehicleTrackingController | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | e7f8g9h | feat(vehicle-tracking): add timestamp to UpdatedLocationCommand/Resource | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | i1j2k3l | feat(vehicle-tracking): implement trip management in TrackingCommandService | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | m4n5o6p | feat(vehicle-tracking): enhance TrackingQueryService with trip handlers | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | q7r8s9t | feat(vehicle-tracking): extend TrackingCommandService | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | u1v2w3x | feat(vehicle-tracking): add tripId to StartRouteResource | 12/06/2025 |
+
+#### 6.2.2.5. Testing Suite Evidence for Sprint Review.
+
+| Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
+|-----------------------|--------|------------------------------------------|--------------------------------------------------------|--------------------|
+| CodeMinds-LandingPage | main   | 67d79de6195f29a88e98b6614db9878c3b22bbd7 | feat(Landing-Page):Add team description in portugues   | 16/05/25           |
+
+#### 6.2.2.6. Execution Evidence for Sprint Review.
+
+
+#### 6.2.2.7. Services Documentation Evidence for Sprint Review.
+
+A continuación se presenta la documentación de los servicios de la aplicación web, incluyendo la descripción de los
+endpoints disponibles.
+
+| Endpoint                                                          | Http Verb | Accion               | Descripcion                                                                                                                                                                              |
+|-------------------------------------------------------------------|-----------|----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| https://jdu202012207.github.io/pruebas-api/drivers.json           | GET       | Obtener conductores  | Devuelve información de los conductores registrados, incluyendo datos personales, número de licencia, vehículo asignado y estudiantes a su cargo.                                        |
+| https://jdu202012207.github.io/pruebas-api/parents.json           | GET       | Obtener apoderados   | Devuelve información de los padres de familia registrados, incluyendo nombre, DNI, número telefónico, foto y los estudiantes a su cargo                                                  |
+| https://jdu202012207.github.io/pruebas-api/students.json          | GET       | Obtener estudiantes	 | Devuelve información de los estudiantes registrados, incluyendo su nombre, colegio, grado, código RFID, foto y relación con su apoderado y conductor asignado.                           |
+| https://jdu202012207.github.io/pruebas-api/analytics-drivers.json | GET       | Obtener analíticas	  | Devuelve analíticas de rendimiento de los conductores, incluyendo resumen de incidentes (desvíos, tardanzas, excesos de velocidad), tiempos de llegada y distancias recorridas por día.  |
+
+#### 6.2.2.8. Software Deployment Evidence for Sprint Review.
+
+Para el sprint presentado de la landing page y FrontEnd se optó por varias herramientas para su desarrollo.
+
+- _Git_: Se utilizó para el control de versiones del código fuente.
+- _GitFlow_: Se utilizó para ver el avance de los integrantes del equipo.
+- _GitHub_: Se utilizó para crear el repositorio de la landing page, donde se subió el código fuente.
+- _Angular_: Se utilizó para crear el web app funcional con la ayuda de un fakeapi
+- _GitHub Pages_: Es la plataforma donde se desplegó la landing page. Se eligió por ser una solución gratuita, rápida y sencilla que permite publicar directamente desde el repositorio de GitHub.
+
+**Deployamiento del Backend**
+Para el despliegue de la landing page, se configuró el servicio de GitHub Pages siguiendo los siguientes pasos:
+
+1. Se accedió al repositorio en la plataforma de GitHub.
+2. En la parte superior del repositorio, se hizo clic en la pestaña **"Settings"**.
+3. En el menú lateral izquierdo, se seleccionó la opción **"Pages"**.
+4. En la sección **"Source"**, se eligió la rama `main` como origen y la carpeta raíz (`/`) como directorio de publicación.
+5. Finalmente, se hizo clic en **"Save"** para guardar los cambios y activar el despliegue.
+   <img src="/assets/chapter4/DeployLanding.PNG" alt="Contact" style="width:100%;">
+
+
+**Deployamiento del AppMobile**
+
+**Deployamiento del EdgeServer**
+
+**Deployamiento del Embedded**
+
+#### 6.2.2.9. Team Collaboration Insights during Sprint.
+
+Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización de la aplicación web, como el landing page:
+
+Insights del AppMovil, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="/assets/chapter4/TeamLanding.PNG" alt="Contact" style="width:100%;">
+<br>
+
+Insights del Backend, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="/assets/chapter4/TeamFrontend.PNG" alt="Contact" style="width:100%;">
+<br>
+
+Insights del EdgeServer, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="/assets/chapter4/TeamFrontend.PNG" alt="Contact" style="width:100%;">
+<br>
+
+Insights del Embedded, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="/assets/chapter4/TeamFrontend.PNG" alt="Contact" style="width:100%;">
+
+## 6.3. Validation Interviews.
+### 6.3.1. Diseño de Entrevistas.
+### 6.3.2. Registro de Entrevistas.
+### 6.3.3. Evaluaciones según heurísticas.
+## 6.4. Video About-the-Product.
+
