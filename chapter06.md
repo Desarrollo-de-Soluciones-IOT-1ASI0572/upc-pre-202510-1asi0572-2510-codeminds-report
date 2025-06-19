@@ -307,7 +307,7 @@ Insights del FrontEnd, donde se muestran los commits realizados al repositorio e
 | Sprint #                                 | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Sprint Planning Background**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| Date                                     | 2025-05-26                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Date                                     | 2025-06-26                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Time                                     | 20:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Location                                 | Virtual meeting via Discord                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Prepared By                              | Angel Antonio Cancho Corilla / Juan Diego Cueto Dominguez / Scott Jacobo Huachaca Advincula / Marcelo Sebastian Ramirez Ramirez / Paolo Del Carmen Martinez Villanueva / Xiao Lian Li Zegarra                                                                                                                                                                                                                                                      |
@@ -336,15 +336,34 @@ Insights del FrontEnd, donde se muestran los commits realizados al repositorio e
 
 # Sprint 2
 
-| User Story |                                                      | Work-Item / Task |                                       |                                                                                       |                    |                              |                                                |
-|------------|------------------------------------------------------|------------------|---------------------------------------|---------------------------------------------------------------------------------------|--------------------|------------------------------|------------------------------------------------|
-| Id         | Title                                                | Id               | Title                                 | Description                                                                           | Estimation (Hours) | Assigned To                  | Status (To-do / In-Process / To-Review / Done) |
-| HU10       | Generación de reportes automáticos                   | TA01             | Lógica para la generacion de reportes | Programacion de la logica vinculada a la generacion de reportes                       | 5 horas            | Angel Cancho- Paolo Martinez | Done                                           |
-| HU45       | Visualización del historial de incidentes            | TA02             | Desarrollo del listado de incidentes  | Listado de incidentes recibidos de un endpoint                                        | 2.5 horas          | Juan Diego Cueto             | Done                                           |
-|            |                                                      | TA03             | Vista de Incidentes                   | Desarrollo de la vista de que muestra informacion detallada de la lista de incidentes | 2.5 horas          | Scott Huachaca               | Done                                           |
-| HU52       | Visualizacion de proposito y beneficios del servicio | TA04             | Navegacion                            | Implementacion de una barra de navegacion                                             | 1 hora             | Xiao Li                      | Done                                           |
-|            |                                                      | TA05             | Contenido Principal                   | Insercion de informacion en la landing page                                           | 2 horas            | Xiao Li                      | Done                                           |
-| HU53       | Formulario de Contacto                               | TA06             | Formulario                            | Desarrollo de formulario con campos de contacto(nombre, correo, mensaje, etc.)        | 2 horas            | Marcelo Ramirez              | Done                                           |
+| User Story | Title                                                | Work-Item / Task | Title                                 | Description                                                                                       | Estimation (Hours) | Assigned To                  | Status (To-do / In-Process / To-Review / Done) |
+|------------|------------------------------------------------------|------------------|---------------------------------------|---------------------------------------------------------------------------------------------------|--------------------|------------------------------|------------------------------------------------|
+| US01       | Interfaz de inicio clara y atractiva en la app móvil| TA01             | Diseño UI                             | Diseño visual y estructura inicial de la pantalla principal                                       | 3 horas            | Marcelo Ramirez              | Done                                           |
+|            |                                                      | TA02             | Implementación funcional              | Programación de la interfaz usando Flutter                                                        | 4 horas            | Scott Huachaca               | Done                                           |
+| US03       | Notificación a padres al subir y bajar del transporte| TA03             | Envío de notificaciones               | Implementación de lógica para enviar push al subir/bajar                                          | 3 horas            | Juan Diego Cueto             | In-Process                                     |
+|            |                                                      | TA04             | Integración con backend               | Conexión con eventos y base de datos para detección de subida/bajada                              | 2 horas            | Paolo Martinez               | To-Review                                      |
+| US04       | Visualización en mapa de la ruta y ubicación del vehículo | TA05       | Mapa en tiempo real                  | Visualización en Google Maps o Mapbox                                                             | 3.5 horas          | Xiao Li                      | Done                                           |
+|            |                                                      | TA06             | Seguimiento de ubicación              | Uso de GPS del dispositivo para actualizar la posición en el mapa                                 | 2.5 horas          | Angel Cancho                 | Done                                           |
+| US06       | Registro y alerta por exceso de velocidad            | TA07             | Alerta de velocidad                   | Alerta visual o sonora cuando se supera el límite                                                 | 3 horas            | Marcelo Ramirez              | In-Process                                     |
+|            |                                                      | TA08             | Registro histórico                    | Guardado de los eventos de exceso de velocidad en la base de datos                                | 2 horas            | Juan Diego Cueto             | To-do                                          |
+| US12       | Comunicación entre app y backend mediante API REST   | TA09             | Endpoints REST                        | Definición y documentación de endpoints para app móvil                                            | 2 horas            | Paolo Martinez               | Done                                           |
+|            |                                                      | TA10             | Consumo desde app                     | Llamadas desde la app a los servicios REST                                                        | 2 horas            | Xiao Li                      | Done                                           |
+| US13       | Implementación de seguridad JWT para usuarios        | TA11             | Generación y validación de JWT        | Implementación de JWT en backend para autenticar usuarios                                         | 3 horas            | Scott Huachaca               | Done                                           |
+| US15       | Visualización de rutas predefinidas                  | TA12             | Módulo de rutas                       | Mostrar lista de rutas según zona y horario                                                       | 2.5 horas          | Marcelo Ramirez              | In-Process                                     |
+| US16       | Configuración manual de rutas por el conductor       | TA13             | Editor de rutas                       | Interfaz para que el conductor cree o edite rutas manualmente                                     | 3 horas            | Angel Cancho                 | To-do                                          |
+| US18       | Acceso restringido según rol de usuario en sitio web | TA14             | Middleware de roles                   | Configuración de accesos y permisos para usuarios (admin, padres, conductor)                      | 2 horas            | Xiao Li                      | Done                                           |
+| US21       | Notificación de retraso del transporte               | TA15             | Lógica de cálculo de retraso          | Comparar hora estimada con tiempo real para enviar alerta                                         | 2.5 horas          | Juan Diego Cueto             | To-Review                                      |
+| US22       | Visualización de estudiantes con fotos por el conductor| TA16            | Módulo visual conductor               | Mostrar lista de estudiantes con nombre y foto en app del conductor                               | 2 horas            | Paolo Martinez               | Done                                           |
+| US23       | Visualización de datos del conductor por parte de padres | TA17          | Perfil de conductor                   | Mostrar datos como nombre, experiencia, licencia                                                  | 1.5 horas          | Scott Huachaca               | Done                                           |
+| US26       | Historial de velocidad por unidad                    | TA18             | Visualización de historial            | Tabla o gráfico de velocidades por fecha y hora                                                   | 2.5 horas          | Xiao Li                      | In-Process                                     |
+| US27       | Reporte mensual de control de aforo                  | TA19             | Generación de reporte                 | Consolidar datos de abordaje mensual por unidad                                                   | 3 horas            | Marcelo Ramirez              | To-do                                          |
+| US28       | Historial detallado de rutas y ubicaciones           | TA20             | Visualizador de historial             | Mostrar recorrido por fecha con puntos GPS                                                        | 3.5 horas          | Angel Cancho                 | To-do                                          |
+| US32       | Notificación de llegada próxima del transporte       | TA21             | Alerta por proximidad                 | Lógica basada en coordenadas para activar alerta de llegada                                       | 2 horas            | Paolo Martinez               | To-do                                          |
+| US33       | Activación de modo emergencia en la app de conductor | TA22             | Botón de emergencia                   | Desarrollo de botón visible y funcional en la app                                                 | 2 horas            | Juan Diego Cueto             | In-Process                                     |
+| US42       | Personalización de notificaciones por tipo           | TA23             | Filtro de notificaciones              | Permitir elegir qué tipo de alertas recibir                                                       | 1.5 horas          | Xiao Li                      | To-do                                          |
+| US43       | Visualización de estado de los estudiantes en tiempo real | TA24         | Módulo de estado en vivo             | Mostrar si el estudiante está en ruta, abordó, bajó, etc.                                         | 3 horas            | Scott Huachaca               | In-Process                                     |
+| US48       | Implementación de sistema propio de notificaciones internas | TA25       | Servicio de notificaciones           | Sistema alternativo al de Firebase con servidor propio                                            | 4 horas            | Marcelo Ramirez              | To-do                                          |
+| US49       | Recuperación de contraseña por correo electrónico    | TA26             | Módulo de recuperación                | Formulario y lógica para enviar enlace de restablecimiento                                       | 2 horas            | Angel Cancho                 | Done                                           |
 
 #### 6.2.2.4. Development Evidence for Sprint Review.
 
@@ -354,119 +373,182 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 
 | Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
 |-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
-| CodeMinds-Backend     | feature/analytics      | d5d79ac6f6d8e069abde9e471c8a08099a055823 | feat(analytics): add analytics                                        | 05/06/2025            |
-| CodeMinds-Backend     | feature/iam            | 47bd4e33395c449f916244bf43093054df48c3fa | feat(iam): add user and role management with exception handling       | 12/06/2025            |
-| CodeMinds-Backend     | feature/iam   | 786b2c3891934e37b08a5af573b2d892ee40d6f3 | feat(iam): implement query and command services for user and role management | 12/06/2025              |
-| CodeMinds-Backend     | feature/iam   | 4fd0fe2181ddba12a324cc1bea4151e580025e9d | feat(iam): add implementation of JWT and BCrypt token services with security filters  | 12/06/2025    |
-| CodeMinds-Backend     | feature/iam   | dbf7f23a418d68b8632232b9d0be97e52db6c143 | feat(iam): add authentication and user management endpoints with role seeding   | 12/06/2025        |
-| CodeMinds-Backend     | feature/iam   | 9ca324d6f49b15bcc57b8db00f74f1e38a153129 | feat(iam): add auditing support with abstract models and open-api configuration  | 13/05/2025      |
-| CodeMinds-Backend     | feature/iam   | a2c8dc5a5e11b6261869bf13811c5ae08d8f4ed4 | feat(iam): add message resource record for standardized message handling     | 13/06/2025            |
-| CodeMinds-Backend  | feature/profiles                | 0da3d186af2de80578618004fa6a817326077edc | feat(profiles): add profiles bc                 | 09/06/2025            |
-| CodeMinds-Backend  | feature/profiles                | ce7666060d2838f51baa725a018b14c6d1493410 | fix(profiles): fix profiles services         | 12/06/2025            |
-| CodeMinds-Backend  | feature/profiles                | 033f78099cb9e70cf3c30d8b17c519db29086f5a | feat(profiles): add acl with IAM             | 12/06/2025            |
-| CodeMinds-Backend | feature/real-time-notification | 8316928 | feat: add RealTimeNotificationQueryService interface | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 6142322 | feat: add RealTimeNotificationCommandService interface | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 1065866 | feat: add CreateRealTimeNotificationCommand record | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 6663388 | feat: add CorsConfig | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 7642576 | feat: add AuditableAbstractAggregateRoot | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 3674709 | feat: add AuditableModel | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 536317c | feat: add RealTimeNotification | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 23edb52 | feat: add RealTimeNotificationController with CRUD endpoints | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 4042965 | feat: add CreateRealTimeNotificationCommandFromResourceAssembler class | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 2e0440c | feat: add NotificationStatus enum | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 089956a | feat: add RealTimeNotificationCommandServiceImpl implementation | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 405f783 | feat: add OpenApiConfiguration for API documentation | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 5ac09fa | feat: add NotificationEvent value object | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 3cf4ada | feat: add GetRealNotificationsForUserType record | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 21cf693 | feat: add GetRealNotificationsForUserId record | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | ddb0999 | feat: add GetAllRealTimeNotificationsQuery record | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | ea7685b | feat: add CreateRealTimeNotificationResource record | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 7fefc11 | feat: add SnakeCaseWithPluralizedTablePhysicalNamingStrategy class | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 9d5248e | feat: add RealTimeNotificationResource record | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 795387a | feat: add RealTimeNotificationRepository interface | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 895347 | feat: add RealTimeNotificationQueryServiceImpl implementation | 06/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 8ds288s | feat: update CreateRealTimeNotificationCommandFromResourceAssembler to include tripid and studentId | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | [7s2s64c | feat: extend CreateRealTimeNotificationResource to include tripid and studentId | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification |  | feat: add GetRealNotificationsForStudentId record for student notification queries | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | e5b1ec2 | feat: add GetRealNotificationsForTripid record for trip notification queries | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 9f189d7 | feat: add GetRealNotificationsForUserAndTrip record for user and trip notification queries | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 9aa6713 | feat: update RealTimeNotificationCommandServiceImpl to include tripid and studentId in notification creation | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 39e918c | feat: add query methods in RealTimeNotificationQueryService for studentId, tripid, and userId with tripid | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 937c5bd | feat: add query methods in RealTimeNotificationQueryServiceImpl for studentId, tripid, and userId with tripid | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 7128a5f | feat: add methods to RealTimeNotificationRepository for querying by studentId, tripid, and userId with tripid | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 353356e | feat: expand RealTimeNotificationResource to include eventType, description, timestamp, tripid, and studentId | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 29f1eb6 | feat: enhance RealTimeNotificationResourceFromEntityAssembler to include additional fields | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 311488a | feat: add StudentBoardedEventListener to handle student boarding events | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 6b0b068 | feat: add getters for eventType and description in NotificationEvent class | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | bea106d | feat: add tripid and studentId fields to RealTimeNotification class | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | ba574fe | feat: add TripStartedEventListener to handle trip start events and create notifications | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 6145883 | feat: add SpeedExceededEventListener to handle speed exceeded events and create notifications | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 5374288 | feat: add TripStartedEventListener to handle trip start events and create notifications | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | a283796 | feat: add TriplEndedEventListener to handle trip end events and create notifications | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 211cfba | feat: add StudentExitedEventListener to handle student exit events and create notifications | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | eSDtec2 | feat: add endpoints to retrieve notifications by tripid, studentId, and userId with tripid | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 9f18947 | feat: extend CreateRealTimeNotificationCommand to include tripid and studentId | 12/06/2025 |
-| CodeMinds-Backend | feature/real-time-notification | 9aa6713 | feat: update CreateRealTimeNotificationCommandFromResourceAssembler to include tripid and studentId | 12/06/2025 | 
-| CodeMinds-Backend | feature/vehicule-tracking | b7fdbf5 | feat: add vehicule repositories | 06/06/2025 |
-| CodeMinds-Backend | feature/vehicule-tracking | 64aae9e | feat: add vehicule services | 06/06/2025 |
-| CodeMinds-Backend | feature/vehicule-tracking | a97f58b | feat: add vehicule value object | 06/06/2025 |
-| CodeMinds-Backend | feature/vehicule-tracking | 7d5fd31 | feat: add vehicule queries | 06/06/2025 |
-| CodeMinds-Backend | feature/vehicule-tracking | 69bbde9 | feat: add vehicule entitle | 06/06/2025 |
-| CodeMinds-Backend | feature/vehicule-tracking | 19sbs88 | feat: add vehicule commands | 06/06/2025 |
-| CodeMinds-Backend | feature/vehicule-tracking | 82d3sa5 | feat: add vehicule aggregate | 06/06/2025 |
-| CodeMinds-Backend | feature/vehicule-tracking | 88aefi9 | feat: add vehicule queryservices | 06/06/2025 |
-| CodeMinds-Backend | feature/vehicule-tracking | 3274e8b | feat: add vehicule commandservices | 06/06/2025 |
-| CodeMinds-Backend | feature/vehicule-tracking | 4dcd271 | feat: disable Spring Security | 06/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | 617d5db | feat(vehicle-tracking): add EndRouteCommand and associated resource assembler for ending trips | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | 4d16ae2 | feat(vehicle-tracking): add query classes for active trip, current location, past trips by driver, and trip students | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | 8184920 | feat(vehicle-tracking): add command classes and assemblers for trip student and vehicle creation | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | 776ef96 | feat(vehicle-tracking): add resource and command classes for trip and vehicle creation | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | 53fc5cb | feat(vehicle-tracking): update database password for local development | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | ad1690c | feat(vehicle-tracking): [commit message missing] | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | 5c08541 | feat(vehicle-tracking): add TripRepository for managing trip data | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | 19c2580 | feat(vehicle-tracking): update Location entity to use Long for vehicleId and id, and add speed limit check | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | 24476eb | feat(vehicle-tracking): add vehiclestatus enum for tracking vehicle states | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | cb8411b | feat(vehicle-tracking): add VehicleStatus enum for tracking vehicle states | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | 43a971e | feat(vehicle-tracking): enhance Vehicle entity with status and trips management | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | 8263151 | feat(vehicle-tracking): add Trip entity | 12/06/2025 |
-| Repository | Branch | Commit Hash | Message | Date |
-|------------|--------|-------------|---------|------|
-| CodeMinds-Backend | feature/vehicle-tracking | dagc443e | feat(vehicle-tracking): update updateLocation method and add getCurrentLocation and getLocationsByTripId endpoints | 15/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | 9781852 | feat(vehicle-tracking): add handle method for GetLocationsByTripIdQuery to retrieve locations by trip ID | 15/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | dagc521 | feat(vehicle-tracking): add handle method for GetLocationsByTripIdQuery to retrieve locations by trip ID | 15/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | dagc555a9b | feat(vehicle-tracking): refactor handle method to use CreateLocationCommand and add getCurrentLocation method | 15/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | dagc527a9b | feat(vehicle-tracking): update handle method to use CreateLocationCommand and add getCurrentLocation method | 15/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | dagc546a | feat(vehicle-tracking): add GetLocationsByTripIdQuery for querying locations by trip ID | 15/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | dagc153a8 | feat(vehicle-tracking): add CreateLocationResource for location creation data transfer | 15/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | dagc354a | feat(vehicle-tracking): add CreateLocationCommandFromResourceAssembler for command transformation | 15/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | dagc759a6e | feat(vehicle-tracking): add methods to find locations by tripId for enhanced querying | 15/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | dagc227a | feat(vehicle-tracking): add trip association to Location entity for improved tracking | 15/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | dagc910a | feat(vehicle-tracking): rename UpdateLocationCommand to CreateLocationCommand and add tripId for location creation | 15/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | a1b2c3d | feat(vehicle-tracking): add RegisterStudentBoardingCommandFromResourceAssembler and RegisterStudentExitCommandFromResourceAssembler | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | e4f5g6h | feat(vehicle-tracking): add RegisterStudentBoardingCommand and RegisterStudentBoardingResource | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | i7j8k9l | feat(vehicle-tracking): add RegisterStudentExitCommand | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | m1n2o3p | feat(vehicle-tracking): add RegisterStudentExitResource | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | q4r5s6t | feat(vehicle-tracking): implement SpringDomainEventPublisher | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | u7v8w9x | feat(vehicle-tracking): add TripStudentResourceFromEntityAssembler | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | y1z2a3b | feat(vehicle-tracking): add TripStudentResource | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | c4d5e6f | feat(vehicle-tracking): add TripStudentRepository | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | g7h8i9j | feat(vehicle-tracking): add TripResourceFromEntityAssembler | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | k1l2m3n | feat(vehicle-tracking): add TripResource | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | o4p5q6r | feat(vehicle-tracking): add event records for route deviations, speed exceedance, etc | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | s7t8u9v | feat(vehicle-tracking): add DomainEventPublisher interface | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | w1x2y3z | feat(vehicle-tracking): enhance TrackingQueryServiceImpl | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | a4b5c6d | feat(vehicle-tracking): refactor VehicleResource and VehicleTrackingController | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | e7f8g9h | feat(vehicle-tracking): add timestamp to UpdatedLocationCommand/Resource | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | i1j2k3l | feat(vehicle-tracking): implement trip management in TrackingCommandService | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | m4n5o6p | feat(vehicle-tracking): enhance TrackingQueryService with trip handlers | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | q7r8s9t | feat(vehicle-tracking): extend TrackingCommandService | 12/06/2025 |
-| CodeMinds-Backend | feature/vehicle-tracking | u1v2w3x | feat(vehicle-tracking): add tripId to StartRouteResource | 12/06/2025 |
+| CodeMinds-Backend     | feature/analytics               | d5d79ac6f6d8e069abde9e471c8a08099a055823 | feat(analytics): add analytics                                        | 05/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 47bd4e33395c449f916244bf43093054df48c3fa | feat(iam): add user and role management with exception handling       | 12/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 786b2c3891934e37b08a5af573b2d892ee40d6f3 | feat(iam): implement query and command services for user and role management | 12/06/2025              |
+| CodeMinds-Backend     | feature/iam                     | 4fd0fe2181ddba12a324cc1bea4151e580025e9d | feat(iam): add implementation of JWT and BCrypt token services with security filters  | 12/06/2025    |
+| CodeMinds-Backend     | feature/iam                     | dbf7f23a418d68b8632232b9d0be97e52db6c143 | feat(iam): add authentication and user management endpoints with role seeding   | 12/06/2025        |
+| CodeMinds-Backend     | feature/iam                     | 9ca324d6f49b15bcc57b8db00f74f1e38a153129 | feat(iam): add auditing support with abstract models and open-api configuration  | 13/05/2025      |
+| CodeMinds-Backend     | feature/iam                     | a2c8dc5a5e11b6261869bf13811c5ae08d8f4ed4 | feat(iam): add message resource record for standardized message handling     | 13/06/2025            |
+| CodeMinds-Backend     | feature/profiles                | 0da3d186af2de80578618004fa6a817326077edc | feat(profiles): add profiles bc                 | 09/06/2025            |
+| CodeMinds-Backend     | feature/profiles                | ce7666060d2838f51baa725a018b14c6d1493410 | fix(profiles): fix profiles services         | 12/06/2025            |
+| CodeMinds-Backend     | feature/profiles                | 033f78099cb9e70cf3c30d8b17c519db29086f5a | feat(profiles): add acl with IAM             | 12/06/2025            |
+| CodeMinds-Backend     | feature/real-time-notification  | 5363f7c9e3d4f5aa5e45208b0e049086f92eacfe | feat: add RealTimeNotification | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 3c7d7d9bb583b38dbaa259e1adad6913a850f5e0 | feat: add AuditableModel | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 7c425f6bd5cf96a0dbfffa773bbd48a9c96b163b | feat: add AuditableAbstractAggregateRoot | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | c6e330890cabf2e7769944abfade51b439b7d11c | feat: add CorsConfig | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | e1f323265d37f37dfb3ba96a411ef31f145fc45d | feat: add RealTimeNotificationCommandService interface | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 7fefc1188807093685010975da686e9933b7aa75 | feat: add SnakeCaseWithPluralizedTablePhysicalNamingStrategy class | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | ea7685bea0b6faa722ced5b5c51f9c5561e53bd3 | feat: add CreateRealTimeNotificationResource record | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | d4b9b90c0f406bfe6ee8351514b6a5877f0ccfb6 | feat: add GetAllRealTimeNotificationsQuery record | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 21c1f032a14ba889acf7e338b6cdb80ad011aa11 | ffeat: add GetRealNotificationsForUserId record | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 1cf4ada80e85053469ba4f3ff06628a55662ab99 | feat: add GetRealNotificationsForUserType record | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 5aca9faaf9a882c89729eacca0e1748578ae3e44 | feat: add NotificationEvent value object | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 405f7039b4937b100f01e778231f0041ce5357d0 | feat: add OpenApiConfiguration for API documentation | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 089956a90d3f7526f6a3e46149644b19c3c6e030 | feat: add RealTimeNotificationCommandServiceImpl implementation | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 2e0440caa08b37af00379dad7fc2ddcf655aee66 | feat: add NotificationStatus enum | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 4b429657648075441516a6b8e16f1008176b2b78 | feat: add CreateRealTimeNotificationCommandFromResourceAssembler class | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 23edb522e640703daf7c0eb14af7c209351da9b0 | feat: add RealTimeNotificationController with CRUD endpoints | 06/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | bea206d0760baa8f722ba35841b96dcf10ea6018 | feat: add tripId and studentId fields to RealTimeNotification class | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 6b0b06862dac3e00de80b45bc315fe155e00e2c3 | feat: add getters for eventType and description in NotificationEvent class | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 311488a8625777fc9997a56b4fbd739ebc696a9e | feat: add StudentBoardedEventListener to handle student boarding events | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 29f1eb6741d43e6786af3759b3a0c48890026634 | feat: enhance RealTimeNotificationResourceFromEntityAssembler to include additional fields | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 353356ef153ff65269e3cda56b8134229a2cfcb0 | feat: expand RealTimeNotificationResource to include eventType, description, timestamp, tripId, and studentId | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 7128a5fa223e2fbcb9e8237556a70157a01a1be0 | feat: add methods to RealTimeNotificationRepository for querying by studentId, tripId, and userId with tripId | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 937c5bd6059bb70f6c11cfa736a136cb1a05b204 | feat: add query methods in RealTimeNotificationQueryServiceImpl for studentId, tripId, and userId with tripId | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 39e918c15c90ce0ba5379cb77ad48ceddc29b905 |feat: add query methods in RealTimeNotificationQueryService for studentId, tripId, and userId with tripId | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 7dc1852a16a0ab5a7d2dff48fe35075c8ba98d4d | feat: update RealTimeNotificationCommandServiceImpl to include tripId and studentId in notification creation | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | ac575434ea5b7f602bcb8faabc48cca06387336f | feat: add GetRealNotificationsForUserAndTrip record for user and trip notification queries | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | eba42763b4b3a968447b0b62efd4d84d49405328 | feat: add GetRealNotificationsForTripId record for trip notification queries | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 9f3cf79f843a41ed3185f99b4276b6f12df96244 | feat: add GetRealNotificationsForStudentId record for student notification queries | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 3e1aa52ff0fd1947d4edadd3a685a763443a3c1b | feat: extend CreateRealTimeNotificationResource to include tripId and studentId | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 9aa67130a856631840c74ea21f911b2ca6f7bec9 | feat: update CreateRealTimeNotificationCommandFromResourceAssembler to include tripId and studentId | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 9f189d7e4c6295ac7634d1efd2a6df2ccf48f54e | feat: extend CreateRealTimeNotificationCommand to include tripId and studentId | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | e5b1ec2ba76481a8ec54c79b2ce28967f5ee8bd1 | feat: add endpoints to retrieve notifications by tripId, studentId, and userId with tripId | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 211cfb82fb14ca5e63bf221d75bffc8e4a5f3615 | feat: add StudentExitedEventListener to handle student exit events and create notifications | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | a20375e44d5f52a06c9d46cbb3adb0719fb8d4c7 | feat: add TripEndedEventListener to handle trip end events and create notifications | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 53742585c278767ad7745de147f74fa3bc6c064b | feat: add TripStartedEventListener to handle trip start events and create notifications | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 61a58e35f6293dc787b17b0ba11b44dd17d70578 | feat: add SpeedExceededEventListener to handle speed exceeded events and create notifications | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | ba574f6ac7827aa2b2a0aed5f2be3b5cb3f72375 | feat: add TripStartedEventListener to handle trip start events and create notifications | 12/06/2025 |
+| CodeMinds-Backend     | feature/real-time-notification  | 8bea4add3f44d4af136ba76c57660b5a674b6bea | feat: add additional endpoints to RealTimeNotificationController for filtering notifications by user and trip | 18/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 4dcd27170e579388807034d2c43c227a390a9287 | feat: disable Spring Security | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 3274e8b6ea1514ab32e707b868f8f62b014086e4 | feat: add vehicule commandservices | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 88aef1921378e5cd72eb3fc6063ae584a19659a6 | feat: add vehicule queryservices | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 82d38a567afdbcd3cfe0a693a5b765b444b6514b | feat: add vehicule aggregate | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 198b8883573d8122e6df5bd38841a784296d5bfa | feat: add vehicule commands | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 690bde9083c983cb7e22f7821f66cfe23a855f43 | feat: add vehicule entitie | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 7d5fd313bd4692f0c8ea1262c10fd3099f2fb24b | feat: add vehicule queries | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | a07f58bff3ab19acadd05b719f22742d16ac1e89 | feat: add vehicule value object | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 64aae9e8bad77fabda46f834bb4a0c48a95f2768 | feat: add vehicule services | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | b7fdbf506603dd1cfa2e8003bff77ac5f5125bd0 | feat: add vehicule repositories | 06/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 988af0f6aaf768abdbb41e62aac3df52673a351d | feat: add vehicule resources | 07/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 4ec390f19b5869882192f66163bb013aeef729b3 | feat: add vehicule transforms | 07/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | b84439c8ee66e92ba263dc87b0a6fd653e493f7d | feat: add vehicule controller | 07/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 6372c1787b97fdfb7edd9c5caf08bc986ae93758 | feat: add share aggregate| 07/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | bca308157cf69f13fb91f328d598d013d2e5b994 | feat: add share entitie | 07/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | bb3e53bc3d19cc402e692c46165de3e93c254b8a | feat: add openapi configuration | 07/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | c0d0428d891583bfac3598cc3b2f1aaca2ac1815 | feat: add shared persistence jpa strategy | 07/06/2025 |
+| CodeMinds-Backend | feature/vehicule-tracking | 373ddca06a6c4e608e6c3a1368311310a2d1f8f1 | feat: add shared interfaces | 07/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 82631519d2229e379a6b0b9e95c94df8ba71833e | feat(vehicle-tracking): add Trip entity | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 43a971e8a4b0f6e66050021c8320234487adbb4d | feat(vehicle-tracking): enhance Vehicle entity with status and trips management | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | cb8d11b4f3c85a56c0004338757de74d21aab010 | feat(vehicle-tracking): add VehicleStatus enum for tracking vehicle states | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 24476eb53a68795262bf1c80260a685767dbcd32 | feat(vehicle-tracking): add vehiclestatus enum for tracking vehicle states | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 19c2580ec5ead6e39f654a3e4058c2aec4a3edc9 | feat(vehicle-tracking): update Location entity to use Long for vehicleId and id, and add speed limit check | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 5c00541e35ca850d3b75bf019d848a949ade914b | feat(vehicle-tracking): add TripRepository for managing trip data | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 53fc5cb2d60dc199e6c162c41ba880d8347460e9 | feat(vehicle-tracking): update database password for local development | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 7766f96f0559e7ee326f3dc95203559cc614aacc | feat(vehicle-tracking): add resource and command classes for trip and vehicle creation | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 81849208af272faab27b46615c81b6856315efad | feat(vehicle-tracking): add command classes and assemblers for trip student and vehicle creation | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 4d16ae28e484449c8d86c83299bb8aef1b83f2cc | feat(vehicle-tracking): add query classes for active trip, current location, past trips by driver, and trip students | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 617d50b9d707a49febba6e4385999abf8f7117d9 | feat(vehicle-tracking): add EndRouteCommand and associated resource assembler for ending trips | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 56db269b9cb69d5c1fc3d649d4219ee82e09c1ad | feat(vehicle-tracking): update LocationRepository to support Long vehicleId and add new location query methods | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 86438b836d8bb87677a34680c7c5b30b057b5dca | feat(vehicle-tracking): update LocationResource to use Long for id and vehicleId | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 617d50b9d707a49febba6e4385999abf8f7117d9 | feat(vehicle-tracking): simplify LocationResource creation by removing timestamp formatting | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | ccec088cdb0873c6f3873248b6c7299105ec500f | feat(vehicle-tracking): update StartRouteCommand to include tripId as Long | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 51877d860245d1d412a4fc99a59954b3c7e054dc | feat(vehicle-tracking): add tripId to StartRouteResource | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | fda7c3683a4ffba70bae216cd64968ffd5f0be08 | feat(vehicle-tracking): extend TrackingCommandService with additional command handlers | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 53765e4c20c13173536f525e42c63e6d3392bee3 | feat(vehicle-tracking): enhance TrackingQueryService with trip handlers | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | e333a5737064bcff094ef31d518714a8ce0be886 | feat(vehicle-tracking): implement trip management in TrackingCommandService | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | b93ca84f2e15e4b5d5c19887e93f3a4896608d65 | feat(vehicle-tracking): add timestamp to UpdateLocationCommand and UpdateLocationResource | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | cdcd099ded6e93a2619b83a73a432fdb91466865 | feat(vehicle-tracking): refactor VehicleResource and VehicleTrackingController for improved trip management | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | a55a3c394403adccaa53419e8ef98e69d0693cdf | feat(vehicle-tracking): enhance TrackingQueryServiceImpl with trip and student query handling | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | 99c303ecb7ddb2298a0137ca6b2d7ecc92da5ef9 | feat(vehicle-tracking): add DomainEventPublisher interface for event publishing | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking  | f7f25c45fe4df7b30edbf376ed05aaeb8cacdfa7 | feat(vehicle-tracking): add event records for route deviations, speed exceedance, student boarding/exiting, and trip start/end | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | c79e9241be126ca2702b6de6c30b0b081eeec543 | feat(vehicle-tracking): add TripResource record for trip details management | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | ddd171b315be9964639d1a888495594025e51274 | feat(vehicle-tracking): add TripResourceFromEntityAssembler for trip resource transformation | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 2d664be3acdab3f5f513de72d0850341772dfa8a | feat(vehicle-tracking): add TripStudentRepository for managing trip-student associations | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 6804499cdbdcc47807d59602cf13b3f408739d04 | feat(vehicle-tracking): add TripStudentResource record for trip student attendance tracking | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 9189282cd208560a0bc36b7af5ac2f4199a79bc7 | feat(vehicle-tracking): add TripStudentResourceFromEntityAssembler for transforming TripStudent entities to resources | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 5d3bfa3134f8b278a307d94c9b583d012b7554c6 | feat(vehicle-tracking): implement SpringDomainEventPublisher for event publishing | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 67af40fae7b48f9db6e7bb58d605354eba1cddf1 | feat(vehicle-tracking): add RegisterStudentExitResource for student exit tracking | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | cc2d8d2ab12bd27102aa65ba47c8b10f5ee24675 | feat(vehicle-tracking): add RegisterStudentExitCommand for student exit tracking | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 59ff5e705e7f48dd3140dfc066fea78d5dbc6085 | feat(vehicle-tracking): add RegisterStudentBoardingCommand and RegisterStudentBoardingResource for student boarding tracking | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 76e9542a6a7bd01ae9b8dfe3bc0bbadf71b271de | feat(vehicle-tracking): add RegisterStudentBoardingCommandFromResourceAssembler and RegisterStudentExitCommandFromResourceAssembler for command transformation | 12/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | ad49fbb4421d14f1c6d27c4fca21bfa1f95846cc | feat(vehicle-tracking): rename UpdateLocationCommand to CreateLocationCommand and add tripId for location creation | 14/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | fc82f762eb1ac9fb31e647835d309d07a7ed30b1 | feat(vehicle-tracking): add trip association to Location entity for improved tracking | 14/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | f9badee17433672595dbb8e84f2196a4a74d7d4b | feat(vehicle-tracking): add methods to find locations by tripId for enhanced querying | 14/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | bea3ef3ab3dab623bcd9fd27efa8f84dd45fad7e | feat(vehicle-tracking): add CreateLocationCommandFromResourceAssembler for command transformation | 14/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 615b0189fdcc7e3c12384e18c7f2c6f33744b622 | feat(vehicle-tracking): add CreateLocationResource for location creation data transfer | 14/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | d649d6a3bc8a422387f41c3026934d21f254e833 | feat(vehicle-tracking): add GetLocationsByTripIdQuery for querying locations by trip ID | 14/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 8279d03231f07b3f669b26310dc9cdd4ce493179 | feat(vehicle-tracking): update handle method to use CreateLocationCommand and add getCurrentLocation method | 14/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 55949bacb77d62c6acf1207ab748ae8520e72e49 | feat(vehicle-tracking): refactor handle method to use CreateLocationCommand and add getCurrentLocation method | 14/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 542c9215a48a39ce73cf7cd89ed4d32877c0a79c | feat(vehicle-tracking): add handle method for GetLocationsByTripIdQuery to retrieve locations by trip ID | 14/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 9f810521f151d159341dd97d60d6019e87a3e2ae | feat(vehicle-tracking): add handle method for GetLocationsByTripIdQuery to retrieve locations by trip ID | 14/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 4ec443ecc2b6e2df11538e9c3cd907f04e87f37b | feat(vehicle-tracking): update updateLocation method and add getCurrentLocation and getLocationsByTripId endpoints | 14/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | f3df968a03be81b5403f8884e38c08a09f985a61 | feat(vehicle-tracking): add DeleteTripCommand for trip deletion functionality | 18/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 2d37efcf7c6eef04c325d210ea152bd205bb18e5 | feat(vehicle-tracking): add setter for trip in Location class | 18/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 23622b5fd850f1031af22a9a4e5284ef10cb155d | feat(vehicle-tracking): add handle method for DeleteTripCommand to manage trip deletions | 18/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | a92e9790c89095a332fca4c3753bab9a85e87737 | feat(vehicle-tracking): update updateLocation method and add getCurrentLocation and getLocationsByTripId endpoints | 18/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 95a04c89c8c1557f1f5eff28e66a9cefab49a83b | fix(vehicle-tracking): add missing newline at end of Vehicle.java | 18/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 7a83c9b9aaa5f0c1ff822f000de1c0a4f3f848b6 | feat(vehicle-tracking): add deleteTrip endpoint to VehicleTrackingController for trip deletion | 18/06/2025 |
+| CodeMinds-Backend | feature/vehicle-tracking | 9a24204efd1861c12e8464de71c51231833b2b46 | feat(vehicle-tracking): enhance handle method in TrackingCommandServiceImpl for trip deletion with transaction management | 18/06/2025 |
+
+**CodeMinds-Mobile-App**:
+| Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
+|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
+| CodeMinds-Mobile-App | feature/PastTrips| e251fcd1045f2b4b3e66b2b15efa628f5393e15d | feat(feature-pasttrip):Add past trips screen | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| b4a5edac7730a3ed17f411335fd7b0670b297ec2 | fix(feature-pasttrips):Fix past trips screen | 15/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| bff4500b2b92c8451d24fea031455725c2347c4c | feat(past-trips): Refactor PastTripsScreen to use FutureBuilder for dynamic trip loading | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| b3e01c46f0a29514c52cfd7480c515b2c8ad3a00 | feat(home-screen): Convert HomeScreen to StatefulWidget for dynamic past trips display | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| b0c7f5e9e695826e2ace494b21a4ad8e789c98ef | feat(trip): Add Trip class for trip data management | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 5aad536fe372b4cbd261c79d61fa7b366c6cd919 | feat(trip-repository): Implement TripRepository for trip data management | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 2ff58126d8c2860b272b3e2e1521d243b73e58a0 | feat(trip-service): Add TripService for managing trip data retrieval and deletion | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| a93a4f46a4f65a88a29bfb35314bc450f461c37a | feat(trip-dto): Add TripDTO and TripUiDto classes for trip data representation | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 396f1fd88888936af424242762971d47185a622d | fix(app-constants): Correct baseUrl format by adding trailing slash | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 26af753bc5a0cacb4a3f59183e395df941cfa115 | feat(pubspec): Add intl package for internationalization support | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 8464c52fe9ab97d50edcec49285b65b8637cca3b | feat(pubspec): Update intl package to version 0.17.0 with direct dev dependency| 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| aec87de4063ca12a0567612220c2ec78825eab56 | feat(android-manifest): Add Google Maps API key and location permissions| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 0398c30585ac69f76b64e8085f718699fc1172f7 | feat(pubspec): Update Dart SDK constraint and add google_maps_flutter and permission_handler dependencies| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 120f0a842a3be99b73126c5131befe74807eb509 | feat(pubspec): Update Dart SDK constraint and add google_maps_flutter and permission_handler dependencies| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 8ac6e6d4947a8bfa97010a1ea7ea72077c0d8bfb | feat(trip_map): Add TripMap widget to display routes on Google Maps| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| f44d846f042b4cc5972692d9e162396d048f4b7d | feat(past_trips): Enhance PastTripsScreen with trip location caching and average duration calculation| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 2324eb14093c62f1904d453a50b1e4e5d3bca614 | Merge remote-tracking branch 'origin/feature/PastTrips' into feature/PastTrips | 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 7c53d4f712d9a25f0ff92220d7d501f646b74c33 | feat(strings): Add Google Maps API key to strings.xml| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| fdb88f2aea3772c4c0b4c9fef4470e76c1dbfdc0 | feat(location): Add Location model with JSON serialization| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| b1f96bf92cb9b654d8c02e5d563bcf3d88c8c8ad | feat(location_dto): Add LocationDTO class for JSON serialization | 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 66f858bdbdcb278c8dfcb536a4fc1a3723eb2ea5 | feat: update past_trips_screen.dart | 18/06/2025 |
+| CodeMinds-Mobile-App | feature/account| 76ed4df647e8316c69ade3ed30c80734f778334c| feat(feature-account):Add account screen | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/account| 798652c6374c31fd925cfea79c1c835109c3a191| feat(feature-account):Add account update screen | 15/06/2025 |
+| CodeMinds-Mobile-App | feature/attendance | 692dbbfbb05a04bd4d4e39e8d7ba39cb3f3cf1bc| feat(feature-attendace):Add attendance screen | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/account| 21f5f5c865cb7817e743e28d49917dea3b3c57a8| fix(feature-attedance):Fix attendance screen | 15/06/2025 |
+| CodeMinds-Mobile-App | feature/children | b401b260f2488472101a1b725e158140940b32fa| feat(feature-children):Add children screen | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/children | 7258bd311491a0ab82b24adc81a4794657ab58ef| feat(feture-children):Add add student screen | 15/06/2025 |
+| CodeMinds-Mobile-App | feature/home | ee3a43ff758b3ceff169e6a494c38256d3028739 | feat(feature-home):Add home screens | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/children | fe2b58f787632b7ea1ce3b379659d2661e622a16 | fix(feature-home):fix home screens | 15/06/2025 | 
+| CodeMinds-Mobile-App | feature/register | c5df430f20df260f7e7b40663ef16d901a8c9e69 | feat(feature-register):Add register screens | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/tracking | cb9c170d63df10419a09d3850b97d25ea70736c0 | feat(feature-tracking):Add Tracking screen | 12/06/2025 |
+| CodeMinds-Mobile-App | feature/tracking  | ed5fa9c8b35395c36d70fa7e722baa12a1df057e | feat(feature-tracking):Add Map screen | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/tracking  | d55d34781579d07f51bdbbe41f8768f696005d84 | fix(feature-tracking):Fix map and tracking screen | 15/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | cbe9d1c82ccf3ce1dcd9512516d0074bcd1035d4 | feat(develop): add main screen with bottom navigation and screen navigation logic| 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 1eabf584ef90353bf3155bc65e95f419d1bc340f | feat(develop): add image assets | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 133c226a07cea5d068e65a0294a493b18b02883b | feat: add endpoints for notifications by user type and user ID in AppConstants | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 53d5583bc9b9e8d268fa46422f3c2c527e31bcf1 | feat: add NotificationDTO for handling API response and mapping to Notification model| 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 7f72c0b3a3a9c0ab157341e3a2ee32484a8f7dc9 | feat: add Notification model with toJson method for API communication | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 359379e21486c93c44102e0a076bf89c3b2c7af1 | feat: add NotificationService for fetching notifications by user type and user ID | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | a1c1a027504b44427e51b4ecb3599219bf9b205f | feat: add NotificationRepository for mapping DTOs to Notification models | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 804978e89c1fb1ddccb578da2a146c2746ff4289 | feat: implement NotificationScreen to fetch and display notifications from API | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 11f78b496220cee30424323335739275ae4ce154 | feat: refactor HomeScreen to StatefulWidget and load notifications from API | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 4d22f78f7ad1024bec12e8b8c44402f86aec4d9e | feat: refactor notification endpoints to use a base path for improved maintainability | 13/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 7adaab9210d48fb9a285e9b6b60a6fb44e556dbf | feat: enhance NotificationDTO to include additional fields and improve JSON serialization | 13/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 1bc01605810630d2173db1df8368335589acb11b | feat: expand Notification class to include additional fields and update JSON serialization | 13/06/2025 | 
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
 | Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
 |-----------------------|--------|------------------------------------------|--------------------------------------------------------|--------------------|
-| CodeMinds-LandingPage | main   | 67d79de6195f29a88e98b6614db9878c3b22bbd7 | feat(Landing-Page):Add team description in portugues   | 16/05/25           |
+| CodeMinds-Mobile-App | main   | xxxxx | xxxxxxx   | 1x/06/25           |
+| CodeMinds-BackEnd | main   | xxxxx | xxxxxxx   | 1x/06/25           |
+| CodeMinds-EdgeServer | main   | xxxxx | xxxxxxx   | 1x/06/25           |
+| CodeMinds-Embedded | main   | xxxxx | xxxxxxx   | 1x/06/25           |
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
 
@@ -490,19 +572,12 @@ Para el sprint presentado de la landing page y FrontEnd se optó por varias herr
 - _Git_: Se utilizó para el control de versiones del código fuente.
 - _GitFlow_: Se utilizó para ver el avance de los integrantes del equipo.
 - _GitHub_: Se utilizó para crear el repositorio de la landing page, donde se subió el código fuente.
-- _Angular_: Se utilizó para crear el web app funcional con la ayuda de un fakeapi
 - _GitHub Pages_: Es la plataforma donde se desplegó la landing page. Se eligió por ser una solución gratuita, rápida y sencilla que permite publicar directamente desde el repositorio de GitHub.
-
+- _Android Studio_: Se utilizó para el desarrollo de la aplicación móvil nativa, permitiendo diseñar y programar funcionalidades específicas para dispositivos Android.
+- _Wokwi_: Se empleó para la creación y simulación del sistema embebido, facilitando el desarrollo y prueba del código para el hardware sin necesidad de componentes físicos.
+- _CLion_: Se utilizó para el desarrollo de la lógica del servidor Edge, permitiendo implementar y depurar el software en C++ con integración a herramientas embebidas.
+- 
 **Deployamiento del Backend**
-Para el despliegue de la landing page, se configuró el servicio de GitHub Pages siguiendo los siguientes pasos:
-
-1. Se accedió al repositorio en la plataforma de GitHub.
-2. En la parte superior del repositorio, se hizo clic en la pestaña **"Settings"**.
-3. En el menú lateral izquierdo, se seleccionó la opción **"Pages"**.
-4. En la sección **"Source"**, se eligió la rama `main` como origen y la carpeta raíz (`/`) como directorio de publicación.
-5. Finalmente, se hizo clic en **"Save"** para guardar los cambios y activar el despliegue.
-   <img src="/assets/chapter4/DeployLanding.PNG" alt="Contact" style="width:100%;">
-
 
 **Deployamiento del AppMobile**
 
