@@ -541,6 +541,21 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Mobile-App | feature/real-time-notifications  | 7adaab9210d48fb9a285e9b6b60a6fb44e556dbf | feat: enhance NotificationDTO to include additional fields and improve JSON serialization | 13/06/2025 | 
 | CodeMinds-Mobile-App | feature/real-time-notifications  | 1bc01605810630d2173db1df8368335589acb11b | feat: expand Notification class to include additional fields and update JSON serialization | 13/06/2025 | 
 
+
+**CodeMinds-EdgeServer**:
+| Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
+|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
+| CodeMinds-Mobile-App | feature/iam  | 4c15e26c746e0772e47eaf2a52a6cb04d0851c02 | feat(iam): initialize database setup with sqlite and rfid event model for iam context | 14/06/2025 | 
+| CodeMinds-Mobile-App | feature/iam  | 6571170cb2fa918c94a559225ef4608f76cdc768 | feat(iam): add implementation of rfid event model and device registration service | 14/06/2025 | 
+| CodeMinds-Mobile-App | feature/iam  | 49d36ee1be8294c15b104c761a6e5639f92cd59c | feat(app): add main application file setting up iam configurations and initialize database on first request | 14/06/2025 | 
+| CodeMinds-Mobile-App | feature/iam  | 2d692e62a9ff34729e21b5f2de61569f4171c7a8 | feat(database): update database initialization to create device model table and change database name | 14/06/2025 | 
+| CodeMinds-Mobile-App | feature/iam  | 1e16640a23b46c9b2edefeae137f0d52e6e50fcc | feat(iam): add more endpoints to the services and redefine device model with additional attributes and methods for registration | 14/06/2025 | 
+| CodeMinds-Mobile-App | feature/tracking | ea890c0acab9f5572240fa1878ac33c71740e8ac | feat(feature-tracking):Add application services | 14/06/2025 | 
+| CodeMinds-Mobile-App | feature/tracking  | be81111c41f467a51818dd669413fe31027f595b | feat(feature-tracking):Add domain entities and services | 14/06/2025 | 
+| CodeMinds-Mobile-App | feature/tracking  | 2cb01755f6268d2d4d3a32787f81be8eae13029c | feat(feature-tracking):Add infrastructure model and repositorie | 14/06/2025 | 
+| CodeMinds-Mobile-App | feature/tracking  | 1e05901eb27d2bd52e84c43b18e767c5ae1f5f28 | feat(feature-tracking):Add interfaces services | 14/06/2025 | 
+| CodeMinds-Mobile-App | feature/tracking  | a5c899123ab7790695c1b74a1e7004328903942a | feat(feature-tracking):Add database | 
+
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
 | Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
