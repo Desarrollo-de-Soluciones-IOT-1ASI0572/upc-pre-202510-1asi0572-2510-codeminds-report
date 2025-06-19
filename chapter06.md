@@ -624,4 +624,5 @@ Insights del Embedded, donde se muestran los commits realizados al repositorio e
 ### 6.3.2. Registro de Entrevistas.
 ### 6.3.3. Evaluaciones según heurísticas.
 ## 6.4. Video About-the-Product.
-
+<img src="/assets/chapter4/About product-EduGo.png" alt="Contact" style="width:100%;">
+Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210582_upc_edu_pe/EV_NSLXrc41NkQLpyI8j1nIBmAaP-qigMWQZ81WFich5ug?e=IDITQn&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D 
