@@ -36,14 +36,14 @@ La combinación de ambas tipografías crea un sistema coherente donde Inter atra
 
 #### SPACING
 Se optó por emplear un espaciado generoso entre los elementos de la interfaz para lograr una experiencia visual más limpia y estructurada. Esta elección tiene como finalidad minimizar la sobrecarga visual, facilitando que cada componente destaque por separado y sea identificado con mayor claridad.<br>
-<img src="/assets/chapter4/SPACING.png" alt="SPACING" style="width:60%; height:60%;">
+<img src="assets/chapter4/SPACING.png" alt="SPACING" style="width:60%; height:60%;">
 </br>
 
 #### BRANDING  
 
 En esta sección se presenta la identidad visual de EduGo, representada a través del diseño de su logotipo. El branding fue concebido para reflejar de forma clara los valores del proyecto: movimiento, educación, tecnología y seguridad.
 
-<center><img src="/assets/chapter4/CodeMinds-Logo.png" alt="LOGO" style="width:50%"></center>
+<center><img src="assets/chapter4/CodeMinds-Logo.png" alt="LOGO" style="width:50%"></center>
 <br></br>
 
 Se escogió este diseño para el logo de EduGo porque combina elementos visuales que representan movimiento, educación y tecnología de forma clara y moderna. El ícono del autobús escolar, acompañado de un marcador de ubicación, comunica de inmediato el propósito de la marca: un servicio inteligente y accesible de transporte escolar.
@@ -67,22 +67,22 @@ Se consideran dimensiones estándar para asegurar una experiencia de usuario ade
 ##### Navegación
 El sistema de navegación web se basa en un diseño minimalista. Para resaltar la sección activa, el nombre se mostrará en **negrita**.
 
-<center><img src="/assets/chapter4/Navbar.PNG" alt="NAVIGATION" style="width:60%; height:60%;"></center>
+<center><img src="assets/chapter4/Navbar.PNG" alt="NAVIGATION" style="width:60%; height:60%;"></center>
 
 ##### Iconos
 Para la sección de contacto se utilizarán los siguientes íconos:
 
-<center><img src="/assets/chapter4/ICONS2.png" alt="ICONS2" style="width:60%; height:60%;"></center>
+<center><img src="assets/chapter4/ICONS2.png" alt="ICONS2" style="width:60%; height:60%;"></center>
 
 ##### Formularios
 Los formularios siguen un diseño limpio que contempla estados como deshabilitado, correcto o con error.
 
-<center><img src="./assets/chapter4/FORMS.png" alt="FORMS" style="width:60%; height:60%;"></center>
+<center><img src="assets/chapter4/FORMS.png" alt="FORMS" style="width:60%; height:60%;"></center>
 
 ##### Checkboxes, Radio Buttons, Switches
 Se optó por un diseño visualmente atractivo e intuitivo para estos componentes:
 
-<center><img src="/assets/chapter4/Checkboxes, radio buttons, switch.png" alt="Checkboxes, radio buttons, switch" style="width:60%; height:60%;"></center>
+<center><img src="assets/chapter4/Checkboxes, radio buttons, switch.png" alt="Checkboxes, radio buttons, switch" style="width:60%; height:60%;"></center>
 
 ##### Colores de Fondo
 - **Primario:** Azul oscuro o neutro, para foco en contenido.
@@ -245,33 +245,33 @@ En esta sección se presentan los wireframes desarrollados para la landing page 
 
 A continuación, los wireframes realizados para el proyecto:
 **LandingPage Wireframe Inicio**
-<img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage Wireframe Caracteristicas y beneficios**
-<img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Caracteristicas y beneficios.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Caracteristicas y beneficios.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage Wireframe Team**
-<img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-teamweb.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-teamweb.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage Wireframe Full Team**
-<img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-teamList.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-teamList.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage Wireframe Contacto**
-<img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Contacto.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Contacto.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage Wireframe Footer**
-<img src="/assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Footer.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Footer.png" alt="Web app wireframes 1" style="width:100%;">
 
 ### 5.3.2. Landing Page Mock-up.
 Una vez definido el wireframe, aplicamos los estilos definidos previamente en el punto 5.1. (Style Guidelines). A continuación, presentamos los mock-ups realizados para el proyecto:
 
 **LandingPage MockUp Inicio**
-<img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage MockUp Caracteristicas y beneficios**
-<img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Caracteristicas y beneficios.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Caracteristicas y beneficios.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage MockUp Team**
-<img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-team y web.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-team y web.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage MockUp Full Team**
-<img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-teamList.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-teamList.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage MockUp Contacto**
-<img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Contacto.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Contacto.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage MockUp Footer**
-<img src="/assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Footer.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Footer.png" alt="Web app wireframes 1" style="width:100%;">
 
 ## 5.4. Applications UX/UI Design.
 ### 5.4.1. Applications Wireframes.
@@ -280,48 +280,48 @@ En esta sección se presentan los wireframes de las aplicaciones, que muestran e
 **Web Application:**
 
 **Web Application Wireframe Login**
-<img src="/assets/chapter4/WebApp-Wireframes/Login.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/WebApp-Wireframes/Login.png" alt="Web app wireframes 1" style="width:100%;">
 **Web Application Wireframe Dashboard**
-<img src="/assets/chapter4/WebApp-Wireframes/Dashboard.png" alt="Web app wireframes 2" style="width:100%;">
+<img src="assets/chapter4/WebApp-Wireframes/Dashboard.png" alt="Web app wireframes 2" style="width:100%;">
 **Web Application Wireframe Drivers**
-<img src="/assets/chapter4/WebApp-Wireframes/Drivers.png" alt="Web app wireframes 3" style="width:100%;">
+<img src="assets/chapter4/WebApp-Wireframes/Drivers.png" alt="Web app wireframes 3" style="width:100%;">
 **Web Application Wireframe Students**
-<img src="/assets/chapter4/WebApp-Wireframes/Students.png" alt="Web app wireframes 4" style="width:100%;">
+<img src="assets/chapter4/WebApp-Wireframes/Students.png" alt="Web app wireframes 4" style="width:100%;">
 **Web Application Wireframe Report**
-<img src="/assets/chapter4/WebApp-Wireframes/Report.png" alt="Web app wireframes 5" style="width:100%;">
+<img src="assets/chapter4/WebApp-Wireframes/Report.png" alt="Web app wireframes 5" style="width:100%;">
 
 **AppMovil:** <br>
 **AppMovil Wireframe Login/Register** <br>
-<img src="/assets/chapter4/Wireframes-Movil/Login_Wireframe.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/Wireframes-Movil/Register_Wireframe.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/Wireframes-Movil/Register Error 4_Wireframe.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/Wireframes-Movil/Register Error 5_Wireframe.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/Wireframes-Movil/Driver_SetUp_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Login_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Register_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Register Error 4_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Register Error 5_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Driver_SetUp_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Home Parent** <br>
-<img src="/assets/chapter4/Wireframes-Movil/Home_Page_Parent_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Home_Page_Parent_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Children** <br>
-<img src="/assets/chapter4/Wireframes-Movil/Children_Wireframe.png" alt="Web app wireframes 5"> <br>
-<img src="/assets/chapter4/Wireframes-Movil/Add_New_Children_Wireframe.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/Wireframes-Movil/Delete_Kid_Wireframe.png" alt="Web app wireframes 5"> <br>
-<img src="/assets/chapter4/Wireframes-Movil/Children_Wireframe (1).png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/Wireframes-Movil/Agregar_Hijo_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Children_Wireframe.png" alt="Web app wireframes 5"> <br>
+<img src="assets/chapter4/Wireframes-Movil/Add_New_Children_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Delete_Kid_Wireframe.png" alt="Web app wireframes 5"> <br>
+<img src="assets/chapter4/Wireframes-Movil/Children_Wireframe (1).png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Agregar_Hijo_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Tracking** <br>
-<img src="/assets/chapter4/Wireframes-Movil/Rastrear_Wireframe.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/Wireframes-Movil/Avisos_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Rastrear_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Avisos_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Profile** <br>
-<img src="/assets/chapter4/Wireframes-Movil/Perfil_Wireframe.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/Wireframes-Movil/Update_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Perfil_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Update_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Home Driver** <br>
-<img src="/assets/chapter4/Wireframes-Movil/Home_Page_Driver_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Home_Page_Driver_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Past Trip** <br>
-<img src="/assets/chapter4/Wireframes-Movil/Past Trips Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Past Trips Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe DriverMap** <br>
-<img src="/assets/chapter4/Wireframes-Movil/Driver_Map_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Driver_Map_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Perfil Driver** <br>
-<img src="/assets/chapter4/Wireframes-Movil/Perfil_Driver_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Perfil_Driver_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Attendece** <br>
-<img src="/assets/chapter4/Wireframes-Movil/Attendance_Kid_Wireframe.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/Wireframes-Movil/Manage_Attendance_Kid_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Attendance_Kid_Wireframe.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/Wireframes-Movil/Manage_Attendance_Kid_Wireframe.png" alt="Web app wireframes 5" > <br>
 
 
 ### 5.4.2. Applications Wireflow Diagrams.
@@ -329,33 +329,33 @@ Esta sección presenta los diagramas de flujo (wireflows) de las aplicaciones, q
 
 **Web Application:**<br>
 **WebApp Wireflow Home**
-<img src="/assets/chapter4/WebApp-Wireflows/Flow-WebHome.png" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/WebApp-Wireflows/Flow-WebHome.png" alt="Web app wireframes 1" style="width:100%;">
 
 **AppMovil:** <br>
 **AppMovilWireflow Login/Register Driver** <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-Login-Register-Driver.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-Login-Register-Driver.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Login/Register Parent** <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-Login-Register-Parent.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-Login-Register-Parent.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Error Register** <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-Error-Register.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-Error-Register.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Home Driver** <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-Home-Driver.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-Home-Driver.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow PastTrip** <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-Past-Trips.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-Past-Trips.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Students** <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-Students-Driver.PNG" alt="Web app wireframes 1" > <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-Students-Driver-Checkout.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-Students-Driver.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-Students-Driver-Checkout.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Tracking** <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-Tracking.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-Tracking.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Notification** <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-Notification.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-Notification.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Children** <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-Children.PNG" alt="Web app wireframes 1" > <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-Children-ConnectBluetooh.PNG" alt="Web app wireframes 1" > <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-DeleteChildren.PNG" alt="Web app wireframes 1" > <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-AddChildren.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-Children.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-Children-ConnectBluetooh.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-DeleteChildren.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-AddChildren.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Edit Account** <br>
-<img src="/assets/chapter4/Wireflows-Movil/Flow-Account-EditAccount.PNG" alt="Web app wireframes 1" > <br>
+<img src="assets/chapter4/Wireflows-Movil/Flow-Account-EditAccount.PNG" alt="Web app wireframes 1" > <br>
 
 ### 5.4.2. Applications Mock-ups.
 En esta sección se presentan los mock-ups de las aplicaciones, mostrando representaciones visuales detalladas de las interfaces de usuario finales para web y móvil, que reflejan el diseño, estilo y funcionalidad planeados.
@@ -363,66 +363,66 @@ En esta sección se presentan los mock-ups de las aplicaciones, mostrando repres
 **Web Application:** 
 <br>
 **WebApp MockUp Login** <br>
-<img src="/assets/chapter4/WebApp-MockUp/Login.png" alt="Web app wireframes 1" style="width:100%;"> <br>
+<img src="assets/chapter4/WebApp-MockUp/Login.png" alt="Web app wireframes 1" style="width:100%;"> <br>
 **WebApp MockUp DashBoard** <br>
-<img src="/assets/chapter4/WebApp-MockUp/Dashboard.png" alt="Web app wireframes 2" style="width:100%;"> <br>
+<img src="assets/chapter4/WebApp-MockUp/Dashboard.png" alt="Web app wireframes 2" style="width:100%;"> <br>
 **WebApp MockUp Drivers and students-Drivers** <br>
-<img src="/assets/chapter4/WebApp-MockUp/Drivers.png" alt="Web app wireframes 3" style="width:100%;"> <br>
-<img src="/assets/chapter4/WebApp-MockUp/Drivers and Students - Drivers.png" alt="Web app wireframes 5" style="width:100%;"> <br>
+<img src="assets/chapter4/WebApp-MockUp/Drivers.png" alt="Web app wireframes 3" style="width:100%;"> <br>
+<img src="assets/chapter4/WebApp-MockUp/Drivers and Students - Drivers.png" alt="Web app wireframes 5" style="width:100%;"> <br>
 **WebApp MockUp Drivers and students-Students** <br>
-<img src="/assets/chapter4/WebApp-MockUp/Students.png" alt="Web app wireframes 4" style="width:100%;"> <br>
-<img src="/assets/chapter4/WebApp-MockUp/Drivers and Students - Students.png" alt="Web app wireframes 5" style="width:100%;"> <br>
+<img src="assets/chapter4/WebApp-MockUp/Students.png" alt="Web app wireframes 4" style="width:100%;"> <br>
+<img src="assets/chapter4/WebApp-MockUp/Drivers and Students - Students.png" alt="Web app wireframes 5" style="width:100%;"> <br>
 **WebApp MockUp Drivers and students-Report** <br>
-<img src="/assets/chapter4/WebApp-MockUp/Reports.png" alt="Web app wireframes 5" style="width:100%;"> <br>
-<img src="/assets/chapter4/WebApp-MockUp/Reports - Incidents.png" alt="Web app wireframes 5" style="width:100%;"> <br>
-<img src="/assets/chapter4/WebApp-MockUp/Reports - Route history.png" alt="Web app wireframes 5" style="width:100%;"> 
+<img src="assets/chapter4/WebApp-MockUp/Reports.png" alt="Web app wireframes 5" style="width:100%;"> <br>
+<img src="assets/chapter4/WebApp-MockUp/Reports - Incidents.png" alt="Web app wireframes 5" style="width:100%;"> <br>
+<img src="assets/chapter4/WebApp-MockUp/Reports - Route history.png" alt="Web app wireframes 5" style="width:100%;"> 
 
 <br>
 
 **App Movil:**<br>
 **AppMovil MockUp Login/Register Driver** <br>
-<img src="/assets/chapter4/MockUp-Movil/Login_Driver.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Register.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Register_Driver.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Register_error.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Register_Upload_Photo.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Login_Driver.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Register.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Register_Driver.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Register_error.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Register_Upload_Photo.png" alt="Web app wireframes 5" > <br>
 **AppMovil MockUp Home Driver** <br>
-<img src="/assets/chapter4/MockUp-Movil/Home_Driver.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Home_Driver.png" alt="Web app wireframes 5" > <br>
 **AppMovil MockUp Home Past Trip** <br>
-<img src="/assets/chapter4/MockUp-Movil/Past_Trips.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Trip Description.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Change trip name.png" alt="Web app wireframes 5"> <br>
-<img src="/assets/chapter4/MockUp-Movil/Delete Trip.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Past_Trips.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Trip Description.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Change trip name.png" alt="Web app wireframes 5"> <br>
+<img src="assets/chapter4/MockUp-Movil/Delete Trip.png" alt="Web app wireframes 5" > <br>
 **AppMovil MockUp Home Past Attendance** <br>
-<img src="/assets/chapter4/MockUp-Movil/Attendance.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Attendance_Present.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Attendance_absent.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Attendance_Managment.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Attendance.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Attendance_Present.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Attendance_absent.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Attendance_Managment.png" alt="Web app wireframes 5" > <br>
 
 **AppMovil MockUp Login/Register Parent** <br>
-<img src="/assets/chapter4/MockUp-Movil/Login_Parent.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Register.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Register_error.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Register_Upload_Photo.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Login_Parent.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Register.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Register_error.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Register_Upload_Photo.png" alt="Web app wireframes 5" > <br>
 **AppMovil MockUp Home Parent** <br>
-<img src="/assets/chapter4/MockUp-Movil/Home_Parent.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Home_Parent.png" alt="Web app wireframes 5" > <br>
 **AppMovil MockUp Children** <br>
-<img src="/assets/chapter4/MockUp-Movil/Track_Parent.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Android Large - 8.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Android Large - 16.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Android Large - 15.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Track_Parent.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Android Large - 8.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Android Large - 16.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Android Large - 15.png" alt="Web app wireframes 5" > <br>
 **AppMovil MockUp Tracking** <br>
-<img src="/assets/chapter4/MockUp-Movil/Tracking_Parent.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Tracking_Parent.png" alt="Web app wireframes 5" > <br>
 
 **AppMovil MockUp Notification Parent/Student** <br>
-<img src="/assets/chapter4/MockUp-Movil/Notifacation_Parent.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Notification_Driver.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Notifacation_Parent.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Notification_Driver.png" alt="Web app wireframes 5" > <br>
 
 **AppMovil MockUp Acount Parent/Student** <br>
-<img src="/assets/chapter4/MockUp-Movil/Account_Parent.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Account_Parent_Update.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Account_Driver.png" alt="Web app wireframes 5" > <br>
-<img src="/assets/chapter4/MockUp-Movil/Account_Driver_Update.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Account_Parent.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Account_Parent_Update.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Account_Driver.png" alt="Web app wireframes 5" > <br>
+<img src="assets/chapter4/MockUp-Movil/Account_Driver_Update.png" alt="Web app wireframes 5" > <br>
 
 
 ### 5.4.3. Applications User Flow Diagrams.
@@ -434,69 +434,69 @@ Esta sección presenta los diagramas de flujo de usuario, que ilustran las rutas
 **Web Application UserFlow DriversStudents-Details** <br>
 **UG01**: Consultar información detallada de conductores y estudiantes <br>
 El administrador accede al panel principal de EduGo Web, selecciona la opción “Conductores y Estudiantes” en el menú lateral, y visualiza una lista. Luego, elige un usuario para revisar su perfil completo, incluyendo nombre, documento, rutas asignadas, historial de asistencia y contacto. Desde este perfil puede editar o actualizar la información según sea necesario.
-<img src="/assets/chapter4/WebApp-UserFlow/ug01.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
+<img src="assets/chapter4/WebApp-UserFlow/ug01.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
 
 **Web Application UserFlow Home** <br>
 **UG02: Navegar por el panel principal y acceder a las secciones clave** <br>
 El administrador inicia sesión y es redirigido al panel de inicio de la plataforma web. Desde allí puede consultar métricas generales, notificaciones recientes y accesos directos. Utiliza el menú de navegación lateral para acceder rápidamente a otras secciones como reportes, vehículos, rutas o configuración del sistema.
-<img src="/assets/chapter4/WebApp-UserFlow/ug02.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
+<img src="assets/chapter4/WebApp-UserFlow/ug02.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
 
 **Web Application UserFlow Report** <br>
 **UG03: Generar y visualizar reportes institucionales** <br>
 El administrador selecciona la opción de “Reportes” en el menú principal, elige el tipo de reporte (asistencia, velocidad, desvíos, etc.), y define un rango de fechas. Al generar el reporte, puede visualizarlo en formato gráfico y tabular. Finalmente, tiene la opción de exportar el archivo en formato Excel o PDF para su análisis o entrega a terceros.
-<img src="/assets/chapter4/WebApp-UserFlow/ug03.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
+<img src="assets/chapter4/WebApp-UserFlow/ug03.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
 
 **AppMovil** <br>
 **AppMovil User Flow Login/Register Driver** <br>
 **UG04: Registrar una cuenta de conductor en la app móvil** <br>
 El conductor abre la app móvil de EduGo, selecciona “Registrarse”, y completa el formulario con sus datos personales, licencia y credenciales. Tras enviar la información, el sistema valida los datos y notifica al conductor que su cuenta fue creada correctamente y está lista para ser usada.
-<img src="/assets/chapter4/UserFlow-Movil/ug04.jpg" alt="Web app wireframes 5" > <br><br>
+<img src="assets/chapter4/UserFlow-Movil/ug04.jpg" alt="Web app wireframes 5" > <br><br>
 
 **AppMovil User Flow Login/Register Parent** <br>
 **UG05: Registrar una cuenta de padre de familia en la app móvil** <br>
 El padre accede a la aplicación móvil y selecciona “Registrarse”. Luego, completa el formulario con sus datos personales, número de identificación y código de vínculo del estudiante. Una vez enviado, recibe una confirmación de que su cuenta fue registrada exitosamente y puede acceder a los datos de sus hijos.
-<img src="/assets/chapter4/UserFlow-Movil/ug05.jpg" alt="Web app wireframes 5" > <br><br>
+<img src="assets/chapter4/UserFlow-Movil/ug05.jpg" alt="Web app wireframes 5" > <br><br>
 
 **AppMovil User Flow Home Driver**<br>
 **UG06: Iniciar sesión como conductor y acceder al panel de inicio**<br>
 El conductor abre la aplicación móvil, introduce sus credenciales y accede a la pantalla principal. Desde allí puede visualizar su ruta asignada, los estudiantes esperados, el estado del vehículo y botones de acción como “Iniciar Ruta” o “Modo Emergencia”.
-<img src="/assets/chapter4/UserFlow-Movil/ug06.jpg" alt="Web app wireframes 5" ><br><br>
+<img src="assets/chapter4/UserFlow-Movil/ug06.jpg" alt="Web app wireframes 5" ><br><br>
 
 **AppMovil User Flow Home Parent**<br>
 **UG07: Iniciar sesión como padre y visualizar información de los hijos**<br>
 El padre inicia sesión y es redirigido al panel principal. En esta vista puede ver un resumen del estado del transporte, si sus hijos están a bordo, los viajes recientes, y notificaciones de subida/bajada. Además, puede acceder a secciones como historial, incidencias y perfil.
-<img src="/assets/chapter4/UserFlow-Movil/ug07.jpg" alt="Web app wireframes 5" ><br><br>
+<img src="assets/chapter4/UserFlow-Movil/ug07.jpg" alt="Web app wireframes 5" ><br><br>
 
 **AppMovil User Flow Driver PastTrips**<br>
 **UG08: Visualizar viajes anteriores como conductor**<br>
 El conductor inicia sesión en la app móvil, accede al menú y selecciona la opción “Viajes anteriores”. En esta sección puede consultar una lista de viajes realizados, con detalles como fecha, ruta, número de estudiantes transportados y cualquier incidente registrado. Puede seleccionar cada viaje para ver información más detallada si lo desea.
-<img src="/assets/chapter4/UserFlow-Movil/ug08.jpg" alt="Web app wireframes 5" ><br><br>
+<img src="assets/chapter4/UserFlow-Movil/ug08.jpg" alt="Web app wireframes 5" ><br><br>
 
 **AppMovil User Flow Driver Attendace**<br>
 **UG09: Gestionar asistencia de estudiantes durante el viaje**<br>
 Una vez iniciada la ruta, el conductor accede a la lista de estudiantes asignados y puede registrar su asistencia conforme abordan el vehículo. Si un estudiante no se presenta o no tiene pulsera, el conductor puede marcarlo manualmente como ausente. Al finalizar el viaje, se guarda un resumen con los registros de asistencia.
-<img src="/assets/chapter4/UserFlow-Movil/ug09.jpg" alt="Web app wireframes 5" ><br><br>
+<img src="assets/chapter4/UserFlow-Movil/ug09.jpg" alt="Web app wireframes 5" ><br><br>
 
 **AppMovil User Flow Parent Children**<br>
 **UG10: Ver información detallada de los hijos en la app móvil**<br>
 El padre accede a la sección “Hijos” en el menú de la app. Allí puede seleccionar el perfil de cada hijo para consultar datos como nombre, ruta asignada, estado actual (en viaje, ausente, bajado), historial de asistencia, incidentes reportados y detalles del conductor asignado.
-<img src="/assets/chapter4/UserFlow-Movil/ug10.jpg" alt="Web app wireframes 5" ><br><br>
+<img src="assets/chapter4/UserFlow-Movil/ug10.jpg" alt="Web app wireframes 5" ><br><br>
 
 **AppMovil User Flow Driver upload profile Parent/Driver**<br>
 **UG11: Subir o modificar la foto de perfil desde la app móvil**<br>
 Tanto el padre como el conductor acceden a su perfil desde la app móvil y seleccionan la opción para editar. Desde allí pueden subir una nueva foto de perfil desde la galería o tomando una foto con la cámara. Al confirmar, el sistema actualiza la imagen y muestra una vista previa actualizada.
-<img src="/assets/chapter4/UserFlow-Movil/UserFlow-UploadProfile-Parent-DriverPNG.PNG" alt="Web app wireframes 5" ><br><br>
+<img src="assets/chapter4/UserFlow-Movil/UserFlow-UploadProfile-Parent-DriverPNG.PNG" alt="Web app wireframes 5" ><br><br>
 
 ## 5.5. Applications Prototyping.
 
 En esta sección se presentan los prototipos interactivos de las aplicaciones, que permiten visualizar y probar la experiencia de usuario antes del desarrollo final. Incluye enlaces a prototipos navegables para las versiones web y móvil.
 
 **Web Application :** <br>
-<img src="/assets/chapter4/WebApp-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/WebApp-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
 <br>
 Enlace al prototipo de la aplicación web: https://shorturl.at/hS4i2
 
 **App Movil :** <br>
-<img src="/assets/chapter4/AppMovil-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
+<img src="assets/chapter4/AppMovil-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
 <br>
 Enlace al protitpo de la aplicación movil: https://shorturl.at/2Ohhx
