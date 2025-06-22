@@ -738,13 +738,12 @@ Para el sprint presentado del Backend,AppMovil,EdgeServer y Embedded se optó po
 - _Wokwi_: Se empleó para la creación y simulación del sistema embebido, facilitando el desarrollo y prueba del código para el hardware sin necesidad de componentes físicos.
 - _CLion_: Se utilizó para el desarrollo de la lógica del servidor Edge, permitiendo implementar y depurar el software en C++ con integración a herramientas embebidas.
   
-**Deployamiento del Backend**
+**Despliegue del Backend**
 
-**Deployamiento del AppMobile**
+**Despliegueo del Mobile App**
 
-**Deployamiento del EdgeServer**
+**Despliegue del Edge Server**
 
-**Deployamiento del Embedded**
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
 
