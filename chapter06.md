@@ -781,25 +781,27 @@ Insights del Embedded, donde se muestran los commits realizados al repositorio e
 3. ¿En qué distrito reside?
 4. ¿Cuál es su ocupación actual?
 
-## Entrevista a Padres de Familia 
-1. ¿Qué impresión le genera la aplicación móvil después de usarla o verla en funcionamiento?
-2. ¿Pudo comprender fácilmente cómo visualizar la ubicación de su hijo en el mapa?
-3. ¿Le parecen útiles las notificaciones automáticas cuando su hijo sube o baja del bus?
-4. ¿Cree que el uso de una pulsera RFID brinda mayor confianza que el método tradicional?
-5. ¿Qué funcionalidades le gustaría añadir o mejorar en la app?
-6. ¿Se sentiría más tranquilo utilizando un servicio de transporte escolar que use este sistema?
-7. ¿Considera fácil de usar la interfaz de la app, incluso sin asistencia técnica?
-8. ¿Qué tan probable es que recomendaría esta solución a otros padres? (escala del 1 al 10)
+##  Entrevista a Padres de Familia
 
-## Entrevista a Conductores Escolares 
-1. ¿Le resultó fácil entender cómo registrar estudiantes usando las pulseras RFID?
-2. ¿Qué opina sobre el uso del GPS y el control de aforo automático desde el sistema?
-3. ¿Le parece útil recibir alertas automáticas (velocidad, incidentes, etc.) durante el trayecto?
-4. ¿Qué tan cómodo se sintió con el uso de la app móvil para conductores?
-5. ¿Qué tan fácil fue interactuar con el panel de control del backend (web)?
-6. ¿Considera que este sistema mejora su comunicación con los padres?
-7. ¿Qué aspectos del sistema dificultaron su experiencia o podrían mejorarse?
-8. ¿Estaría dispuesto a adoptar esta tecnología en su unidad de transporte escolar?
+1. **¿Qué le pareció la experiencia de usar la aplicación móvil para seguir a su hijo en tiempo real?**
+2. **¿La función de visualización en el mapa le resultó clara y fácil de usar?**
+3. **¿Cómo califica la utilidad de las notificaciones automáticas al subir o bajar del bus?**
+4. **¿Cree que la combinación de la app móvil con la pulsera RFID le brinda más tranquilidad? ¿Por qué?**
+5. **¿Hubo alguna parte de la app que le resultó confusa o difícil de entender?**
+6. **¿Qué funcionalidades nuevas le gustaría ver en próximas versiones de la app?**
+7. **¿Sentiría mayor confianza al contratar un transporte escolar que usa esta tecnología?**
+8. **En una escala del 1 al 10, ¿cuán probable es que recomiende esta aplicación a otros padres?**
+
+##  Entrevista a Conductores Escolares
+
+1. **¿Qué tan intuitiva le pareció la aplicación móvil para registrar estudiantes con pulseras RFID?**
+2. **¿Pudo verificar fácilmente desde la app cuántos estudiantes hay a bordo durante el trayecto?**
+3. **¿Las notificaciones automáticas (como alertas de velocidad o eventos) le resultaron útiles mientras conducía?**
+4. **¿Le pareció cómodo y seguro usar la app mientras realizaba su ruta diaria?**
+5. **¿Tuvo alguna dificultad con el uso de la app durante el registro de estudiantes o la ruta?**
+6. **¿Qué mejoras sugeriría para hacer la app más práctica para los conductores escolares?**
+7. **¿Considera que esta tecnología mejora la comunicación entre usted y los padres de familia?**
+8. **¿Estaría dispuesto a seguir utilizando esta aplicación en su unidad de transporte? ¿Por qué?**
 
 ### 6.3.2. Registro de Entrevistas.
 ### 6.3.3. Evaluaciones según heurísticas.
