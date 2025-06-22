@@ -381,6 +381,16 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Backend     | feature/iam                     | dbf7f23a418d68b8632232b9d0be97e52db6c143 | feat(iam): add authentication and user management endpoints with role seeding   | 12/06/2025        |
 | CodeMinds-Backend     | feature/iam                     | 9ca324d6f49b15bcc57b8db00f74f1e38a153129 | feat(iam): add auditing support with abstract models and open-api configuration  | 13/05/2025      |
 | CodeMinds-Backend     | feature/iam                     | a2c8dc5a5e11b6261869bf13811c5ae08d8f4ed4 | feat(iam): add message resource record for standardized message handling     | 13/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 82414c6979749ea6373dd7f53114ebe8579e42cf | feat: add location and real-time notification handling with new commands and resources     | 19/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 413f4c7f3147c66ce0bc8a3497e55286bc46d1e2 | fix: changes in the commands and implementation services     | 19/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | fcac0379991403523392ea527fa387f7d43ed970 | Merge branch 'feature/identity-assignment' into develop     | 19/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 11bdffee2144ceb233f3e96725d0a04580323b66 | feat: update command and resource structures to use IDs instead of objects for wristbands and parents  | 19/06/2025  |
+| CodeMinds-Backend     | feature/iam                     | eb65c8883ed64588d9be95e06affe4fb9612ca9b | feat: validate driverUserId exists and is of type driver     | 19/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 674a30e859ba238d60c9795728b17bf8ce2e6b7e | feat: add java runtime version configuration to system properties for deploy configurations | 21/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 64f73ede3f14d433c09feae2a809cc17a68318d5 | feat: add wristband logic | 22/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | f76c3d3f6442788b9f64558ed42c760845a3de24 | feat: update datasource configuration to use environment variables | 22/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 9089ed0313a91475293d26dd6e02947235318d99 | feat: add role field to authenticatedUserResource and update assembler method | 22/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 897245c9deb8d446646f9cad1f1f3b76322ac639| feat(iam): include user role in authenticated user resource response | 22/06/2025            |
 | CodeMinds-Backend     | feature/profiles                | 0da3d186af2de80578618004fa6a817326077edc | feat(profiles): add profiles bc                 | 09/06/2025            |
 | CodeMinds-Backend     | feature/profiles                | ce7666060d2838f51baa725a018b14c6d1493410 | fix(profiles): fix profiles services         | 12/06/2025            |
 | CodeMinds-Backend     | feature/profiles                | 033f78099cb9e70cf3c30d8b17c519db29086f5a | feat(profiles): add acl with IAM             | 12/06/2025            |
@@ -546,17 +556,31 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 **CodeMinds-EdgeServer**:
 | Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
 |-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
-| CodeMinds-Mobile-App | feature/iam  | 4c15e26c746e0772e47eaf2a52a6cb04d0851c02 | feat(iam): initialize database setup with sqlite and rfid event model for iam context | 14/06/2025 | 
-| CodeMinds-Mobile-App | feature/iam  | 6571170cb2fa918c94a559225ef4608f76cdc768 | feat(iam): add implementation of rfid event model and device registration service | 14/06/2025 | 
-| CodeMinds-Mobile-App | feature/iam  | 49d36ee1be8294c15b104c761a6e5639f92cd59c | feat(app): add main application file setting up iam configurations and initialize database on first request | 14/06/2025 | 
-| CodeMinds-Mobile-App | feature/iam  | 2d692e62a9ff34729e21b5f2de61569f4171c7a8 | feat(database): update database initialization to create device model table and change database name | 14/06/2025 | 
-| CodeMinds-Mobile-App | feature/iam  | 1e16640a23b46c9b2edefeae137f0d52e6e50fcc | feat(iam): add more endpoints to the services and redefine device model with additional attributes and methods for registration | 14/06/2025 | 
-| CodeMinds-Mobile-App | feature/tracking | ea890c0acab9f5572240fa1878ac33c71740e8ac | feat(feature-tracking):Add application services | 14/06/2025 | 
-| CodeMinds-Mobile-App | feature/tracking  | be81111c41f467a51818dd669413fe31027f595b | feat(feature-tracking):Add domain entities and services | 14/06/2025 | 
-| CodeMinds-Mobile-App | feature/tracking  | 2cb01755f6268d2d4d3a32787f81be8eae13029c | feat(feature-tracking):Add infrastructure model and repositorie | 14/06/2025 | 
-| CodeMinds-Mobile-App | feature/tracking  | 1e05901eb27d2bd52e84c43b18e767c5ae1f5f28 | feat(feature-tracking):Add interfaces services | 14/06/2025 | 
-| CodeMinds-Mobile-App | feature/tracking  | a5c899123ab7790695c1b74a1e7004328903942a | feat(feature-tracking):Add database | 
+| CodeMinds-EdgeServer | feature/iam  | 4c15e26c746e0772e47eaf2a52a6cb04d0851c02 | feat(iam): initialize database setup with sqlite and rfid event model for iam context | 14/06/2025 | 
+| CodeMinds-EdgeServer | feature/iam  | 6571170cb2fa918c94a559225ef4608f76cdc768 | feat(iam): add implementation of rfid event model and device registration service | 14/06/2025 | 
+| CodeMinds-EdgeServer | feature/iam  | 49d36ee1be8294c15b104c761a6e5639f92cd59c | feat(app): add main application file setting up iam configurations and initialize database on first request | 14/06/2025 | 
+| CodeMinds-EdgeServer | feature/iam  | 2d692e62a9ff34729e21b5f2de61569f4171c7a8 | feat(database): update database initialization to create device model table and change database name | 14/06/2025 | 
+| CodeMinds-EdgeServer | feature/iam  | 1e16640a23b46c9b2edefeae137f0d52e6e50fcc | feat(iam): add more endpoints to the services and redefine device model with additional attributes and methods for registration | 14/06/2025 | 
+| CodeMinds-EdgeServer | feature/tracking | ea890c0acab9f5572240fa1878ac33c71740e8ac | feat(feature-tracking):Add application services | 14/06/2025 | 
+| CodeMinds-EdgeServer | feature/tracking  | be81111c41f467a51818dd669413fe31027f595b | feat(feature-tracking):Add domain entities and services | 14/06/2025 | 
+| CodeMinds-EdgeServer | feature/tracking  | 2cb01755f6268d2d4d3a32787f81be8eae13029c | feat(feature-tracking):Add infrastructure model and repositorie | 14/06/2025 | 
+| CodeMinds-EdgeServer | feature/tracking  | 1e05901eb27d2bd52e84c43b18e767c5ae1f5f28 | feat(feature-tracking):Add interfaces services | 14/06/2025 | 
+| CodeMinds-EdgeServer | feature/tracking  | a5c899123ab7790695c1b74a1e7004328903942a | feat(feature-tracking):Add database | 14/06/2025 |
+| CodeMinds-EdgeServer | feature/tracking  | 6fe4c2a5f09afb6725d64cde35536aebe6e4e96b | feat(tracking): add get request | 21/06/2025 |
+| CodeMinds-EdgeServer | feature/identity-assignment  | af84353395f25f6bfd6f5642129b94d16475c336 | feat(scan): implement sensor scan API and add student and wristband models | 21/06/2025 |
+| CodeMinds-EdgeServer | feature/identity-assignment  | f291a6328c13d138d851fed134f5739feb309b65 | feat(identity-assignment): add validate api key | 21/06/2025 |
+| CodeMinds-EdgeServer | feature/identity-assignment  | cbfb54a495897881ae49705630581a08578d1b71 | refactor(entities, models, repositories, services): simplify class docstrings and improve code readability | 21/06/2025 |
+| CodeMinds-EdgeServer | feature/identity-assignment  | 9551ae54b8424edbd92be8db8dc48f90ca5c53b0 | feat(scan): add endpoint to retrieve all sensor scan records and update app run configuration | 21/06/2025 |
+| CodeMinds-EdgeServer | feature/identity-assignment  | 1a1c62ce50066f5b2542764a9f95140911f69c2d | refactor(scan): enhance scan processing service with improved error handling and logging | 21/06/2025 |
+| CodeMinds-EdgeServer | feature/identity-assignment  | 8623805ef9f5b6e666e604f55ae182a769f20439 | feat(identity-assignment): add jwt authentication |22/06/2025 | 
 
+**CodeMinds-Embedded**:
+| CodeMinds-Embedded | feature/gps-chip  | b4e93705200736129b7fe9995bc8aed09e0ba5ad | feat(main): add project files |22/06/2025 | 
+| CodeMinds-Embedded | feature/gps-chip  | 6ea33e53ab1d87a74816a92c3c58d96f47a16c7d | feat(gps-chip): add NEO-6M GPS simulation |22/06/2025 | 
+| CodeMinds-Embedded | feature/rfid-chip | d5babbb26c8b93438debe88ff25f7213e4962f54 | feat(rfid-chip): implement RFID simulation |22/06/2025 | 
+| CodeMinds-Embedded | feature/rfid-chip | 212b97265a55bd39d73945068d6fbba29491448c | Merge pull request #1 from Desarrollo-de-Soluciones-IOT-1ASI0572/feature/gps-chip |22/06/2025 | 
+| CodeMinds-Embedded | feature/rfid-chip | 2504aa583c9b691b54fa5b8f7e7f8311f0107937 | Merge branch 'develop' into feature/rfid-chip |22/06/2025 | 
+| CodeMinds-Embedded | feature/rfid-chip | eef26dbcb3104da47a65a965e65dd9f0f8e2f1d5 | fix(rfid-chip): delete gps functions |22/06/2025 | 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
 | Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
@@ -677,7 +701,7 @@ Para el sprint presentado de la landing page y FrontEnd se optó por varias herr
 - _Android Studio_: Se utilizó para el desarrollo de la aplicación móvil nativa, permitiendo diseñar y programar funcionalidades específicas para dispositivos Android.
 - _Wokwi_: Se empleó para la creación y simulación del sistema embebido, facilitando el desarrollo y prueba del código para el hardware sin necesidad de componentes físicos.
 - _CLion_: Se utilizó para el desarrollo de la lógica del servidor Edge, permitiendo implementar y depurar el software en C++ con integración a herramientas embebidas.
-- 
+  
 **Deployamiento del Backend**
 
 **Deployamiento del AppMobile**
