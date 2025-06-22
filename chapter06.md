@@ -380,6 +380,16 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Backend     | feature/iam                     | dbf7f23a418d68b8632232b9d0be97e52db6c143 | feat(iam): add authentication and user management endpoints with role seeding   | 12/06/2025        |
 | CodeMinds-Backend     | feature/iam                     | 9ca324d6f49b15bcc57b8db00f74f1e38a153129 | feat(iam): add auditing support with abstract models and open-api configuration  | 13/05/2025      |
 | CodeMinds-Backend     | feature/iam                     | a2c8dc5a5e11b6261869bf13811c5ae08d8f4ed4 | feat(iam): add message resource record for standardized message handling     | 13/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 82414c6979749ea6373dd7f53114ebe8579e42cf | feat: add location and real-time notification handling with new commands and resources     | 19/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 413f4c7f3147c66ce0bc8a3497e55286bc46d1e2 | fix: changes in the commands and implementation services     | 19/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | fcac0379991403523392ea527fa387f7d43ed970 | Merge branch 'feature/identity-assignment' into develop     | 19/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 11bdffee2144ceb233f3e96725d0a04580323b66 | feat: update command and resource structures to use IDs instead of objects for wristbands and parents  | 19/06/2025  |
+| CodeMinds-Backend     | feature/iam                     | eb65c8883ed64588d9be95e06affe4fb9612ca9b | feat: validate driverUserId exists and is of type driver     | 19/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 674a30e859ba238d60c9795728b17bf8ce2e6b7e | feat: add java runtime version configuration to system properties for deploy configurations | 21/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 64f73ede3f14d433c09feae2a809cc17a68318d5 | feat: add wristband logic | 22/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | f76c3d3f6442788b9f64558ed42c760845a3de24 | feat: update datasource configuration to use environment variables | 22/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 9089ed0313a91475293d26dd6e02947235318d99 | feat: add role field to authenticatedUserResource and update assembler method | 22/06/2025            |
+| CodeMinds-Backend     | feature/iam                     | 897245c9deb8d446646f9cad1f1f3b76322ac639| feat(iam): include user role in authenticated user resource response | 22/06/2025            |
 | CodeMinds-Backend     | feature/profiles                | 0da3d186af2de80578618004fa6a817326077edc | feat(profiles): add profiles bc                 | 09/06/2025            |
 | CodeMinds-Backend     | feature/profiles                | ce7666060d2838f51baa725a018b14c6d1493410 | fix(profiles): fix profiles services         | 12/06/2025            |
 | CodeMinds-Backend     | feature/profiles                | 033f78099cb9e70cf3c30d8b17c519db29086f5a | feat(profiles): add acl with IAM             | 12/06/2025            |
