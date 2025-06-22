@@ -574,8 +574,12 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-EdgeServer | feature/identity-assignment  | 8623805ef9f5b6e666e604f55ae182a769f20439 | feat(identity-assignment): add jwt authentication |22/06/2025 | 
 
 **CodeMinds-Embedded**:
-
-
+| CodeMinds-Embedded | feature/gps-chip  | b4e93705200736129b7fe9995bc8aed09e0ba5ad | feat(main): add project files |22/06/2025 | 
+| CodeMinds-Embedded | feature/gps-chip  | 6ea33e53ab1d87a74816a92c3c58d96f47a16c7d | feat(gps-chip): add NEO-6M GPS simulation |22/06/2025 | 
+| CodeMinds-Embedded | feature/rfid-chip | d5babbb26c8b93438debe88ff25f7213e4962f54 | feat(rfid-chip): implement RFID simulation |22/06/2025 | 
+| CodeMinds-Embedded | feature/rfid-chip | 212b97265a55bd39d73945068d6fbba29491448c | Merge pull request #1 from Desarrollo-de-Soluciones-IOT-1ASI0572/feature/gps-chip |22/06/2025 | 
+| CodeMinds-Embedded | feature/rfid-chip | 2504aa583c9b691b54fa5b8f7e7f8311f0107937 | Merge branch 'develop' into feature/rfid-chip |22/06/2025 | 
+| CodeMinds-Embedded | feature/rfid-chip | eef26dbcb3104da47a65a965e65dd9f0f8e2f1d5 | fix(rfid-chip): delete gps functions |22/06/2025 | 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
 
 | Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
