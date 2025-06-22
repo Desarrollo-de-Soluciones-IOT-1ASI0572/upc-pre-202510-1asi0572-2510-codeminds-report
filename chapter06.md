@@ -716,7 +716,7 @@ Durante este Sprint, se llevó a cabo la implementación de los servicios del pr
 
 #### 6.2.2.8. Software Deployment Evidence for Sprint Review.
 
-Para el sprint presentado de la landing page y FrontEnd se optó por varias herramientas para su desarrollo.
+Para el sprint presentado del Backend,AppMovil,EdgeServer y Embedded se optó por varias herramientas para su desarrollo.
 
 - _Git_: Se utilizó para el control de versiones del código fuente.
 - _GitFlow_: Se utilizó para ver el avance de los integrantes del equipo.
