@@ -597,6 +597,8 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-EdgeServer | feature/identity-assignment  | 8623805ef9f5b6e666e604f55ae182a769f20439 | feat(identity-assignment): add jwt authentication |22/06/2025 | 
 
 **CodeMinds-Embedded**:
+| Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
+|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
 | CodeMinds-Embedded | feature/gps-chip  | b4e93705200736129b7fe9995bc8aed09e0ba5ad | feat(main): add project files |22/06/2025 | 
 | CodeMinds-Embedded | feature/gps-chip  | 6ea33e53ab1d87a74816a92c3c58d96f47a16c7d | feat(gps-chip): add NEO-6M GPS simulation |22/06/2025 | 
 | CodeMinds-Embedded | feature/rfid-chip | d5babbb26c8b93438debe88ff25f7213e4962f54 | feat(rfid-chip): implement RFID simulation |22/06/2025 | 
@@ -608,9 +610,9 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
 |-----------------------|--------|------------------------------------------|--------------------------------------------------------|--------------------|
 | CodeMinds-Mobile-App | main   | xxxxx | xxxxxxx   | 1x/06/25           |
-| CodeMinds-BackEnd | main   | xxxxx | xxxxxxx   | 1x/06/25           |
+| CodeMinds-BackEnd | main   | 71423d0510e800ab9bd19c5682605187eca70a57 | feat: add endpoint to retrieve completed trips by driver ID   | 22/06/25           |
 | CodeMinds-EdgeServer | main   | xxxxx | xxxxxxx   | 1x/06/25           |
-| CodeMinds-Embedded | main   | xxxxx | xxxxxxx   | 1x/06/25           |
+| CodeMinds-Embedded | develop  | f01c049cf69a4a6db3f3cac09a4b73c0ca12f9e1 | Merge pull request #2 from Desarrollo-de-Soluciones-IOT-1ASI0572/feature/rfid-chip   | 22/06/25           |
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
 
