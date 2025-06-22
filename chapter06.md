@@ -743,11 +743,15 @@ Para el sprint presentado del Backend,AppMovil,EdgeServer y Embedded se optó po
 - _CLion_: Se utilizó para el desarrollo de la lógica del servidor Edge, permitiendo implementar y depurar el software en C++ con integración a herramientas embebidas.
   
 **Despliegue del Backend**
+Para este Sprint se desplego la aplicacion Backend en heroku, el despliegue de este producto permite el acceso y modificacion de la informacion en la base de datos.
+<img src="/assets/chapter4/backend-deployment-heroku.jpg" alt="Backend-deployment" style="width:100%;">
+<br>
 
-**Despliegueo del Mobile App**
+**Despliegue del Mobile App**
+El alcance definido para este producto dentro de este Sprint comprende ejecucion local
 
 **Despliegue del Edge Server**
-
+El alcance definido para este producto dentro de este Sprint comprende ejecucion local
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
 
