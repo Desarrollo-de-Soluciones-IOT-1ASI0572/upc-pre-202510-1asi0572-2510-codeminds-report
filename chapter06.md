@@ -609,9 +609,9 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 
 | Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
 |-----------------------|--------|------------------------------------------|--------------------------------------------------------|--------------------|
-| CodeMinds-Mobile-App | main   | xxxxx | xxxxxxx   | 1x/06/25           |
+| CodeMinds-Mobile-App | develop  | b609f3673cd3373b3559fa5621457d45fd834dfc | fix(develop): fix integration   | 22/06/25           |
 | CodeMinds-BackEnd | main   | 71423d0510e800ab9bd19c5682605187eca70a57 | feat: add endpoint to retrieve completed trips by driver ID   | 22/06/25           |
-| CodeMinds-EdgeServer | main   | xxxxx | xxxxxxx   | 1x/06/25           |
+| CodeMinds-EdgeServer | feature/identity-assignment   | 8623805ef9f5b6e666e604f55ae182a769f20439 | feat(identity-assignment): add jwt authentication   | 1x/06/25           |
 | CodeMinds-Embedded | develop  | f01c049cf69a4a6db3f3cac09a4b73c0ca12f9e1 | Merge pull request #2 from Desarrollo-de-Soluciones-IOT-1ASI0572/feature/rfid-chip   | 22/06/25           |
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
@@ -736,8 +736,8 @@ Para el sprint presentado del Backend,AppMovil,EdgeServer y Embedded se optó po
 
 - _Git_: Se utilizó para el control de versiones del código fuente.
 - _GitFlow_: Se utilizó para ver el avance de los integrantes del equipo.
-- _GitHub_: Se utilizó para crear el repositorio de la landing page, donde se subió el código fuente.
-- _GitHub Pages_: Es la plataforma donde se desplegó la landing page. Se eligió por ser una solución gratuita, rápida y sencilla que permite publicar directamente desde el repositorio de GitHub.
+- _GitHub_: Se utilizó para crear el repositorio del Backend,AppMovil,EdgeServer y Embedded, donde se subió el código fuente.
+- _GitHub Pages_: Es la plataforma donde se desplegó el Backend,AppMovil,EdgeServer y Embedded. Se eligió por ser una solución gratuita, rápida y sencilla que permite publicar directamente desde el repositorio de GitHub.
 - _Android Studio_: Se utilizó para el desarrollo de la aplicación móvil nativa, permitiendo diseñar y programar funcionalidades específicas para dispositivos Android.
 - _Wokwi_: Se empleó para la creación y simulación del sistema embebido, facilitando el desarrollo y prueba del código para el hardware sin necesidad de componentes físicos.
 - _CLion_: Se utilizó para el desarrollo de la lógica del servidor Edge, permitiendo implementar y depurar el software en C++ con integración a herramientas embebidas.
