@@ -615,6 +615,18 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Embedded | develop  | f01c049cf69a4a6db3f3cac09a4b73c0ca12f9e1 | Merge pull request #2 from Desarrollo-de-Soluciones-IOT-1ASI0572/feature/rfid-chip   | 22/06/25           |
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
+**Para el backend** <br>
+<img src="assets/chapter4/ExecutionBackend.PNG" alt="Contact" style="width:100%;"> <br>
+Enlace al backend: https://edugo-service-de983aa97099.herokuapp.com/swagger-ui/index.html
+<br>
+<br>
+**Para el AppMovil**
+<br>
+<img src="assets/chapter4/ExecutionMovil/HomeParent.jpg" alt="Contact" > <br>
+<img src="assets/chapter4/ExecutionMovil/childrenScreen.jpg" alt="Contact" > <br>
+<img src="assets/chapter4/ExecutionMovil/childrenInformation.jpg" alt="Contact" > <br>
+<img src="assets/chapter4/ExecutionMovil/notificationScreen.jpg" alt="Contact" > <br>
+<img src="assets/chapter4/ExecutionMovil/accountScreen.jpg" alt="Contact"> <br>
 
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
@@ -755,6 +767,33 @@ Insights del Embedded, donde se muestran los commits realizados al repositorio e
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
+
+## Información General 
+1. ¿Cuál es su nombre?
+2. ¿Qué edad tiene?
+3. ¿En qué distrito reside?
+4. ¿Cuál es su ocupación actual?
+
+## Entrevista a Padres de Familia 
+1. ¿Qué impresión le genera la aplicación móvil después de usarla o verla en funcionamiento?
+2. ¿Pudo comprender fácilmente cómo visualizar la ubicación de su hijo en el mapa?
+3. ¿Le parecen útiles las notificaciones automáticas cuando su hijo sube o baja del bus?
+4. ¿Cree que el uso de una pulsera RFID brinda mayor confianza que el método tradicional?
+5. ¿Qué funcionalidades le gustaría añadir o mejorar en la app?
+6. ¿Se sentiría más tranquilo utilizando un servicio de transporte escolar que use este sistema?
+7. ¿Considera fácil de usar la interfaz de la app, incluso sin asistencia técnica?
+8. ¿Qué tan probable es que recomendaría esta solución a otros padres? (escala del 1 al 10)
+
+## Entrevista a Conductores Escolares 
+1. ¿Le resultó fácil entender cómo registrar estudiantes usando las pulseras RFID?
+2. ¿Qué opina sobre el uso del GPS y el control de aforo automático desde el sistema?
+3. ¿Le parece útil recibir alertas automáticas (velocidad, incidentes, etc.) durante el trayecto?
+4. ¿Qué tan cómodo se sintió con el uso de la app móvil para conductores?
+5. ¿Qué tan fácil fue interactuar con el panel de control del backend (web)?
+6. ¿Considera que este sistema mejora su comunicación con los padres?
+7. ¿Qué aspectos del sistema dificultaron su experiencia o podrían mejorarse?
+8. ¿Estaría dispuesto a adoptar esta tecnología en su unidad de transporte escolar?
+
 ### 6.3.2. Registro de Entrevistas.
 ### 6.3.3. Evaluaciones según heurísticas.
 ## 6.4. Video About-the-Product.
