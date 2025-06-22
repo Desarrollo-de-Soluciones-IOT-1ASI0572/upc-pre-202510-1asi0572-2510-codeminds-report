@@ -748,22 +748,22 @@ Para el sprint presentado del Backend,AppMovil,EdgeServer y Embedded se optó po
 
 #### 6.2.2.9. Team Collaboration Insights during Sprint.
 
-Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización de la aplicación web, como el landing page:
+Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización del backend,app movil,edge server y embedded :
 
 Insights del AppMovil, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="/assets/chapter4/TeamLanding.PNG" alt="Contact" style="width:100%;">
+<img src="/assets/chapter4/TeamCollaborationMovil.PNG" alt="Contact" >
 <br>
 
 Insights del Backend, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="/assets/chapter4/TeamFrontend.PNG" alt="Contact" style="width:100%;">
+<img src="/assets/chapter4/TeamCollaborationBackend.PNG" alt="Contact" >
 <br>
 
 Insights del EdgeServer, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="/assets/chapter4/TeamFrontend.PNG" alt="Contact" style="width:100%;">
+<img src="/assets/chapter4/TeamCollaborationEdgeServer.PNG" alt="Contact" >
 <br>
 
 Insights del Embedded, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="/assets/chapter4/TeamFrontend.PNG" alt="Contact" style="width:100%;">
+<img src="/assets/chapter4/TeamCollaborationEmbedded.PNG" alt="Contact" >
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
