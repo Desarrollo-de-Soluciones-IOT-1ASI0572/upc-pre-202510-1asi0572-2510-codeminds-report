@@ -805,6 +805,62 @@ Insights del Embedded, donde se muestran los commits realizados al repositorio e
 8. **¿Estaría dispuesto a seguir utilizando esta aplicación en su unidad de transporte? ¿Por qué?**
 
 ### 6.3.2. Registro de Entrevistas.
+#### Entrevista 1
+
+**Identificación del entrevistado**
+
+- **Nombre completo:** Arturo
+- **Edad:** 33 años
+- **Distrito de residencia:** Callao
+- **Ocupación:** Taxista y transportista escolar
+
+**Referencia audiovisual**
+
+- **Screenshot:**
+
+![entrevista victor](assets/chapter4/entrevista-victor.PNG)
+
+- **Timecode inicio / duración:** `00:00:39 / 08:02`
+
+Víctor transporta hasta **7 estudiantes** de distintos grados (inicial, primaria y secundaria) hacia dos colegios, adaptándose a horarios variados. Se comunica con los padres por **teléfono** o **cedulación** al recoger a los alumnos. Es **estricto con la puntualidad** y siempre dispuesto a ayudar. Sus desafíos principales son el **tráfico** y los retrasos de los alumnos, por lo que utiliza el **aplicativo del GPS** para monitorear sus rutas y mejorar la experiencia de servicio.
+
+#### Entrevista 2
+
+**Identificación del entrevistado**
+
+- **Nombre completo:** Arturo
+- **Edad:** 33 años
+- **Distrito de residencia:** Callao
+- **Ocupación:** Taxista y transportista escolar
+
+**Referencia audiovisual**
+
+- **Screenshot:**
+
+![entrevista victor](assets/chapter4/entrevista-victor.PNG)
+
+- **Timecode inicio / duración:** `00:00:39 / 08:02`
+
+Víctor transporta hasta **7 estudiantes** de distintos grados (inicial, primaria y secundaria) hacia dos colegios, adaptándose a horarios variados. Se comunica con los padres por **teléfono** o **cedulación** al recoger a los alumnos. Es **estricto con la puntualidad** y siempre dispuesto a ayudar. Sus desafíos principales son el **tráfico** y los retrasos de los alumnos, por lo que utiliza el **aplicativo del GPS** para monitorear sus rutas y mejorar la experiencia de servicio.
+
+#### Entrevista 3
+
+**Identificación del entrevistado**
+
+- **Nombre completo:** Arturo
+- **Edad:** 33 años
+- **Distrito de residencia:** Callao
+- **Ocupación:** Taxista y transportista escolar
+
+**Referencia audiovisual**
+
+- **Screenshot:**
+
+![entrevista victor](assets/chapter4/entrevista-victor.PNG)
+
+- **Timecode inicio / duración:** `00:00:39 / 08:02`
+
+Víctor transporta hasta **7 estudiantes** de distintos grados (inicial, primaria y secundaria) hacia dos colegios, adaptándose a horarios variados. Se comunica con los padres por **teléfono** o **cedulación** al recoger a los alumnos. Es **estricto con la puntualidad** y siempre dispuesto a ayudar. Sus desafíos principales son el **tráfico** y los retrasos de los alumnos, por lo que utiliza el **aplicativo del GPS** para monitorear sus rutas y mejorar la experiencia de servicio.
 ### 6.3.3. Evaluaciones según heurísticas.
 ## 6.4. Video About-the-Product.
 <img src="/assets/chapter4/About product-EduGo.png" alt="Contact" style="width:100%;">
