@@ -822,7 +822,7 @@ Insights del Embedded, donde se muestran los commits realizados al repositorio e
 
 - **Timecode inicio / duración:** `00:03:11 / 09:20`
 
-Víctor transporta hasta **7 estudiantes** de distintos grados (inicial, primaria y secundaria) hacia dos colegios, adaptándose a horarios variados. Se comunica con los padres por **teléfono** o **cedulación** al recoger a los alumnos. Es **estricto con la puntualidad** y siempre dispuesto a ayudar. Sus desafíos principales son el **tráfico** y los retrasos de los alumnos, por lo que utiliza el **aplicativo del GPS** para monitorear sus rutas y mejorar la experiencia de servicio.
+Arturo, ingeniero industrial de 37 años del Callao, es padre de familia y valora mucho la seguridad de su hijo durante el transporte escolar. Tras ver la app, destacó su utilidad, facilidad de uso y claridad para seguir el recorrido en tiempo real. Considera que la combinación con la pulsera RFID brinda más tranquilidad. Sugiere mejorar el sistema incorporando alertas de tráfico o rutas cerradas, como hace Waze. Aunque al inicio tuvo dudas sobre el rol de conductores en la app, cree que debería centrarse en los padres. Califica el sistema con un 10 y propone su implementación a nivel nacional.
 
 #### Entrevista 2
 
