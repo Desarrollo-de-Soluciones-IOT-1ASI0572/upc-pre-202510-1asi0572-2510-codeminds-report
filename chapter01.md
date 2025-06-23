@@ -229,9 +229,13 @@ Suponen que el producto puede crecer y escalar.
 
 #### 1.2.2.4. Lean UX Canvas.
 
+A continuación se presenta el Lean UX Canvas para la plataforma EduGo, un marco que nos permite identificar de forma clara las áreas clave del proyecto. Este canvas ayudará a visualizar de manera rápida los elementos fundamentales como los problemas a resolver, los supuestos del proyecto, y los métricas que se deben seguir, todo alineado con la visión y los objetivos del negocio.
+
 ![Lean UX Canvas](assets/chapter1/Lean%20UX%20Canvas.png)
 
 ## 1.3. Segmentos objetivo.
+
+A continuación, se presentan los segmentos objetivo para la plataforma EduGo, los cuales han sido identificados según las características geográficas, psicográficas y demográficas de dos grupos clave: Padres y Conductores. Estos segmentos permiten ajustar la solución a sus necesidades específicas, optimizando la experiencia de cada usuario.
 
 | Tipo de Usuario  | **Padres**                                                                                                                                                                                              | **Conductores**                                                                                                                                                        |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -4,28 +4,27 @@
 
 ### 5.1.1. General Style Guidelines.
 
-#### LENGUAJE
+Esta sección define las pautas generales de estilo para EduGo, incluyendo el lenguaje, la paleta de colores, la tipografía, el espaciado y la identidad visual de la marca.
 
+#### LENGUAJE
 El lenguaje utilizado en la aplicación es una mezcla equilibrada entre formal y casual. Por un lado, el tono formal busca transmitir confianza y seguridad, especialmente en funciones críticas como el seguimiento del transporte escolar. Esto se refleja en frases como "Seguridad Inteligente en el Transporte Escolar" o "Mundirá con un tiempo real de la inclusión y seguridad de sus hijos", que destacan profesionalismo y precisión. Por otro lado, el lenguaje casual se incorpora para crear una experiencia amigable y cercana, evitando que el usuario se confunda. Ejemplos de esto son términos sencillos como "Contáctanos" o "Iniciado", que facilitan la interacción diaria.
 
-#### COLORES
-
+#### COLORES 
 En el siguiente cuadro está la paleta de colores actualizada que se usará en toda la plataforma Edugo, incluyendo la Landing Page,la aplicación web y la aplicacion movil. Hemos seleccionado cuidadosamente esta gama de azules y tonos complementarios para transmitir profesionalismo, confianza y calidez, adaptándose perfectamente a un servicio de transporte escolar donde la seguridad y la claridad son prioritarias.
 
 #### Tabla de la paleta de colores para la implementación del Landing page y Web Application de EduGo
 
-| Código  | Nombre          | Descripción                                                                     |
-| ------- | --------------- | ------------------------------------------------------------------------------- |
-| #53B7C9 | Azul Claro      | Tonelada fresca para botones principales. Transmite accesibilidad y amabilidad. |
-| #96D8DD | Turquesa Pastel | Color secundario para fondos. Da sensación de limpieza y tranquilidad.          |
-| #3D4E5D | Gris Azulado    | Para textos y detalles. Ofrece legibilidad profesional.                         |
-| #2C3E50 | Azul Noche      | Color principal para headers. Simboliza seguridad y confiabilidad.              |
-| #3F51B5 | Azul Vibrante   | Para llamadas a la acción secundarias. Aporta energía controlada.               |
-| #7B8FFF | Azul Lavanda    | Acentos y efectos hover. Toque moderno y dinámico.                              |
-| #FFFFFF | Blanco          | Base para fondos y textos. Garantiza claridad y orden visual.                   |
+| Código   | Nombre             | Descripción                                                                 |
+|----------|--------------------|-----------------------------------------------------------------------------|
+| #53B7C9  | Azul Claro         | Tonelada fresca para botones principales. Transmite accesibilidad y amabilidad. |
+| #96D8DD  | Turquesa Pastel    | Color secundario para fondos. Da sensación de limpieza y tranquilidad.      |
+| #3D4E5D  | Gris Azulado       | Para textos y detalles. Ofrece legibilidad profesional.                    |
+| #2C3E50  | Azul Noche         | Color principal para headers. Simboliza seguridad y confiabilidad.         |
+| #3F51B5  | Azul Vibrante      | Para llamadas a la acción secundarias. Aporta energía controlada.          |
+| #7B8FFF  | Azul Lavanda       | Acentos y efectos hover. Toque moderno y dinámico.                         |
+| #FFFFFF  | Blanco             | Base para fondos y textos. Garantiza claridad y orden visual.              |
 
 #### TYPOGRAPHY
-
 Edugo ha seleccionado cuidadosamente la combinación de Inter y Roboto para su identidad visual, buscando equilibrar personalidad y funcionalidad.
 
 Inter, con su estilo moderno y versátil, se utiliza como fuente principal para títulos y encabezados. Su diseño limpio y geométrico transmite profesionalismo al mismo tiempo que mantiene un toque accesible, ideal para conectar con padres, escuelas y usuarios frecuentes. Esta tipografía aporta jerarquía visual a elementos clave como "Seguridad Inteligente en el Transporte Escolar" y otros mensajes importantes de la plataforma.
@@ -34,13 +33,15 @@ Para textos largos, descripciones y contenido interactivo, empleamos Roboto. Est
 
 La combinación de ambas tipografías crea un sistema coherente donde Inter atrae la atención hacia los elementos principales, mientras que Roboto garantiza comodidad de lectura en el día a día. Este equilibrio refuerza los valores de Edugo: confiable pero cercano, técnico pero humano.
 
-#### SPACING
 
+#### SPACING
 Se optó por emplear un espaciado generoso entre los elementos de la interfaz para lograr una experiencia visual más limpia y estructurada. Esta elección tiene como finalidad minimizar la sobrecarga visual, facilitando que cada componente destaque por separado y sea identificado con mayor claridad.<br>
 <img src="assets/chapter4/SPACING.png" alt="SPACING" style="width:60%; height:60%;">
 </br>
 
-#### BRANDING
+#### BRANDING  
+
+En esta sección se presenta la identidad visual de EduGo, representada a través del diseño de su logotipo. El branding fue concebido para reflejar de forma clara los valores del proyecto: movimiento, educación, tecnología y seguridad.
 
 <center><img src="assets/chapter4/CodeMinds-Logo.png" alt="LOGO" style="width:50%"></center>
 <br></br>
@@ -55,46 +56,40 @@ Este diseño es versátil y funcional en distintos formatos (digital, impresos o
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines.
 
+En esta sección se detallan los lineamientos visuales y de diseño implementados en la interfaz de usuario para las diferentes plataformas del sistema: web, móvil e IoT.
+
 ##### Dimensiones
-
 Se consideran dimensiones estándar para asegurar una experiencia de usuario adecuada en distintos dispositivos:
-
 - **Escritorio:** 1280 px de ancho
 - **Tablet:** 760 px de ancho
-- **Celular:** 480 px de ancho
+- **Celular:** 480 px de ancho  
 
 ##### Navegación
-
 El sistema de navegación web se basa en un diseño minimalista. Para resaltar la sección activa, el nombre se mostrará en **negrita**.
 
 <center><img src="assets/chapter4/Navbar.PNG" alt="NAVIGATION" style="width:60%; height:60%;"></center>
 
 ##### Iconos
-
 Para la sección de contacto se utilizarán los siguientes íconos:
 
 <center><img src="assets/chapter4/ICONS2.png" alt="ICONS2" style="width:60%; height:60%;"></center>
 
 ##### Formularios
-
 Los formularios siguen un diseño limpio que contempla estados como deshabilitado, correcto o con error.
 
 <center><img src="assets/chapter4/FORMS.png" alt="FORMS" style="width:60%; height:60%;"></center>
 
 ##### Checkboxes, Radio Buttons, Switches
-
 Se optó por un diseño visualmente atractivo e intuitivo para estos componentes:
 
 <center><img src="assets/chapter4/Checkboxes, radio buttons, switch.png" alt="Checkboxes, radio buttons, switch" style="width:60%; height:60%;"></center>
 
 ##### Colores de Fondo
-
 - **Primario:** Azul oscuro o neutro, para foco en contenido.
 - **Secundario:** Azul claro o gris, útil en zonas secundarias.
 - **Terciario:** Colores de acento, como llamados a la acción.
 
 ##### Estilos de Texto
-
 - **H1:** Títulos principales con fuente sans-serif y tamaño destacado.
 - **H2:** Subtítulos con menor jerarquía que H1.
 - **Párrafo:** Fuente clara y legible.
@@ -113,7 +108,7 @@ La versión móvil sigue los principios visuales del diseño web pero adaptados 
 
 ---
 
-#### IoT
+#### IoT 
 
 Para la visualización o gestión desde interfaces IoT (pantallas embebidas, dashboards), se tomará como base el diseño web adaptado a resoluciones específicas según el dispositivo:
 
@@ -121,8 +116,8 @@ Para la visualización o gestión desde interfaces IoT (pantallas embebidas, das
 - **Contraste elevado:** Mejora la legibilidad en condiciones variables.
 - **Iconografía clara:** Íconos minimalistas con etiquetas visibles.
 
-## 5.2. Information Architecture.
 
+## 5.2. Information Architecture.
 ## 5.2.1. Organization Systems
 
 En nuestras aplicaciones web y móvil para la plataforma **EduGo**, se emplean distintos sistemas de organización de la información que garantizan una experiencia clara, rápida y eficiente para los usuarios, de acuerdo con el rol que desempeñan.
@@ -158,28 +153,31 @@ En nuestras aplicaciones web y móvil para la plataforma **EduGo**, se emplean d
 
 Estos sistemas de organización, adaptados a cada perfil de usuario (padres, administradores y conductores), aseguran que la interacción con EduGo sea clara, intuitiva y alineada con los objetivos de seguridad y eficiencia del transporte escolar.
 
-### 5.2.2. Labeling Systems.
 
+### 5.2.2. Labeling Systems.
 La aplicación web y movil contará con un sistema de etiquetado simple y sencillo para captar el rápido entendimiento del usuario, evitando confusiones y facilitando la navegación.
 Las siguientes etiquetas serán utilizadas para ambos contextos de los segmentos objetivos.
 
 Para la aplicacion web
+
 | Etiqueta | Descripción |
 |----------|-------------|
-| Inicio | Seccion donde el administrador se logea al sistema |
-| Dashboard | Sección donde se visualizan gráficos sobre el desempeño del conductor (tiempos de llegada, número de incidentes y distancia recorrida) |
-| Drivers and students | Sección donde se visualiza la informacion de los conductores y estudiantes. |
-| Report | Sección donde se visualiza datos escritos sobre las acciones del conductor(Incidentes e historia de recorrido) |
+| Inicio   | Seccion donde el administrador se logea al sistema |
+| Dashboard | Sección donde se visualizan gráficos sobre el desempeño del conductor (tiempos de llegada, número de incidentes y distancia recorrida)  |
+| Drivers and students  | Sección donde se visualiza la informacion de los conductores y estudiantes. |
+| Report  | Sección donde se visualiza datos escritos sobre las acciones del conductor(Incidentes e historia de recorrido) |
 
 Para la app movil-Padres
+
 | Etiqueta | Descripción |
 |----------|-------------|
 | Home | Pantalla principal donde se puede visualizar la opcion de ver a sus hijos y notificaiones . |
-| Tracking | Sección donde se visualiza un mapa en el cual el padre puede seguir la ruta de su hijo|
+| Tracking | Sección donde se visualiza un mapa en el cual el padre puede seguir la  ruta de su hijo|
 | Notification | Sección donde se registra las notificaciones o alertas al padre. |
 | Account | Sección donde se puede ver los datos personales del padre. |
 
 Para la app movil-Conductores
+
 | Etiqueta | Descripción |
 |----------|-------------|
 | Home | Pantalla principal donde se puede visualizar la opcion de ver sus viajes pasados,la asistencia de cada estudiante y el boton de emergencia en caso de reportar algun incidente . |
@@ -189,16 +187,17 @@ Para la app movil-Conductores
 
 ### 5.2.3. SEO Tags and Meta Tags
 
-Meta tags estratégicos se usarán para posicionar la landingpag y aplicacion web, mejorando su visibilidad y acceso
+En esta sección se especifican las etiquetas SEO y metaetiquetas utilizadas para mejorar el posicionamiento y la visibilidad de la landing page y la aplicación web de EduGo.
 
-- Title tag: Titulo principal que será visualizado tanto para el landing,mobile y web `<title> EduGo </title>`
-- Meta Description: Descripción que explica de que trata EduGo `<meta name = "description" content = "Seguridad Inteligente en el Transporte Escolar | Monitoreo en tiempo real de la ubicación y seguridad de tus hijos"/>`
-- Meta Keywords: Palabras clave para que los usuarios encuentren la aplicación web más rápido y sencillo `<meta name = "keyword" content = "DashBoard,Drivers and students,Reports"/>`
-- Author and Copyright: Enmarcar derechos de autor para EduGo `<meta name = "author" content = "Codeminds"/>`
-- Viewport: Sirve para indicar al navegador como ajustar el tamaño de la página en medida al dispositivo `<meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>`
+Meta tags estratégicos se usarán para posicionar la landingpag y aplicacion web, mejorando su visibilidad y acceso
+* Title tag: Titulo principal que será visualizado tanto para el landing,mobile y web ```<title> EduGo </title>```
+* Meta Description: Descripción que explica de que  trata EduGo ```<meta name = "description" content = "Seguridad Inteligente en el Transporte Escolar | Monitoreo en tiempo real de la ubicación y seguridad de tus hijos"/>```
+* Meta Keywords: Palabras clave para que los usuarios encuentren la aplicación web más rápido y sencillo ```<meta name = "keyword" content = "DashBoard,Drivers and students,Reports"/>```
+* Author and Copyright: Enmarcar derechos de autor para EduGo ```<meta name = "author" content = "Codeminds"/>```
+* Viewport: Sirve para indicar al navegador como ajustar el tamaño de la página en medida al dispositivo ```<meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>```
+
 
 ### 5.2.4. Searching Systems.
-
 En la aplicación web EduGo se busca implementar un sistema facil de usar y efectivo para que los administradores puedan monitorear a los conductores . Se utilizará un sistema de navegacion simple y directo, con la posibilidad de visualizar graficos de la acciones del conductor,los reportes y la lista de todos los conductores y estudiantes
 
 **¿Que se busca?:** El administrador quiere ver un grafico donde se muestre el numero de incidentes,distanciamiento de recorrido y el tiempo de llegada al colegio.<br>
@@ -215,7 +214,10 @@ En la aplicación web EduGo se busca implementar un sistema facil de usar y efec
 **¿Que resultados se mostrarán?:** La tabla muestra la lista de incidentes registrados o el historial de rutas. <br>
 **Interface de busqueda:** La interfaz de búsqueda ofrece varias opciones para que el administrador encuentre la información deseada donde selecciona al Conductor,el Tipo de Reporte y la Fecha. Finalmente, se incluye un Botón Search, que el administrador debe presionar para aplicar los filtros seleccionados y obtener los resultados correspondientes."
 
+
 ### 5.2.5. Navigation Systems.
+
+En esta sección se describe la estructura y organización de los sistemas de navegación diseñados para la landing page, la aplicación web y la aplicación móvil de EduGo. Se detallan los menús y elementos interactivos que permiten a los usuarios acceder de manera sencilla y rápida a las distintas secciones y funcionalidades según el dispositivo y perfil de usuario. La navegación está pensada para ser clara, accesible y coherente, adaptándose a las necesidades específicas de cada plataforma.
 
 Landing Page:
 
@@ -235,10 +237,13 @@ Aplicación Móvil:
 
 - Conductores: Menú inferior con íconos → [Home | Map | Notification | Account]
 
-## 5.3. Landing Page UI Design.
 
+## 5.3. Landing Page UI Design.
 ### 5.3.1. Landing Page Wireframe.
 
+En esta sección se presentan los wireframes desarrollados para la landing page del proyecto. Cada imagen ilustra la estructura y distribución de las diferentes secciones, incluyendo la página de inicio, características y beneficios, equipo, contacto y el pie de página. Estos wireframes sirvieron como guía visual para validar la organización del contenido y la experiencia de usuario antes de proceder con el diseño final y la implementación.
+
+A continuación, los wireframes realizados para el proyecto:
 **LandingPage Wireframe Inicio**
 <img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
 **LandingPage Wireframe Caracteristicas y beneficios**
@@ -253,6 +258,7 @@ Aplicación Móvil:
 <img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Footer.png" alt="Web app wireframes 1" style="width:100%;">
 
 ### 5.3.2. Landing Page Mock-up.
+Una vez definido el wireframe, aplicamos los estilos definidos previamente en el punto 5.1. (Style Guidelines). A continuación, presentamos los mock-ups realizados para el proyecto:
 
 **LandingPage MockUp Inicio**
 <img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
@@ -268,10 +274,11 @@ Aplicación Móvil:
 <img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Footer.png" alt="Web app wireframes 1" style="width:100%;">
 
 ## 5.4. Applications UX/UI Design.
-
 ### 5.4.1. Applications Wireframes.
 
-**Web Application:** <br>
+En esta sección se presentan los wireframes de las aplicaciones, que muestran el diseño estructural y la disposición de los elementos clave para la experiencia de usuario tanto en la aplicación web como en la móvil.
+**Web Application:**
+
 **Web Application Wireframe Login**
 <img src="assets/chapter4/WebApp-Wireframes/Login.png" alt="Web app wireframes 1" style="width:100%;">
 **Web Application Wireframe Dashboard**
@@ -290,86 +297,71 @@ Aplicación Móvil:
 <img src="assets/chapter4/Wireframes-Movil/Register Error 4_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Register Error 5_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Driver_SetUp_Wireframe.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil Wireframe Home Parent** <br>
-
 <img src="assets/chapter4/Wireframes-Movil/Home_Page_Parent_Wireframe.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil Wireframe Children** <br>
 <img src="assets/chapter4/Wireframes-Movil/Children_Wireframe.png" alt="Web app wireframes 5"> <br>
 <img src="assets/chapter4/Wireframes-Movil/Add_New_Children_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Delete_Kid_Wireframe.png" alt="Web app wireframes 5"> <br>
 <img src="assets/chapter4/Wireframes-Movil/Children_Wireframe (1).png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Agregar_Hijo_Wireframe.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil Wireframe Tracking** <br>
 <img src="assets/chapter4/Wireframes-Movil/Rastrear_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Avisos_Wireframe.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil Wireframe Profile** <br>
 <img src="assets/chapter4/Wireframes-Movil/Perfil_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Update_Wireframe.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil Wireframe Home Driver** <br>
 <img src="assets/chapter4/Wireframes-Movil/Home_Page_Driver_Wireframe.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil Wireframe Past Trip** <br>
 <img src="assets/chapter4/Wireframes-Movil/Past Trips Wireframe.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil Wireframe DriverMap** <br>
 <img src="assets/chapter4/Wireframes-Movil/Driver_Map_Wireframe.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil Wireframe Perfil Driver** <br>
 <img src="assets/chapter4/Wireframes-Movil/Perfil_Driver_Wireframe.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil Wireframe Attendece** <br>
 <img src="assets/chapter4/Wireframes-Movil/Attendance_Kid_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Manage_Attendance_Kid_Wireframe.png" alt="Web app wireframes 5" > <br>
 
-### 5.4.2. Applications Wireflow Diagrams.
 
-**Web Application:**
+### 5.4.2. Applications Wireflow Diagrams.
+Esta sección presenta los diagramas de flujo (wireflows) de las aplicaciones, que ilustran la navegación y las interacciones del usuario entre las diferentes pantallas, facilitando la comprensión del recorrido dentro del sistema.
+
+**Web Application:**<br>
 **WebApp Wireflow Home**
 <img src="assets/chapter4/WebApp-Wireflows/Flow-WebHome.png" alt="Web app wireframes 1" style="width:100%;">
 
 **AppMovil:** <br>
 **AppMovilWireflow Login/Register Driver** <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Login-Register-Driver.PNG" alt="Web app wireframes 1" > <br>
-
 **AppMovilWireflow Login/Register Parent** <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Login-Register-Parent.PNG" alt="Web app wireframes 1" > <br>
-
 **AppMovilWireflow Error Register** <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Error-Register.PNG" alt="Web app wireframes 1" > <br>
-
 **AppMovilWireflow Home Driver** <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Home-Driver.PNG" alt="Web app wireframes 1" > <br>
-
 **AppMovilWireflow PastTrip** <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Past-Trips.PNG" alt="Web app wireframes 1" > <br>
-
 **AppMovilWireflow Students** <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Students-Driver.PNG" alt="Web app wireframes 1" > <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Students-Driver-Checkout.PNG" alt="Web app wireframes 1" > <br>
-
 **AppMovilWireflow Tracking** <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Tracking.PNG" alt="Web app wireframes 1" > <br>
-
 **AppMovilWireflow Notification** <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Notification.PNG" alt="Web app wireframes 1" > <br>
-
 **AppMovilWireflow Children** <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Children.PNG" alt="Web app wireframes 1" > <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Children-ConnectBluetooh.PNG" alt="Web app wireframes 1" > <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-DeleteChildren.PNG" alt="Web app wireframes 1" > <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-AddChildren.PNG" alt="Web app wireframes 1" > <br>
-
 **AppMovilWireflow Edit Account** <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Account-EditAccount.PNG" alt="Web app wireframes 1" > <br>
 
 ### 5.4.2. Applications Mock-ups.
+En esta sección se presentan los mock-ups de las aplicaciones, mostrando representaciones visuales detalladas de las interfaces de usuario finales para web y móvil, que reflejan el diseño, estilo y funcionalidad planeados.
 
-**Web Application:**
+**Web Application:** 
+<br>
 **WebApp MockUp Login** <br>
 <img src="assets/chapter4/WebApp-MockUp/Login.png" alt="Web app wireframes 1" style="width:100%;"> <br>
 **WebApp MockUp DashBoard** <br>
@@ -383,28 +375,24 @@ Aplicación Móvil:
 **WebApp MockUp Drivers and students-Report** <br>
 <img src="assets/chapter4/WebApp-MockUp/Reports.png" alt="Web app wireframes 5" style="width:100%;"> <br>
 <img src="assets/chapter4/WebApp-MockUp/Reports - Incidents.png" alt="Web app wireframes 5" style="width:100%;"> <br>
-<img src="assets/chapter4/WebApp-MockUp/Reports - Route history.png" alt="Web app wireframes 5" style="width:100%;">
+<img src="assets/chapter4/WebApp-MockUp/Reports - Route history.png" alt="Web app wireframes 5" style="width:100%;"> 
 
 <br>
 
 **App Movil:**<br>
-
 **AppMovil MockUp Login/Register Driver** <br>
 <img src="assets/chapter4/MockUp-Movil/Login_Driver.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register_Driver.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register_error.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register_Upload_Photo.png" alt="Web app wireframes 5" > <br>
-
-**AppMovil MockUp Home Driver**<br>
+**AppMovil MockUp Home Driver** <br>
 <img src="assets/chapter4/MockUp-Movil/Home_Driver.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil MockUp Home Past Trip** <br>
 <img src="assets/chapter4/MockUp-Movil/Past_Trips.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Trip Description.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Change trip name.png" alt="Web app wireframes 5"> <br>
 <img src="assets/chapter4/MockUp-Movil/Delete Trip.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil MockUp Home Past Attendance** <br>
 <img src="assets/chapter4/MockUp-Movil/Attendance.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Attendance_Present.png" alt="Web app wireframes 5" > <br>
@@ -416,16 +404,13 @@ Aplicación Móvil:
 <img src="assets/chapter4/MockUp-Movil/Register.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register_error.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register_Upload_Photo.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil MockUp Home Parent** <br>
 <img src="assets/chapter4/MockUp-Movil/Home_Parent.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil MockUp Children** <br>
 <img src="assets/chapter4/MockUp-Movil/Track_Parent.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Android Large - 8.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Android Large - 16.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Android Large - 15.png" alt="Web app wireframes 5" > <br>
-
 **AppMovil MockUp Tracking** <br>
 <img src="assets/chapter4/MockUp-Movil/Tracking_Parent.png" alt="Web app wireframes 5" > <br>
 
@@ -439,51 +424,79 @@ Aplicación Móvil:
 <img src="assets/chapter4/MockUp-Movil/Account_Driver.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Account_Driver_Update.png" alt="Web app wireframes 5" > <br>
 
+
 ### 5.4.3. Applications User Flow Diagrams.
 
-**Web Application** <br>
-**Web Application UserFlow DriversStudents-Details**
-<img src="assets/chapter4/WebApp-UserFlow/UserFlow-WebAppDriversStudents-Details.png" alt="Web app wireframes 1" style="width:100%;">
+Esta sección presenta los diagramas de flujo de usuario, que ilustran las rutas y procesos que siguen los usuarios dentro de las aplicaciones, facilitando la comprensión de la navegación y las interacciones clave
 
-**Web Application UserFlow Home**
-<img src="assets/chapter4/WebApp-UserFlow/UserFlow-WebAppHome.png" alt="Web app wireframes 1" style="width:100%;">
+**Web Application**<br>
 
-**Web Application UserFlow Report**
-<img src="assets/chapter4/WebApp-UserFlow/UserFlow-WebAppReport.png" alt="Web app wireframes 1" style="width:100%;">
+**Web Application UserFlow DriversStudents-Details** <br>
+**UG01**: Consultar información detallada de conductores y estudiantes <br>
+El administrador accede al panel principal de EduGo Web, selecciona la opción “Conductores y Estudiantes” en el menú lateral, y visualiza una lista. Luego, elige un usuario para revisar su perfil completo, incluyendo nombre, documento, rutas asignadas, historial de asistencia y contacto. Desde este perfil puede editar o actualizar la información según sea necesario.
+<img src="assets/chapter4/WebApp-UserFlow/ug01.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
+
+**Web Application UserFlow Home** <br>
+**UG02: Navegar por el panel principal y acceder a las secciones clave** <br>
+El administrador inicia sesión y es redirigido al panel de inicio de la plataforma web. Desde allí puede consultar métricas generales, notificaciones recientes y accesos directos. Utiliza el menú de navegación lateral para acceder rápidamente a otras secciones como reportes, vehículos, rutas o configuración del sistema.
+<img src="assets/chapter4/WebApp-UserFlow/ug02.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
+
+**Web Application UserFlow Report** <br>
+**UG03: Generar y visualizar reportes institucionales** <br>
+El administrador selecciona la opción de “Reportes” en el menú principal, elige el tipo de reporte (asistencia, velocidad, desvíos, etc.), y define un rango de fechas. Al generar el reporte, puede visualizarlo en formato gráfico y tabular. Finalmente, tiene la opción de exportar el archivo en formato Excel o PDF para su análisis o entrega a terceros.
+<img src="assets/chapter4/WebApp-UserFlow/ug03.jpg" alt="Web app wireframes 1" style="width:100%;"> <br> <br>
 
 **AppMovil** <br>
-**AppMovil User Flow Login/Register Driver**
-<img src="assets/chapter4/UserFlow-Movil/UserFlow-Login-Register-Driver.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Login/Register Driver** <br>
+**UG04: Registrar una cuenta de conductor en la app móvil** <br>
+El conductor abre la app móvil de EduGo, selecciona “Registrarse”, y completa el formulario con sus datos personales, licencia y credenciales. Tras enviar la información, el sistema valida los datos y notifica al conductor que su cuenta fue creada correctamente y está lista para ser usada.
+<img src="assets/chapter4/UserFlow-Movil/ug04.jpg" alt="Web app wireframes 5" > <br><br>
 
-**AppMovil User Flow Login/Register Parent**
-<img src="assets/chapter4/UserFlow-Movil/UserFlow-Login-Register-Parent.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Login/Register Parent** <br>
+**UG05: Registrar una cuenta de padre de familia en la app móvil** <br>
+El padre accede a la aplicación móvil y selecciona “Registrarse”. Luego, completa el formulario con sus datos personales, número de identificación y código de vínculo del estudiante. Una vez enviado, recibe una confirmación de que su cuenta fue registrada exitosamente y puede acceder a los datos de sus hijos.
+<img src="assets/chapter4/UserFlow-Movil/ug05.jpg" alt="Web app wireframes 5" > <br><br>
 
-**AppMovil User Flow Home Driver**
-<img src="assets/chapter4/UserFlow-Movil/UserFlow-Home-Driver.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Home Driver**<br>
+**UG06: Iniciar sesión como conductor y acceder al panel de inicio**<br>
+El conductor abre la aplicación móvil, introduce sus credenciales y accede a la pantalla principal. Desde allí puede visualizar su ruta asignada, los estudiantes esperados, el estado del vehículo y botones de acción como “Iniciar Ruta” o “Modo Emergencia”.
+<img src="assets/chapter4/UserFlow-Movil/ug06.jpg" alt="Web app wireframes 5" ><br><br>
 
-**AppMovil User Flow Home Parent**
-<img src="assets/chapter4/UserFlow-Movil/UserFlow-Home-Parent.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Home Parent**<br>
+**UG07: Iniciar sesión como padre y visualizar información de los hijos**<br>
+El padre inicia sesión y es redirigido al panel principal. En esta vista puede ver un resumen del estado del transporte, si sus hijos están a bordo, los viajes recientes, y notificaciones de subida/bajada. Además, puede acceder a secciones como historial, incidencias y perfil.
+<img src="assets/chapter4/UserFlow-Movil/ug07.jpg" alt="Web app wireframes 5" ><br><br>
 
-**AppMovil User Flow Driver PastTrips**
-<img src="assets/chapter4/UserFlow-Movil/UserFlow-Driver-PastTrips.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Driver PastTrips**<br>
+**UG08: Visualizar viajes anteriores como conductor**<br>
+El conductor inicia sesión en la app móvil, accede al menú y selecciona la opción “Viajes anteriores”. En esta sección puede consultar una lista de viajes realizados, con detalles como fecha, ruta, número de estudiantes transportados y cualquier incidente registrado. Puede seleccionar cada viaje para ver información más detallada si lo desea.
+<img src="assets/chapter4/UserFlow-Movil/ug08.jpg" alt="Web app wireframes 5" ><br><br>
 
-**AppMovil User Flow Driver Attendace**
-<img src="assets/chapter4/UserFlow-Movil/UserFlow-Driver-Attendace.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Driver Attendace**<br>
+**UG09: Gestionar asistencia de estudiantes durante el viaje**<br>
+Una vez iniciada la ruta, el conductor accede a la lista de estudiantes asignados y puede registrar su asistencia conforme abordan el vehículo. Si un estudiante no se presenta o no tiene pulsera, el conductor puede marcarlo manualmente como ausente. Al finalizar el viaje, se guarda un resumen con los registros de asistencia.
+<img src="assets/chapter4/UserFlow-Movil/ug09.jpg" alt="Web app wireframes 5" ><br><br>
 
-**AppMovil User Flow Parent Children**
-<img src="assets/chapter4/UserFlow-Movil/UserFlow-Parent-Children.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Parent Children**<br>
+**UG10: Ver información detallada de los hijos en la app móvil**<br>
+El padre accede a la sección “Hijos” en el menú de la app. Allí puede seleccionar el perfil de cada hijo para consultar datos como nombre, ruta asignada, estado actual (en viaje, ausente, bajado), historial de asistencia, incidentes reportados y detalles del conductor asignado.
+<img src="assets/chapter4/UserFlow-Movil/ug10.jpg" alt="Web app wireframes 5" ><br><br>
 
-**AppMovil User Flow Driver upload profile Parent/Driver**
-<img src="assets/chapter4/UserFlow-Movil/UserFlow-UploadProfile-Parent-DriverPNG.PNG" alt="Web app wireframes 5" >
+**AppMovil User Flow Driver upload profile Parent/Driver**<br>
+**UG11: Subir o modificar la foto de perfil desde la app móvil**<br>
+Tanto el padre como el conductor acceden a su perfil desde la app móvil y seleccionan la opción para editar. Desde allí pueden subir una nueva foto de perfil desde la galería o tomando una foto con la cámara. Al confirmar, el sistema actualiza la imagen y muestra una vista previa actualizada.
+<img src="assets/chapter4/UserFlow-Movil/UserFlow-UploadProfile-Parent-DriverPNG.PNG" alt="Web app wireframes 5" ><br><br>
 
 ## 5.5. Applications Prototyping.
+
+En esta sección se presentan los prototipos interactivos de las aplicaciones, que permiten visualizar y probar la experiencia de usuario antes del desarrollo final. Incluye enlaces a prototipos navegables para las versiones web y móvil.
 
 **Web Application :** <br>
 <img src="assets/chapter4/WebApp-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
 <br>
-[https://www.figma.com/proto/27YLKQmieuwzcaSKuPucG2/Web?node-id=82-514&p=f&t=gEB7y5RLh908G3lG-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=82%3A514&show-proto-sidebar=1](https://www.figma.com/proto/27YLKQmieuwzcaSKuPucG2/Web?node-id=82-514&p=f&t=gEB7y5RLh908G3lG-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=82%3A514&show-proto-sidebar=1) <br>
+Enlace al prototipo de la aplicación web: https://shorturl.at/hS4i2
 
 **App Movil :** <br>
 <img src="assets/chapter4/AppMovil-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
 <br>
-[https://www.figma.com/proto/aFhwXAsZUzKZCf7WFTepW5/Mobile?node-id=1-370&p=f&t=gbUbh6U2UpBSJiLp-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A370&show-proto-sidebar=1](https://www.figma.com/proto/aFhwXAsZUzKZCf7WFTepW5/Mobile?node-id=1-370&p=f&t=gbUbh6U2UpBSJiLp-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A370&show-proto-sidebar=1)
+Enlace al protitpo de la aplicación movil: https://shorturl.at/2Ohhx
