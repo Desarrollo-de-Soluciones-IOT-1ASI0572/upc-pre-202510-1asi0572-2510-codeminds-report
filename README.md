@@ -198,10 +198,6 @@ develop <br>
   El presente informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del informe](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report) <br>
   El landingPage se encuentra guardado en la organización de CodeMinds: [URL del repositorio del LandongPage](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage) <br>
   El FrontEnd informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del Frontend](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/edugo-web-application)
-  La aplicación movil se encuentra guardada en la organización de CodeMinds: [URL del repositorio de la aplicacion movil](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-Mobile-App)
-  La aplicación embedded se encuentra guardada en la organización de Codeminds: [URL del repositorio del embedded](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-Embedded)
-  La aplicación edge se encuentra guardada en la organización de Codeminds: [URL del repositorio del edge](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-EdgeServer)
-  La aplicación backend se encuentra guardada en la organización de CodeMinds: [URL del repositorio del backend](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-BackEnd)
 
   #### **Entregable TB2** <br>
 
