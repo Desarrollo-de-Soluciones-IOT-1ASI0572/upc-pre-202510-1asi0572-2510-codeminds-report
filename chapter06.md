@@ -848,20 +848,21 @@ Eduardo, practicante de Ingenieria de Software de 23 años de Chorrillos, esta a
 
 **Identificación del entrevistado**
 
-- **Nombre completo:** Arturo
-- **Edad:** 33 años
-- **Distrito de residencia:** Callao
-- **Ocupación:** Taxista y transportista escolar
+- **Nombre completo:** Augusto Alcarraz Altamirano
+- **Edad:** 27 años
+- **Distrito de residencia:** Chorrillos
+- **Ocupación:** Transportista escolar
 
 **Referencia audiovisual**
 
 - **Screenshot:**
 
-![entrevista victor](assets/chapter4/entrevista-victor.PNG)
+![entrevista victor](assets/chapter4/augusto_entrevista.png)
 
-- **Timecode inicio / duración:** `00:00:39 / 08:02`
+- **Timecode inicio / duración:** `00:12:31 / 4:44`
 
-Víctor transporta hasta **7 estudiantes** de distintos grados (inicial, primaria y secundaria) hacia dos colegios, adaptándose a horarios variados. Se comunica con los padres por **teléfono** o **cedulación** al recoger a los alumnos. Es **estricto con la puntualidad** y siempre dispuesto a ayudar. Sus desafíos principales son el **tráfico** y los retrasos de los alumnos, por lo que utiliza el **aplicativo del GPS** para monitorear sus rutas y mejorar la experiencia de servicio.
+Augusto encontró la app móvil intuitiva y eficiente, destacando el registro automático con RFID y el contador de estudiantes en tiempo real. Valoró las alertas de seguridad durante la conducción y la interfaz sencilla. Sugirió mejoras como modo offline para zonas sin conexión y botón de emergencia más accesible. Resaltó que la app mejora la comunicación con padres al notificarles sobre sus hijos en tiempo real. Concluyó que adoptaría el sistema por su practicidad y seguridad, requiriendo mínima capacitación.
+
 ### 6.3.3. Evaluaciones según heurísticas.
 ## 6.4. Video About-the-Product.
 <img src="/assets/chapter4/About product-EduGo.png" alt="Contact" style="width:100%;">
