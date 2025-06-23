@@ -632,6 +632,7 @@ Enlace al backend: https://edugo-service-de983aa97099.herokuapp.com/swagger-ui/i
 <br>
 <img src="assets/chapter4/ExecutionEmbedded.jpg" alt="Contact" > <br>
 Enlace al wowki: https://wokwi.com/projects/433959497821051905
+Video demostración: https://shorturl.at/SRwq2
 
 #### 6.2.2.7. Services Documentation Evidence for Sprint Review.
 
