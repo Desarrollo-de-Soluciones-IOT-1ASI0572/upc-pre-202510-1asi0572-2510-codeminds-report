@@ -809,7 +809,7 @@ Insights del Embedded, donde se muestran los commits realizados al repositorio e
 
 **Identificación del entrevistado**
 
-- **Nombre completo:** Arturo villanicencio samanez
+- **Nombre completo:** Arturo Villavicencio Samanés
 - **Edad:** 37 años
 - **Distrito de residencia:** Callao
 - **Ocupación:** Ingeniero industrial
@@ -818,7 +818,7 @@ Insights del Embedded, donde se muestran los commits realizados al repositorio e
 
 - **Screenshot:**
 
-![entrevista victor](assets/chapter4/entrevista-victor.PNG)
+![entrevista victor](assets/chapter4/entrevista-arturo.PNG)
 
 - **Timecode inicio / duración:** `00:03:11 / 09:20`
 
