@@ -193,7 +193,7 @@ develop <br>
 #### **Entregable TB1 y TP1** <br>
 
 - A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro primer sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
-  ![image](https://github.com/user-attachments/assets/2f29601c-c2e5-43ee-b11f-3203fbd3cfea)
+  ![Lean UX Canvas](assets/teamcollabortaion-tb1.PNG)
   <br>
   El presente informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del informe](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report) <br>
   El landingPage se encuentra guardado en la organización de CodeMinds: [URL del repositorio del LandongPage](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage) <br>
@@ -205,12 +205,16 @@ develop <br>
 
   #### **Entregable TB2** <br>
 
-- A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro segundo sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.
-  ![Lean UX Canvas](assets/teamcollabortaion-tb1.PNG)
+- A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro segundo sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits. <br>
+  ![image](https://github.com/user-attachments/assets/9f1466fd-bbed-4247-b0d1-836247af11ef)
   <br>
   El presente informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del informe](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report) <br>
   El landingPage se encuentra guardado en la organización de CodeMinds: [URL del repositorio del LandongPage](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage) <br>
-  El FrontEnd informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del Frontend](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/edugo-web-application)
+  El FrontEnd informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del Frontend](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/edugo-web-application) <br>
+  La aplicación movil se encuentra guardada en la organización de CodeMinds: [URL del repositorio de la aplicacion movil](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-Mobile-App) <br>
+  La aplicación embedded se encuentra guardada en la organización de Codeminds: [URL del repositorio del embedded](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-Embedded) <br>
+  La aplicación edge se encuentra guardada en la organización de Codeminds: [URL del repositorio del edge](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-EdgeServer) <br>
+  La aplicación backend se encuentra guardada en la organización de CodeMinds: [URL del repositorio del backend](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-BackEnd) <br>
 
 ## Contenido
 
