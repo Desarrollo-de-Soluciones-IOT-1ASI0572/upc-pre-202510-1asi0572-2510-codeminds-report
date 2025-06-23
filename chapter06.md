@@ -864,6 +864,116 @@ Eduardo, practicante de Ingenieria de Software de 23 años de Chorrillos, esta a
 Augusto encontró la app móvil intuitiva y eficiente, destacando el registro automático con RFID y el contador de estudiantes en tiempo real. Valoró las alertas de seguridad durante la conducción y la interfaz sencilla. Sugirió mejoras como modo offline para zonas sin conexión y botón de emergencia más accesible. Resaltó que la app mejora la comunicación con padres al notificarles sobre sus hijos en tiempo real. Concluyó que adoptaría el sistema por su practicidad y seguridad, requiriendo mínima capacitación.
 
 ### 6.3.3. Evaluaciones según heurísticas.
+# Evaluación Heurística – Aplicación de Transporte Escolar Inteligente
+
+**Carrera:** Ingeniería de Software  
+**Curso:** Desarrollo de Soluciones IoT  
+**Sección:** 2956  
+**Cliente:** Sistema de Transporte Escolar Inteligente  
+**Auditor:** CodeMinds  
+**App evaluada:** Aplicativo móvil + Pulsera RFID  
+**Usuarios entrevistados:**  
+- **Eduardo**: practicante de Ingeniería de Software, 23 años, usuario cuidador.  
+- **Arturo**: padre de familia, 37 años, ingeniero industrial.  
+- **Augusto**: conductor escolar, usuario operador.
+
+---
+
+## Escala de severidad
+
+| Nivel | Descripción                                                                 |
+|-------|------------------------------------------------------------------------------|
+| 1     | Problema superficial: fácil de superar, no urgente                          |
+| 2     | Problema menor: ocurre con frecuencia o genera ligera confusión             |
+| 3     | Problema mayor: afecta seriamente la experiencia, debe corregirse pronto    |
+| 4     | Problema crítico: impide el uso, debe corregirse antes del lanzamiento      |
+
+---
+
+## Tabla resumen de problemas detectados
+
+| #  | Problema detectado                                                                 | Severidad | Heurística violada                                               | Recomendación                                                                 |
+|----|-------------------------------------------------------------------------------------|-----------|------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| 1  | Confusión por registro conjunto de padres y conductores                            | 3         | Correspondencia con el mundo real / Claridad de roles           | Separar claramente el flujo y perfil de usuario: padres vs conductores        |
+| 2  | No hay sistema de comunicación directa con el menor o conductor                    | 3         | Flexibilidad y eficiencia de uso / Control del usuario          | Integrar un canal directo (chat o botón rápido de contacto)                   |
+| 3  | No se detecta el estado del tráfico en tiempo real                                 | 2         | Visibilidad del estado del sistema                              | Incluir alertas de tráfico como Waze: calles cerradas, accidentes o demoras  |
+| 4  | El botón de emergencia no es lo suficientemente visible                            | 3         | Prevención de errores / Visibilidad                             | Rediseñar con un color distintivo y ubicación prioritaria                     |
+| 5  | No hay modo offline para zonas sin conexión                                        | 2         | Robustez / Flexibilidad de uso                                  | Implementar un modo offline con sincronización posterior                      |
+| 6  | No queda claro cuándo se activa la RFID o si fue exitosa la lectura                | 2         | Feedback inmediato                                               | Añadir mensajes de confirmación sonora y visual al registrar al estudiante    |
+| 7  | El contador de estudiantes no muestra errores si hay duplicados o fallos de lectura| 2         | Prevención de errores / Visibilidad del estado del sistema      | Mostrar alertas cuando hay lecturas inconsistentes o duplicadas              |
+
+---
+
+## Descripción de problemas
+
+### PROBLEMA #1  
+**Severidad:** 3  
+**Heurística violada:** Correspondencia con el mundo real / Claridad de roles  
+**Problema:**  
+Varios usuarios manifestaron confusión sobre si tanto padres como conductores deben usar la misma interfaz. Esto puede generar malentendidos o acciones inadecuadas.  
+**Recomendación:**  
+Crear flujos diferenciados para conductores y padres, asegurando que cada perfil tenga solo las funcionalidades necesarias y una experiencia adaptada.
+
+---
+
+### PROBLEMA #2  
+**Severidad:** 3  
+**Heurística violada:** Flexibilidad y eficiencia de uso / Control del usuario  
+**Problema:**  
+Eduardo sugirió que no hay un canal claro de comunicación directa con el menor o el conductor en caso de emergencia o consulta rápida.  
+**Recomendación:**  
+Incluir un botón de contacto directo (llamada o chat seguro) desde la interfaz del padre.
+
+---
+
+### PROBLEMA #3  
+**Severidad:** 2  
+**Heurística violada:** Visibilidad del estado del sistema  
+**Problema:**  
+Arturo comentó que no hay una alerta temprana sobre calles cerradas, tráfico o accidentes, lo que podría mejorar la planificación de rutas.  
+**Recomendación:**  
+Conectar la app a servicios de tráfico en tiempo real (como Waze o Google Maps) para mostrar condiciones de ruta.
+
+---
+
+### PROBLEMA #4  
+**Severidad:** 3  
+**Heurística violada:** Prevención de errores / Visibilidad  
+**Problema:**  
+Augusto indicó que el botón de emergencia no es fácilmente visible mientras conduce.  
+**Recomendación:**  
+Colocar el botón en un lugar destacado, con colores intensos y accesibilidad táctil sencilla.
+
+---
+
+### PROBLEMA #5  
+**Severidad:** 2  
+**Heurística violada:** Flexibilidad y eficiencia de uso  
+**Problema:**  
+Augusto sugirió que en zonas sin conexión, el sistema no responde adecuadamente.  
+**Recomendación:**  
+Habilitar un modo offline temporal que registre la información y la sincronice una vez vuelva la señal.
+
+---
+
+### PROBLEMA #6  
+**Severidad:** 2  
+**Heurística violada:** Feedback inmediato  
+**Problema:**  
+No es claro cuándo el RFID ha sido leído con éxito al subir o bajar del bus.  
+**Recomendación:**  
+Incluir confirmaciones sonoras o visuales inmediatas al leer el dispositivo.
+
+---
+
+### PROBLEMA #7  
+**Severidad:** 2  
+**Heurística violada:** Prevención de errores / Visibilidad del estado del sistema  
+**Problema:**  
+El sistema no alerta si hay un error de conteo (duplicado o falta de lectura) en el número de estudiantes.  
+**Recomendación:**  
+Mostrar advertencias visuales si hay inconsistencias en el conteo automático de estudiantes abordo.
+
 ## 6.4. Video About-the-Product.
 <img src="/assets/chapter4/About product-EduGo.png" alt="Contact" style="width:100%;">
 Enlace: https://acortar.link/TXcxWV
