@@ -828,18 +828,18 @@ Arturo, ingeniero industrial de 37 años del Callao, es padre de familia y valor
 
 **Identificación del entrevistado**
 
-- **Nombre completo:** Arturo villanicencio samanez
-- **Edad:** 33 años
-- **Distrito de residencia:** Callao
-- **Ocupación:** Taxista y transportista escolar
+- **Nombre completo:** Eduardo Chero
+- **Edad:** 23 años
+- **Distrito de residencia:** Chorrillos
+- **Ocupación:** Practicante de ingenieria y encargado de su hermano menor
 
 **Referencia audiovisual**
 
 - **Screenshot:**
 
-![entrevista victor](assets/chapter4/entrevista-victor.PNG)
+![entrevista Eduardo](assets/chapter4/entrevista-eduardo.png)
 
-- **Timecode inicio / duración:** `00:00:39 / 08:02`
+- **Timecode inicio / duración:** `00:09:20 / 12:30`
 
 Víctor transporta hasta **7 estudiantes** de distintos grados (inicial, primaria y secundaria) hacia dos colegios, adaptándose a horarios variados. Se comunica con los padres por **teléfono** o **cedulación** al recoger a los alumnos. Es **estricto con la puntualidad** y siempre dispuesto a ayudar. Sus desafíos principales son el **tráfico** y los retrasos de los alumnos, por lo que utiliza el **aplicativo del GPS** para monitorear sus rutas y mejorar la experiencia de servicio.
 
