@@ -745,7 +745,7 @@ Para el sprint presentado del Backend,AppMovil,EdgeServer y Embedded se optó po
   
 **Despliegue del Backend**<br>
 Para este Sprint se desplego la aplicacion Backend en heroku, el despliegue de este producto permite el acceso y modificacion de la informacion en la base de datos.
-<img src="/assets/chapter4/backend-deployment-heroku.jpg" alt="Backend-deployment" style="width:100%;">
+<img src="assets/chapter4/backend-deployment-heroku.jpg" alt="Backend-deployment" style="width:100%;">
 <br>
 
 **Despliegue del Mobile App**<br>
@@ -759,19 +759,19 @@ El alcance definido para este producto dentro de este Sprint comprende ejecucion
 Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización del backend,app movil,edge server y embedded :
 
 Insights del AppMovil, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="/assets/chapter4/TeamCollaborationMovil.PNG" alt="Contact" >
+<img src="assets/chapter4/TeamCollaborationMovil.PNG" alt="Contact" >
 <br>
 
 Insights del Backend, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="/assets/chapter4/TeamCollaborationBackend.PNG" alt="Contact" >
+<img src="assets/chapter4/TeamCollaborationBackend.PNG" alt="Contact" >
 <br>
 
 Insights del EdgeServer, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="/assets/chapter4/TeamCollaborationEdgeServer.PNG" alt="Contact" >
+<img src="assets/chapter4/TeamCollaborationEdgeServer.PNG" alt="Contact" >
 <br>
 
 Insights del Embedded, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="/assets/chapter4/TeamCollaborationEmbedded.PNG" alt="Contact" >
+<img src="assets/chapter4/TeamCollaborationEmbedded.PNG" alt="Contact" >
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
@@ -975,5 +975,5 @@ El sistema no alerta si hay un error de conteo (duplicado o falta de lectura) en
 Mostrar advertencias visuales si hay inconsistencias en el conteo automático de estudiantes abordo.
 
 ## 6.4. Video About-the-Product.
-<img src="/assets/chapter4/About product-EduGo.png" alt="Contact" style="width:100%;">
+<img src="assets/chapter4/About product-EduGo.png" alt="Contact" style="width:100%;">
 Enlace: https://acortar.link/TXcxWV
