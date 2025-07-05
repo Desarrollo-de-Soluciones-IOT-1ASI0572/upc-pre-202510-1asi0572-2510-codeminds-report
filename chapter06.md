@@ -1128,6 +1128,7 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Mobile-App | feature/home-driver| 0dffa6fda7b49569746be4864e9b2c1f7fa7bee8 | fix(trip_service): update HTTP method and endpoint for starting and ending trips | 04/07/2025 |
 | CodeMinds-Mobile-App | feature/home-driver| 6834367db9cf1535a06a407d9058ca76e74c2d5f | fix(student_service): update student endpoint to remove redundant path segments | 04/07/2025 |
 | CodeMinds-Mobile-App | feature/home-driver| 4f5a4094b69e8327e458e2db06da59bd5260bea4 | refactor(home_driver): clean up comments and improve code readability in home_driver_screen | 04/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 4f5a4094b69e8327e458e2db06da59bd5260bea4 | feat: reorganize imports and rename screen files for better structure | 05/07/2025 |
 
 **edugo-web-application**:
 | Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
@@ -1145,6 +1146,12 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Embedded | develop  | f01c049cf69a4a6db3f3cac09a4b73c0ca12f9e1 | Merge pull request #2 from Desarrollo-de-Soluciones-IOT-1ASI0572/feature/rfid-chip   | 22/06/25           |
 
 #### 6.5.6. Execution Evidence for Sprint Review.
+**Para el frontend** <br>
+Visualización del frontend desplegado correctamente. <br>
+<img src="assets/chapter4/ExecutionBackend.PNG" alt="Contact" style="width:100%;"> <br>
+Enlace al front: 
+<br>
+<br>
 **Para el backend** <br>
 Visualización del backend desplegado correctamente, con acceso a la documentación Swagger. <br>
 <img src="assets/chapter4/ExecutionBackend.PNG" alt="Contact" style="width:100%;"> <br>
