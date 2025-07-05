@@ -994,3 +994,330 @@ Mostrar advertencias visuales si hay inconsistencias en el conteo automático de
 
 <img src="assets/chapter4/About product-EduGo.png" alt="Contact" style="width:100%;">
 Enlace: https://acortar.link/TXcxWV
+
+## 6.5 Sprint 3
+
+### 6.5.1. Sprint Planning 3.
+
+| Sprint #                                 | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint Planning Background**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Date                                     | 2025-06-23                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Time                                     | 20:00 PM                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Location                                 | Virtual meeting via Discord                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Prepared By                              | Angel Antonio Cancho Corilla / Juan Diego Cueto Dominguez / Scott Jacobo Huachaca Advincula / Marcelo Sebastian Ramirez Ramirez / Paolo Del Carmen Martinez Villanueva / Xiao Lian Li Zegarra                                                                                                                                                                                                                                                      |
+| Attendees (to planning meeting)          | Angel Antonio Cancho Corilla / Juan Diego Cueto Dominguez / Scott Jacobo Huachaca Advincula / Marcelo Sebastian Ramirez Ramirez / Paolo Del Carmen Martinez Villanueva / Xiao Lian Li Zegarra                                                                                                                                                                                                                                                      |
+| **Pre-Sprint Review Summary**            | During the preparation phase, the sprint bases were defined, focusing on the development of the Landing Page and the business logic applied to the Front-End design of the web application.                                                                                                                                                                                                                                                        |
+| **Initial Sprint Retrospective Summary** | The objectives set in Sprint 1 were met, however, opportunities for improvement in time and task management were identified.                                                                                                                                                                                                                                                                                                                       |
+| **Sprint Goal & User Stories**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sprint 3 Goal                            | xxxxxxxxx. |
+| Sprint 3 Velocity                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Sum of Story Points                      |65 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+
+
+### 6.5.2. Aspect Leaders and Collaborators.
+
+# Leadership and Collaboration Matrix (LACX)
+
+| **Team Member (Last Name, First Name)**   | **GitHub Username** | **Landing Page Development (L/C)** | **Business Logic for Front-End (L/C)** | **Administration Interface (L/C)** | **Data Visualization (L/C)** | **Analytics (L/C)** |
+|-------------------------------------------|---------------------|------------------------------------|----------------------------------------|------------------------------------|------------------------------|---------------------|
+| **Cancho Corilla, Angel Antonio**         | `angerlessdev`      | **L**                              | **C**                                  | **C**                              | **C**                        | **L**               |
+| **Cueto Dominguez, Juan Diego**           | `JDu202012207`      | **C**                              | **L**                                  | **C**                              | **L**                        | **C**               |
+| **Huachaca Advincula, Scott Jacobo**      | `Scott-Huachaca`    | **C**                              | **C**                                  | **L**                              | **C**                        | **C**               |
+| **Ramirez Ramirez, Marcelo Sebastian**    | `MRamirez202210582` | **C**                              | **C**                                  | **C**                              | **C**                        | **L**               |
+| **Del Carmen Martinez Villanueva, Paolo** | `paolomv02`         | **C**                              | **L**                                  | **C**                              | **C**                        | **C**               |
+| **Li Zegarra, Xiao Lian**                 | `XLianLZ`           | **C**                              | **C**                                  | **L**                              | **C**                        | **C**               |
+
+
+### 6.5.3. Sprint Backlog 3.
+
+# Sprint 3
+
+| User Story | Title                                                     | Work-Item / Task | Title                          | Description                                                                      | Estimation (Hours) | Assigned To      | Status     |
+|------------|-----------------------------------------------------------|------------------|--------------------------------|----------------------------------------------------------------------------------|--------------------|------------------|------------|
+| US01       | Interfaz de inicio clara y atractiva en la app móvil      | TA01             | Diseño UI                      | Diseño visual y estructura inicial de la pantalla principal                      | 4.5 horas          | Marcelo Ramirez  | Done       |
+|            |                                                           | TA02             | Implementación funcional       | Programación de la interfaz usando Flutter                                       | 5 horas            | Scott Huachaca   | Done       |
+|            |                                                           | TA27             | Pruebas de usabilidad          | Evaluación de claridad e interacción con la pantalla de inicio                   | 4 horas            | Xiao Li          | To-do      |
+| US03       | Notificación a padres al subir y bajar del transporte     | TA03             | Envío de notificaciones        | Implementación de lógica para enviar push al subir/bajar                         | 5 horas            | Juan Diego Cueto | In-Process |
+|            |                                                           | TA04             | Integración con backend        | Conexión con eventos y base de datos para detección de subida/bajada             | 4.5 horas          | Paolo Martinez   | To-Review  |
+|            |                                                           | TA28             | Pruebas de recepción           | Verificar recepción en distintos dispositivos                                    | 4 horas            | Angel Cancho     | To-do      |
+| US04       | Visualización en mapa de la ruta y ubicación del vehículo | TA05             | Mapa en tiempo real            | Visualización en Google Maps o Mapbox                                            | 5 horas            | Xiao Li          | Done       |
+|            |                                                           | TA06             | Seguimiento de ubicación       | Uso de GPS del dispositivo para actualizar la posición en el mapa                | 4.5 horas          | Angel Cancho     | Done       |
+|            |                                                           | TA29             | Actualización en segundo plano | Garantizar que los datos se actualicen incluso si la app no está en primer plano | 4 horas            | Paolo Martinez   | To-do      |
+| US06       | Registro y alerta por exceso de velocidad                 | TA07             | Alerta de velocidad            | Alerta visual o sonora cuando se supera el límite                                | 4.5 horas          | Marcelo Ramirez  | In-Process |
+|            |                                                           | TA08             | Registro histórico             | Guardado de los eventos de exceso de velocidad en la base de datos               | 4 horas            | Juan Diego Cueto | To-do      |
+|            |                                                           | TA30             | Reporte de excesos             | Generación de listado por unidad con eventos de exceso                           | 4.5 horas          | Scott Huachaca   | To-do      |
+| US12       | Comunicación entre app y backend mediante API REST        | TA09             | Endpoints REST                 | Definición y documentación de endpoints para app móvil                           | 4 horas            | Paolo Martinez   | Done       |
+|            |                                                           | TA10             | Consumo desde app              | Llamadas desde la app a los servicios REST                                       | 4.5 horas          | Xiao Li          | Done       |
+|            |                                                           | TA31             | Manejador de errores de red    | Gestión de errores al perder conexión o recibir errores del backend              | 4 horas            | Angel Cancho     | To-do      |
+| US13       | Implementación de seguridad JWT para usuarios             | TA32             | Generación de token            | Crear tokens JWT con claims personalizados                                       | 4.5 horas          | Scott Huachaca   | Done       |
+|            |                                                           | TA33             | Validación de token            | Validar tokens en middleware para proteger rutas                                 | 4.5 horas          | Juan Diego Cueto | Done       |
+|            |                                                           | TA34             | Expiración y renovación        | Lógica para controlar expiración y renovación de tokens                          | 5 horas            | Paolo Martinez   | Done       |
+| US15       | Visualización de rutas predefinidas                       | TA35             | Listado de rutas               | Mostrar rutas disponibles por zona y horario                                     | 4.5 horas          | Marcelo Ramirez  | In-Process |
+|            |                                                           | TA36             | Filtro por ubicación           | Filtrar rutas según ubicación actual del usuario                                 | 4 horas            | Angel Cancho     | To-do      |
+| US16       | Configuración manual de rutas por el conductor            | TA37             | Interfaz de edición            | Pantalla para editar rutas                                                      | 4.5 horas          | Angel Cancho     | To-do      |
+|            |                                                           | TA38             | Guardado de rutas              | Enviar cambios al backend para almacenar ruta personalizada                      | 4 horas            | Marcelo Ramirez  | To-do      |
+| US18       | Acceso restringido según rol de usuario en sitio web      | TA39             | Middleware de roles            | Determinar acceso por rol (admin, conductor, padre)                              | 4.5 horas          | Xiao Li          | Done       |
+|            |                                                           | TA40             | Pruebas de roles               | Verificar restricciones con usuarios de prueba                                   | 4 horas            | Paolo Martinez   | Done       |
+| US21       | Notificación de retraso del transporte                    | TA41             | Cálculo de retraso             | Comparar hora estimada con real                                                  | 4 horas            | Juan Diego Cueto | To-Review  |
+|            |                                                           | TA42             | Envío de alerta                | Notificar a padres si hay retraso significativo                                  | 4.5 horas          | Marcelo Ramirez  | To-Review  |
+| US22       | Visualización de estudiantes con fotos                    | TA43             | Listado con fotos              | Mostrar nombre y foto en app del conductor                                       | 4.5 horas          | Paolo Martinez   | Done       |
+|            |                                                           | TA44             | Actualización dinámica         | Refrescar lista en tiempo real                                                  | 4.5 horas          | Xiao Li          | Done       |
+| US23       | Visualización de datos del conductor                      | TA45             | Perfil de conductor            | Mostrar datos como nombre, experiencia y licencia                                | 4.5 horas          | Scott Huachaca   | Done       |
+|            |                                                           | TA46             | Enlace con backend             | Obtener datos desde backend para mostrar en la app                               | 4.5 horas          | Juan Diego Cueto | Done       |
+| US26       | Historial de velocidad por unidad                         | TA47             | Registro de eventos            | Guardar datos de velocidad por unidad                                            | 4.5 horas          | Xiao Li          | In-Process |
+|            |                                                           | TA48             | Visualización de historial     | Mostrar tabla o gráfico con velocidades                                          | 4 horas            | Marcelo Ramirez  | In-Process |
+| US27       | Reporte mensual de control de aforo                       | TA49             | Consolidación de datos         | Recopilar eventos mensuales                                                      | 4.5 horas          | Marcelo Ramirez  | To-do      |
+|            |                                                           | TA50             | Generación de PDF              | Crear documento con resumen mensual                                              | 4.5 horas          | Xiao Li          | To-do      |
+| US28       | Historial detallado de rutas y ubicaciones                | TA51             | Registro de coordenadas        | Guardar GPS con timestamp                                                        | 4.5 horas          | Angel Cancho     | To-do      |
+|            |                                                           | TA52             | Reproducción visual            | Mapa con animación de recorrido                                                  | 4.5 horas          | Paolo Martinez   | To-do      |
+| US32       | Notificación de llegada próxima del transporte            | TA53             | Lógica de proximidad           | Detectar cercanía al destino                                                     | 4 horas            | Paolo Martinez   | To-do      |
+|            |                                                           | TA54             | Activación de alerta           | Enviar notificación a padres                                                     | 4.5 horas          | Marcelo Ramirez  | To-do      |
+| US33       | Activación de modo emergencia                             | TA55             | Botón de emergencia            | Botón visible en interfaz del conductor                                          | 4 horas            | Juan Diego Cueto | In-Process |
+|            |                                                           | TA56             | Enlace con backend             | Enviar alerta al servidor                                                        | 4.5 horas          | Xiao Li          | To-do      |
+| US42       | Personalización de notificaciones                         | TA57             | Filtro de tipos de alerta      | Permitir selección de tipos de alerta                                            | 4.5 horas          | Xiao Li          | To-do      |
+|            |                                                           | TA58             | Guardado de configuración      | Registrar preferencias en el backend                                             | 4 horas            | Paolo Martinez   | To-do      |
+| US43       | Estado en tiempo real de los estudiantes                  | TA59             | Indicador en vivo              | Mostrar si está en ruta, abordó o bajó                                           | 4.5 horas          | Scott Huachaca   | In-Process |
+|            |                                                           | TA60             | Actualización automática       | Refrescar estados en tiempo real                                                 | 4.5 horas          | Marcelo Ramirez  | In-Process |
+| US48       | Sistema propio de notificaciones                          | TA61             | Servicio alternativo           | Sistema propio de mensajería push                                                | 5 horas            | Marcelo Ramirez  | To-do      |
+|            |                                                           | TA62             | Integración con app            | Reemplazar Firebase por nuevo sistema                                            | 5 horas            | Angel Cancho     | To-do      |
+| US49       | Recuperación de contraseña                                | TA63             | Formulario de solicitud        | Ingreso de correo para recuperar clave                                           | 4 horas            | Scott Huachaca   | Done       |
+|            |                                                           | TA64             | Enlace y validación            | Lógica para validar token de recuperación                                        | 4.5 horas          | Juan Diego Cueto | Done       |
+
+### 6.5.4. Development Evidence for Sprint Review.
+
+Para este segunfo sprint se decidió trbajar en ramas diferente para después unirlo todo en develop. Cada miembro ha realizado un commit para luego hacer merge.
+
+**CodeMinds-Backend**:
+
+| Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
+|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
+| CodeMinds-Backend     | feature/get-students-by-driver               | 3e71b4fdab3312ef04ec4e6d86e50735232af7ad | feat: add getlogsbydriverid endpoint and get studentbyparentid      | 05/06/2025            |
+| CodeMinds-Backend     | feature/vehicle-tracking | 28e202ce9836786a5e10dfe6bd8e4a054edd827f | feat(vehicle-tracking): add various query and command records for user, profile, and wristband management | 28/06/2025 |
+| CodeMinds-Backend     | feature/vehicle-tracking | 28e202ce9836786a5e10dfe6bd8e4a054edd827f | feat(vehicle-tracking): add trip ID to sensor scan command and related resources | 30/06/2025 |
+| CodeMinds-Backend     | feature/vehicle-tracking | 2b532c5a8314da527cbbad3afe418a09ef63addb | feat(vehicle-tracking): enhance trip creation with student validation and duplicate scan checks | 30/06/2025 |
+| CodeMinds-Backend     | feature/vehicle-tracking | c2b5c2f800a12ab3780bc4d2ebe3545a2fd02c98 | feat(vehicle-tracking): refactor getActiveTripByDriver method to handle empty trips gracefully | 01/07/2025 |
+| CodeMinds-Backend     | feature/vehicle-tracking | ee81df63b3557f69b91383379de90b62154d46fa | feat(vehicle-tracking): update findActiveTripByDriverId query to filter by driver ID | 01/07/2025 |
+| CodeMinds-Backend     | feature/vehicle-tracking | 7dfd471cacfccd424929d7c89c4502a91527c22a | feat(vehicle-tracking): implement Location and Route controllers for vehicle tracking management | 01/07/2025 |
+| CodeMinds-Backend     | feature/vehicle-tracking | 0876996e2c37ec520e987a8466c7cc8a44ea6166 | feat(vehicle-tracking): simplify endpoint mappings in SensorScanController | 04/07/2025 |
+| CodeMinds-Backend     | feature/vehicle-tracking | 244b7199c10e954553ae5fbc5895fd3878376562 | feat(student-controller): simplify endpoint mappings in StudentController | 04/07/2025 |
+| CodeMinds-Backend     | feature/vehicle-tracking | 0556dc1339900140d76603231c6defcdba95fa89 | feat(vehicle-tracking): add start and end route endpoints in TripController | 04/07/2025 |
+| CodeMinds-Backend     | feature/vehicle-tracking | 5a4697cc09775a769f71c481b25a04b8484493a1 | feat(wristband-controller): simplify endpoint mappings in WristbandController | 04/07/2025 |
+
+**CodeMinds-Mobile-App**:
+| Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
+|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
+| CodeMinds-Mobile-App | feature/PastTrips| e251fcd1045f2b4b3e66b2b15efa628f5393e15d | feat(feature-pasttrip):Add past trips screen | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| b4a5edac7730a3ed17f411335fd7b0670b297ec2 | fix(feature-pasttrips):Fix past trips screen | 15/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| bff4500b2b92c8451d24fea031455725c2347c4c | feat(past-trips): Refactor PastTripsScreen to use FutureBuilder for dynamic trip loading | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| b3e01c46f0a29514c52cfd7480c515b2c8ad3a00 | feat(home-screen): Convert HomeScreen to StatefulWidget for dynamic past trips display | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| b0c7f5e9e695826e2ace494b21a4ad8e789c98ef | feat(trip): Add Trip class for trip data management | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 5aad536fe372b4cbd261c79d61fa7b366c6cd919 | feat(trip-repository): Implement TripRepository for trip data management | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 2ff58126d8c2860b272b3e2e1521d243b73e58a0 | feat(trip-service): Add TripService for managing trip data retrieval and deletion | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| a93a4f46a4f65a88a29bfb35314bc450f461c37a | feat(trip-dto): Add TripDTO and TripUiDto classes for trip data representation | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 396f1fd88888936af424242762971d47185a622d | fix(app-constants): Correct baseUrl format by adding trailing slash | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 26af753bc5a0cacb4a3f59183e395df941cfa115 | feat(pubspec): Add intl package for internationalization support | 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 8464c52fe9ab97d50edcec49285b65b8637cca3b | feat(pubspec): Update intl package to version 0.17.0 with direct dev dependency| 16/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| aec87de4063ca12a0567612220c2ec78825eab56 | feat(android-manifest): Add Google Maps API key and location permissions| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 0398c30585ac69f76b64e8085f718699fc1172f7 | feat(pubspec): Update Dart SDK constraint and add google_maps_flutter and permission_handler dependencies| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 120f0a842a3be99b73126c5131befe74807eb509 | feat(pubspec): Update Dart SDK constraint and add google_maps_flutter and permission_handler dependencies| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 8ac6e6d4947a8bfa97010a1ea7ea72077c0d8bfb | feat(trip_map): Add TripMap widget to display routes on Google Maps| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| f44d846f042b4cc5972692d9e162396d048f4b7d | feat(past_trips): Enhance PastTripsScreen with trip location caching and average duration calculation| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 2324eb14093c62f1904d453a50b1e4e5d3bca614 | Merge remote-tracking branch 'origin/feature/PastTrips' into feature/PastTrips | 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 7c53d4f712d9a25f0ff92220d7d501f646b74c33 | feat(strings): Add Google Maps API key to strings.xml| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| fdb88f2aea3772c4c0b4c9fef4470e76c1dbfdc0 | feat(location): Add Location model with JSON serialization| 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| b1f96bf92cb9b654d8c02e5d563bcf3d88c8c8ad | feat(location_dto): Add LocationDTO class for JSON serialization | 18/06/2025 |
+| CodeMinds-Mobile-App | feature/PastTrips| 66f858bdbdcb278c8dfcb536a4fc1a3723eb2ea5 | feat: update past_trips_screen.dart | 18/06/2025 |
+| CodeMinds-Mobile-App | feature/account| 76ed4df647e8316c69ade3ed30c80734f778334c| feat(feature-account):Add account screen | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/account| 798652c6374c31fd925cfea79c1c835109c3a191| feat(feature-account):Add account update screen | 15/06/2025 |
+| CodeMinds-Mobile-App | feature/attendance | 692dbbfbb05a04bd4d4e39e8d7ba39cb3f3cf1bc| feat(feature-attendace):Add attendance screen | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/account| 21f5f5c865cb7817e743e28d49917dea3b3c57a8| fix(feature-attedance):Fix attendance screen | 15/06/2025 |
+| CodeMinds-Mobile-App | feature/children | b401b260f2488472101a1b725e158140940b32fa| feat(feature-children):Add children screen | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/children | 7258bd311491a0ab82b24adc81a4794657ab58ef| feat(feture-children):Add add student screen | 15/06/2025 |
+| CodeMinds-Mobile-App | feature/home | ee3a43ff758b3ceff169e6a494c38256d3028739 | feat(feature-home):Add home screens | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/children | fe2b58f787632b7ea1ce3b379659d2661e622a16 | fix(feature-home):fix home screens | 15/06/2025 | 
+| CodeMinds-Mobile-App | feature/register | c5df430f20df260f7e7b40663ef16d901a8c9e69 | feat(feature-register):Add register screens | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/tracking | cb9c170d63df10419a09d3850b97d25ea70736c0 | feat(feature-tracking):Add Tracking screen | 12/06/2025 |
+| CodeMinds-Mobile-App | feature/tracking  | ed5fa9c8b35395c36d70fa7e722baa12a1df057e | feat(feature-tracking):Add Map screen | 13/06/2025 |
+| CodeMinds-Mobile-App | feature/tracking  | d55d34781579d07f51bdbbe41f8768f696005d84 | fix(feature-tracking):Fix map and tracking screen | 15/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | cbe9d1c82ccf3ce1dcd9512516d0074bcd1035d4 | feat(develop): add main screen with bottom navigation and screen navigation logic| 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 1eabf584ef90353bf3155bc65e95f419d1bc340f | feat(develop): add image assets | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 133c226a07cea5d068e65a0294a493b18b02883b | feat: add endpoints for notifications by user type and user ID in AppConstants | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 53d5583bc9b9e8d268fa46422f3c2c527e31bcf1 | feat: add NotificationDTO for handling API response and mapping to Notification model| 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 7f72c0b3a3a9c0ab157341e3a2ee32484a8f7dc9 | feat: add Notification model with toJson method for API communication | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 359379e21486c93c44102e0a076bf89c3b2c7af1 | feat: add NotificationService for fetching notifications by user type and user ID | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | a1c1a027504b44427e51b4ecb3599219bf9b205f | feat: add NotificationRepository for mapping DTOs to Notification models | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 804978e89c1fb1ddccb578da2a146c2746ff4289 | feat: implement NotificationScreen to fetch and display notifications from API | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 11f78b496220cee30424323335739275ae4ce154 | feat: refactor HomeScreen to StatefulWidget and load notifications from API | 06/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 4d22f78f7ad1024bec12e8b8c44402f86aec4d9e | feat: refactor notification endpoints to use a base path for improved maintainability | 13/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 7adaab9210d48fb9a285e9b6b60a6fb44e556dbf | feat: enhance NotificationDTO to include additional fields and improve JSON serialization | 13/06/2025 | 
+| CodeMinds-Mobile-App | feature/real-time-notifications  | 1bc01605810630d2173db1df8368335589acb11b | feat: expand Notification class to include additional fields and update JSON serialization | 13/06/2025 | 
+
+
+#### 6.5.5. Testing Suite Evidence for Sprint Review.
+
+| Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
+|-----------------------|--------|------------------------------------------|--------------------------------------------------------|--------------------|
+| CodeMinds-Mobile-App | develop  | b609f3673cd3373b3559fa5621457d45fd834dfc | fix(develop): fix integration   | 22/06/25           |
+| CodeMinds-BackEnd | main   | 71423d0510e800ab9bd19c5682605187eca70a57 | feat: add endpoint to retrieve completed trips by driver ID   | 22/06/25           |
+| CodeMinds-EdgeServer | feature/identity-assignment   | 8623805ef9f5b6e666e604f55ae182a769f20439 | feat(identity-assignment): add jwt authentication   | 1x/06/25           |
+| CodeMinds-Embedded | develop  | f01c049cf69a4a6db3f3cac09a4b73c0ca12f9e1 | Merge pull request #2 from Desarrollo-de-Soluciones-IOT-1ASI0572/feature/rfid-chip   | 22/06/25           |
+
+#### 6.5.6. Execution Evidence for Sprint Review.
+**Para el backend** <br>
+<img src="assets/chapter4/ExecutionBackend.PNG" alt="Contact" style="width:100%;"> <br>
+Enlace al backend: https://edugo-service-de983aa97099.herokuapp.com/swagger-ui/index.html
+<br>
+<br>
+**Para el AppMovil**
+<br>
+<img src="assets/chapter4/ExecutionMovil/HomeParent.jpg" alt="Contact" > <br>
+<img src="assets/chapter4/ExecutionMovil/childrenScreen.jpg" alt="Contact" > <br>
+<img src="assets/chapter4/ExecutionMovil/childrenInformation.jpg" alt="Contact" > <br>
+<img src="assets/chapter4/ExecutionMovil/notificationScreen.jpg" alt="Contact" > <br>
+<img src="assets/chapter4/ExecutionMovil/accountScreen.jpg" alt="Contact"> <br>
+<br>
+**Para el Embedded**
+<br>
+<img src="assets/chapter4/ExecutionEmbedded.jpg" alt="Contact" > <br>
+Enlace al wowki: https://wokwi.com/projects/433959497821051905
+Video demostración: https://shorturl.at/SRwq2
+
+#### 6.5.7. Services Documentation Evidence for Sprint Review.
+
+Durante este Sprint, se llevó a cabo la implementación de los servicios del proyecto utilizando el estándar OpenAPI. Como resultado, se logró completar el backend con éxito, incluyendo la definición detallada de los Endpoints que conforman la funcionalidad integral de la aplicación web, app movil y edge server.
+
+### SensorScan
+
+| Endpoint                                           | Acción                                              | Verbo HTTP | Parámetros                                                                                                      | Ejemplo de Response                                                                                                                                                                                                                                          |
+|----------------------------------------------------|-----------------------------------------------------|------------|------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `/api/v1/sensor-scans/create`                     | Crear un nuevo registro de escaneo de pulsera       | POST       | **Request Body:**<br>{<br>  "scanType": "ENTRY",<br>  "wristbandId": 0<br>}                                     | ```json<br>[<br>  {<br>    "id": 0,<br>    "scanTime": "2025-06-22T04:49:49.770Z",<br>    "scanType": "ENTRY",<br>    "wristbandId": 0<br>  }<br>]```                                                                                                   |
+| `/api/v1/sensor-scans/{id}`                       | Obtener escaneo por ID                              | GET        | **Path Parameters:**<br>- `id` (integer)                                                                         | ```json<br>{<br>  "id": 0,<br>  "scanTime": "2025-06-22T04:49:49.771Z",<br>  "scanType": "ENTRY",<br>  "wristbandId": 0<br>}```                                                                                                                          |
+| `/api/v1/sensor-scans/{id}`                       | Eliminar escaneo por ID                             | DELETE     | **Path Parameters:**<br>- `id` (integer)                                                                         | **Respuesta:**<br>- Código: `200 OK` (Sin contenido adicional)                                                                                                                                                                                               |
+| `/api/v1/sensor-scans/wristband/{wristbandId}`    | Obtener escaneos por ID de pulsera                  | GET        | **Path Parameters:**<br>- `wristbandId` (integer)                                                                | ```json<br>[<br>  {<br>    "id": 0,<br>    "scanTime": "2025-06-22T04:49:49.774Z",<br>    "scanType": "ENTRY",<br>    "wristbandId": 0<br>  }<br>]```                                                                                                   |
+| `/api/v1/sensor-scans/all`                        | Obtener todos los escaneos registrados              | GET        | _Sin parámetros_                                                                                                | ```json<br>[<br>  {<br>    "id": 0,<br>    "scanTime": "2025-06-22T04:49:49.775Z",<br>    "scanType": "ENTRY",<br>    "wristbandId": 0<br>  }<br>]```                                                                                                   |
+### Students
+| Endpoint                          | Acción                                 | Verbo HTTP | Parámetros                                                                                                   | Ejemplo de Response                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|-----------------------------------|----------------------------------------|------------|---------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `/api/v1/students/create`        | Crear un nuevo estudiante              | POST       | **Request Body:**<br>{<br>  "name": "string",<br>  "lastName": "string",<br>  "homeAddress": "string",<br>  "schoolAddress": "string",<br>  "studentPhotoUrl": "string",<br>  "parentProfileId": 0<br>} | ```json<br>[<br>  {<br>    "id": 0,<br>    "name": "string",<br>    "lastName": "string",<br>    "homeAddress": "string",<br>    "schoolAddress": "string",<br>    "studentPhotoUrl": "string",<br>    "wristband": {<br>      "id": 0,<br>      "rfidCode": "string",<br>      "wristbandStatus": "ACTIVE",<br>      "student": { ... },<br>      "sensorScans": [ { ... } ]<br>    },<br>    "parentProfile": { ... }<br>  }<br>]``` |
+| `/api/v1/students/{id}`          | Obtener estudiante por ID              | GET        | **Path Parameters:**<br>- `id` (integer)                                                                     | ```json<br>{<br>  "id": 0,<br>  "name": "string",<br>  "lastName": "string",<br>  "homeAddress": "string",<br>  "schoolAddress": "string",<br>  "studentPhotoUrl": "string",<br>  "wristband": { ... },<br>  "parentProfile": { ... }<br>}```                                                                                                                                                                                                                                                                                                                                                                 |
+| `/api/v1/students/{id}`          | Eliminar estudiante por ID             | DELETE     | **Path Parameters:**<br>- `id` (integer)                                                                     | **Respuesta:**<br>- Código: `200 OK` (Sin contenido adicional)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| `/api/v1/students/all`           | Obtener todos los estudiantes          | GET        | _Sin parámetros_                                                                                             | ```json<br>[<br>  {<br>    "id": 0,<br>    "name": "string",<br>    "lastName": "string",<br>    "homeAddress": "string",<br>    "schoolAddress": "string",<br>    "studentPhotoUrl": "string",<br>    "wristband": { ... },<br>    "parentProfile": { ... }<br>  }<br>]```                                                                                                                                                                                                                                                                                                                               |
+### Authentication
+
+| Endpoint                             | Acción                       | Verbo HTTP | Parámetros                                                                                 | Ejemplo de Response                                                                                                                                                    |
+|--------------------------------------|------------------------------|------------|---------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `/api/v1/authentication/sign-up`     | Registrar un nuevo usuario   | POST       | **Request Body:**<br>{<br>  "username": "string",<br>  "password": "string",<br>  "roles": ["string"]<br>} | ```json<br>{<br>  "id": 0,<br>  "username": "string",<br>  "roles": ["string"]<br>}```                                                                                   |
+| `/api/v1/authentication/sign-in`     | Iniciar sesión               | POST       | **Request Body:**<br>{<br>  "username": "string",<br>  "password": "string"<br>}            | ```json<br>{<br>  "id": 0,<br>  "username": "string",<br>  "token": "string"<br>}```                                                                                     |
+
+### Vehicle Tracking
+
+| Endpoint                                                        | Acción                                             | Verbo HTTP | Parámetros                                                                                  | Ejemplo de Response |
+|-----------------------------------------------------------------|----------------------------------------------------|------------|----------------------------------------------------------------------------------------------|---------------------|
+| `/api/v1/vehicle-tracking/vehicles`                             | Obtener lista de vehículos                         | GET        | _Sin parámetros_                                                                            | ```json<br>[{ "id": 0, "driverId": 0, "capacity": 0, "status": "string" }]``` |
+| `/api/v1/vehicle-tracking/vehicles`                             | Crear un vehículo                                  | POST       | **Request Body:**<br>{ "driverId": 0, "capacity": 0 }                                       | ```json<br>{ "id": 0, "driverId": 0, "capacity": 0, "status": "string" }``` |
+| `/api/v1/vehicle-tracking/trips`                                | Obtener todos los viajes                           | GET        | _Sin parámetros_                                                                            | ```json<br>[{ "id": 0, "vehicleId": 0, "origin": "string", "destination": "string", "startTime": "...", "endTime": "..." }]``` |
+| `/api/v1/vehicle-tracking/trips`                                | Crear un viaje                                     | POST       | **Request Body:**<br>{ "vehicleId": 0, "origin": "string", "destination": "string" }        | ```json<br>{ "id": 0, "vehicleId": 0, "origin": "string", "destination": "string", "startTime": "...", "endTime": "..." }``` |
+| `/api/v1/vehicle-tracking/trip-students`                        | Asignar estudiante a un viaje                      | POST       | **Request Body:**<br>{ "tripId": 0, "studentId": 0 }                                        | ```json<br>{ "id": 0, "studentId": 0, "attended": true, "boardedAt": "...", "exitedAt": "..." }``` |
+| `/api/v1/vehicle-tracking/routes/start`                         | Iniciar ruta de viaje                              | POST       | **Request Body:**<br>{ "tripId": 0 }                                                        | ```json<br>{ "id": 0, "driverId": 0, "capacity": 0, "status": "string" }``` |
+| `/api/v1/vehicle-tracking/routes/end`                           | Finalizar ruta de viaje                            | POST       | **Request Body:**<br>{ "tripId": 0 }                                                        | Código `200 OK`     |
+| `/api/v1/vehicle-tracking/locations`                            | Obtener todas las ubicaciones registradas          | GET        | _Sin parámetros_                                                                            | ```json<br>[{ "id": 0, "vehicleId": 0, "latitude": 0, "longitude": 0, "speed": 0 }]``` |
+| `/api/v1/vehicle-tracking/locations`                            | Registrar ubicación del vehículo                   | POST       | **Request Body:**<br>{ "vehicleId": 0, "tripId": 0, "latitude": 0, "longitude": 0, "speed": 0, "timestamp": "..." } | ```json<br>{ "id": 0, "vehicleId": 0, "latitude": 0, "longitude": 0, "speed": 0 }``` |
+| `/api/v1/vehicle-tracking/exit`                                 | Registrar salida del estudiante                    | POST       | **Request Body:**<br>{ "tripId": 0, "studentId": 0, "exitedAt": "..." }                     | Código `200 OK`     |
+| `/api/v1/vehicle-tracking/boarding`                             | Registrar abordaje del estudiante                  | POST       | **Request Body:**<br>{ "tripId": 0, "studentId": 0, "boardedAt": "..." }                    | Código `200 OK`     |
+| `/api/v1/vehicle-tracking/trips/{tripId}/students`              | Obtener estudiantes de un viaje                    | GET        | **Path Parameters:**<br>- `tripId` (integer)                                                | ```json<br>[{ "id": 0, "studentId": 0, "attended": true, "boardedAt": "...", "exitedAt": "..." }]``` |
+| `/api/v1/vehicle-tracking/trips/{tripId}/students/{studentId}`  | Obtener asistencia de un estudiante en un viaje    | GET        | **Path Parameters:**<br>- `tripId` (integer)<br>- `studentId` (integer)                    | ```json<br>{ "id": 0, "studentId": 0, "attended": true, "boardedAt": "...", "exitedAt": "..." }``` |
+| `/api/v1/vehicle-tracking/trips/{id}`                           | Obtener un viaje por ID                            | GET        | **Path Parameters:**<br>- `id` (integer)                                                    | ```json<br>{ "id": 0, "vehicleId": 0, "origin": "string", "destination": "string", "startTime": "...", "endTime": "..." }``` |
+| `/api/v1/vehicle-tracking/trips/{id}`                           | Eliminar un viaje por ID                           | DELETE     | **Path Parameters:**<br>- `id` (integer)                                                    | `string`            |
+| `/api/v1/vehicle-tracking/trips/completed`                      | Obtener viajes completados                         | GET        | _Sin parámetros_                                                                            | ```json<br>[{ "id": 0, "vehicleId": 0, "origin": "string", "destination": "string", "startTime": "...", "endTime": "..." }]``` |
+| `/api/v1/vehicle-tracking/students/{studentId}/current-vehicle-location` | Obtener ubicación actual del vehículo del estudiante | GET     | **Path Parameters:**<br>- `studentId` (integer)                                             | `{}`                |
+| `/api/v1/vehicle-tracking/locations/trip/{tripId}`              | Obtener ubicaciones de un viaje                    | GET        | **Path Parameters:**<br>- `tripId` (integer)                                                | ```json<br>[{ "id": 0, "vehicleId": 0, "latitude": 0, "longitude": 0, "speed": 0 }]``` |
+| `/api/v1/vehicle-tracking/locations/current?vehicleId={id}`     | Obtener ubicación actual de un vehículo específico | GET        | **Query Parameters:**<br>- `vehicleId` (integer)                                            | ```json<br>{ "id": 0, "vehicleId": 0, "latitude": 0, "longitude": 0, "speed": 0 }``` |
+
+### Profiles
+
+| Endpoint                                         | Acción                                    | Verbo HTTP | Parámetros                                                                                     | Ejemplo de Response |
+|--------------------------------------------------|-------------------------------------------|------------|-------------------------------------------------------------------------------------------------|---------------------|
+| `/api/v1/profiles`                               | Obtener todos los perfiles                | GET        | _Sin parámetros_                                                                               | ```json<br>[{ "id": 0, "userId": 0, "fullName": "string", "email": "string", "mobileNumber": "string", "address": "string", "gender": "string", "photoUrl": "string", "role": "string" }]``` |
+| `/api/v1/profiles`                               | Crear un nuevo perfil                     | POST       | **Request Body:**<br>{ "fullName": "string", "email": "string", "mobileNumber": "string", "address": "string", "gender": "string", "photoUrl": "string" } | ```json<br>{ "id": 0, "userId": 0, "fullName": "string", "email": "string", "mobileNumber": "string", "address": "string", "gender": "string", "photoUrl": "string", "role": "string" }``` |
+| `/api/v1/profiles/user/{userId}`                 | Obtener perfil por ID de usuario          | GET        | **Path Parameters:**<br>- `userId` (integer)                                                   | ```json<br>{ "id": 0, "userId": 0, "fullName": "string", "email": "string", "mobileNumber": "string", "address": "string", "gender": "string", "photoUrl": "string", "role": "string" }``` |
+| `/api/v1/profiles/role/{role}`                   | Obtener perfiles por rol                  | GET        | **Path Parameters:**<br>- `role` (string)                                                      | ```json<br>[{ "id": 0, "userId": 0, "fullName": "string", "email": "string", "mobileNumber": "string", "address": "string", "gender": "string", "photoUrl": "string", "role": "string" }]``` |
+| `/api/v1/profiles/profileId/{profileId}`         | Obtener perfil por ID de perfil           | GET        | **Path Parameters:**<br>- `profileId` (integer)                                                | ```json<br>{ "id": 0, "userId": 0, "fullName": "string", "email": "string", "mobileNumber": "string", "address": "string", "gender": "string", "photoUrl": "string", "role": "string" }``` |
+
+### RealTimeNotification
+
+| Endpoint                                                             | Acción                                           | Verbo HTTP | Parámetros                                                                                     | Ejemplo de Response |
+|----------------------------------------------------------------------|--------------------------------------------------|------------|-------------------------------------------------------------------------------------------------|---------------------|
+| `/api/v1/notifications`                                              | Obtener todas las notificaciones                | GET        | _Sin parámetros_                                                                               | ```json<br>[{ "id": 0, "message": "string", "status": "string", "userType": "string", "userId": 0, "eventType": "string", "description": "string", "timestamp": "2025-06-22T05:08:00.639Z", "tripId": 0, "studentId": 0 }]``` |
+| `/api/v1/notifications`                                              | Crear una nueva notificación                    | POST       | **Request Body:**<br>{ "eventType": "string", "description": "string", "userType": "string", "userId": 0, "tripId": 0, "studentId": 0 } | ```json<br>{ "id": 0, "message": "string", "status": "string", "userType": "string", "userId": 0, "eventType": "string", "description": "string", "timestamp": "2025-06-22T05:08:00.641Z", "tripId": 0, "studentId": 0 }``` |
+| `/api/v1/notifications/user-type/{notificationsForUserType}`        | Obtener notificaciones por tipo de usuario      | GET        | **Path Parameters:**<br>- `notificationsForUserType` (string)                                 | ```json<br>[{ "id": 0, "message": "string", "status": "string", "userType": "string", "userId": 0, "eventType": "string", "description": "string", "timestamp": "2025-06-22T05:08:00.642Z", "tripId": 0, "studentId": 0 }]``` |
+| `/api/v1/notifications/user-id/{notificationsForUserId}`            | Obtener notificaciones por ID de usuario        | GET        | **Path Parameters:**<br>- `notificationsForUserId` (integer)                                  | ```json<br>[{ "id": 0, "message": "string", "status": "string", "userType": "string", "userId": 0, "eventType": "string", "description": "string", "timestamp": "2025-06-22T05:08:00.644Z", "tripId": 0, "studentId": 0 }]``` |
+
+### Wristband
+
+| Endpoint                                                      | Acción                                      | Verbo HTTP | Parámetros                                                                                                   | Ejemplo de Response |
+|---------------------------------------------------------------|---------------------------------------------|------------|---------------------------------------------------------------------------------------------------------------|---------------------|
+| `/api/v1/wristbands/create`                                   | Crear una nueva pulsera                    | POST       | **Request Body:**<br>{ "rfidCode": "string", "wristbandStatus": "string", "studentId": 0 }                   | ```json<br>[{ "id": 0, "rfidCode": "string", "wristbandStatus": "ACTIVE", "student": { "id": 0, "name": "string", "lastName": "string", "homeAddress": "string", "schoolAddress": "string", "studentPhotoUrl": "string" }, "sensorScans": [ { "id": 0, "scanTime": "2025-06-22T05:08:39.455Z", "scanType": "ENTRY", "wristbandId": 0 } ] }]``` |
+| `/api/v1/wristbands/{id}`                                     | Obtener pulsera por ID                     | GET        | **Path Parameters:**<br>- `id` (integer)                                                                      | ```json<br>{ "id": 0, "rfidCode": "string", "wristbandStatus": "ACTIVE", "student": { "id": 0, "name": "string", "lastName": "string", "homeAddress": "string", "schoolAddress": "string", "studentPhotoUrl": "string" }, "sensorScans": [ { "id": 0, "scanTime": "2025-06-22T05:08:39.458Z", "scanType": "ENTRY", "wristbandId": 0 } ] }``` |
+| `/api/v1/wristbands/{id}`                                     | Eliminar pulsera por ID                    | DELETE     | **Path Parameters:**<br>- `id` (integer)                                                                      | ```json<br>200 OK``` |
+| `/api/v1/wristbands/student/{studentId}`                      | Obtener pulseras por ID de estudiante       | GET        | **Path Parameters:**<br>- `studentId` (integer)                                                               | ```json<br>[{ "id": 0, "rfidCode": "string", "wristbandStatus": "ACTIVE", "student": { "id": 0, "name": "string", "lastName": "string", "homeAddress": "string", "schoolAddress": "string", "studentPhotoUrl": "string" }, "sensorScans": [ { "id": 0, "scanTime": "2025-06-22T05:08:39.461Z", "scanType": "ENTRY", "wristbandId": 0 } ] }]``` |
+| `/api/v1/wristbands/status/{status}`                          | Obtener pulseras por estado                 | GET        | **Path Parameters:**<br>- `status` (string)                                                                   | ```json<br>[{ "id": 0, "rfidCode": "string", "wristbandStatus": "ACTIVE", "student": { "id": 0, "name": "string", "lastName": "string", "homeAddress": "string", "schoolAddress": "string", "studentPhotoUrl": "string" }, "sensorScans": [ { "id": 0, "scanTime": "2025-06-22T05:08:39.463Z", "scanType": "ENTRY", "wristbandId": 0 } ] }]``` |
+| `/api/v1/wristbands/all`                                      | Obtener todas las pulseras                  | GET        | _Sin parámetros_                                                                                              | ```json<br>[{ "id": 0, "rfidCode": "string", "wristbandStatus": "ACTIVE", "student": { "id": 0, "name": "string", "lastName": "string", "homeAddress": "string", "schoolAddress": "string", "studentPhotoUrl": "string" }, "sensorScans": [ { "id": 0, "scanTime": "2025-06-22T05:08:39.464Z", "scanType": "ENTRY", "wristbandId": 0 } ] }]``` |
+
+### Users
+
+| Endpoint                 | Acción                           | Verbo HTTP | Parámetros                                              | Ejemplo de Response |
+|--------------------------|----------------------------------|------------|----------------------------------------------------------|---------------------|
+| `/api/v1/users`          | Obtener todos los usuarios       | GET        | _Sin parámetros_                                        | ```json<br>[{ "id": 0, "username": "string", "roles": ["string"] }]``` |
+| `/api/v1/users/{id}`     | Obtener usuario por ID           | GET        | **Path Parameters:**<br>- `id` (integer)                | ```json<br>{ "id": 0, "username": "string", "roles": ["string"] }``` |
+
+### Analytics
+
+| Endpoint                                       | Acción                                               | Verbo HTTP | Parámetros                                                                                     | Ejemplo de Response |
+|------------------------------------------------|------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------|---------------------|
+| `/api/analytics`                               | Registrar datos de análisis del conductor            | POST       | **Request Body:**<br>{ "driverUserId": 0, "date": "2025-06-05", "arrivalTimeAtSchool": "07:30", "returnTimeHome": "15:45", "speed": 0, "detour": true, "lateness": true, "speeding": true } | ```json<br>{ "id": 0, "driverUserId": 0, "date": "string", "arrivalTimeAtSchool": "string", "returnTimeHome": "string", "speed": 0, "incident": { "detour": true, "lateness": true, "speeding": true } }``` |
+| `/api/analytics/logs`                          | Obtener todos los registros de análisis              | GET        | _Sin parámetros_                                                                               | ```json<br>[{ "id": 0, "driverUserId": 0, "date": "string", "arrivalTimeAtSchool": "string", "returnTimeHome": "string", "speed": 0, "incident": { "detour": true, "lateness": true, "speeding": true } }]``` |
+| `/api/analytics/dashboard/{driverId}`          | Obtener resumen del dashboard del conductor          | GET        | **Path Parameters:**<br>- `driverId` (integer)                                                | ```json<br>{ "driverUserId": 0, "week": "string", "speedPerDay": [{ "day": "string", "averageSpeed": 0 }], "arrivalTimes": [{ "day": "string", "time": "string" }], "incidentSummary": { "detour": 0, "lateness": 0, "speeding": 0 } }``` |
+
+
+#### 6.5.8. Software Deployment Evidence for Sprint Review.
+
+Para el sprint presentado del Backend,AppMovil,EdgeServer y Embedded se optó por varias herramientas para su desarrollo.
+
+- _Git_: Se utilizó para el control de versiones del código fuente.
+- _GitFlow_: Se utilizó para ver el avance de los integrantes del equipo.
+- _GitHub_: Se utilizó para crear el repositorio del Backend,AppMovil,EdgeServer y Embedded, donde se subió el código fuente.
+- _GitHub Pages_: Es la plataforma donde se desplegó el Backend,AppMovil,EdgeServer y Embedded. Se eligió por ser una solución gratuita, rápida y sencilla que permite publicar directamente desde el repositorio de GitHub.
+- _Android Studio_: Se utilizó para el desarrollo de la aplicación móvil nativa, permitiendo diseñar y programar funcionalidades específicas para dispositivos Android.
+- _Wokwi_: Se empleó para la creación y simulación del sistema embebido, facilitando el desarrollo y prueba del código para el hardware sin necesidad de componentes físicos.
+- _CLion_: Se utilizó para el desarrollo de la lógica del servidor Edge, permitiendo implementar y depurar el software en C++ con integración a herramientas embebidas.
+  
+**Despliegue del Backend**<br>
+Para este Sprint se desplego la aplicacion Backend en heroku, el despliegue de este producto permite el acceso y modificacion de la informacion en la base de datos.
+<img src="assets/chapter4/backend-deployment-heroku.jpg" alt="Backend-deployment" style="width:100%;">
+<br>
+
+**Despliegue del Mobile App**<br>
+El alcance definido para este producto dentro de este Sprint comprende ejecucion local<br>
+
+**Despliegue del Edge Server**<br>
+El alcance definido para este producto dentro de este Sprint comprende ejecucion local<br>
+
+#### 6.5.9. Team Collaboration Insights during Sprint.
+
+Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización del backend,app movil,edge server y embedded :
+
+Insights del AppMovil, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="assets/chapter4/TeamCollaborationMovil.PNG" alt="Contact" >
+<br>
+
+Insights del Backend, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="assets/chapter4/TeamCollaborationBackend.PNG" alt="Contact" >
+<br>
+
+Insights del EdgeServer, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="assets/chapter4/TeamCollaborationEdgeServer.PNG" alt="Contact" >
+<br>
+
+Insights del Embedded, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="assets/chapter4/TeamCollaborationEmbedded.PNG" alt="Contact" >
