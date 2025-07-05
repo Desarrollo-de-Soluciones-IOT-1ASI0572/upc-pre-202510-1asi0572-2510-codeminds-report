@@ -292,47 +292,62 @@ Diseño del pie de página con buena legibilidad y colores de contraste para fac
 En esta sección se presentan los wireframes de las aplicaciones, que muestran el diseño estructural y la disposición de los elementos clave para la experiencia de usuario tanto en la aplicación web como en la móvil.
 **Web Application:**
 
-**Web Application Wireframe Login**
+**Web Application Wireframe Login** <br>
+Pantalla estructural donde el administrador ingresa sus credenciales para acceder al sistema. <br>
 <img src="assets/chapter4/WebApp-Wireframes/Login.png" alt="Web app wireframes 1" style="width:100%;">
-**Web Application Wireframe Dashboard**
+**Web Application Wireframe Dashboard** <br>
+Vista de resumen con métricas clave y accesos directos para administradores. <br>
 <img src="assets/chapter4/WebApp-Wireframes/Dashboard.png" alt="Web app wireframes 2" style="width:100%;">
-**Web Application Wireframe Drivers**
+**Web Application Wireframe Drivers** <br>
+Sección con la lista de conductores, filtros y botones de gestión. <br>
 <img src="assets/chapter4/WebApp-Wireframes/Drivers.png" alt="Web app wireframes 3" style="width:100%;">
-**Web Application Wireframe Students**
+**Web Application Wireframe Students** <br>
+Pantalla con información de los estudiantes registrados y sus datos relevantes. <br>
 <img src="assets/chapter4/WebApp-Wireframes/Students.png" alt="Web app wireframes 4" style="width:100%;">
-**Web Application Wireframe Report**
+**Web Application Wireframe Report** <br>
+Diseño que muestra reportes sobre incidentes, asistencia y rutas. <br>
 <img src="assets/chapter4/WebApp-Wireframes/Report.png" alt="Web app wireframes 5" style="width:100%;">
 
 **AppMovil:** <br>
 **AppMovil Wireframe Login/Register** <br>
+Pantallas que permiten al usuario (padre o conductor) crear o acceder a su cuenta. <br>
 <img src="assets/chapter4/Wireframes-Movil/Login_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Register_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Register Error 4_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Register Error 5_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Driver_SetUp_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Home Parent** <br>
+Interfaz inicial donde el padre ve notificaciones y estado del transporte. <br>
 <img src="assets/chapter4/Wireframes-Movil/Home_Page_Parent_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Children** <br>
+Vista para gestionar la información de los hijos: añadir, editar o eliminar. <br>
 <img src="assets/chapter4/Wireframes-Movil/Children_Wireframe.png" alt="Web app wireframes 5"> <br>
 <img src="assets/chapter4/Wireframes-Movil/Add_New_Children_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Delete_Kid_Wireframe.png" alt="Web app wireframes 5"> <br>
 <img src="assets/chapter4/Wireframes-Movil/Children_Wireframe (1).png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Agregar_Hijo_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Tracking** <br>
+Pantalla con el mapa de seguimiento en tiempo real de la ruta escolar. <br>
 <img src="assets/chapter4/Wireframes-Movil/Rastrear_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Avisos_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Profile** <br>
+Sección donde los usuarios pueden ver y editar su información personal. <br>
 <img src="assets/chapter4/Wireframes-Movil/Perfil_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Update_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Home Driver** <br>
+Pantalla principal de la app del conductor. Muestra opciones como “Viajes pasados”, registro de asistencia de estudiantes y el botón de emergencia para reportar incidentes de forma rápida. <br> 
 <img src="assets/chapter4/Wireframes-Movil/Home_Page_Driver_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Past Trip** <br>
+Visualización del historial de viajes realizados. El conductor puede consultar detalles como fecha, ruta recorrida y número de estudiantes transportados. <br>
 <img src="assets/chapter4/Wireframes-Movil/Past Trips Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe DriverMap** <br>
+Pantalla de mapa donde el conductor selecciona y visualiza la ruta a seguir en tiempo real. Permite iniciar el trayecto y ver el recorrido planificado. <br>
 <img src="assets/chapter4/Wireframes-Movil/Driver_Map_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Perfil Driver** <br>
+Sección del perfil personal del conductor, con información como nombre, DNI, teléfono y foto de perfil editable. <br>
 <img src="assets/chapter4/Wireframes-Movil/Perfil_Driver_Wireframe.png" alt="Web app wireframes 5" > <br>
 **AppMovil Wireframe Attendece** <br>
+Pantallas de registro de asistencia de estudiantes. El conductor puede marcar manualmente si un niño asistió o estuvo ausente durante el viaje. <br>
 <img src="assets/chapter4/Wireframes-Movil/Attendance_Kid_Wireframe.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/Wireframes-Movil/Manage_Attendance_Kid_Wireframe.png" alt="Web app wireframes 5" > <br>
 
@@ -341,33 +356,44 @@ En esta sección se presentan los wireframes de las aplicaciones, que muestran e
 Esta sección presenta los diagramas de flujo (wireflows) de las aplicaciones, que ilustran la navegación y las interacciones del usuario entre las diferentes pantallas, facilitando la comprensión del recorrido dentro del sistema.
 
 **Web Application:**<br>
-**WebApp Wireflow Home**
+**WebApp Wireflow Home** <br>
+Este diagrama muestra la navegación principal desde que el administrador ingresa al sistema. Se destacan las rutas hacia las secciones de dashboard, reportes y gestión de usuarios. <br>
 <img src="assets/chapter4/WebApp-Wireflows/Flow-WebHome.png" alt="Web app wireframes 1" style="width:100%;">
 
 **AppMovil:** <br>
 **AppMovilWireflow Login/Register Driver** <br>
+Describe el flujo que sigue un conductor desde la pantalla de bienvenida hasta completar su registro o inicio de sesión, validando sus credenciales. <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Login-Register-Driver.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Login/Register Parent** <br>
+Flujo del proceso de registro e inicio de sesión para padres de familia. Incluye la validación del código de vinculación con sus hijos. <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Login-Register-Parent.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Error Register** <br>
+Muestra las pantallas que se activan en caso de error durante el proceso de registro, como campos incompletos o credenciales inválidas. <br> 
 <img src="assets/chapter4/Wireflows-Movil/Flow-Error-Register.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Home Driver** <br>
+Diagrama que representa las acciones disponibles desde la pantalla principal del conductor, como acceder a viajes, asistencia y alertas. <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Home-Driver.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow PastTrip** <br>
+Visualiza cómo el conductor navega a la sección de “Viajes pasados” y accede a los detalles de viajes anteriores. <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Past-Trips.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Students** <br>
+Muestra el acceso a la lista de estudiantes asignados al conductor y la funcionalidad para marcar asistencia o revisar información individual. <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Students-Driver.PNG" alt="Web app wireframes 1" > <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Students-Driver-Checkout.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Tracking** <br>
+Diagrama que representa la funcionalidad de rastreo en tiempo real de la unidad, desde el punto de vista del conductor o del padre. <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Tracking.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Notification** <br>
+Muestra cómo los usuarios acceden a las notificaciones generadas por el sistema, filtradas por importancia o categoría. <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Notification.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Children** <br>
+Flujo de navegación de padres al consultar y gestionar información de sus hijos: agregar, editar o eliminar registros. <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Children.PNG" alt="Web app wireframes 1" > <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Children-ConnectBluetooh.PNG" alt="Web app wireframes 1" > <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-DeleteChildren.PNG" alt="Web app wireframes 1" > <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-AddChildren.PNG" alt="Web app wireframes 1" > <br>
 **AppMovilWireflow Edit Account** <br>
+Flujo para editar la información del perfil, como nombre, correo o imagen del conductor o padre. <br>
 <img src="assets/chapter4/Wireflows-Movil/Flow-Account-EditAccount.PNG" alt="Web app wireframes 1" > <br>
 
 ### 5.4.2. Applications Mock-ups.
@@ -376,16 +402,21 @@ En esta sección se presentan los mock-ups de las aplicaciones, mostrando repres
 **Web Application:** 
 <br>
 **WebApp MockUp Login** <br>
+Diseño final de la pantalla de inicio de sesión del administrador. Usa una interfaz clara y validaciones visibles. <br>
 <img src="assets/chapter4/WebApp-MockUp/Login.png" alt="Web app wireframes 1" style="width:100%;"> <br>
 **WebApp MockUp DashBoard** <br>
+Pantalla principal del administrador donde visualiza métricas clave sobre el sistema de transporte. <br>
 <img src="assets/chapter4/WebApp-MockUp/Dashboard.png" alt="Web app wireframes 2" style="width:100%;"> <br>
 **WebApp MockUp Drivers and students-Drivers** <br>
+Vista de lista de conductores registrados. Se incluyen filtros, botones de acción y foto de perfil. <br>
 <img src="assets/chapter4/WebApp-MockUp/Drivers.png" alt="Web app wireframes 3" style="width:100%;"> <br>
 <img src="assets/chapter4/WebApp-MockUp/Drivers and Students - Drivers.png" alt="Web app wireframes 5" style="width:100%;"> <br>
 **WebApp MockUp Drivers and students-Students** <br>
+Diseño de la pantalla que muestra los datos de los estudiantes. Permite su gestión y asignación de rutas. <br>
 <img src="assets/chapter4/WebApp-MockUp/Students.png" alt="Web app wireframes 4" style="width:100%;"> <br>
 <img src="assets/chapter4/WebApp-MockUp/Drivers and Students - Students.png" alt="Web app wireframes 5" style="width:100%;"> <br>
 **WebApp MockUp Drivers and students-Report** <br>
+Pantalla donde el administrador accede a los reportes por incidente, historial de rutas o asistencia. <br>
 <img src="assets/chapter4/WebApp-MockUp/Reports.png" alt="Web app wireframes 5" style="width:100%;"> <br>
 <img src="assets/chapter4/WebApp-MockUp/Reports - Incidents.png" alt="Web app wireframes 5" style="width:100%;"> <br>
 <img src="assets/chapter4/WebApp-MockUp/Reports - Route history.png" alt="Web app wireframes 5" style="width:100%;"> 
@@ -394,44 +425,54 @@ En esta sección se presentan los mock-ups de las aplicaciones, mostrando repres
 
 **App Movil:**<br>
 **AppMovil MockUp Login/Register Driver** <br>
+Diseño visual de las pantallas donde los conductores ingresan sus credenciales o se registran por primera vez. <br>
 <img src="assets/chapter4/MockUp-Movil/Login_Driver.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register_Driver.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register_error.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register_Upload_Photo.png" alt="Web app wireframes 5" > <br>
 **AppMovil MockUp Home Driver** <br>
+Vista principal del conductor con accesos rápidos a viajes, asistencia, emergencias y su perfil. <br>
 <img src="assets/chapter4/MockUp-Movil/Home_Driver.png" alt="Web app wireframes 5" > <br>
 **AppMovil MockUp Home Past Trip** <br>
+Interfaz donde el conductor puede revisar los viajes que ha realizado con sus detalles. <br>
 <img src="assets/chapter4/MockUp-Movil/Past_Trips.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Trip Description.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Change trip name.png" alt="Web app wireframes 5"> <br>
 <img src="assets/chapter4/MockUp-Movil/Delete Trip.png" alt="Web app wireframes 5" > <br>
 **AppMovil MockUp Home Past Attendance** <br>
+Muestra la asistencia de los estudiantes. El conductor puede marcar ausencias y ver estadísticas generales. <br>
 <img src="assets/chapter4/MockUp-Movil/Attendance.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Attendance_Present.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Attendance_absent.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Attendance_Managment.png" alt="Web app wireframes 5" > <br>
 
 **AppMovil MockUp Login/Register Parent** <br>
+Diseño de las pantallas de acceso para padres, que incluyen el formulario de registro y carga de foto. <br>
 <img src="assets/chapter4/MockUp-Movil/Login_Parent.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register_error.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Register_Upload_Photo.png" alt="Web app wireframes 5" > <br>
 **AppMovil MockUp Home Parent** <br>
+Vista general donde el padre ve notificaciones recientes, hijos registrados y alertas de transporte. <br>
 <img src="assets/chapter4/MockUp-Movil/Home_Parent.png" alt="Web app wireframes 5" > <br>
 **AppMovil MockUp Children** <br>
+Permite a los padres gestionar la información de sus hijos y ver su estado actual (subido, ausente, etc.). <br>
 <img src="assets/chapter4/MockUp-Movil/Track_Parent.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Android Large - 8.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Android Large - 16.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Android Large - 15.png" alt="Web app wireframes 5" > <br>
 **AppMovil MockUp Tracking** <br>
+Pantalla de rastreo en tiempo real donde se visualiza la ubicación del vehículo escolar en el mapa. <br>
 <img src="assets/chapter4/MockUp-Movil/Tracking_Parent.png" alt="Web app wireframes 5" > <br>
 
 **AppMovil MockUp Notification Parent/Student** <br>
+Interfaz de visualización de alertas y notificaciones para padres y conductores, con priorización por color. <br>
 <img src="assets/chapter4/MockUp-Movil/Notifacation_Parent.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Notification_Driver.png" alt="Web app wireframes 5" > <br>
 
 **AppMovil MockUp Acount Parent/Student** <br>
+Pantallas para consultar y modificar información del perfil del padre o conductor, incluyendo cambios de contraseña y foto. <br>
 <img src="assets/chapter4/MockUp-Movil/Account_Parent.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Account_Parent_Update.png" alt="Web app wireframes 5" > <br>
 <img src="assets/chapter4/MockUp-Movil/Account_Driver.png" alt="Web app wireframes 5" > <br>
