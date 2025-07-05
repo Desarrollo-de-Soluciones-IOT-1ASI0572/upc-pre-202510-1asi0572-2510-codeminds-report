@@ -1146,27 +1146,30 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 
 #### 6.5.6. Execution Evidence for Sprint Review.
 **Para el backend** <br>
+Visualización del backend desplegado correctamente, con acceso a la documentación Swagger. <br>
 <img src="assets/chapter4/ExecutionBackend.PNG" alt="Contact" style="width:100%;"> <br>
 Enlace al backend: https://edugo-service-de983aa97099.herokuapp.com/swagger-ui/index.html
 <br>
 <br>
-**Para el AppMovil**
+**Para el AppMovil** <br>
+Capturas de la aplicación móvil en funcionamiento, mostrando la interfaz para padres y funcionalidades clave.
 <br>
-<img src="assets/chapter4/ExecutionMovil/HomeParent.jpg" alt="Contact" > <br>
-<img src="assets/chapter4/ExecutionMovil/childrenScreen.jpg" alt="Contact" > <br>
-<img src="assets/chapter4/ExecutionMovil/childrenInformation.jpg" alt="Contact" > <br>
-<img src="assets/chapter4/ExecutionMovil/notificationScreen.jpg" alt="Contact" > <br>
-<img src="assets/chapter4/ExecutionMovil/accountScreen.jpg" alt="Contact"> <br>
-<br>
-**Para el Embedded**
+<img src="assets/chapter4/ExecutionMovil/HomeParent.jpg" alt="Home" style="width:300px;"> <br>
+<img src="assets/chapter4/ExecutionMovil/childrenScreen.jpg" alt="Children Screen" style="width:300px;"> <br>
+<img src="assets/chapter4/ExecutionMovil/childrenInformation.jpg" alt="Children Info" style="width:300px;"> <br>
+<img src="assets/chapter4/ExecutionMovil/notificationScreen.jpg" alt="Notifications" style="width:300px;"> <br>
+<img src="assets/chapter4/ExecutionMovil/accountScreen.jpg" alt="Account" style="width:300px;"> <br>
+
+**Para el Embedded** <br>
+Evidencia del sistema embebido funcional, ejecutado en simulador Wokwi.
 <br>
 <img src="assets/chapter4/ExecutionEmbedded.jpg" alt="Contact" > <br>
-Enlace al wowki: https://wokwi.com/projects/433959497821051905
+Enlace al wowki: https://wokwi.com/projects/433959497821051905 <br> 
 Video demostración: https://shorturl.at/SRwq2
 
 #### 6.5.7. Services Documentation Evidence for Sprint Review.
 
-Durante este ultimo Sprint, se llevó a cabo la implementación de los servicios del proyecto utilizando el estándar OpenAPI. Como resultado, se logró completar el backend con éxito, incluyendo la definición detallada de los Endpoints que conforman la funcionalidad integral de la aplicación web, app movil y edge server.
+Durante este ultimo Sprint, se llevó a cabo cambios y mejoras para los servicios del proyecto utilizando el estándar OpenAPI. Como resultado, se logró completar y mejorar el backend con éxito, incluyendo la definición detallada de los Endpoints que conforman la funcionalidad integral de la aplicación web, app movil y edge server.
 
 ### SensorScan
 
@@ -1287,7 +1290,7 @@ Durante este ultimo Sprint, se llevó a cabo la implementación de los servicios
 
 #### 6.5.8. Software Deployment Evidence for Sprint Review.
 
-Para el sprint presentado del Backend,AppMovil,EdgeServer y Embedded se optó por varias herramientas para su desarrollo.
+Para el ultimo sprint presentado del Backend,AppMovil,EdgeServer y Embedded se optó por el uso de las misma herramientas de desarrollo.
 
 - _Git_: Se utilizó para el control de versiones del código fuente.
 - _GitFlow_: Se utilizó para ver el avance de los integrantes del equipo.
@@ -1310,23 +1313,19 @@ El alcance definido para este producto dentro de este Sprint comprende ejecucion
 
 #### 6.5.9. Team Collaboration Insights during Sprint.
 
-Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización del backend,app movil,edge server y embedded :
+Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización y mejoras del backend,app movil,edge server y embedded :
 
 Insights del FrontEnd, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="assets/chapter4/TeamCollaborationMovil.PNG" alt="Contact" >
 <br>
 
 Insights del AppMovil, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="assets/chapter4/TeamCollaborationMovil.PNG" alt="Contact" >
 <br>
 
 Insights del Backend, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="assets/chapter4/TeamCollaborationBackend.PNG" alt="Contact" >
 <br>
 
 Insights del EdgeServer, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="assets/chapter4/TeamCollaborationEdgeServer.PNG" alt="Contact" >
 <br>
 
 Insights del Embedded, donde se muestran los commits realizados al repositorio en el ultimo mes
-<img src="assets/chapter4/TeamCollaborationEmbedded.PNG" alt="Contact" >
+
