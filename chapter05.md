@@ -244,33 +244,46 @@ Aplicación Móvil:
 En esta sección se presentan los wireframes desarrollados para la landing page del proyecto. Cada imagen ilustra la estructura y distribución de las diferentes secciones, incluyendo la página de inicio, características y beneficios, equipo, contacto y el pie de página. Estos wireframes sirvieron como guía visual para validar la organización del contenido y la experiencia de usuario antes de proceder con el diseño final y la implementación.
 
 A continuación, los wireframes realizados para el proyecto:
-**LandingPage Wireframe Inicio**
+<br>
+**LandingPage Wireframe Inicio** <br>
+Representación estructural de la pantalla inicial de la landing page, donde se presenta el valor principal de EduGo. <br>
 <img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
-**LandingPage Wireframe Caracteristicas y beneficios**
+**LandingPage Wireframe Caracteristicas y beneficios** <br>
+Muestra las ventajas del sistema para padres y colegios.<br>
 <img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Caracteristicas y beneficios.png" alt="Web app wireframes 1" style="width:100%;">
-**LandingPage Wireframe Team**
+**LandingPage Wireframe Team** <br>
+Estructura visual de la sección que presenta al equipo de desarrollo o responsables del proyecto. <br>
 <img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-teamweb.png" alt="Web app wireframes 1" style="width:100%;">
-**LandingPage Wireframe Full Team**
+**LandingPage Wireframe Full Team** <br>
+Versión extendida de la sección de equipo, mostrando a todos los miembros y sus roles.<br>
 <img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-teamList.png" alt="Web app wireframes 1" style="width:100%;">
-**LandingPage Wireframe Contacto**
+**LandingPage Wireframe Contacto** <br>
+Diseño de la sección para recolectar consultas atraves de un formulario.<br>
 <img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Contacto.png" alt="Web app wireframes 1" style="width:100%;">
-**LandingPage Wireframe Footer**
+**LandingPage Wireframe Footer** <br>
+Visualización del pie de página que incluye datos de contacto y redes sociales.
 <img src="assets/chapter4/LandingPage-WireFrame/LandingPage-Wireframe-Footer.png" alt="Web app wireframes 1" style="width:100%;">
 
 ### 5.3.2. Landing Page Mock-up.
 Una vez definido el wireframe, aplicamos los estilos definidos previamente en el punto 5.1. (Style Guidelines). A continuación, presentamos los mock-ups realizados para el proyecto:
 
-**LandingPage MockUp Inicio**
+**LandingPage MockUp Inicio**<br>
+Aplicación del branding y estilos visuales en la página de bienvenida, destacando el llamado a la acción. <br>
 <img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Inicio.png" alt="Web app wireframes 1" style="width:100%;">
-**LandingPage MockUp Caracteristicas y beneficios**
+**LandingPage MockUp Caracteristicas y beneficios** <br>
+Diseño final con iconografía y colores que resaltan los beneficios de EduGo. <br>
 <img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Caracteristicas y beneficios.png" alt="Web app wireframes 1" style="width:100%;">
-**LandingPage MockUp Team**
+**LandingPage MockUp Team**<br>
+Vista estilizada de la presentación del equipo de trabajo, respetando las guías de tipografía y espaciado.<br>
 <img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-team y web.png" alt="Web app wireframes 1" style="width:100%;">
-**LandingPage MockUp Full Team**
+**LandingPage MockUp Full Team** <br>
+Diseño visual de la presentación del equipo completo con estructura en tarjetas. <br>
 <img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-teamList.png" alt="Web app wireframes 1" style="width:100%;">
-**LandingPage MockUp Contacto**
+**LandingPage MockUp Contacto** <br>
+Mock-up con estilo definitivo para facilitar la interacción con usuarios que deseen contactarse. <br>
 <img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Contacto.png" alt="Web app wireframes 1" style="width:100%;">
-**LandingPage MockUp Footer**
+**LandingPage MockUp Footer** <br>
+Diseño del pie de página con buena legibilidad y colores de contraste para facilitar el correo y redes sociales. <br>
 <img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Footer.png" alt="Web app wireframes 1" style="width:100%;">
 
 ## 5.4. Applications UX/UI Design.
