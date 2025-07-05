@@ -1107,55 +1107,36 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 **CodeMinds-Mobile-App**:
 | Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
 |-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
-| CodeMinds-Mobile-App | feature/PastTrips| e251fcd1045f2b4b3e66b2b15efa628f5393e15d | feat(feature-pasttrip):Add past trips screen | 13/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| b4a5edac7730a3ed17f411335fd7b0670b297ec2 | fix(feature-pasttrips):Fix past trips screen | 15/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| bff4500b2b92c8451d24fea031455725c2347c4c | feat(past-trips): Refactor PastTripsScreen to use FutureBuilder for dynamic trip loading | 16/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| b3e01c46f0a29514c52cfd7480c515b2c8ad3a00 | feat(home-screen): Convert HomeScreen to StatefulWidget for dynamic past trips display | 16/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| b0c7f5e9e695826e2ace494b21a4ad8e789c98ef | feat(trip): Add Trip class for trip data management | 16/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| 5aad536fe372b4cbd261c79d61fa7b366c6cd919 | feat(trip-repository): Implement TripRepository for trip data management | 16/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| 2ff58126d8c2860b272b3e2e1521d243b73e58a0 | feat(trip-service): Add TripService for managing trip data retrieval and deletion | 16/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| a93a4f46a4f65a88a29bfb35314bc450f461c37a | feat(trip-dto): Add TripDTO and TripUiDto classes for trip data representation | 16/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| 396f1fd88888936af424242762971d47185a622d | fix(app-constants): Correct baseUrl format by adding trailing slash | 16/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| 26af753bc5a0cacb4a3f59183e395df941cfa115 | feat(pubspec): Add intl package for internationalization support | 16/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| 8464c52fe9ab97d50edcec49285b65b8637cca3b | feat(pubspec): Update intl package to version 0.17.0 with direct dev dependency| 16/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| aec87de4063ca12a0567612220c2ec78825eab56 | feat(android-manifest): Add Google Maps API key and location permissions| 18/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| 0398c30585ac69f76b64e8085f718699fc1172f7 | feat(pubspec): Update Dart SDK constraint and add google_maps_flutter and permission_handler dependencies| 18/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| 120f0a842a3be99b73126c5131befe74807eb509 | feat(pubspec): Update Dart SDK constraint and add google_maps_flutter and permission_handler dependencies| 18/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| 8ac6e6d4947a8bfa97010a1ea7ea72077c0d8bfb | feat(trip_map): Add TripMap widget to display routes on Google Maps| 18/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| f44d846f042b4cc5972692d9e162396d048f4b7d | feat(past_trips): Enhance PastTripsScreen with trip location caching and average duration calculation| 18/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| 2324eb14093c62f1904d453a50b1e4e5d3bca614 | Merge remote-tracking branch 'origin/feature/PastTrips' into feature/PastTrips | 18/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| 7c53d4f712d9a25f0ff92220d7d501f646b74c33 | feat(strings): Add Google Maps API key to strings.xml| 18/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| fdb88f2aea3772c4c0b4c9fef4470e76c1dbfdc0 | feat(location): Add Location model with JSON serialization| 18/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| b1f96bf92cb9b654d8c02e5d563bcf3d88c8c8ad | feat(location_dto): Add LocationDTO class for JSON serialization | 18/06/2025 |
-| CodeMinds-Mobile-App | feature/PastTrips| 66f858bdbdcb278c8dfcb536a4fc1a3723eb2ea5 | feat: update past_trips_screen.dart | 18/06/2025 |
-| CodeMinds-Mobile-App | feature/account| 76ed4df647e8316c69ade3ed30c80734f778334c| feat(feature-account):Add account screen | 13/06/2025 |
-| CodeMinds-Mobile-App | feature/account| 798652c6374c31fd925cfea79c1c835109c3a191| feat(feature-account):Add account update screen | 15/06/2025 |
-| CodeMinds-Mobile-App | feature/attendance | 692dbbfbb05a04bd4d4e39e8d7ba39cb3f3cf1bc| feat(feature-attendace):Add attendance screen | 13/06/2025 |
-| CodeMinds-Mobile-App | feature/account| 21f5f5c865cb7817e743e28d49917dea3b3c57a8| fix(feature-attedance):Fix attendance screen | 15/06/2025 |
-| CodeMinds-Mobile-App | feature/children | b401b260f2488472101a1b725e158140940b32fa| feat(feature-children):Add children screen | 13/06/2025 |
-| CodeMinds-Mobile-App | feature/children | 7258bd311491a0ab82b24adc81a4794657ab58ef| feat(feture-children):Add add student screen | 15/06/2025 |
-| CodeMinds-Mobile-App | feature/home | ee3a43ff758b3ceff169e6a494c38256d3028739 | feat(feature-home):Add home screens | 13/06/2025 |
-| CodeMinds-Mobile-App | feature/children | fe2b58f787632b7ea1ce3b379659d2661e622a16 | fix(feature-home):fix home screens | 15/06/2025 | 
-| CodeMinds-Mobile-App | feature/register | c5df430f20df260f7e7b40663ef16d901a8c9e69 | feat(feature-register):Add register screens | 13/06/2025 |
-| CodeMinds-Mobile-App | feature/tracking | cb9c170d63df10419a09d3850b97d25ea70736c0 | feat(feature-tracking):Add Tracking screen | 12/06/2025 |
-| CodeMinds-Mobile-App | feature/tracking  | ed5fa9c8b35395c36d70fa7e722baa12a1df057e | feat(feature-tracking):Add Map screen | 13/06/2025 |
-| CodeMinds-Mobile-App | feature/tracking  | d55d34781579d07f51bdbbe41f8768f696005d84 | fix(feature-tracking):Fix map and tracking screen | 15/06/2025 | 
-| CodeMinds-Mobile-App | feature/real-time-notifications  | cbe9d1c82ccf3ce1dcd9512516d0074bcd1035d4 | feat(develop): add main screen with bottom navigation and screen navigation logic| 06/06/2025 | 
-| CodeMinds-Mobile-App | feature/real-time-notifications  | 1eabf584ef90353bf3155bc65e95f419d1bc340f | feat(develop): add image assets | 06/06/2025 | 
-| CodeMinds-Mobile-App | feature/real-time-notifications  | 133c226a07cea5d068e65a0294a493b18b02883b | feat: add endpoints for notifications by user type and user ID in AppConstants | 06/06/2025 | 
-| CodeMinds-Mobile-App | feature/real-time-notifications  | 53d5583bc9b9e8d268fa46422f3c2c527e31bcf1 | feat: add NotificationDTO for handling API response and mapping to Notification model| 06/06/2025 | 
-| CodeMinds-Mobile-App | feature/real-time-notifications  | 7f72c0b3a3a9c0ab157341e3a2ee32484a8f7dc9 | feat: add Notification model with toJson method for API communication | 06/06/2025 | 
-| CodeMinds-Mobile-App | feature/real-time-notifications  | 359379e21486c93c44102e0a076bf89c3b2c7af1 | feat: add NotificationService for fetching notifications by user type and user ID | 06/06/2025 | 
-| CodeMinds-Mobile-App | feature/real-time-notifications  | a1c1a027504b44427e51b4ecb3599219bf9b205f | feat: add NotificationRepository for mapping DTOs to Notification models | 06/06/2025 | 
-| CodeMinds-Mobile-App | feature/real-time-notifications  | 804978e89c1fb1ddccb578da2a146c2746ff4289 | feat: implement NotificationScreen to fetch and display notifications from API | 06/06/2025 | 
-| CodeMinds-Mobile-App | feature/real-time-notifications  | 11f78b496220cee30424323335739275ae4ce154 | feat: refactor HomeScreen to StatefulWidget and load notifications from API | 06/06/2025 | 
-| CodeMinds-Mobile-App | feature/real-time-notifications  | 4d22f78f7ad1024bec12e8b8c44402f86aec4d9e | feat: refactor notification endpoints to use a base path for improved maintainability | 13/06/2025 | 
-| CodeMinds-Mobile-App | feature/real-time-notifications  | 7adaab9210d48fb9a285e9b6b60a6fb44e556dbf | feat: enhance NotificationDTO to include additional fields and improve JSON serialization | 13/06/2025 | 
-| CodeMinds-Mobile-App | feature/real-time-notifications  | 1bc01605810630d2173db1df8368335589acb11b | feat: expand Notification class to include additional fields and update JSON serialization | 13/06/2025 | 
+| CodeMinds-Mobile-App | feature/home-driver| 6810e399dd800bf6823f2065d4182520d00f6bdc | feat(app_constants): add endpoints for trip management and student tracking | 30/06/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 2482fe5a68e5c32ac54d0f708ef47818613ac661 | feat(trip_service): add methods for trip creation, starting, ending, and student attendance updates | 30/06/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 2549f170afa74644e404f73477c12a03fa18f8f0 | feat(home_driver): implement trip creation, starting, and ending functionality | 30/06/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| fd8ca9bb2a343e703b7938a9c9296dc9a496dc86 | feat(attendance_screen): refactor active trip fetching and student loading logic | 30/06/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 137898b500d5391337c79ddcbe580ee5b3155501 | feat(trip_service): enhance vehicle location fetching with error handling and logging | 01/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 128eeffcc545819720f9147fb2e9065ab14efe8d | feat(tracking_screen): implement vehicle tracking with child selection and location updates | 01/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 8ce19685dbb7240169896d882edb38fd24a29240 | feat(tracking_screen): implement vehicle tracking with child selection and location updates | 01/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| f571a1730a8bfc2d55b14070348401790fa7b01e | feat(pubspec): add provider package for state management | 01/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 2d554e9ece2abbbb4516ac9a4bf660f5ee581196 | feat(main): integrate provider for trip management and enhance app structure | 01/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 5e8b7844c8423740987642228437accb3349bbab | feat(trip_provider): implement TripProvider for managing trip state and driver association | 01/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| adc337fbf417ff5810a85fdc3082145e6b9b5b85 | feat(home_driver): integrate TripProvider for driver trip management and enhance trip controls | 01/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 090a9dc8a91616a2fc6527079b2eecfebccd88eb | feat(trip_management): refactor TripProvider and endpoints for improved trip handling and notifications | 02/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 9816ff4d38f76d412c53ab4cd979fd8f327f1461 | feat(home_driver): make startTime nullable in ActiveTripDTO and improve loading logic in AttendanceScreen | 03/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 2f1e287162e9145224d1bcb974802890f3b29ce7 | feat(trip_provider): add origin and destination addresses to TripState and update trip creation method | 03/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| c5aa11940c41375b62db608d210eef3bef09fc37 | feat(map_screen): integrate Google Maps for trip visualization and enhance route management | 03/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| a71702c8611fc01d9b9eff20f81fe409111911f9 | feat(home_driver): pass origin and destination to createNewTrip method in trip creation | 03/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 9358933edc8fb130661008c16a5c09608de66531 | feat(dependencies): add geocoding package for address handling | 03/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 94b790c7b33ff2f46516872340567f30b421eec9 | fix(app_constants): update trip endpoint paths for consistency | 04/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 0dffa6fda7b49569746be4864e9b2c1f7fa7bee8 | fix(trip_service): update HTTP method and endpoint for starting and ending trips | 04/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 6834367db9cf1535a06a407d9058ca76e74c2d5f | fix(student_service): update student endpoint to remove redundant path segments | 04/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 4f5a4094b69e8327e458e2db06da59bd5260bea4 | refactor(home_driver): clean up comments and improve code readability in home_driver_screen | 04/07/2025 |
 
+**edugo-web-application**:
+| Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
+|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
+| CodeMinds-Mobile-App | feature/home-driver| a08f7957cac0a402a7a1b85ef18ee32ee8c4e3c9 | feat: add calendar and parent view | 01/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| e5a50c3d17c2aca81b6cb3839f2a5c2b1ffd4cbe | feat(feature-add-parents):Add children account and sidebar parent | 02/07/2025 |
+| CodeMinds-Mobile-App | feature/home-driver| 98ae7c607a44ac1147f7bc5ec89023f0d9bc910b | feat: add calendar by driverid | 03/07/2025 |
 
 #### 6.5.5. Testing Suite Evidence for Sprint Review.
-
 | Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
 |-----------------------|--------|------------------------------------------|--------------------------------------------------------|--------------------|
 | CodeMinds-Mobile-App | develop  | b609f3673cd3373b3559fa5621457d45fd834dfc | fix(develop): fix integration   | 22/06/25           |
@@ -1306,6 +1287,11 @@ El alcance definido para este producto dentro de este Sprint comprende ejecucion
 #### 6.5.9. Team Collaboration Insights during Sprint.
 
 Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización del backend,app movil,edge server y embedded :
+
+Insights del FrontEnd, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="assets/chapter4/TeamCollaborationMovil.PNG" alt="Contact" >
+<br>
+
 
 Insights del AppMovil, donde se muestran los commits realizados al repositorio en el ultimo mes
 <img src="assets/chapter4/TeamCollaborationMovil.PNG" alt="Contact" >
