@@ -1103,6 +1103,13 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Backend     | feature/vehicle-tracking | 244b7199c10e954553ae5fbc5895fd3878376562 | feat(student-controller): simplify endpoint mappings in StudentController | 04/07/2025 |
 | CodeMinds-Backend     | feature/vehicle-tracking | 0556dc1339900140d76603231c6defcdba95fa89 | feat(vehicle-tracking): add start and end route endpoints in TripController | 04/07/2025 |
 | CodeMinds-Backend     | feature/vehicle-tracking | 5a4697cc09775a769f71c481b25a04b8484493a1 | feat(wristband-controller): simplify endpoint mappings in WristbandController | 04/07/2025 |
+| CodeMinds-Backend     | feature/home-driver| 4f5a4094b69e8327e458e2db06da59bd5260bea4 | feat: reorganize imports and rename screen files for better structure | 05/07/2025 |
+| CodeMinds-Backend     | develop | 1a8b1aa94c1624419995437dbfdf63f554ba1df7 | refactor: update datasource configuration to use environment variables | 04/07/2025 |
+| CodeMinds-Backend     | develop | c1d7fb4cbbb4d68e8216181b9c95729dbcb871d5 | refactor: update package structure to unify assignment domain models | 06/07/2025 |
+| CodeMinds-Backend     | develop | 1546ac3c71c86e5cf11c5e5a5982a4985671d0b3 | refactor: rename package structure to unify tracking domain models | 06/07/2025 |
+| CodeMinds-Backend     | develop | 595cca25e9d2922f59c0142d554ebdce9fe54159 | refactor: update package structure to unify assignments domain models  | 06/07/2025 |
+| CodeMinds-Backend     | develop | 1b4cb9107785c77fbbc8fde2d4f4582f89872238 | feat: add student lookup methods to AssignmentsContextFacade | 06/07/2025 |
+
 
 **CodeMinds-Mobile-App**:
 | Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
@@ -1128,14 +1135,32 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Mobile-App | feature/home-driver| 0dffa6fda7b49569746be4864e9b2c1f7fa7bee8 | fix(trip_service): update HTTP method and endpoint for starting and ending trips | 04/07/2025 |
 | CodeMinds-Mobile-App | feature/home-driver| 6834367db9cf1535a06a407d9058ca76e74c2d5f | fix(student_service): update student endpoint to remove redundant path segments | 04/07/2025 |
 | CodeMinds-Mobile-App | feature/home-driver| 4f5a4094b69e8327e458e2db06da59bd5260bea4 | refactor(home_driver): clean up comments and improve code readability in home_driver_screen | 04/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 4f5a4094b69e8327e458e2db06da59bd5260bea4 | feat: reorganize imports and rename screen files for better structure | 05/07/2025 |
+| CodeMinds-Mobile-App | develop | 2c8bcc82b8ea68364a4067e7ba8b1e7e53b888c9 | feat: reorganize imports and rename screen files for better structure | 05/07/2025 |
+| CodeMinds-Mobile-App | develop | c9a66f3fe40f047beccda5e398063811b84066b0 | refactor(attendance_screen): rename attendance_screen.dart for improved structure | 05/07/2025 |
+| CodeMinds-Mobile-App | develop | bf3c0f8bc5c00d3eb28abb507cc49ffd705a882f | refactor(children_screen): rename file and update import paths for better organization | 05/07/2025 |
+| CodeMinds-Mobile-App | develop | bd89cad818bfa91e21b15c84cc96d6e546eab583 | refactor(home_parent_screen): update import paths for student and notification modules | 05/07/2025 |
+| CodeMinds-Mobile-App | develop | d3c7f23af2743651d93f3f100c0c57e87ad47d4d | fix(main_screen): update import path for children_screen to reflect new location | 05/07/2025 |
+| CodeMinds-Mobile-App | develop | 40cfeacbb39d334f280e9e5908128c7eac1d4ed7 | refactor(notification): rename notification.dart for improved organization | 05/07/2025 |
+| CodeMinds-Mobile-App | develop | 7740e3d8a44f255523e8fbee854fc0f8d070c2d2 | refactor(notification): rename notification_dto.dart for improved organization | 05/07/2025 |
+| CodeMinds-Mobile-App | develop | 24f2d786fd1fc6c7b495ada70f1fa2c1d219698e | refactor(notification): rename notification_repository.dart for improved organization | 05/07/2025 |
+| CodeMinds-Mobile-App | develop | 3fad4efc70237317553135e6735ed2b338e2e74a | fix(notification_screen): update import paths to reflect new directory structure | 05/07/2025 |
+| CodeMinds-Mobile-App | develop | b3be0574deecb94e52ec7215d5b6b1b41a6e990f | fix: update import paths to reflect new directory structure | 05/07/2025 |
+| CodeMinds-Mobile-App | develop | 062b381a9be0d472a826cb84b2e4d529172f2cad | fix: update import paths to reflect new directory structure | 06/07/2025 |
 
-**edugo-web-application**:
+**edugo-web-applicatio**:
 | Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
 |-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
-| CodeMinds-Mobile-App | feature/home-driver| a08f7957cac0a402a7a1b85ef18ee32ee8c4e3c9 | feat: add calendar and parent view | 01/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| e5a50c3d17c2aca81b6cb3839f2a5c2b1ffd4cbe | feat(feature-add-parents):Add children account and sidebar parent | 02/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 98ae7c607a44ac1147f7bc5ec89023f0d9bc910b | feat: add calendar by driverid | 03/07/2025 |
+| edugo-web-application | feature/home-driver| a08f7957cac0a402a7a1b85ef18ee32ee8c4e3c9 | feat: add calendar and parent view | 01/07/2025 |
+| edugo-web-application | feature/home-driver| e5a50c3d17c2aca81b6cb3839f2a5c2b1ffd4cbe | feat(feature-add-parents):Add children account and sidebar parent | 02/07/2025 |
+| edugo-web-application | feature/home-driver| 98ae7c607a44ac1147f7bc5ec89023f0d9bc910b | feat: add calendar by driverid | 03/07/2025 |
+
+**CodeMinds-Embedded**:
+| Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
+|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
+| CodeMinds-Embedded | deploy | b717e342ce21429b43118ad9752ae48f90621fbd | feat(deploy): add deploy sketch.ino | 24/06/2025 |
+| CodeMinds-Embedded | deploy | b67b6f5cb6dcfb9852bbe5d7ad26e8d2534c6baa | feat(deploy): add deployment sketch for device | 24/06/2025 |
+| CodeMinds-Embedded | deploy | ca6bb5aa54884712fd89ec9e09b4f68ada0fa33d | fix(deploy): implement oop on sketch.ino file | 05/07/2025 |
+| CodeMinds-Embedded | feature/oop-implementation | aa19e9a9141110dbd0eb0f435d9e79553d2842a4 | feat(oop-implementation): implement oop structure | 05/07/2025 |
 
 #### 6.5.5. Testing Suite Evidence for Sprint Review.
 | Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
