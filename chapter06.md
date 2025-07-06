@@ -892,10 +892,10 @@ Augusto encontró la app móvil intuitiva y eficiente, destacando el registro au
 
 | Nivel | Descripción                                                              |
 | ----- | ------------------------------------------------------------------------ |
-| 1     | Problema superficial: fácil de superar, no urgente                       |
-| 2     | Problema menor: ocurre con frecuencia o genera ligera confusión          |
-| 3     | Problema mayor: afecta seriamente la experiencia, debe corregirse pronto |
-| 4     | Problema crítico: impide el uso, debe corregirse antes del lanzamiento   |
+| 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                     |
+| 2     | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase      |
+| 3     | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.   |
 
 ---
 
