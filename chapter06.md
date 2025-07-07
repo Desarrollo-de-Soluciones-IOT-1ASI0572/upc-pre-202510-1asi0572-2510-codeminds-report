@@ -1092,7 +1092,7 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 
 | Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
 |-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
-| CodeMinds-Backend     | feature/get-students-by-driver               | 3e71b4fdab3312ef04ec4e6d86e50735232af7ad | feat: add getlogsbydriverid endpoint and get studentbyparentid      | 05/06/2025            |
+| CodeMinds-Backend     | feature/get-students-by-driver  | 3e71b4fdab3312ef04ec4e6d86e50735232af7ad | feat: add getlogsbydriverid endpoint and get studentbyparentid      | 03/06/2025            |
 | CodeMinds-Backend     | feature/vehicle-tracking | 28e202ce9836786a5e10dfe6bd8e4a054edd827f | feat(vehicle-tracking): add various query and command records for user, profile, and wristband management | 28/06/2025 |
 | CodeMinds-Backend     | feature/vehicle-tracking | 28e202ce9836786a5e10dfe6bd8e4a054edd827f | feat(vehicle-tracking): add trip ID to sensor scan command and related resources | 30/06/2025 |
 | CodeMinds-Backend     | feature/vehicle-tracking | 2b532c5a8314da527cbbad3afe418a09ef63addb | feat(vehicle-tracking): enhance trip creation with student validation and duplicate scan checks | 30/06/2025 |
@@ -1109,7 +1109,13 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Backend     | develop | 1546ac3c71c86e5cf11c5e5a5982a4985671d0b3 | refactor: rename package structure to unify tracking domain models | 06/07/2025 |
 | CodeMinds-Backend     | develop | 595cca25e9d2922f59c0142d554ebdce9fe54159 | refactor: update package structure to unify assignments domain models  | 06/07/2025 |
 | CodeMinds-Backend     | develop | 1b4cb9107785c77fbbc8fde2d4f4582f89872238 | feat: add student lookup methods to AssignmentsContextFacade | 06/07/2025 |
-
+| CodeMinds-Backend     | develop | b96ccf67fc1dc4a10e6250740c24c5a6e27cd120 | refactor(route-controller): replace request body with path variable for start and end route endpoints | 06/07/2025 |
+| CodeMinds-Backend     | develop | c3fa8efb067b945790f991537bd9bfa063f7a86e | refactor(assembler): update StartRouteCommandFromResourceAssembler to accept tripId directly | 06/07/2025 |
+| CodeMinds-Backend     | develop | ec1d66c745d8cd4002dd0360d9010d4e0823b574 | refactor(assembler): update EndRouteCommandFromResourceAssembler to use tripId directly | 06/07/2025 |
+| CodeMinds-Backend     | develop | 51600fdb30464f0cae6792937782c772e13decaf | feat(trip): add status enum | 07/07/2025 |
+| CodeMinds-Backend     | develop | 18c5df3ef2d8186c12a287d7f42a16699074c72c | feat(trip): include trips with status CREATED and IN_PROGRESS for active trips | 07/07/2025 |
+| CodeMinds-Backend     | develop | 04f36313ea8f06ff2d7c7dedc68a5dc6a3795bdd | refactor: restructure project folders | 07/07/2025 |
+| CodeMinds-Backend     | develop | 4294fcfcfe7009a8df613dbae60f44f77af8168d | feat(config): enable custom physical naming strategy for Hibernate | 07/07/2025 |
 
 **CodeMinds-Mobile-App**:
 | Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
@@ -1147,7 +1153,7 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Mobile-App | develop | b3be0574deecb94e52ec7215d5b6b1b41a6e990f | fix: update import paths to reflect new directory structure | 05/07/2025 |
 | CodeMinds-Mobile-App | develop | 062b381a9be0d472a826cb84b2e4d529172f2cad | fix: update import paths to reflect new directory structure | 06/07/2025 |
 
-**edugo-web-applicatio**:
+**edugo-web-application**:
 | Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
 |-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
 | edugo-web-application | feature/home-driver| a08f7957cac0a402a7a1b85ef18ee32ee8c4e3c9 | feat: add calendar and parent view | 01/07/2025 |
@@ -1161,6 +1167,18 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Embedded | deploy | b67b6f5cb6dcfb9852bbe5d7ad26e8d2534c6baa | feat(deploy): add deployment sketch for device | 24/06/2025 |
 | CodeMinds-Embedded | deploy | ca6bb5aa54884712fd89ec9e09b4f68ada0fa33d | fix(deploy): implement oop on sketch.ino file | 05/07/2025 |
 | CodeMinds-Embedded | feature/oop-implementation | aa19e9a9141110dbd0eb0f435d9e79553d2842a4 | feat(oop-implementation): implement oop structure | 05/07/2025 |
+
+**CodeMinds-EdgeServer**:
+| Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
+|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
+| CodeMinds-EdgeServer | feature/develop | 033cedf219fd4d926acf45c9e6e7865ef6b4d3f4 | feat(deployment): add dockerfile for application containerization | 24/06/2025 |
+| CodeMinds-EdgeServer | feature/develop | 7f0c4a9d80a662980606b05c5cbd41dd51f3f6a1 | feat(deployment): add procfile and update requirements for gunicorn and heroku deployment | 24/06/2025 |
+| CodeMinds-EdgeServer | feature/tracking | 5e14beb9d40d4dc036e00f08aa1c0f58bebbb3b5| fix(tracking): fix tracking implementation | 07/07/2025 |
+| CodeMinds-EdgeServer | feature/identity-assignment | fa9df737173d6aaeba052a6da2925847eb148d79 | fix(assignments): fix assignments implementation | 07/07/2025 |
+| CodeMinds-EdgeServer | feature/iam | 498ee04af41aabdd11283beb7e53d9a4a2ab53a0 | fix(iam): fix iam implementation| 07/07/2025 |
+| CodeMinds-EdgeServer | feature/develop | 8f3ef719230264ea996fcd040595234d9f6c9e82 | Merge branch 'feature/iam' into develop | 07/07/2025 |
+| CodeMinds-EdgeServer | feature/develop | 438772924c5c163fe149a5c4b4992f0b43b1e526 | Merge branch 'feature/tracking' into develop | 07/07/2025 |
+| CodeMinds-EdgeServer | feature/develop | 17c8e154df0d17e8e5814035db13aa48b98e2ab8 | Merge branch 'feature/assignments' into develop | 07/07/2025 |
 
 #### 6.5.5. Testing Suite Evidence for Sprint Review.
 | Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
