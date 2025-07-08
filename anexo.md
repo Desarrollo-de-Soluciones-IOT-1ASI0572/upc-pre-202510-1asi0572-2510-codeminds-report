@@ -40,3 +40,6 @@ Enlace: https://shorturl.at/YUbz8
 
 **Video TP1**: Presentación del LandingPage y Frontend<br>
 Enlace:https://acortar.link/DuMSLJ
+
+**Video demostracion dispositivo**: Demostracion dispositivo IoT<br>
+Enlace:https://acortar.link/scHIKJ
