@@ -1218,8 +1218,8 @@ Capturas de la aplicación móvil en funcionamiento, mostrando la interfaz para 
 Evidencia del sistema embebido funcional, ejecutado en simulador Wokwi.
 <br>
 <img src="assets/chapter4/ExecutionEmbedded.jpg" alt="Contact" > <br>
-Enlace al wowki: https://wokwi.com/projects/433959497821051905 <br> 
-Video demostración: https://shorturl.at/SRwq2
+Enlace al wowki: https://wokwi.com/projects/435410335813464065 <br> 
+Video demostración dispositivo IoT: https://acortar.link/scHIKJ
 
 #### 6.5.7. Services Documentation Evidence for Sprint Review.
 
