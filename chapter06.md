@@ -1217,7 +1217,7 @@ Capturas de la aplicación móvil en funcionamiento, mostrando la interfaz para 
 **Para el Embedded** <br>
 Evidencia del sistema embebido funcional, ejecutado en simulador Wokwi.
 <br>
-<img src="assets/chapter4/ExecutionEmbedded.jpg" alt="Contact" > <br>
+<img src="assets/chapter4/ExecutionEmbedded2.PNG" alt="Contact" > <br>
 Enlace al wowki: https://wokwi.com/projects/435410335813464065 <br> 
 Video demostración dispositivo IoT: https://acortar.link/scHIKJ
 
