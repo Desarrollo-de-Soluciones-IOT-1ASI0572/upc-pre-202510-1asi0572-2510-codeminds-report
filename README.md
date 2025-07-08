@@ -336,6 +336,13 @@ develop <br>
 - A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro segundo sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits. <br>
   ![image](https://github.com/user-attachments/assets/9f1466fd-bbed-4247-b0d1-836247af11ef)
   <br>
+
+  #### **Entregable TF1** <br>
+
+- A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro ultimo sprint. Este gráfico ofrece una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits. <br>
+   ![Lean UX Canvas](assets/Collab-Readme.PNG)
+  <br>
+
   El presente informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del informe](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report) <br>
   El landingPage se encuentra guardado en la organización de CodeMinds: [URL del repositorio del LandongPage](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage) <br>
   El FrontEnd informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del Frontend](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/edugo-web-application) <br>
