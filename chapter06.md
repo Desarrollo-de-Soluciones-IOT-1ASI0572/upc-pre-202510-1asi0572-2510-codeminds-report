@@ -1354,13 +1354,7 @@ Para el ultimo sprint presentado del Backend,AppMovil,EdgeServer y Embedded se o
 **Despliegue del Backend**<br>
 Para este Sprint se desplego la aplicacion Backend en heroku, el despliegue de este producto permite el acceso y modificacion de la informacion en la base de datos.
 <img src="assets/chapter4/backend-deployment-heroku.jpg" alt="Backend-deployment" style="width:100%;">
-<br>
 
-**Despliegue del Mobile App**<br>
-El alcance definido para este producto dentro de este Sprint comprende ejecucion local<br>
-
-**Despliegue del Edge Server**<br>
-El alcance definido para este producto dentro de este Sprint comprende ejecucion local<br>
 
 #### 6.5.9. Team Collaboration Insights during Sprint.
 
