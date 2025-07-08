@@ -1367,16 +1367,20 @@ El alcance definido para este producto dentro de este Sprint comprende ejecucion
 Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización y mejoras del backend,app movil,edge server y embedded :
 
 Insights del FrontEnd, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="assets/chapter4/Collab-Web.PNG" alt="Contact" >
 <br>
 
 Insights del AppMovil, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="assets/chapter4/Collab-AppMovilPNG.PNG" alt="Contact" >
 <br>
 
 Insights del Backend, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="assets/chapter4/Collab-Backend.PNG" alt="Contact" >
 <br>
 
 Insights del EdgeServer, donde se muestran los commits realizados al repositorio en el ultimo mes
+<img src="assets/chapter4/CollabEdgServer.PNG" alt="Contact" >
 <br>
 
 Insights del Embedded, donde se muestran los commits realizados al repositorio en el ultimo mes
-
+<img src="assets/chapter4/Collab-Embedded.PNG" alt="Contact" >
