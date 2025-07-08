@@ -1196,7 +1196,7 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 #### 6.5.6. Execution Evidence for Sprint Review.
 **Para el Frontend** <br>
 Visualización del frontend desplegado correctamente. <br>
-<img src="assets/chapter4/ExecutionBackend.PNG" alt="Contact" style="width:100%;"> <br>
+<img src="assets/chapter4/execution-web.PNG" alt="Contact" style="width:100%;"> <br>
 Enlace al front: 
 <br>
 **Para el Backend** <br>
