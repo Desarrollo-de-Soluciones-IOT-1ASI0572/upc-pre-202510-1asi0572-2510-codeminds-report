@@ -1024,15 +1024,15 @@ Enlace: https://acortar.link/TXcxWV
 
 # Leadership and Collaboration Matrix (LACX)
 
-| **Team Member (Last Name, First Name)**   | **GitHub Username** | **Landing Page Development (L/C)** | **Business Logic for Front-End (L/C)** | **Administration Interface (L/C)** | **Data Visualization (L/C)** | **Analytics (L/C)** |
-|-------------------------------------------|---------------------|------------------------------------|----------------------------------------|------------------------------------|------------------------------|---------------------|
-| **Cancho Corilla, Angel Antonio**         | `angerlessdev`      | **L**                              | **C**                                  | **C**                              | **C**                        | **L**               |
-| **Cueto Dominguez, Juan Diego**           | `JDu202012207`      | **C**                              | **L**                                  | **C**                              | **L**                        | **C**               |
-| **Huachaca Advincula, Scott Jacobo**      | `Scott-Huachaca`    | **C**                              | **C**                                  | **L**                              | **C**                        | **C**               |
-| **Ramirez Ramirez, Marcelo Sebastian**    | `MRamirez202210582` | **C**                              | **C**                                  | **C**                              | **C**                        | **L**               |
-| **Del Carmen Martinez Villanueva, Paolo** | `paolomv02`         | **C**                              | **L**                                  | **C**                              | **C**                        | **C**               |
-| **Li Zegarra, Xiao Lian**                 | `XLianLZ`           | **C**                              | **C**                                  | **L**                              | **C**                        | **C**               |
-
+| **Team Member (Last Name, First Name)**   | **GitHub Username** | **Tracking (L/C)** | **Identity Assignment (L/C)** | **IAM (L/C)** | **Profiles Management (L/C)** | **Analytics (L/C)** |**Notifications (L/C)** |
+|-------------------------------------------|---------------------|--------------------|-------------------------------|---------------|-------------------------------|---------------------|------------------------|
+| **Cancho Corilla, Angel Antonio**         | `angerlessdev`      | **C**              | **C**                         | **C**         | **C**                         | **C**               |**L**                   |
+| **Cueto Dominguez, Juan Diego**           | `JDu202012207`      | **C**              | **C**                         | **L**         | **C**                         | **C**               |**C**                   |
+| **Huachaca Advincula, Scott Jacobo**      | `Scott-Huachaca`    | **C**              | **C**                         | **C**         | **C**                         | **L**               |**C**                   |
+| **Ramirez Ramirez, Marcelo Sebastian**    | `MRamirez202210582` | **L**              | **C**                         | **C**         | **C**                         | **C**               |**C**                   |
+| **Del Carmen Martinez Villanueva, Paolo** | `paolomv02`         | **C**              | **C**                         | **C**         | **L**                         | **C**               |**C**                   |
+| **Li Zegarra, Xiao Lian**                 | `XLianLZ`           | **C**              | **L**                         | **C**         | **C**                         | **C**               |**C**                   |
+ 
 
 ### 6.5.3. Sprint Backlog 3.
 
