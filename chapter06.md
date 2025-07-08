@@ -1188,16 +1188,16 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 #### 6.5.5. Testing Suite Evidence for Sprint Review.
 | Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
 |-----------------------|--------|------------------------------------------|--------------------------------------------------------|--------------------|
-| CodeMinds-Mobile-App | develop  | b609f3673cd3373b3559fa5621457d45fd834dfc | fix(develop): fix integration   | 22/06/25           |
-| CodeMinds-BackEnd | main   | 71423d0510e800ab9bd19c5682605187eca70a57 | feat: add endpoint to retrieve completed trips by driver ID   | 22/06/25           |
-| CodeMinds-EdgeServer | feature/identity-assignment   | 8623805ef9f5b6e666e604f55ae182a769f20439 | feat(identity-assignment): add jwt authentication   | 12/06/25           |
-| CodeMinds-Embedded | develop  | f01c049cf69a4a6db3f3cac09a4b73c0ca12f9e1 | Merge pull request #2 from Desarrollo-de-Soluciones-IOT-1ASI0572/feature/rfid-chip   | 22/06/25           |
+| CodeMinds-Backend     | develop | 4294fcfcfe7009a8df613dbae60f44f77af8168d | feat(config): enable custom physical naming strategy for Hibernate | 07/07/2025 |
+| CodeMinds-Mobile-App | develop | 062b381a9be0d472a826cb84b2e4d529172f2cad | fix: update import paths to reflect new directory structure | 06/07/2025 |
+| CodeMinds-Embedded | feature/oop-implementation | aa19e9a9141110dbd0eb0f435d9e79553d2842a4 | feat(oop-implementation): implement oop structure | 05/07/2025 |
+| CodeMinds-EdgeServer | feature/develop | 17c8e154df0d17e8e5814035db13aa48b98e2ab8 | Merge branch 'feature/assignments' into develop | 07/07/2025 |
 
 #### 6.5.6. Execution Evidence for Sprint Review.
 **Para el Frontend** <br>
 Visualización del frontend desplegado correctamente. <br>
 <img src="assets/chapter4/execution-web.PNG" alt="Contact" style="width:100%;"> <br>
-Enlace al front: 
+Enlace al front: https://edugo-frontend.web.app/sign-in 
 <br>
 **Para el Backend** <br>
 Visualización del back desplegado correctamente. <br>
