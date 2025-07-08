@@ -1195,12 +1195,6 @@ Visualización del frontend desplegado correctamente. <br>
 Enlace al front: 
 <br>
 <br>
-**Para el backend** <br>
-Visualización del backend desplegado correctamente, con acceso a la documentación Swagger. <br>
-<img src="assets/chapter4/ExecutionBackend.PNG" alt="Contact" style="width:100%;"> <br>
-Enlace al backend: https://edugo-service-de983aa97099.herokuapp.com/swagger-ui/index.html
-<br>
-<br>
 **Para el AppMovil** <br>
 Capturas de la aplicación móvil en funcionamiento, mostrando la interfaz para padres y funcionalidades clave.
 <br>
@@ -1219,7 +1213,14 @@ Video demostración: https://shorturl.at/SRwq2
 
 #### 6.5.7. Services Documentation Evidence for Sprint Review.
 
-Durante este ultimo Sprint, se llevó a cabo cambios y mejoras para los servicios del proyecto utilizando el estándar OpenAPI. Como resultado, se logró completar y mejorar el backend con éxito, incluyendo la definición detallada de los Endpoints que conforman la funcionalidad integral de la aplicación web, app movil y edge server.
+Durante este ultimo Sprint, se llevó a cabo cambios y mejoras para los servicios del proyecto utilizando el estándar OpenAPI. Como resultado, se logró completar y mejorar el backend con éxito, incluyendo la definición detallada de los Endpoints que conforman la funcionalidad integral de la aplicación web, app movil y edge server. <br>
+
+Visualización del backend desplegado correctamente, con acceso a la documentación Swagger. <br>
+<img src="assets/chapter4/ExecutionBackend.PNG" alt="Contact" style="width:100%;"> <br>
+Enlace al backend: https://edugo-service-de983aa97099.herokuapp.com/swagger-ui/index.html
+<br>
+
+La siguiente tabla muestra la relación de los Endpoints documentados, las acciones implementadas, los verbos HTTP utilizados y los enlaces a la documentación correspondiente. Para cada acción, se especifican la sintaxis de llamada, los posibles parámetros, ejemplos de requests/responses y una explicación detallada.
 
 ### SensorScan
 
