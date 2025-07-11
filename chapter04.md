@@ -91,23 +91,23 @@ En esta fase se identifican y estructuran los agregados dentro de cada contexto 
 
 En esta parte, se describe cómo, a partir del modelo generado mediante EventStorming, se llevó a cabo la sesión de descubrimiento de contextos candidatos (Candidate Context Discovery). El objetivo de esta sesión fue identificar los bounded contexts del sistema. Para ello, se utilizó la técnica Start-with-Simple, que consiste en descomponer el modelo en pasos secuenciales y mantener un enfoque simple que permita ir refinando los contextos a medida que surjan nuevas necesidades.
 
-Al final, obtuvimos 5 bounded context, que son:
+Al final, obtuvimos 6 bounded context, que son:
 
-![identity](assets/chapter4/identity.jpg)
+![identity](assets/chapter4/assignment.jpg)
 
 ![iam](assets/chapter4/iam.jpg)
 
 ![analytics](assets/chapter4/analytics.jpg)
 
-![tracking](assets/chapter4/tracking.jpg)
+![tracking](assets/chapter4/tracking.png)
 
 ![notification](assets/chapter4/notification.jpg)
 
-![notification](assets/chapter4/profile.jpg)
+![notification](assets/chapter4/profile.png)
 
 Lo que queda de la siguiente manera:
 
-![step10](assets/chapter4/step10.jpg)
+![step10](assets/chapter4/step10bc.png)
 
 Link al miro: https://shorturl.at/3zSGc
 
