@@ -863,6 +863,25 @@ Eduardo, practicante de Ingenieria de Software de 23 años de Chorrillos, esta a
 
 Augusto encontró la app móvil intuitiva y eficiente, destacando el registro automático con RFID y el contador de estudiantes en tiempo real. Valoró las alertas de seguridad durante la conducción y la interfaz sencilla. Sugirió mejoras como modo offline para zonas sin conexión y botón de emergencia más accesible. Resaltó que la app mejora la comunicación con padres al notificarles sobre sus hijos en tiempo real. Concluyó que adoptaría el sistema por su practicidad y seguridad, requiriendo mínima capacitación.
 
+#### Entrevista 4
+
+**Identificación del entrevistado**
+
+- **Nombre completo:** Nicole Pomacaja
+- **Edad:** 42 años
+- **Distrito de residencia:** Villa maria del triunfo
+- **Ocupación:** Ama de casa
+
+**Referencia audiovisual**
+
+- **Screenshot:**
+
+![entrevista nicole](assets/chapter4/ExecutionMovil/NicolePomacaja.png)
+
+- **Timecode inicio / duración:** `00:02:10/00:05:34`
+
+Nicole, ama de casa de 42 años de edad, valora especialmente la seguridad y comunicación con respecto al traslado de sus hijos al colegio. Tras conocer la app, resaltó lo útil que le resulta recibir notificaciones en tiempo real sobre el embarque y llegada de los niños. Destacó la facilidad de uso de la interfaz, incluso para personas con poca experiencia tecnológica. Considera que el uso de pulseras RFID brinda tranquilidad al confirmar que su hijo subió al transporte. Le parecio que no hay mucho que agregar en la app y califica el sistema de manera positiva, afirmando que lo usaría sin dudarlo por la seguridad y el control que ofrece como madre.
+
 ### 6.3.3. Evaluaciones según heurísticas.
 # Evaluación Heurística – Aplicación de Transporte Escolar Inteligente
 
