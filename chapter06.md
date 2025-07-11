@@ -159,6 +159,7 @@ A lo largo de esta sección, explicamos cómo hemos abordado cada fase del ciclo
 ### 6.2.1. Sprint 1
 
 #### 6.2.1.1. Sprint Planning 1.
+En esta primera planificación se establecieron los objetivos iniciales del proyecto y se organizaron las tareas prioritarias para iniciar el desarrollo. Se definieron los primeros entregables y se distribuyeron responsabilidades entre los integrantes del equipo.
 
 | Sprint #                                 | Sprint 1                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -176,6 +177,7 @@ A lo largo de esta sección, explicamos cómo hemos abordado cada fase del ciclo
 | Sum of Story Points                      | 16 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 #### 6.2.1.2. Aspect Leaders and Collaborators.
+Se asignaron responsabilidades según el área de desarrollo, distribuyendo roles de liderazgo (L) y colaboración (C) entre los integrantes del equipo para asegurar el cumplimiento de los entregables priorizados.
 
 # Leadership and Collaboration Matrix (LACX)
 
@@ -189,6 +191,7 @@ A lo largo de esta sección, explicamos cómo hemos abordado cada fase del ciclo
 | **Li Zegarra, Xiao Lian**                 | `XLianLZ`           | **C**                              | **C**                                  | **L**                              | **C**                        | **C**               |
 
 #### 6.2.1.3. Sprint Backlog 1.
+Este sprint contempló tareas enfocadas en la creación de la Landing Page y en la implementación de la navegación básica de la aplicación web. Todo el trabajo fue gestionado y versionado en los repositorios correspondientes como parte del control del desarrollo.
 
 # Sprint 1
 
@@ -203,8 +206,7 @@ A lo largo de esta sección, explicamos cómo hemos abordado cada fase del ciclo
 | HU53       | Formulario de Contacto                               | TA06             | Formulario                            | Desarrollo de formulario con campos de contacto(nombre, correo, mensaje, etc.)        | 2 horas            | Marcelo Ramirez              | Done                                           |
 
 #### 6.2.1.4. Development Evidence for Sprint Review.
-
-Para este primer sprint se decidió trbajar en una rama diferente para después unirlo todo en develop. Cada miembro ha realizado un commit para luego hacer merge.
+Para este primer sprint se decidió trabajar en una rama diferente para después unirlo todo en develop. Cada miembro ha realizado un commit para luego hacer merge.
 
 | Repository            | Branch                          | Commit ID                                | Commit Message                                                        | Committed on(date)    |
 | --------------------- | ------------------------------- | ---------------------------------------- | --------------------------------------------------------------------- | --------------------- |
@@ -240,6 +242,7 @@ Para este primer sprint se decidió trbajar en una rama diferente para después 
 | edugo-web-application | feature/add-reports-table       | 43f8f6d6c076908c8f2bccd7541ab074417ce025 | feat(add-reports-table): add reports table                            | 16/05/25              |
 
 #### 6.2.1.5. Testing Suite Evidence for Sprint Review.
+Durante este sprint se registraron evidencias de pruebas a través de los commits realizados en los repositorios correspondientes. Estas pruebas permitieron verificar el correcto funcionamiento de los componentes desarrollados, como la estructura de la Landing Page y la navegación en la aplicación web. Los cambios fueron documentados y versionados como parte del control de calidad del desarrollo.
 
 | Repository            | Branch | Commit ID                                | Commit Message                                         | Committed on(date) |
 | --------------------- | ------ | ---------------------------------------- | ------------------------------------------------------ | ------------------ |
@@ -251,10 +254,12 @@ Para este primer sprint se decidió trbajar en una rama diferente para después 
 Para el logro de este proyecto, se realizó el despliegue tanto de la Landing Page, como la primera versión de la aplicación web, las cuales se encuentran en los siguientes enlaces a continuación:
 
 **Para el landing page**
+Se muestra la interfaz principal de la página de aterrizaje, diseñada para presentar el servicio de forma clara, accesible y con un enfoque visual enfocado en captar la atención del usuario.
 <img src="assets/chapter4/Execution-LandingPage.PNG" alt="Contact" style="width:100%;">
 Enlace a la Landing Page: https://shorturl.at/gUWFP
 
 **Para la aplicación web**
+Se visualiza la pantalla de inicio de sesión de la aplicación web, como parte del módulo de autenticación desarrollado en esta primera versión funcional.
 <img src="assets/chapter4/frontend-execution.PNG" alt="Contact" style="width:100%;">
 Enlace al FrontEnd: https://edugo-web-app.web.app/sign-in
 
@@ -309,6 +314,8 @@ Insights del FrontEnd, donde se muestran los commits realizados al repositorio e
 ### 6.2.2. Sprint 2
 
 #### 6.2.2.1. Sprint Planning 2.
+En esta segunda planificación se definieron nuevos objetivos orientados a expandir las funcionalidades del sistema, incluyendo mejoras en la página web empresarial, el desarrollo inicial de la aplicación embebida, la integración con el nodo Edge, el diseño del backend, y el avance en la aplicación móvil. Se establecieron las tareas clave, se organizó la carga de trabajo entre los integrantes y se proyectaron entregables que consolidan la arquitectura general del proyecto.
+
 
 | Sprint #                                 | Sprint 2                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -326,6 +333,7 @@ Insights del FrontEnd, donde se muestran los commits realizados al repositorio e
 | Sum of Story Points                      | 65 Story Points                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
 #### 6.2.2.2. Aspect Leaders and Collaborators.
+En este sprint se asignaron roles específicos de liderazgo y colaboración a los miembros del equipo según los componentes clave del sistema. Esta matriz permitió organizar de forma eficiente las responsabilidades técnicas y asegurar el avance coordinado de cada módulo funcional.
 
 # Leadership and Collaboration Matrix (LACX)
 
@@ -339,6 +347,7 @@ Insights del FrontEnd, donde se muestran los commits realizados al repositorio e
 | **Li Zegarra, Xiao Lian**                 | `XLianLZ`           | **C**                              | **C**                                  | **L**                              | **C**                        | **C**               |
 
 #### 6.2.2.3. Sprint Backlog 2.
+En este sprint se abordaron múltiples historias de usuario orientadas a la funcionalidad del sistema completo. Las tareas incluyeron el desarrollo de la interfaz móvil, notificaciones, seguimiento en tiempo real, manejo de rutas, seguridad, integración con el backend y visualización de datos. Cada tarea fue asignada a un responsable y gestionada mediante estimaciones horarias, permitiendo un seguimiento detallado del progreso del equipo.
 
 # Sprint 2
 
@@ -395,7 +404,7 @@ Insights del FrontEnd, donde se muestran los commits realizados al repositorio e
 
 #### 6.2.2.4. Development Evidence for Sprint Review.
 
-Para este segunfo sprint se decidió trbajar en ramas diferente para después unirlo todo en develop. Cada miembro ha realizado un commit para luego hacer merge.
+Para este segundo sprint se decidió trabajar en ramas diferente para después unirlo todo en develop. Cada miembro ha realizado un commit para luego hacer merge.
 
 **CodeMinds-Backend**:
 
@@ -617,7 +626,6 @@ Evidencia de desarrollo del módulo embebido, con commits de simulación de GPS 
 | CodeMinds-Embedded | feature/rfid-chip | eef26dbcb3104da47a65a965e65dd9f0f8e2f1d5 | fix(rfid-chip): delete gps functions                                              | 22/06/2025         |
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
-
 Evidencia de pruebas realizadas durante el sprint para verificar la integración, autenticación y funcionamiento de endpoints y módulos embebidos, asegurando la calidad y correcto desempeño del sistema.
 
 | Repository           | Branch                      | Commit ID                                | Commit Message                                                                     | Committed on(date) |
@@ -632,14 +640,15 @@ Evidencia de pruebas realizadas durante el sprint para verificar la integración
 Evidencia de la ejecución del sistema desplegado y en funcionamiento, demostrando que los componentes backend y móvil operan correctamente y cumplen con los requisitos del sprint.
 
 **Para el Backend** <br>
-Visualización del back desplegado correctamente. <br>
+Se muestra la correcta implementación y despliegue del backend, el cual permite gestionar los datos de la plataforma y habilita las funcionalidades centrales como la autenticación, almacenamiento y visualización de información. <br>
 <img src="assets/chapter4/ExecutionBackend.PNG" alt="Contact" style="width:100%;"> <br>
 Enlace al backend: https://rb.gy/3ezqme
 <br>
 <br>
 **Para el AppMovil** <br>
-Capturas de la aplicación móvil en funcionamiento, mostrando la interfaz para padres y funcionalidades clave.
+La aplicación móvil fue desarrollada con una interfaz centrada en el usuario padre de familia. Las capturas evidencian las pantallas clave del sistema: inicio, listado de estudiantes, información individual, notificaciones y cuenta. Esto valida la integración con el backend y el correcto funcionamiento de las funcionalidades implementadas.
 <br>
+
 <img src="assets/chapter4/ExecutionMovil/HomeParent.jpg" alt="Home" style="width:300px;"> <br>
 <img src="assets/chapter4/ExecutionMovil/childrenScreen.jpg" alt="Children Screen" style="width:300px;"> <br>
 <img src="assets/chapter4/ExecutionMovil/childrenInformation.jpg" alt="Children Info" style="width:300px;"> <br>
