@@ -1,6 +1,10 @@
 ﻿# Capítulo V: Solution UI/UX Design
 
+Este capítulo presenta el diseño de la experiencia de usuario (UX) y la interfaz de usuario (UI) de la solución, con el objetivo de asegurar una interacción fluida, intuitiva y visualmente coherente en todos los puntos de contacto con el usuario. A través de un enfoque centrado en el usuario, se definen lineamientos visuales, estructuras de navegación y prototipos que guían la implementación de una experiencia digital accesible, funcional y atractiva.
+
 ## 5.1. Style Guidelines.
+
+En esta sección se definen las directrices de estilo visual que regirán el diseño de la interfaz de usuario en los diferentes entornos donde estará presente la solución. Estas guías aseguran coherencia estética, usabilidad y reconocimiento de marca a lo largo de todas las plataformas y dispositivos.
 
 ### 5.1.1. General Style Guidelines.
 
@@ -128,6 +132,8 @@ Para la visualización o gestión desde interfaces IoT (pantallas embebidas, das
 - **Iconografía clara:** Íconos minimalistas con etiquetas visibles.
 
 ## 5.2. Information Architecture.
+
+En esta sección se aborda la estructura y organización de la información dentro de la solución, buscando facilitar la comprensión, navegación y acceso eficiente a los contenidos por parte de los usuarios. Una arquitectura de información bien diseñada es clave para ofrecer una experiencia intuitiva y reducir la carga cognitiva durante la interacción.
 
 ## 5.2.1. Organization Systems
 
@@ -300,6 +306,8 @@ Diseño del pie de página con buena legibilidad y colores de contraste para fac
 <img src="assets/chapter4/LadingPage-MockUp/LandingPage-MockUp-Footer.png" alt="Web app wireframes 1" style="width:100%;">
 
 ## 5.4. Applications UX/UI Design.
+
+Esta sección está dedicada al diseño de la experiencia de usuario (UX) y la interfaz de usuario (UI) de las aplicaciones que conforman la solución. El objetivo es crear interfaces funcionales, accesibles y visualmente coherentes que respondan a las necesidades y expectativas de los usuarios finales.
 
 ### 5.4.1. Applications Wireframes.
 

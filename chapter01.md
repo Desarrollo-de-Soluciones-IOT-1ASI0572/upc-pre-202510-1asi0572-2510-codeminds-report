@@ -1,6 +1,10 @@
 ﻿# Capítulo I: Introducción
 
+Este capítulo inicial tiene como objetivo contextualizar el nacimiento y la orientación de EduGo. Se plantea una mirada general al propósito que impulsa el proyecto, explicando su razón de ser a través de una visión a futuro y una misión clara. Además, se abordan los principios fundamentales que inspiran su cultura interna. Se expone también cómo surge la iniciativa y qué problemática busca resolver, detallando la solución propuesta y aquello que la hace destacar frente a otras opciones del mercado. A lo largo del capítulo, se explica la metodología centrada en el usuario que se ha elegido para el desarrollo —basada en los principios del enfoque Lean UX— permitiendo adaptaciones ágiles y efectivas. Finalmente, se identifican los perfiles de usuarios a los que está orientado EduGo, explorando sus necesidades, motivaciones y el porqué de su elección como público objetivo. Este contenido proporciona una comprensión integral de la propuesta, sentando las bases para profundizar en los siguientes apartados del documento.
+
 ## 1.1. Startup Profile
+
+En esta sección se presenta el perfil general de la startup, proporcionando una visión clara de su origen, propósito y propuesta de valor. Se describe el contexto en el que surge la iniciativa, los problemas detectados en el entorno actual y las motivaciones que impulsaron la creación del proyecto.
 
 ### 1.1.1. Descripción de la Startup
 
