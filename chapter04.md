@@ -1,6 +1,10 @@
 ﻿# Capítulo IV: Solution Software Design
 
+Este capítulo presenta el diseño integral de la solución de software, estructurado bajo los principios del Domain-Driven Design (DDD) tanto a nivel estratégico como táctico. El objetivo es garantizar que la arquitectura del sistema refleje fielmente las necesidades del dominio y facilite su evolución de forma coherente, modular y alineada con los objetivos del negocio.
+
 ## 4.1. Strategic-Level Domain-Driven Design.
+
+En esta sección se desarrolla el diseño estratégico de la solución aplicando los principios del Domain-Driven Design (DDD) a un nivel macro. El enfoque estratégico permite entender el dominio desde una perspectiva holística, identificando los límites naturales dentro del sistema y estableciendo divisiones claras que faciliten la organización modular del software.
 
 ### 4.1.1. EventStorming.
 

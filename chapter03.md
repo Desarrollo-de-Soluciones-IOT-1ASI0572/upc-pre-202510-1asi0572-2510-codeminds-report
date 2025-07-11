@@ -1,5 +1,7 @@
 ﻿# Capítulo III: Requirements Specification
 
+En este capítulo se transforma el conocimiento obtenido durante la fase de análisis en una especificación estructurada y accionable, que servirá como guía para el diseño, desarrollo e implementación de la solución. A través de diferentes herramientas y artefactos, se define con mayor precisión lo que el producto debe hacer, cómo debe comportarse y qué valor debe entregar.
+
 ## 3.1. To-Be Scenario Mapping.
 
 En esta sección, se presenta la situación ideal de nuestros usuarios, donde se modifica el As-Is Scenario Mapping para compararlo con el uso de nuestra aplicación y mejorar sus aspectos negativos. De esta forma, destacar las mejoras potenciales en la experiencia del usuario que brinda nuestro software.
