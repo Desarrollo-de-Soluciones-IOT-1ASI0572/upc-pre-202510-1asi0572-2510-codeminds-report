@@ -167,7 +167,7 @@ El mapa de contexto ilustra las relaciones clave entre los diferentes contextos 
   - "Vehicle Tracking" provee servicios a "Analytics Soporte".
   - "Notification Soporte" provee servicios a "Analytics Soporte".<br><br>
 
-![ContextMapping](assets/chapter4/ContextMapping.PNG)
+![ContextMapping](assets/chapter4/contextmappingfixed.jpg)
 
 ### 4.1.3. Software Architecture.
 
