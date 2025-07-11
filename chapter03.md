@@ -8,11 +8,11 @@ En esta sección, se presenta la situación ideal de nuestros usuarios, donde se
 
 ### To-Be Scenario Mapping – User Persona: Padre de Familia
 
-![toBePadre](assets/chapter3/to-be_scenario_map_padre.png)
+<img src="assets/chapter3/to-be_scenario_map_padre.png" alt="To-Be Scenario Map Padre de Familia" style="width: 70%; max-width: 500px;">
 
 ### To-Be Scenario Mapping – User Persona: Conductor
 
-![toBeConductor](assets/chapter3/to-be_scenarip_map_conductor.png)
+<img src="assets/chapter3/to-be_scenarip_map_conductor.png" alt="To-Be Scenario Map Conductor" style="width: 70%; max-width: 500px;">
 
 ## 3.2. User Stories.
 
