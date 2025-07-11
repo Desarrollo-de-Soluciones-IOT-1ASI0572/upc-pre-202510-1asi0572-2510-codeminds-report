@@ -1,5 +1,7 @@
 # Capítulo II: Requirements Elicitation & Analysis
 
+Este capítulo aborda el proceso de levantamiento y análisis de requisitos, una etapa crucial para asegurar que la solución propuesta responda efectivamente a las necesidades reales de los usuarios y se diferencie en el mercado. A través de un enfoque estructurado y centrado en el usuario, se exploran diversas técnicas y herramientas que permiten identificar de forma precisa los requerimientos funcionales y no funcionales del sistema.
+
 ## 2.1. Competidores.
 
 A continuación se presentan los competidores principales en el mercado de aplicaciones para transporte escolar, destacando sus características y funcionalidades clave:
