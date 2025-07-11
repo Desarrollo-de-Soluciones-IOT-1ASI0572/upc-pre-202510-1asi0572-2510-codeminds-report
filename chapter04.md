@@ -137,11 +137,11 @@ Se crearon los Canvases en base a los Bounded Context definidos anteriormente
 
 ###### Identity Assignment Canvas
 
-![IdentityAssignmentCanvas](assets/chapter4/bccanvas-identity-assignment.jpg)
+![IdentityAssignmentCanvas](assets/chapter4/assignmentbd-canvas.jpg)
 
 ###### Vehicle Tracking Canvas
 
-![VehicleTrackingCanvas](assets/chapter4/bccanvas-vehicule-tracking.PNG)
+![VehicleTrackingCanvas](assets/chapter4/trackingbc-canvas.jpg)
 
 ###### Notification Canvas
 
@@ -153,7 +153,7 @@ Se crearon los Canvases en base a los Bounded Context definidos anteriormente
 
 ###### Profile Assignment Canvas
 
-![AnalyticsCanvas](assets/chapter4/ProfileCanvas.jpg)
+![AnalyticsCanvas](assets/chapter4/profilebc-canvas.jpg)
 
 ### 4.1.2. Context Mapping.
 
