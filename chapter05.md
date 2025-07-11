@@ -561,11 +561,11 @@ Tanto el padre como el conductor acceden a su perfil desde la app móvil y selec
 En esta sección se presentan los prototipos interactivos de las aplicaciones, que permiten visualizar y probar la experiencia de usuario antes del desarrollo final. Incluye enlaces a prototipos navegables para las versiones web y móvil.
 
 **Web Application :** <br>
+El prototipo de la aplicación web muestra la estructura general de navegación, el diseño de las principales vistas y las funcionalidades clave que tendrá la plataforma en su versión de escritorio. Permite simular el flujo de navegación de los usuarios y visualizar cómo interactúan con los distintos módulos del sistema.
 <img src="assets/chapter4/WebApp-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
-<br>
 Enlace al prototipo de la aplicación web: https://shorturl.at/hS4i2
 
 **App Movil :** <br>
+El prototipo de la aplicación móvil está diseñado para mostrar la experiencia del usuario en dispositivos Android o iOS. Incluye las pantallas más representativas como la pantalla de inicio, búsqueda, resultados y detalles. Este prototipo permite evaluar la usabilidad y accesibilidad de la aplicación desde el punto de vista móvil, asegurando una experiencia intuitiva y fluida.
 <img src="assets/chapter4/AppMovil-Prototype.PNG" alt="Web app wireframes 1" style="width:100%;">
-<br>
 Enlace al protitpo de la aplicación movil: https://shorturl.at/2Ohhx
