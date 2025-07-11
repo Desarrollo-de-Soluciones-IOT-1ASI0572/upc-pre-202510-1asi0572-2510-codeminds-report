@@ -580,37 +580,45 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Mobile-App | feature/real-time-notifications | 1bc01605810630d2173db1df8368335589acb11b | feat: expand Notification class to include additional fields and update JSON serialization | 13/06/2025 |
 
 **CodeMinds-EdgeServer**:
-| Repository | Branch | Commit ID | Commit Message | Committed on(date) |
-|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
-| CodeMinds-EdgeServer | feature/iam | 4c15e26c746e0772e47eaf2a52a6cb04d0851c02 | feat(iam): initialize database setup with sqlite and rfid event model for iam context | 14/06/2025 |
-| CodeMinds-EdgeServer | feature/iam | 6571170cb2fa918c94a559225ef4608f76cdc768 | feat(iam): add implementation of rfid event model and device registration service | 14/06/2025 |
-| CodeMinds-EdgeServer | feature/iam | 49d36ee1be8294c15b104c761a6e5639f92cd59c | feat(app): add main application file setting up iam configurations and initialize database on first request | 14/06/2025 |
-| CodeMinds-EdgeServer | feature/iam | 2d692e62a9ff34729e21b5f2de61569f4171c7a8 | feat(database): update database initialization to create device model table and change database name | 14/06/2025 |
-| CodeMinds-EdgeServer | feature/iam | 1e16640a23b46c9b2edefeae137f0d52e6e50fcc | feat(iam): add more endpoints to the services and redefine device model with additional attributes and methods for registration | 14/06/2025 |
-| CodeMinds-EdgeServer | feature/tracking | ea890c0acab9f5572240fa1878ac33c71740e8ac | feat(feature-tracking):Add application services | 14/06/2025 |
-| CodeMinds-EdgeServer | feature/tracking | be81111c41f467a51818dd669413fe31027f595b | feat(feature-tracking):Add domain entities and services | 14/06/2025 |
-| CodeMinds-EdgeServer | feature/tracking | 2cb01755f6268d2d4d3a32787f81be8eae13029c | feat(feature-tracking):Add infrastructure model and repositorie | 14/06/2025 |
-| CodeMinds-EdgeServer | feature/tracking | 1e05901eb27d2bd52e84c43b18e767c5ae1f5f28 | feat(feature-tracking):Add interfaces services | 14/06/2025 |
-| CodeMinds-EdgeServer | feature/tracking | a5c899123ab7790695c1b74a1e7004328903942a | feat(feature-tracking):Add database | 14/06/2025 |
-| CodeMinds-EdgeServer | feature/tracking | 6fe4c2a5f09afb6725d64cde35536aebe6e4e96b | feat(tracking): add get request | 21/06/2025 |
-| CodeMinds-EdgeServer | feature/identity-assignment | af84353395f25f6bfd6f5642129b94d16475c336 | feat(scan): implement sensor scan API and add student and wristband models | 21/06/2025 |
-| CodeMinds-EdgeServer | feature/identity-assignment | f291a6328c13d138d851fed134f5739feb309b65 | feat(identity-assignment): add validate api key | 21/06/2025 |
-| CodeMinds-EdgeServer | feature/identity-assignment | cbfb54a495897881ae49705630581a08578d1b71 | refactor(entities, models, repositories, services): simplify class docstrings and improve code readability | 21/06/2025 |
-| CodeMinds-EdgeServer | feature/identity-assignment | 9551ae54b8424edbd92be8db8dc48f90ca5c53b0 | feat(scan): add endpoint to retrieve all sensor scan records and update app run configuration | 21/06/2025 |
-| CodeMinds-EdgeServer | feature/identity-assignment | 1a1c62ce50066f5b2542764a9f95140911f69c2d | refactor(scan): enhance scan processing service with improved error handling and logging | 21/06/2025 |
-| CodeMinds-EdgeServer | feature/identity-assignment | 8623805ef9f5b6e666e604f55ae182a769f20439 | feat(identity-assignment): add jwt authentication |22/06/2025 |
+
+Evidencia de desarrollo del EdgeServer, con commits de funcionalidades de rastreo, identidad y autenticación.
+
+| Repository           | Branch                      | Commit ID                                | Commit Message                                                                                                                  | Committed on(date) |
+| -------------------- | --------------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| CodeMinds-EdgeServer | feature/iam                 | 4c15e26c746e0772e47eaf2a52a6cb04d0851c02 | feat(iam): initialize database setup with sqlite and rfid event model for iam context                                           | 14/06/2025         |
+| CodeMinds-EdgeServer | feature/iam                 | 6571170cb2fa918c94a559225ef4608f76cdc768 | feat(iam): add implementation of rfid event model and device registration service                                               | 14/06/2025         |
+| CodeMinds-EdgeServer | feature/iam                 | 49d36ee1be8294c15b104c761a6e5639f92cd59c | feat(app): add main application file setting up iam configurations and initialize database on first request                     | 14/06/2025         |
+| CodeMinds-EdgeServer | feature/iam                 | 2d692e62a9ff34729e21b5f2de61569f4171c7a8 | feat(database): update database initialization to create device model table and change database name                            | 14/06/2025         |
+| CodeMinds-EdgeServer | feature/iam                 | 1e16640a23b46c9b2edefeae137f0d52e6e50fcc | feat(iam): add more endpoints to the services and redefine device model with additional attributes and methods for registration | 14/06/2025         |
+| CodeMinds-EdgeServer | feature/tracking            | ea890c0acab9f5572240fa1878ac33c71740e8ac | feat(feature-tracking):Add application services                                                                                 | 14/06/2025         |
+| CodeMinds-EdgeServer | feature/tracking            | be81111c41f467a51818dd669413fe31027f595b | feat(feature-tracking):Add domain entities and services                                                                         | 14/06/2025         |
+| CodeMinds-EdgeServer | feature/tracking            | 2cb01755f6268d2d4d3a32787f81be8eae13029c | feat(feature-tracking):Add infrastructure model and repositorie                                                                 | 14/06/2025         |
+| CodeMinds-EdgeServer | feature/tracking            | 1e05901eb27d2bd52e84c43b18e767c5ae1f5f28 | feat(feature-tracking):Add interfaces services                                                                                  | 14/06/2025         |
+| CodeMinds-EdgeServer | feature/tracking            | a5c899123ab7790695c1b74a1e7004328903942a | feat(feature-tracking):Add database                                                                                             | 14/06/2025         |
+| CodeMinds-EdgeServer | feature/tracking            | 6fe4c2a5f09afb6725d64cde35536aebe6e4e96b | feat(tracking): add get request                                                                                                 | 21/06/2025         |
+| CodeMinds-EdgeServer | feature/identity-assignment | af84353395f25f6bfd6f5642129b94d16475c336 | feat(scan): implement sensor scan API and add student and wristband models                                                      | 21/06/2025         |
+| CodeMinds-EdgeServer | feature/identity-assignment | f291a6328c13d138d851fed134f5739feb309b65 | feat(identity-assignment): add validate api key                                                                                 | 21/06/2025         |
+| CodeMinds-EdgeServer | feature/identity-assignment | cbfb54a495897881ae49705630581a08578d1b71 | refactor(entities, models, repositories, services): simplify class docstrings and improve code readability                      | 21/06/2025         |
+| CodeMinds-EdgeServer | feature/identity-assignment | 9551ae54b8424edbd92be8db8dc48f90ca5c53b0 | feat(scan): add endpoint to retrieve all sensor scan records and update app run configuration                                   | 21/06/2025         |
+| CodeMinds-EdgeServer | feature/identity-assignment | 1a1c62ce50066f5b2542764a9f95140911f69c2d | refactor(scan): enhance scan processing service with improved error handling and logging                                        | 21/06/2025         |
+| CodeMinds-EdgeServer | feature/identity-assignment | 8623805ef9f5b6e666e604f55ae182a769f20439 | feat(identity-assignment): add jwt authentication                                                                               | 22/06/2025         |
 
 **CodeMinds-Embedded**:
-| Repository | Branch | Commit ID | Commit Message | Committed on(date) |
-|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
-| CodeMinds-Embedded | feature/gps-chip | b4e93705200736129b7fe9995bc8aed09e0ba5ad | feat(main): add project files |22/06/2025 |
-| CodeMinds-Embedded | feature/gps-chip | 6ea33e53ab1d87a74816a92c3c58d96f47a16c7d | feat(gps-chip): add NEO-6M GPS simulation |22/06/2025 |
-| CodeMinds-Embedded | feature/rfid-chip | d5babbb26c8b93438debe88ff25f7213e4962f54 | feat(rfid-chip): implement RFID simulation |22/06/2025 |
-| CodeMinds-Embedded | feature/rfid-chip | 212b97265a55bd39d73945068d6fbba29491448c | Merge pull request #1 from Desarrollo-de-Soluciones-IOT-1ASI0572/feature/gps-chip |22/06/2025 |
-| CodeMinds-Embedded | feature/rfid-chip | 2504aa583c9b691b54fa5b8f7e7f8311f0107937 | Merge branch 'develop' into feature/rfid-chip |22/06/2025 |
-| CodeMinds-Embedded | feature/rfid-chip | eef26dbcb3104da47a65a965e65dd9f0f8e2f1d5 | fix(rfid-chip): delete gps functions |22/06/2025 |
+
+Evidencia de desarrollo del módulo embebido, con commits de simulación de GPS y RFID.
+
+| Repository         | Branch            | Commit ID                                | Commit Message                                                                    | Committed on(date) |
+| ------------------ | ----------------- | ---------------------------------------- | --------------------------------------------------------------------------------- | ------------------ |
+| CodeMinds-Embedded | feature/gps-chip  | b4e93705200736129b7fe9995bc8aed09e0ba5ad | feat(main): add project files                                                     | 22/06/2025         |
+| CodeMinds-Embedded | feature/gps-chip  | 6ea33e53ab1d87a74816a92c3c58d96f47a16c7d | feat(gps-chip): add NEO-6M GPS simulation                                         | 22/06/2025         |
+| CodeMinds-Embedded | feature/rfid-chip | d5babbb26c8b93438debe88ff25f7213e4962f54 | feat(rfid-chip): implement RFID simulation                                        | 22/06/2025         |
+| CodeMinds-Embedded | feature/rfid-chip | 212b97265a55bd39d73945068d6fbba29491448c | Merge pull request #1 from Desarrollo-de-Soluciones-IOT-1ASI0572/feature/gps-chip | 22/06/2025         |
+| CodeMinds-Embedded | feature/rfid-chip | 2504aa583c9b691b54fa5b8f7e7f8311f0107937 | Merge branch 'develop' into feature/rfid-chip                                     | 22/06/2025         |
+| CodeMinds-Embedded | feature/rfid-chip | eef26dbcb3104da47a65a965e65dd9f0f8e2f1d5 | fix(rfid-chip): delete gps functions                                              | 22/06/2025         |
 
 #### 6.2.2.5. Testing Suite Evidence for Sprint Review.
+
+Evidencia de pruebas realizadas durante el sprint para verificar la integración, autenticación y funcionamiento de endpoints y módulos embebidos, asegurando la calidad y correcto desempeño del sistema.
 
 | Repository           | Branch                      | Commit ID                                | Commit Message                                                                     | Committed on(date) |
 | -------------------- | --------------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------- | ------------------ |
@@ -620,6 +628,8 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Embedded   | develop                     | f01c049cf69a4a6db3f3cac09a4b73c0ca12f9e1 | Merge pull request #2 from Desarrollo-de-Soluciones-IOT-1ASI0572/feature/rfid-chip | 22/06/25           |
 
 #### 6.2.2.6. Execution Evidence for Sprint Review.
+
+Evidencia de la ejecución del sistema desplegado y en funcionamiento, demostrando que los componentes backend y móvil operan correctamente y cumplen con los requisitos del sprint.
 
 **Para el Backend** <br>
 Visualización del back desplegado correctamente. <br>
@@ -649,6 +659,8 @@ Durante este Sprint, se llevó a cabo la implementación de los servicios del pr
 
 ### SensorScan
 
+Define los servicios para registrar, consultar y eliminar escaneos de pulseras RFID, facilitando el control de ingresos y salidas de estudiantes.
+
 | Endpoint                                     | Acción                                 | Verbo HTTP | Parámetros                                                              | Ejemplo de Response                                                                                                                                                                           |
 | -------------------------------------------- | -------------------------------------- | ---------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | /api/v1/sensor-scans                         | Crear un nuevo escaneo de pulsera      | POST       | Request Body: { "scanType": "ENTRY", "wristbandId": 12, "tripId": 102 } | { "id": 48, "scanTime": "2025-07-05T08:30:00.000Z", "scanType": "ENTRY", "wristbandId": 12 }                                                                                                  |
@@ -658,6 +670,8 @@ Durante este Sprint, se llevó a cabo la implementación de los servicios del pr
 | /api/v1/sensor-scans                         | Obtener todos los escaneos registrados | GET        | Sin parámetros                                                          | [ { "id": 48, "scanTime": "2025-07-05T08:30:00.000Z", "scanType": "ENTRY", "wristbandId": 12 }, { "id": 49, "scanTime": "2025-07-05T15:45:00.000Z", "scanType": "EXIT", "wristbandId": 12 } ] |
 
 ### Students
+
+Contiene los servicios para crear, consultar y eliminar información de estudiantes, así como listar estudiantes por conductor asignado.
 
 | Endpoint                                  | Acción                                  | Verbo HTTP | Parámetros                                                                                                                                                                                                                    | Ejemplo de Response                                                                                                                                                                                                                                                                                                                           |
 | ----------------------------------------- | --------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -669,12 +683,16 @@ Durante este Sprint, se llevó a cabo la implementación de los servicios del pr
 
 ### Authentication
 
+Incluye los endpoints para registrar nuevos usuarios y gestionar la autenticación mediante inicio de sesión.
+
 | Endpoint                       | Acción                     | Verbo HTTP | Parámetros                                                                                | Ejemplo de Response                                                                        |
 | ------------------------------ | -------------------------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | /api/v1/authentication/sign-up | Registrar un nuevo usuario | POST       | Request Body: { "username": "juanperez", "password": "MiClave123!", "roles": ["PARENT"] } | { "id": 101, "username": "juanperez", "roles": ["PARENT"] }                                |
 | /api/v1/authentication/sign-in | Iniciar sesión             | POST       | Request Body: { "username": "juanperez", "password": "MiClave123!" }                      | { "id": 101, "username": "juanperez", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." } |
 
 ### Vehicle Tracking
+
+Reúne los servicios para gestionar vehículos, viajes, rutas, ubicaciones y la asistencia de estudiantes durante los trayectos.
 
 | Endpoint                                                               | Action                                 | HTTP Verb | Parameters                                                                                                      | Example Response                                                                                                 |
 | ---------------------------------------------------------------------- | -------------------------------------- | --------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
@@ -700,6 +718,8 @@ Durante este Sprint, se llevó a cabo la implementación de los servicios del pr
 
 ### Profiles
 
+Documenta los servicios para crear, consultar y filtrar perfiles de usuario por rol, ID de usuario o ID de perfil.
+
 | Endpoint                               | Acción                           | Verbo HTTP | Parámetros                                                                                                                                         | Ejemplo de Response                                                                                                                                                              |
 | -------------------------------------- | -------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | /api/v1/profiles                       | Obtener todos los perfiles       | GET        | Sin parámetros                                                                                                                                     | [ { "id": 0, "userId": 0, "fullName": "string", "email": "string", "mobileNumber": "string", "address": "string", "gender": "string", "photoUrl": "string", "role": "string" } ] |
@@ -708,7 +728,9 @@ Durante este Sprint, se llevó a cabo la implementación de los servicios del pr
 | /api/v1/profiles/role/{role}           | Obtener perfiles por rol         | GET        | Path Parameters: role (string)                                                                                                                     | [ { "id": 0, "userId": 0, "fullName": "string", "email": "string", "mobileNumber": "string", "address": "string", "gender": "string", "photoUrl": "string", "role": "string" } ] |
 | /api/v1/profiles/profileId/{profileId} | Obtener perfil por ID de perfil  | GET        | Path Parameters: profileId (integer)                                                                                                               | { "id": 0, "userId": 0, "fullName": "string", "email": "string", "mobileNumber": "string", "address": "string", "gender": "string", "photoUrl": "string", "role": "string" }     |
 
-### RealTimeNotification
+### Notification
+
+Detalla los endpoints para registrar y consultar notificaciones generadas en tiempo real según usuario y tipo de evento.
 
 | Endpoint                                                   | Acción                                     | Verbo HTTP | Parámetros                                                                                                                       | Ejemplo de Response                                                                                                                                                                                               |
 | ---------------------------------------------------------- | ------------------------------------------ | ---------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -718,6 +740,8 @@ Durante este Sprint, se llevó a cabo la implementación de los servicios del pr
 | /api/v1/notifications/user-id/{notificationsForUserId}     | Obtener notificaciones por ID de usuario   | GET        | Path Parameters: notificationsForUserId (integer)                                                                                | [ { "id": 0, "message": "string", "status": "string", "userType": "string", "userId": 0, "eventType": "string", "description": "string", "timestamp": "2025-06-22T05:08:00.644Z", "tripId": 0, "studentId": 0 } ] |
 
 ### Wristband
+
+Describe los servicios para administrar pulseras RFID, incluyendo su creación, consulta por ID, estado o código RFID.
 
 | Endpoint                               | Acción                                | Verbo HTTP | Parámetros                                                                       | Ejemplo de Response                                                                                                                                                                                                                                                                                                                |
 | -------------------------------------- | ------------------------------------- | ---------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -731,12 +755,16 @@ Durante este Sprint, se llevó a cabo la implementación de los servicios del pr
 
 ### Users
 
+Muestra los endpoints para consultar usuarios registrados y obtener detalles por ID.
+
 | Endpoint           | Acción                     | Verbo HTTP | Parámetros        | Ejemplo de Response                                                                                                                      |
 | ------------------ | -------------------------- | ---------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | /api/v1/users      | Obtener todos los usuarios | GET        | Sin parámetros    | [ { "id": 1, "username": "admin_user", "roles": [ "ADMIN", "USER" ] }, { "id": 2, "username": "student_john", "roles": [ "STUDENT" ] } ] |
 | /api/v1/users/{id} | Obtener usuario por ID     | GET        | Path: id (entero) | { "id": 1, "username": "admin_user", "roles": [ "ADMIN", "USER" ] }                                                                      |
 
 ### Analytics
+
+Define los servicios para registrar, consultar y resumir datos de analíticas de conducción de los conductores.
 
 | Endpoint                            | Acción                                    | Verbo HTTP | Parámetros                                                                                                                                                                        | Ejemplo de Response                                                                                                                                                                                                                                                                                                |
 | ----------------------------------- | ----------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -788,9 +816,15 @@ Insights del Embedded, donde se muestran los commits realizados al repositorio e
 
 ## 6.3. Validation Interviews.
 
+Evidencia del proceso de validación del producto mediante entrevistas estructuradas con usuarios clave, para recoger opiniones sobre la experiencia, funcionalidades y posibles mejoras de la solución.
+
 ### 6.3.1. Diseño de Entrevistas.
 
+Detalla la planificación de las entrevistas, definiendo el perfil de los participantes y las preguntas guía para padres de familia y conductores escolares.
+
 ## Información General
+
+Conjunto de preguntas básicas para identificar datos demográficos de cada entrevistado y contextualizar sus respuestas.
 
 1. ¿Cuál es su nombre?
 2. ¿Qué edad tiene?
@@ -798,6 +832,8 @@ Insights del Embedded, donde se muestran los commits realizados al repositorio e
 4. ¿Cuál es su ocupación actual?
 
 ## Entrevista a Padres de Familia
+
+Preguntas diseñadas para conocer la experiencia de los padres usando la app móvil y pulseras RFID, evaluando utilidad, claridad y sugerencias de mejora.
 
 1. **¿Qué le pareció la experiencia de usar la aplicación móvil para seguir a su hijo en tiempo real?**
 2. **¿La función de visualización en el mapa le resultó clara y fácil de usar?**
@@ -809,6 +845,8 @@ Insights del Embedded, donde se muestran los commits realizados al repositorio e
 8. **En una escala del 1 al 10, ¿cuán probable es que recomiende esta aplicación a otros padres?**
 
 ## Entrevista a Conductores Escolares
+
+Preguntas enfocadas en validar la usabilidad de la app desde la perspectiva de los conductores, identificando puntos fuertes, dificultades y oportunidades de optimización.
 
 1. **¿Qué tan intuitiva le pareció la aplicación móvil para registrar estudiantes con pulseras RFID?**
 2. **¿Pudo verificar fácilmente desde la app cuántos estudiantes hay a bordo durante el trayecto?**
@@ -880,7 +918,11 @@ Augusto encontró la app móvil intuitiva y eficiente, destacando el registro au
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
-# Evaluación Heurística – Aplicación de Transporte Escolar Inteligente
+Evidencia de la evaluación heurística realizada para identificar problemas de usabilidad en la aplicación móvil y el sistema RFID, basada en principios de diseño de interfaces y retroalimentación de usuarios reales.
+
+## Evaluación Heurística – Aplicación de Transporte Escolar Inteligente
+
+Contexto general de la evaluación realizada por el equipo auditor, especificando el perfil del sistema, la app evaluada y los usuarios participantes.
 
 **Carrera:** Ingeniería de Software  
 **Curso:** Desarrollo de Soluciones IoT  
@@ -898,6 +940,8 @@ Augusto encontró la app móvil intuitiva y eficiente, destacando el registro au
 
 ## Escala de severidad
 
+Define los niveles de gravedad asignados a cada problema detectado, facilitando la priorización de correcciones antes de la siguiente entrega.
+
 | Nivel | Descripción                                                                                                                                                                                    |
 | ----- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1     | Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.                  |
@@ -908,6 +952,8 @@ Augusto encontró la app móvil intuitiva y eficiente, destacando el registro au
 ---
 
 ## Tabla resumen de problemas detectados
+
+Resumen organizado de los principales problemas de usabilidad encontrados, su severidad, la heurística afectada y recomendaciones específicas de mejora.
 
 | #   | Problema detectado                                                                  | Severidad | Heurística violada                                         | Recomendación                                                               |
 | --- | ----------------------------------------------------------------------------------- | --------- | ---------------------------------------------------------- | --------------------------------------------------------------------------- |
@@ -922,6 +968,8 @@ Augusto encontró la app móvil intuitiva y eficiente, destacando el registro au
 ---
 
 ## Descripción de problemas
+
+Detalle individual de cada problema identificado durante la evaluación heurística, con explicación clara, heurística violada, nivel de severidad y recomendación puntual.
 
 ### PROBLEMA #1
 
@@ -1000,13 +1048,19 @@ Mostrar advertencias visuales si hay inconsistencias en el conteo automático de
 
 ## 6.4. Video About-the-Product.
 
+Video explicativo que muestra el funcionamiento general del producto, sus principales características, la experiencia de uso y los beneficios clave para padres, conductores y estudiantes.
+
 <img src="assets/chapter4/About product-EduGo.png" alt="Contact" style="width:100%;">
 
 Enlace: https://acortar.link/TXcxWV
 
 ## 6.5 Sprint 3
 
+Resumen general de la planificación, objetivos, resultados y organización de roles durante el tercer sprint, enfocado en la expansión y refinamiento de todos los módulos clave del proyecto.
+
 ### 6.5.1. Sprint Planning 3.
+
+Detalla la sesión de planificación del Sprint 3, estableciendo metas, alcance, historias de usuario, resultados esperados y responsables clave para garantizar el cumplimiento de los objetivos.
 
 | Sprint #                                 | Sprint 3                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1025,7 +1079,11 @@ Enlace: https://acortar.link/TXcxWV
 
 ### 6.5.2. Aspect Leaders and Collaborators.
 
-# Leadership and Collaboration Matrix (LACX)
+Identifica a los líderes y colaboradores asignados a cada aspecto del proyecto, asegurando una distribución clara de responsabilidades técnicas y de integración.
+
+## Leadership and Collaboration Matrix (LACX)
+
+Matriz que muestra la relación entre cada miembro del equipo y sus roles como líder (L) o colaborador (C) en cada área funcional, facilitando la coordinación y el seguimiento de tareas durante el sprint.
 
 | **Team Member (Last Name, First Name)**   | **GitHub Username** | **Tracking (L/C)** | **Identity Assignment (L/C)** | **IAM (L/C)** | **Profiles Management (L/C)** | **Analytics (L/C)** | **Notifications (L/C)** |
 | ----------------------------------------- | ------------------- | ------------------ | ----------------------------- | ------------- | ----------------------------- | ------------------- | ----------------------- |
@@ -1038,7 +1096,11 @@ Enlace: https://acortar.link/TXcxWV
 
 ### 6.5.3. Sprint Backlog 3.
 
-# Sprint 3
+Resumen detallado de todas las historias de usuario y tareas planificadas para el Sprint 3, incluyendo estimaciones, responsables y estado de avance para asegurar el cumplimiento de los objetivos.
+
+## Sprint 3
+
+Lista priorizada de funcionalidades y mejoras clave abordadas durante el Sprint 3, con enfoque en la implementación de nuevas características, refinamiento de módulos existentes y pruebas de integración.
 
 | User Story | Title                                                     | Work-Item / Task | Title                          | Description                                                                      | Estimation (Hours) | Assigned To      | Status     |
 | ---------- | --------------------------------------------------------- | ---------------- | ------------------------------ | -------------------------------------------------------------------------------- | ------------------ | ---------------- | ---------- |
@@ -1093,9 +1155,11 @@ Enlace: https://acortar.link/TXcxWV
 
 ### 6.5.4. Development Evidence for Sprint Review.
 
-Para este segunfo sprint se decidió trbajar en ramas diferente para después unirlo todo en develop. Cada miembro ha realizado un commit para luego hacer merge.
+Evidencia de desarrollo para el Sprint 3. Se trabajó en múltiples ramas por módulo y funcionalidad, asegurando la integración progresiva en la rama develop mediante commits claros y merges bien controlados.
 
 **CodeMinds-Backend**:
+
+Commits que demuestran avances en la implementación de endpoints, queries, comandos y mejoras de estructura para el módulo backend del sistema.
 
 | Repository        | Branch                         | Commit ID                                | Commit Message                                                                                            | Committed on(date) |
 | ----------------- | ------------------------------ | ---------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------ |
@@ -1125,69 +1189,83 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-Backend | develop                        | 4294fcfcfe7009a8df613dbae60f44f77af8168d | feat(config): enable custom physical naming strategy for Hibernate                                        | 07/07/2025         |
 
 **CodeMinds-Mobile-App**:
-| Repository | Branch | Commit ID | Commit Message | Committed on(date) |
-|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
-| CodeMinds-Mobile-App | feature/home-driver| 6810e399dd800bf6823f2065d4182520d00f6bdc | feat(app_constants): add endpoints for trip management and student tracking | 30/06/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 2482fe5a68e5c32ac54d0f708ef47818613ac661 | feat(trip_service): add methods for trip creation, starting, ending, and student attendance updates | 30/06/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 2549f170afa74644e404f73477c12a03fa18f8f0 | feat(home_driver): implement trip creation, starting, and ending functionality | 30/06/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| fd8ca9bb2a343e703b7938a9c9296dc9a496dc86 | feat(attendance_screen): refactor active trip fetching and student loading logic | 30/06/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 137898b500d5391337c79ddcbe580ee5b3155501 | feat(trip_service): enhance vehicle location fetching with error handling and logging | 01/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 128eeffcc545819720f9147fb2e9065ab14efe8d | feat(tracking_screen): implement vehicle tracking with child selection and location updates | 01/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 8ce19685dbb7240169896d882edb38fd24a29240 | feat(tracking_screen): implement vehicle tracking with child selection and location updates | 01/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| f571a1730a8bfc2d55b14070348401790fa7b01e | feat(pubspec): add provider package for state management | 01/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 2d554e9ece2abbbb4516ac9a4bf660f5ee581196 | feat(main): integrate provider for trip management and enhance app structure | 01/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 5e8b7844c8423740987642228437accb3349bbab | feat(trip_provider): implement TripProvider for managing trip state and driver association | 01/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| adc337fbf417ff5810a85fdc3082145e6b9b5b85 | feat(home_driver): integrate TripProvider for driver trip management and enhance trip controls | 01/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 090a9dc8a91616a2fc6527079b2eecfebccd88eb | feat(trip_management): refactor TripProvider and endpoints for improved trip handling and notifications | 02/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 9816ff4d38f76d412c53ab4cd979fd8f327f1461 | feat(home_driver): make startTime nullable in ActiveTripDTO and improve loading logic in AttendanceScreen | 03/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 2f1e287162e9145224d1bcb974802890f3b29ce7 | feat(trip_provider): add origin and destination addresses to TripState and update trip creation method | 03/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| c5aa11940c41375b62db608d210eef3bef09fc37 | feat(map_screen): integrate Google Maps for trip visualization and enhance route management | 03/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| a71702c8611fc01d9b9eff20f81fe409111911f9 | feat(home_driver): pass origin and destination to createNewTrip method in trip creation | 03/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 9358933edc8fb130661008c16a5c09608de66531 | feat(dependencies): add geocoding package for address handling | 03/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 94b790c7b33ff2f46516872340567f30b421eec9 | fix(app_constants): update trip endpoint paths for consistency | 04/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 0dffa6fda7b49569746be4864e9b2c1f7fa7bee8 | fix(trip_service): update HTTP method and endpoint for starting and ending trips | 04/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 6834367db9cf1535a06a407d9058ca76e74c2d5f | fix(student_service): update student endpoint to remove redundant path segments | 04/07/2025 |
-| CodeMinds-Mobile-App | feature/home-driver| 4f5a4094b69e8327e458e2db06da59bd5260bea4 | refactor(home_driver): clean up comments and improve code readability in home_driver_screen | 04/07/2025 |
-| CodeMinds-Mobile-App | develop | 2c8bcc82b8ea68364a4067e7ba8b1e7e53b888c9 | feat: reorganize imports and rename screen files for better structure | 05/07/2025 |
-| CodeMinds-Mobile-App | develop | c9a66f3fe40f047beccda5e398063811b84066b0 | refactor(attendance_screen): rename attendance_screen.dart for improved structure | 05/07/2025 |
-| CodeMinds-Mobile-App | develop | bf3c0f8bc5c00d3eb28abb507cc49ffd705a882f | refactor(children_screen): rename file and update import paths for better organization | 05/07/2025 |
-| CodeMinds-Mobile-App | develop | bd89cad818bfa91e21b15c84cc96d6e546eab583 | refactor(home_parent_screen): update import paths for student and notification modules | 05/07/2025 |
-| CodeMinds-Mobile-App | develop | d3c7f23af2743651d93f3f100c0c57e87ad47d4d | fix(main_screen): update import path for children_screen to reflect new location | 05/07/2025 |
-| CodeMinds-Mobile-App | develop | 40cfeacbb39d334f280e9e5908128c7eac1d4ed7 | refactor(notification): rename notification.dart for improved organization | 05/07/2025 |
-| CodeMinds-Mobile-App | develop | 7740e3d8a44f255523e8fbee854fc0f8d070c2d2 | refactor(notification): rename notification_dto.dart for improved organization | 05/07/2025 |
-| CodeMinds-Mobile-App | develop | 24f2d786fd1fc6c7b495ada70f1fa2c1d219698e | refactor(notification): rename notification_repository.dart for improved organization | 05/07/2025 |
-| CodeMinds-Mobile-App | develop | 3fad4efc70237317553135e6735ed2b338e2e74a | fix(notification_screen): update import paths to reflect new directory structure | 05/07/2025 |
-| CodeMinds-Mobile-App | develop | b3be0574deecb94e52ec7215d5b6b1b41a6e990f | fix: update import paths to reflect new directory structure | 05/07/2025 |
-| CodeMinds-Mobile-App | develop | 062b381a9be0d472a826cb84b2e4d529172f2cad | fix: update import paths to reflect new directory structure | 06/07/2025 |
+
+Evidencia de commits de desarrollo de la aplicación móvil, centrados en la integración de pantallas, manejo de rutas, seguimiento en tiempo real y mejoras de estructura.
+
+| Repository           | Branch              | Commit ID                                | Commit Message                                                                                            | Committed on(date) |
+| -------------------- | ------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------- | ------------------ |
+| CodeMinds-Mobile-App | feature/home-driver | 6810e399dd800bf6823f2065d4182520d00f6bdc | feat(app_constants): add endpoints for trip management and student tracking                               | 30/06/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 2482fe5a68e5c32ac54d0f708ef47818613ac661 | feat(trip_service): add methods for trip creation, starting, ending, and student attendance updates       | 30/06/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 2549f170afa74644e404f73477c12a03fa18f8f0 | feat(home_driver): implement trip creation, starting, and ending functionality                            | 30/06/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | fd8ca9bb2a343e703b7938a9c9296dc9a496dc86 | feat(attendance_screen): refactor active trip fetching and student loading logic                          | 30/06/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 137898b500d5391337c79ddcbe580ee5b3155501 | feat(trip_service): enhance vehicle location fetching with error handling and logging                     | 01/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 128eeffcc545819720f9147fb2e9065ab14efe8d | feat(tracking_screen): implement vehicle tracking with child selection and location updates               | 01/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 8ce19685dbb7240169896d882edb38fd24a29240 | feat(tracking_screen): implement vehicle tracking with child selection and location updates               | 01/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | f571a1730a8bfc2d55b14070348401790fa7b01e | feat(pubspec): add provider package for state management                                                  | 01/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 2d554e9ece2abbbb4516ac9a4bf660f5ee581196 | feat(main): integrate provider for trip management and enhance app structure                              | 01/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 5e8b7844c8423740987642228437accb3349bbab | feat(trip_provider): implement TripProvider for managing trip state and driver association                | 01/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | adc337fbf417ff5810a85fdc3082145e6b9b5b85 | feat(home_driver): integrate TripProvider for driver trip management and enhance trip controls            | 01/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 090a9dc8a91616a2fc6527079b2eecfebccd88eb | feat(trip_management): refactor TripProvider and endpoints for improved trip handling and notifications   | 02/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 9816ff4d38f76d412c53ab4cd979fd8f327f1461 | feat(home_driver): make startTime nullable in ActiveTripDTO and improve loading logic in AttendanceScreen | 03/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 2f1e287162e9145224d1bcb974802890f3b29ce7 | feat(trip_provider): add origin and destination addresses to TripState and update trip creation method    | 03/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | c5aa11940c41375b62db608d210eef3bef09fc37 | feat(map_screen): integrate Google Maps for trip visualization and enhance route management               | 03/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | a71702c8611fc01d9b9eff20f81fe409111911f9 | feat(home_driver): pass origin and destination to createNewTrip method in trip creation                   | 03/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 9358933edc8fb130661008c16a5c09608de66531 | feat(dependencies): add geocoding package for address handling                                            | 03/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 94b790c7b33ff2f46516872340567f30b421eec9 | fix(app_constants): update trip endpoint paths for consistency                                            | 04/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 0dffa6fda7b49569746be4864e9b2c1f7fa7bee8 | fix(trip_service): update HTTP method and endpoint for starting and ending trips                          | 04/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 6834367db9cf1535a06a407d9058ca76e74c2d5f | fix(student_service): update student endpoint to remove redundant path segments                           | 04/07/2025         |
+| CodeMinds-Mobile-App | feature/home-driver | 4f5a4094b69e8327e458e2db06da59bd5260bea4 | refactor(home_driver): clean up comments and improve code readability in home_driver_screen               | 04/07/2025         |
+| CodeMinds-Mobile-App | develop             | 2c8bcc82b8ea68364a4067e7ba8b1e7e53b888c9 | feat: reorganize imports and rename screen files for better structure                                     | 05/07/2025         |
+| CodeMinds-Mobile-App | develop             | c9a66f3fe40f047beccda5e398063811b84066b0 | refactor(attendance_screen): rename attendance_screen.dart for improved structure                         | 05/07/2025         |
+| CodeMinds-Mobile-App | develop             | bf3c0f8bc5c00d3eb28abb507cc49ffd705a882f | refactor(children_screen): rename file and update import paths for better organization                    | 05/07/2025         |
+| CodeMinds-Mobile-App | develop             | bd89cad818bfa91e21b15c84cc96d6e546eab583 | refactor(home_parent_screen): update import paths for student and notification modules                    | 05/07/2025         |
+| CodeMinds-Mobile-App | develop             | d3c7f23af2743651d93f3f100c0c57e87ad47d4d | fix(main_screen): update import path for children_screen to reflect new location                          | 05/07/2025         |
+| CodeMinds-Mobile-App | develop             | 40cfeacbb39d334f280e9e5908128c7eac1d4ed7 | refactor(notification): rename notification.dart for improved organization                                | 05/07/2025         |
+| CodeMinds-Mobile-App | develop             | 7740e3d8a44f255523e8fbee854fc0f8d070c2d2 | refactor(notification): rename notification_dto.dart for improved organization                            | 05/07/2025         |
+| CodeMinds-Mobile-App | develop             | 24f2d786fd1fc6c7b495ada70f1fa2c1d219698e | refactor(notification): rename notification_repository.dart for improved organization                     | 05/07/2025         |
+| CodeMinds-Mobile-App | develop             | 3fad4efc70237317553135e6735ed2b338e2e74a | fix(notification_screen): update import paths to reflect new directory structure                          | 05/07/2025         |
+| CodeMinds-Mobile-App | develop             | b3be0574deecb94e52ec7215d5b6b1b41a6e990f | fix: update import paths to reflect new directory structure                                               | 05/07/2025         |
+| CodeMinds-Mobile-App | develop             | 062b381a9be0d472a826cb84b2e4d529172f2cad | fix: update import paths to reflect new directory structure                                               | 06/07/2025         |
 
 **edugo-web-application**:
-| Repository | Branch | Commit ID | Commit Message | Committed on(date) |
-|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
-| edugo-web-application | feature/home-driver| a08f7957cac0a402a7a1b85ef18ee32ee8c4e3c9 | feat: add calendar and parent view | 01/07/2025 |
-| edugo-web-application | feature/home-driver| e5a50c3d17c2aca81b6cb3839f2a5c2b1ffd4cbe | feat(feature-add-parents):Add children account and sidebar parent | 02/07/2025 |
-| edugo-web-application | feature/home-driver| 98ae7c607a44ac1147f7bc5ec89023f0d9bc910b | feat: add calendar by driverid | 03/07/2025 |
+
+Commits que evidencian la construcción y ampliación de vistas clave como calendario y panel de padres en la aplicación web.
+
+| Repository            | Branch              | Commit ID                                | Commit Message                                                    | Committed on(date) |
+| --------------------- | ------------------- | ---------------------------------------- | ----------------------------------------------------------------- | ------------------ |
+| edugo-web-application | feature/home-driver | a08f7957cac0a402a7a1b85ef18ee32ee8c4e3c9 | feat: add calendar and parent view                                | 01/07/2025         |
+| edugo-web-application | feature/home-driver | e5a50c3d17c2aca81b6cb3839f2a5c2b1ffd4cbe | feat(feature-add-parents):Add children account and sidebar parent | 02/07/2025         |
+| edugo-web-application | feature/home-driver | 98ae7c607a44ac1147f7bc5ec89023f0d9bc910b | feat: add calendar by driverid                                    | 03/07/2025         |
 
 **CodeMinds-Embedded**:
-| Repository | Branch | Commit ID | Commit Message | Committed on(date) |
-|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
-| CodeMinds-Embedded | deploy | b717e342ce21429b43118ad9752ae48f90621fbd | feat(deploy): add deploy sketch.ino | 24/06/2025 |
-| CodeMinds-Embedded | deploy | b67b6f5cb6dcfb9852bbe5d7ad26e8d2534c6baa | feat(deploy): add deployment sketch for device | 24/06/2025 |
-| CodeMinds-Embedded | deploy | ca6bb5aa54884712fd89ec9e09b4f68ada0fa33d | fix(deploy): implement oop on sketch.ino file | 05/07/2025 |
-| CodeMinds-Embedded | feature/oop-implementation | aa19e9a9141110dbd0eb0f435d9e79553d2842a4 | feat(oop-implementation): implement oop structure | 05/07/2025 |
+
+Evidencia de commits relacionados con la programación del dispositivo embebido, mostrando la evolución desde sketches básicos hasta la implementación de principios OOP.
+
+| Repository         | Branch                     | Commit ID                                | Commit Message                                    | Committed on(date) |
+| ------------------ | -------------------------- | ---------------------------------------- | ------------------------------------------------- | ------------------ |
+| CodeMinds-Embedded | deploy                     | b717e342ce21429b43118ad9752ae48f90621fbd | feat(deploy): add deploy sketch.ino               | 24/06/2025         |
+| CodeMinds-Embedded | deploy                     | b67b6f5cb6dcfb9852bbe5d7ad26e8d2534c6baa | feat(deploy): add deployment sketch for device    | 24/06/2025         |
+| CodeMinds-Embedded | deploy                     | ca6bb5aa54884712fd89ec9e09b4f68ada0fa33d | fix(deploy): implement oop on sketch.ino file     | 05/07/2025         |
+| CodeMinds-Embedded | feature/oop-implementation | aa19e9a9141110dbd0eb0f435d9e79553d2842a4 | feat(oop-implementation): implement oop structure | 05/07/2025         |
 
 **CodeMinds-EdgeServer**:
-| Repository | Branch | Commit ID | Commit Message | Committed on(date) |
-|-----------------------|---------------------------------|------------------------------------------|-----------------------------------------------------------------------|-----------------------|
-| CodeMinds-EdgeServer | feature/develop | 033cedf219fd4d926acf45c9e6e7865ef6b4d3f4 | feat(deployment): add dockerfile for application containerization | 24/06/2025 |
-| CodeMinds-EdgeServer | feature/develop | 7f0c4a9d80a662980606b05c5cbd41dd51f3f6a1 | feat(deployment): add procfile and update requirements for gunicorn and heroku deployment | 24/06/2025 |
-| CodeMinds-EdgeServer | feature/tracking | 5e14beb9d40d4dc036e00f08aa1c0f58bebbb3b5| fix(tracking): fix tracking implementation | 07/07/2025 |
-| CodeMinds-EdgeServer | feature/identity-assignment | fa9df737173d6aaeba052a6da2925847eb148d79 | fix(assignments): fix assignments implementation | 07/07/2025 |
-| CodeMinds-EdgeServer | feature/iam | 498ee04af41aabdd11283beb7e53d9a4a2ab53a0 | fix(iam): fix iam implementation| 07/07/2025 |
-| CodeMinds-EdgeServer | feature/develop | 8f3ef719230264ea996fcd040595234d9f6c9e82 | Merge branch 'feature/iam' into develop | 07/07/2025 |
-| CodeMinds-EdgeServer | feature/develop | 438772924c5c163fe149a5c4b4992f0b43b1e526 | Merge branch 'feature/tracking' into develop | 07/07/2025 |
-| CodeMinds-EdgeServer | feature/develop | 17c8e154df0d17e8e5814035db13aa48b98e2ab8 | Merge branch 'feature/assignments' into develop | 07/07/2025 |
+
+Commits que reflejan la integración de funcionalidades de tracking, IAM y assignments, junto con tareas de despliegue como contenedorización y configuración de servidor.
+
+| Repository           | Branch                      | Commit ID                                | Commit Message                                                                            | Committed on(date) |
+| -------------------- | --------------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------ |
+| CodeMinds-EdgeServer | feature/develop             | 033cedf219fd4d926acf45c9e6e7865ef6b4d3f4 | feat(deployment): add dockerfile for application containerization                         | 24/06/2025         |
+| CodeMinds-EdgeServer | feature/develop             | 7f0c4a9d80a662980606b05c5cbd41dd51f3f6a1 | feat(deployment): add procfile and update requirements for gunicorn and heroku deployment | 24/06/2025         |
+| CodeMinds-EdgeServer | feature/tracking            | 5e14beb9d40d4dc036e00f08aa1c0f58bebbb3b5 | fix(tracking): fix tracking implementation                                                | 07/07/2025         |
+| CodeMinds-EdgeServer | feature/identity-assignment | fa9df737173d6aaeba052a6da2925847eb148d79 | fix(assignments): fix assignments implementation                                          | 07/07/2025         |
+| CodeMinds-EdgeServer | feature/iam                 | 498ee04af41aabdd11283beb7e53d9a4a2ab53a0 | fix(iam): fix iam implementation                                                          | 07/07/2025         |
+| CodeMinds-EdgeServer | feature/develop             | 8f3ef719230264ea996fcd040595234d9f6c9e82 | Merge branch 'feature/iam' into develop                                                   | 07/07/2025         |
+| CodeMinds-EdgeServer | feature/develop             | 438772924c5c163fe149a5c4b4992f0b43b1e526 | Merge branch 'feature/tracking' into develop                                              | 07/07/2025         |
+| CodeMinds-EdgeServer | feature/develop             | 17c8e154df0d17e8e5814035db13aa48b98e2ab8 | Merge branch 'feature/assignments' into develop                                           | 07/07/2025         |
 
 #### 6.5.5. Testing Suite Evidence for Sprint Review.
+
+Evidencia de las pruebas realizadas para validar las nuevas funcionalidades y la correcta integración entre módulos, demostrando consistencia en la estructura y comportamiento del sistema en cada repositorio.
 
 | Repository           | Branch                     | Commit ID                                | Commit Message                                                     | Committed on(date) |
 | -------------------- | -------------------------- | ---------------------------------------- | ------------------------------------------------------------------ | ------------------ |
@@ -1197,6 +1275,8 @@ Para este segunfo sprint se decidió trbajar en ramas diferente para después un
 | CodeMinds-EdgeServer | feature/develop            | 17c8e154df0d17e8e5814035db13aa48b98e2ab8 | Merge branch 'feature/assignments' into develop                    | 07/07/2025         |
 
 #### 6.5.6. Execution Evidence for Sprint Review.
+
+Evidencia de la ejecución del producto desplegado en este sprint, demostrando que el frontend funciona correctamente y cumple con los objetivos definidos para la revisión.
 
 **Para el Frontend** <br>
 Visualización del frontend desplegado correctamente. <br>
@@ -1238,6 +1318,8 @@ La siguiente tabla muestra la relación de los Endpoints documentados, las accio
 
 ### SensorScan
 
+Documenta los servicios para registrar, consultar y eliminar escaneos de pulseras RFID, asegurando el control de acceso de estudiantes.
+
 | Endpoint                                     | Acción                                 | Verbo HTTP | Parámetros                                                              | Ejemplo de Response                                                                                                                                                                           |
 | -------------------------------------------- | -------------------------------------- | ---------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | /api/v1/sensor-scans                         | Crear un nuevo escaneo de pulsera      | POST       | Request Body: { "scanType": "ENTRY", "wristbandId": 12, "tripId": 102 } | { "id": 48, "scanTime": "2025-07-05T08:30:00.000Z", "scanType": "ENTRY", "wristbandId": 12 }                                                                                                  |
@@ -1247,6 +1329,8 @@ La siguiente tabla muestra la relación de los Endpoints documentados, las accio
 | /api/v1/sensor-scans                         | Obtener todos los escaneos registrados | GET        | Sin parámetros                                                          | [ { "id": 48, "scanTime": "2025-07-05T08:30:00.000Z", "scanType": "ENTRY", "wristbandId": 12 }, { "id": 49, "scanTime": "2025-07-05T15:45:00.000Z", "scanType": "EXIT", "wristbandId": 12 } ] |
 
 ### Students
+
+Incluye los endpoints para gestionar la información de estudiantes: creación, consulta individual y por conductor, y eliminación.
 
 | Endpoint                                  | Acción                                  | Verbo HTTP | Parámetros                                                                                                                                                                                                                    | Ejemplo de Response                                                                                                                                                                                                                                                                                                                           |
 | ----------------------------------------- | --------------------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1258,12 +1342,16 @@ La siguiente tabla muestra la relación de los Endpoints documentados, las accio
 
 ### Authentication
 
+Define los servicios de registro e inicio de sesión de usuarios con autenticación segura mediante JWT.
+
 | Endpoint                       | Acción                     | Verbo HTTP | Parámetros                                                                                | Ejemplo de Response                                                                        |
 | ------------------------------ | -------------------------- | ---------- | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | /api/v1/authentication/sign-up | Registrar un nuevo usuario | POST       | Request Body: { "username": "juanperez", "password": "MiClave123!", "roles": ["PARENT"] } | { "id": 101, "username": "juanperez", "roles": ["PARENT"] }                                |
 | /api/v1/authentication/sign-in | Iniciar sesión             | POST       | Request Body: { "username": "juanperez", "password": "MiClave123!" }                      | { "id": 101, "username": "juanperez", "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." } |
 
 ### Trip Management
+
+Describe los servicios para iniciar, finalizar, consultar y gestionar viajes y la asistencia de estudiantes durante los trayectos.
 
 | Endpoint                                    | Acción                                     | Verbo HTTP | Parámetros                                                                                   | Ejemplo de Response                                                                                                                                                                                                                                                 |
 | ------------------------------------------- | ------------------------------------------ | ---------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1282,6 +1370,8 @@ La siguiente tabla muestra la relación de los Endpoints documentados, las accio
 
 ### Vehicle Management
 
+Contiene los endpoints para registrar vehículos, consultar información y obtener ubicaciones en tiempo real asociadas a estudiantes.
+
 | Endpoint                                                       | Acción                                              | Verbo HTTP | Parámetros                                     | Ejemplo de Response                                               |
 | -------------------------------------------------------------- | --------------------------------------------------- | ---------- | ---------------------------------------------- | ----------------------------------------------------------------- |
 | /api/v1/vehicles                                               | Obtener todos los vehículos                         | GET        | Sin parámetros                                 | [ { "id": 0, "driverId": 0, "capacity": 0, "status": "string" } ] |
@@ -1289,6 +1379,8 @@ La siguiente tabla muestra la relación de los Endpoints documentados, las accio
 | /api/v1/vehicles/students/{studentId}/current-vehicle-location | Obtener ubicación actual del vehículo de estudiante | GET        | Path Parameter: studentId (integer)            | {}                                                                |
 
 ### Profiles
+
+Documenta la creación, consulta y filtrado de perfiles de usuario por ID o rol, facilitando la administración de roles.
 
 | Endpoint                               | Acción                           | Verbo HTTP | Parámetros                                                                                                                                         | Ejemplo de Response                                                                                                                                                              |
 | -------------------------------------- | -------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1298,7 +1390,9 @@ La siguiente tabla muestra la relación de los Endpoints documentados, las accio
 | /api/v1/profiles/role/{role}           | Obtener perfiles por rol         | GET        | Path Parameters: role (string)                                                                                                                     | [ { "id": 0, "userId": 0, "fullName": "string", "email": "string", "mobileNumber": "string", "address": "string", "gender": "string", "photoUrl": "string", "role": "string" } ] |
 | /api/v1/profiles/profileId/{profileId} | Obtener perfil por ID de perfil  | GET        | Path Parameters: profileId (integer)                                                                                                               | { "id": 0, "userId": 0, "fullName": "string", "email": "string", "mobileNumber": "string", "address": "string", "gender": "string", "photoUrl": "string", "role": "string" }     |
 
-### RealTimeNotification
+### Notification
+
+Presenta los servicios para crear y consultar notificaciones automáticas según usuario, tipo de evento o ID.
 
 | Endpoint                                                   | Acción                                     | Verbo HTTP | Parámetros                                                                                                                       | Ejemplo de Response                                                                                                                                                                                               |
 | ---------------------------------------------------------- | ------------------------------------------ | ---------- | -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1308,6 +1402,8 @@ La siguiente tabla muestra la relación de los Endpoints documentados, las accio
 | /api/v1/notifications/user-id/{notificationsForUserId}     | Obtener notificaciones por ID de usuario   | GET        | Path Parameters: notificationsForUserId (integer)                                                                                | [ { "id": 0, "message": "string", "status": "string", "userType": "string", "userId": 0, "eventType": "string", "description": "string", "timestamp": "2025-06-22T05:08:00.644Z", "tripId": 0, "studentId": 0 } ] |
 
 ### Wristband
+
+Incluye los servicios para administrar pulseras RFID: registrar, consultar por ID, estado o código RFID y eliminar registros.
 
 | Endpoint                               | Acción                                | Verbo HTTP | Parámetros                                                                       | Ejemplo de Response                                                                                                                                                                                                                                                                                                                |
 | -------------------------------------- | ------------------------------------- | ---------- | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -1321,6 +1417,8 @@ La siguiente tabla muestra la relación de los Endpoints documentados, las accio
 
 ### Location Management
 
+Reúne los endpoints para registrar ubicaciones, consultar historiales por viaje y obtener posiciones actuales de vehículos.
+
 | Endpoint                                 | Acción                                       | Verbo HTTP | Parámetros                                                                                                                     | Ejemplo de Response                                                        |
 | ---------------------------------------- | -------------------------------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
 | /api/v1/locations                        | Obtener todas las ubicaciones registradas    | GET        | Ninguno                                                                                                                        | [ { "id": 0, "vehicleId": 0, "latitude": 0, "longitude": 0, "speed": 0 } ] |
@@ -1330,12 +1428,16 @@ La siguiente tabla muestra la relación de los Endpoints documentados, las accio
 
 ### Users
 
+Muestra los servicios para listar todos los usuarios y consultar información detallada por ID.
+
 | Endpoint           | Acción                     | Verbo HTTP | Parámetros        | Ejemplo de Response                                                                                                                      |
 | ------------------ | -------------------------- | ---------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | /api/v1/users      | Obtener todos los usuarios | GET        | Sin parámetros    | [ { "id": 1, "username": "admin_user", "roles": [ "ADMIN", "USER" ] }, { "id": 2, "username": "student_john", "roles": [ "STUDENT" ] } ] |
 | /api/v1/users/{id} | Obtener usuario por ID     | GET        | Path: id (entero) | { "id": 1, "username": "admin_user", "roles": [ "ADMIN", "USER" ] }                                                                      |
 
 ### Analytics
+
+Define los servicios para registrar datos de conducción, consultar historiales y generar dashboards semanales por conductor.
 
 | Endpoint                            | Acción                                    | Verbo HTTP | Parámetros                                                                                                                                                                        | Ejemplo de Response                                                                                                                                                                                                                                                                                                |
 | ----------------------------------- | ----------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -1364,20 +1466,25 @@ Para este Sprint se desplego la aplicacion Backend en heroku, el despliegue de e
 Para esta sección del documentos, añadimos los insights realizados durante el sprint, tanto de la realización y mejoras del backend,app movil,edge server y embedded :
 
 Insights del FrontEnd, donde se muestran los commits realizados al repositorio en el ultimo mes
+
 <img src="assets/chapter4/Collab-Web.PNG" alt="Contact" >
 <br>
 
 Insights del AppMovil, donde se muestran los commits realizados al repositorio en el ultimo mes
+
 <img src="assets/chapter4/Collab-AppMovilPNG.PNG" alt="Contact" >
 <br>
 
 Insights del Backend, donde se muestran los commits realizados al repositorio en el ultimo mes
+
 <img src="assets/chapter4/Collab-Backend.PNG" alt="Contact" >
 <br>
 
 Insights del EdgeServer, donde se muestran los commits realizados al repositorio en el ultimo mes
+
 <img src="assets/chapter4/CollabEdgServer.PNG" alt="Contact" >
 <br>
 
 Insights del Embedded, donde se muestran los commits realizados al repositorio en el ultimo mes
+
 <img src="assets/chapter4/Collab-Embedded.PNG" alt="Contact" >
