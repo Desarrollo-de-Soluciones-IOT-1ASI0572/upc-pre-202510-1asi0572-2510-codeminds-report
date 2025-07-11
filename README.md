@@ -307,7 +307,7 @@
 
 # Project Report Collaboration Insights
 
-URL del repositorio para el reporte del proyecto: https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report
+URL del repositorio para el reporte del proyecto: https://rb.gy/8yqo9x
 
 Github Collaboration Insights proporciona un cronograma que muestra las principales ramas y los procesos de fusión que han ocurrido. Todas las ramas se han generado siguiendo los principios de GitFlow, lo que garantiza una organización efectiva al utilizar un sistema de control de versiones.
 
@@ -317,10 +317,6 @@ Github Collaboration Insights proporciona un cronograma que muestra las principa
 - Xiao Lian Li Zegarra (XLianLZ) <br>
 - Marcelo Sebastian Ramirez Ramirez (MRamirez202210582) <br>
 - Scott Jacobo Huachaca Advincula (Scott-Huachaca) <br> <br>
-  Se divieron las siguientes ramas para la colaboración en el proyecto:
-
-main <br>
-develop <br>
 
 #### **Entregable TB1 y TP1** <br>
 
@@ -340,7 +336,7 @@ develop <br>
   #### **Entregable TF1** <br>
 
 - A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro ultimo sprint. Este gráfico ofrece una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits. <br>
-   ![Lean UX Canvas](assets/Collab-Readme.PNG)
+  ![Lean UX Canvas](assets/Collab-Readme.PNG)
   <br>
 
   El presente informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del informe](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report) <br>

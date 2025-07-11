@@ -45,7 +45,7 @@ La técnica de las 5 ‘W’s y 2 ‘H’s es una herramienta que se utiliza par
 
 ### 1.2.2 Lean UX Process
 
-En este proceso se aplica un enfoque ágil y centrado en el usuario, que integra la visión del modelo de negocio con los problemas reales que se pretenden resolver. Se identifican claramente los **Problem Statements**, se formulan las asunciones y se establecen las hipótesis que guiarán el desarrollo, validación y mejora del producto. Este proceso es esencial para asegurar que la solución final responda tanto a las necesidades de negocio como a las expectativas de los usuarios, apoyándose en iteraciones y validaciones continuas.
+En este proceso se aplica un enfoque ágil y centrado en el usuario, que integra la visión del modelo de negocio con los problemas reales que se pretenden resolver. Se identifican claramente los **Problem Statements**, se formulan los supuestos y se establecen las hipótesis que guiarán el desarrollo, validación y mejora del producto. Este proceso es esencial para asegurar que la solución final responda tanto a las necesidades de negocio como a las expectativas de los usuarios, apoyándose en iteraciones y validaciones continuas.
 
 ---
 

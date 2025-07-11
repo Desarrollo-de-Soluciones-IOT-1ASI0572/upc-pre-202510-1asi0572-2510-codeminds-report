@@ -1,5 +1,4 @@
 # Conclusiones
-**Conclusiones:**
 
 - La integración de tecnologías IoT, como pulseras RFID, sensores y GPS, junto con aplicaciones web y móviles, permitió desarrollar una solución innovadora que mejora significativamente la seguridad y transparencia en el transporte escolar, brindando confianza tanto a padres como a conductores.
 
@@ -11,9 +10,7 @@
 
 - La comunicación efectiva y el trabajo colaborativo dentro del equipo fueron fundamentales para el éxito del proyecto. La adopción de metodologías ágiles permitió gestionar tiempos y recursos de manera eficiente, mientras que la colaboración constante entre diseñadores y desarrolladores aseguró la calidad y coherencia del producto final.
 
-- El uso del modelo C4 nos permitió estructurar la arquitectura del sistema de manera clara y escalable. A través de los diagramas de Contexto, Contenedores y Componentes, logramos una visión global del sistema y sus interacciones, facilitando la comunicación dentro del equipo y asegurando que todos estuvieran alineados. Además, mejoró nuestra documentación técnica, ayudando a que nuevos miembros comprendieran rápidamente el sistema. 
-
-
+- El uso del modelo C4 nos permitió estructurar la arquitectura del sistema de manera clara y escalable. A través de los diagramas de Contexto, Contenedores y Componentes, logramos una visión global del sistema y sus interacciones, facilitando la comunicación dentro del equipo y asegurando que todos estuvieran alineados. Además, mejoró nuestra documentación técnica, ayudando a que nuevos miembros comprendieran rápidamente el sistema.
 
 # Bibliografía
 
@@ -27,11 +24,10 @@ Shah, S., & Singh, B. (2016). RFID based School Bus Tracking and Security System
 
 Ijraset. (s. f.). IoT based School Bus Monitoring System. IJRASET. https://www.ijraset.com/research-paper/iot-based-school-bus-monitoring-system
 
-
 Brandolini, A. (2022). Collaborative Process Modelling with EventStorming. Recuperado de https://medium.com/@ziobrando/collaborative-process-modelling-with-eventstorming-17ed363650c0
 
-
 # Anexos
+
 **Video TB1**: Presentación del equipo y explicación del proyecto<br>
 Enlace: https://shorturl.at/s9TkH
 
