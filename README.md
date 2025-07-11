@@ -302,6 +302,49 @@
             <td>Angel Cancho</td>
             <td>Se añadieron los prototipos interactivos de la Aplicación Web y Aplicación Móvil con sus enlaces navegables.</td>
         </tr>
+        <!-- Fila 39 -->
+        <tr>
+            <td>1.39</td>
+            <td>12/06/2025</td>
+            <td>Lian, Paolo, Juan Diego Cueto Dominguez</td>
+            <td>Se iniciaron y documentaron los trabajos del Sprint 1; definición de objetivos, tareas, y prioridades iniciales.</td>
+        </tr>
+        <!-- Fila 40 -->
+        <tr>
+            <td>1.40</td>
+            <td>19/06/2025</td>
+            <td>Marcelo Ramirez, Angel Cancho, Scott Huachaca</td>
+            <td>Se desarrollaron los primeros endpoints del backend, se documentaron los avances y ajustes realizados.</td>
+        </tr>
+        <!-- Fila 41 -->
+        <tr>
+            <td>1.41</td>
+            <td>26/06/2025</td>
+            <td>Lian, Paolo, Juan Diego Cueto Dominguez, Angel Cancho</td>
+            <td>Se avanzó con Sprint 2, incluyendo documentación de despliegue de base de datos, backend y mobile.</td>
+        </tr>
+        <!-- Fila 42 -->
+        <tr>
+            <td>1.42</td>
+            <td>03/07/2025</td>
+            <td>Marcelo Ramirez, Scott Huachaca, Lian</td>
+            <td>Se llevaron a cabo entrevistas de validación con usuarios y se corrigieron imágenes de los Bounded Context Canvas.</td>
+        </tr>
+        <!-- Fila 43 -->
+        <tr>
+            <td>1.43</td>
+            <td>10/07/2025</td>
+            <td>Juan Diego Cueto Dominguez, Paolo, Angel Cancho, Lian, Marcelo, Scott</td>
+            <td>Se realizó el cierre del Sprint 3; actualización del informe final: corrección de puntuación, títulos, anexos.</td>
+        </tr>
+        <!-- Fila 44 -->
+        <tr>
+            <td>2.0</td>
+            <td>11/07/2025</td>
+            <td>Marcelo Ramirez, Juan Diego Cueto Dominguez, Angel Cancho, Paolo, Lian, Scott Huachaca</td>
+            <td>Versión final del informe: se añadieron videos de exposición y demo del prototipo IoT, y la presentación final del proyecto.</td>
+        </tr>
+
     </tbody>
 </table>
 
@@ -327,25 +370,90 @@ Github Collaboration Insights proporciona un cronograma que muestra las principa
   El landingPage se encuentra guardado en la organización de CodeMinds: [URL del repositorio del LandongPage](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage) <br>
   El FrontEnd informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del Frontend](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/edugo-web-application)
 
-  #### **Entregable TB2** <br>
+  <h4><strong>Entregable TB1 y TP1</strong></h4>
+<p>A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro primer sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.</p>
 
-- A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro segundo sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits. <br>
-  ![image](https://github.com/user-attachments/assets/9f1466fd-bbed-4247-b0d1-836247af11ef)
-  <br>
+<img src="assets/teamcollabortaion-tb1.PNG" alt="Lean UX Canvas">
 
-  #### **Entregable TF1** <br>
+<br>
+<p>
+El presente informe se encuentra guardado en la organización de CodeMinds: 
+<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report">URL del repositorio del informe</a> <br>
+El landingPage se encuentra guardado en la organización de CodeMinds: 
+<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage">URL del repositorio del LandingPage</a> <br>
+El FrontEnd informe se encuentra guardado en la organización de CodeMinds: 
+<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/edugo-web-application">URL del repositorio del Frontend</a>
+</p>
 
-- A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro ultimo sprint. Este gráfico ofrece una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits. <br>
-  ![Lean UX Canvas](assets/Collab-Readme.PNG)
-  <br>
+<!-- Ramas por entregables -->
+<h4><strong>Ramas por entregable</strong></h4>
+<ul>
+  <li><strong>Entregable TB1</strong>
+    <ul>
+      <li>feature/tb1/chapter01</li>
+      <li>feature/tb1/chapter02</li>
+      <li>feature/tb1/chapter03</li>
+      <li>feature/tb1/chapter04</li>
+    </ul>
+  </li>
+  <li><strong>Entregable TP1</strong>
+    <ul>
+      <li>feature/tp1/chapter05</li>
+      <li>feature/tp1/chapter06</li>
+    </ul>
+  </li>
+</ul>
 
-  El presente informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del informe](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report) <br>
-  El landingPage se encuentra guardado en la organización de CodeMinds: [URL del repositorio del LandongPage](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage) <br>
-  El FrontEnd informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del Frontend](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/edugo-web-application) <br>
-  La aplicación movil se encuentra guardada en la organización de CodeMinds: [URL del repositorio de la aplicacion movil](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-Mobile-App) <br>
-  La aplicación embedded se encuentra guardada en la organización de Codeminds: [URL del repositorio del embedded](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-Embedded) <br>
-  La aplicación edge se encuentra guardada en la organización de Codeminds: [URL del repositorio del edge](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-EdgeServer) <br>
-  La aplicación backend se encuentra guardada en la organización de CodeMinds: [URL del repositorio del backend](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-BackEnd) <br>
+<!-- Ramas principales -->
+<h4><strong>Ramas Principales del Repositorio</strong></h4>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre de la Rama</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>main</code></td>
+      <td>Rama principal de producción; contiene la versión más estable del proyecto.</td>
+    </tr>
+    <tr>
+      <td><code>develop</code></td>
+      <td>Rama de integración y desarrollo; se fusionan aquí las nuevas funcionalidades antes de pasar a producción.</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- Entregable TB2 -->
+<h4><strong>Entregable TB2</strong></h4>
+<p>A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro segundo sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.</p>
+
+<img src="https://github.com/user-attachments/assets/9f1466fd-bbed-4247-b0d1-836247af11ef" alt="Colaboración TB2">
+
+<!-- Entregable TF1 -->
+<h4><strong>Entregable TF1</strong></h4>
+<p>A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro último sprint. Este gráfico ofrece una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.</p>
+
+<img src="assets/Collab-Readme.PNG" alt="Colaboración TF1">
+
+<br>
+<p>
+El presente informe se encuentra guardado en la organización de CodeMinds: 
+<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report">URL del repositorio del informe</a> <br>
+El landingPage se encuentra guardado en la organización de CodeMinds: 
+<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage">URL del repositorio del LandingPage</a> <br>
+El FrontEnd informe se encuentra guardado en la organización de CodeMinds: 
+<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/edugo-web-application">URL del repositorio del Frontend</a> <br>
+La aplicación móvil se encuentra guardada en la organización de CodeMinds: 
+<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-Mobile-App">URL del repositorio de la aplicación móvil</a> <br>
+La aplicación embedded se encuentra guardada en la organización de CodeMinds: 
+<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-Embedded">URL del repositorio del embedded</a> <br>
+La aplicación edge se encuentra guardada en la organización de CodeMinds: 
+<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-EdgeServer">URL del repositorio del edge</a> <br>
+La aplicación backend se encuentra guardada en la organización de CodeMinds: 
+<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-BackEnd">URL del repositorio del backend</a>
+</p>
 
 ## Contenido
 
