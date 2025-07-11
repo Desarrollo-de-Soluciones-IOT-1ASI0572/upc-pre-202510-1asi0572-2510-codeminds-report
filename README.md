@@ -371,21 +371,6 @@ Github Collaboration Insights proporciona un cronograma que muestra las principa
   El landingPage se encuentra guardado en la organización de CodeMinds: [URL del repositorio del LandongPage](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage) <br>
   El FrontEnd informe se encuentra guardado en la organización de CodeMinds: [URL del repositorio del Frontend](https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/edugo-web-application)
 
-  <h4><strong>Entregable TB1 y TP1</strong></h4>
-<p>A continuación se presentan los gráficos de colaboración de los integrantes del equipo en el repositorio de nuestro primer sprint. Estos gráficos ofrecen una representación visual de la cantidad de contribuciones realizadas por cada miembro del equipo, junto con la fecha en que se llevaron a cabo. Además, se presenta información sobre la cantidad de líneas de código que se han modificado en cada uno de los commits.</p>
-
-<img src="assets/teamcollabortaion-tb1.PNG" alt="Lean UX Canvas">
-
-<br>
-<p>
-El presente informe se encuentra guardado en la organización de CodeMinds: 
-<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/upc-pre-202510-1asi0572-2510-codeminds-report">URL del repositorio del informe</a> <br>
-El landingPage se encuentra guardado en la organización de CodeMinds: 
-<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/CodeMinds-LandingPage">URL del repositorio del LandingPage</a> <br>
-El FrontEnd informe se encuentra guardado en la organización de CodeMinds: 
-<a href="https://github.com/Desarrollo-de-Soluciones-IOT-1ASI0572/edugo-web-application">URL del repositorio del Frontend</a>
-</p>
-
 <!-- Ramas por entregables -->
 <h4><strong>Ramas por entregable</strong></h4>
 <ul>
