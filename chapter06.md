@@ -883,7 +883,7 @@ Preguntas enfocadas en validar la usabilidad de la app desde la perspectiva de l
 
 ![entrevista victor](assets/chapter4/entrevista-arturo.PNG)
 
-- **Timecode inicio / duración:** `00:03:11 / 09:20`
+- **Timecode inicio / duración:** `00:03:11 /00:22:50`
 
 Arturo, ingeniero industrial de 37 años del Callao, es padre de familia y valora mucho la seguridad de su hijo durante el transporte escolar. Tras ver la app, destacó su utilidad, facilidad de uso y claridad para seguir el recorrido en tiempo real. Considera que la combinación con la pulsera RFID brinda más tranquilidad. Sugiere mejorar el sistema incorporando alertas de tráfico o rutas cerradas, como hace Waze. Aunque al inicio tuvo dudas sobre el rol de conductores en la app, cree que debería centrarse en los padres. Califica el sistema con un 10 y propone su implementación a nivel nacional.
 
@@ -902,7 +902,7 @@ Arturo, ingeniero industrial de 37 años del Callao, es padre de familia y valor
 
 ![entrevista Eduardo](assets/chapter4/entrevista-eduardo.png)
 
-- **Timecode inicio / duración:** `00:09:20 / 12:30`
+- **Timecode inicio / duración:** `00:09:20 /00:22:50`
 
 Eduardo, practicante de Ingenieria de Software de 23 años de Chorrillos, esta a cargo de mandar a su hermano menor al colegio y valora mucho la seguridad durante el transporte escolar. Tras ver la aplicacion, destaco el diseño simple, las funcionalidades clave y la facilidad de uso. Considera que la combinación de la plataforma movil con la tecnologia RFID brinda más tranquilidad. Sugiere mejorar el sistema incorporando un sistema de comunicacion directa con el menor o con el conductor. Califica el sistema con un 8.
 
@@ -921,9 +921,29 @@ Eduardo, practicante de Ingenieria de Software de 23 años de Chorrillos, esta a
 
 ![entrevista victor](assets/chapter4/augusto_entrevista.png)
 
-- **Timecode inicio / duración:** `00:12:31 / 4:44`
+- **Timecode inicio / duración:** `00:12:31 /00:22:50`
 
 Augusto encontró la app móvil intuitiva y eficiente, destacando el registro automático con RFID y el contador de estudiantes en tiempo real. Valoró las alertas de seguridad durante la conducción y la interfaz sencilla. Sugirió mejoras como modo offline para zonas sin conexión y botón de emergencia más accesible. Resaltó que la app mejora la comunicación con padres al notificarles sobre sus hijos en tiempo real. Concluyó que adoptaría el sistema por su practicidad y seguridad, requiriendo mínima capacitación.
+
+#### Entrevista 4
+
+**Identificación del entrevistado**
+
+- **Nombre completo:** Nicole Pomacaja
+- **Edad:** 42 años
+- **Distrito de residencia:** Villa maria del triunfo
+- **Ocupación:** Ama de casa
+
+**Referencia audiovisual**
+
+- **Screenshot:**
+
+![entrevista nicole](assets/chapter4/ExecutionMovil/NicolePomacaja.png)
+
+- **Timecode inicio / duración:** `00:17:15/00:22:50`
+
+Nicole, ama de casa de 42 años de edad, valora especialmente la seguridad y comunicación con respecto al traslado de sus hijos al colegio. Tras conocer la app, resaltó lo útil que le resulta recibir notificaciones en tiempo real sobre el embarque y llegada de los niños. Destacó la facilidad de uso de la interfaz, incluso para personas con poca experiencia tecnológica. Considera que el uso de pulseras RFID brinda tranquilidad al confirmar que su hijo subió al transporte. Le parecio que no hay mucho que agregar en la app y califica el sistema de manera positiva, afirmando que lo usaría sin dudarlo por la seguridad y el control que ofrece como madre.
+
 
 ### 6.3.3. Evaluaciones según heurísticas.
 
