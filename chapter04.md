@@ -265,7 +265,7 @@ En esta sección se presenta el diseño de la base de datos específico para el 
 
 ![iam-database-diagram](assets/chapter4/iam-db.jpg)
 
-### 4.2.2. Bounded Context: Identity Assignment
+### 4.2.2. Bounded Context: Assignment
 
 El dominio de Identity Assignment representa una abstracción de los procesos y funciones involucrados en la asignación de identidad de los estudiantes dentro de la plataforma. Este dominio es responsable de la vinculación del código único en la pulsera RFID y el escaneo de la pulsera RFID para la verificación de identidad del estudiante al momento de subir y bajar de la unidad.
 
@@ -336,14 +336,14 @@ En esta sección se presenta el diseño de la base de datos para el contexto del
 
 ![Identity-Assignment-DB](assets/chapter4/identity-assignment-db.png)
 
-### 4.2.3. Bounded Context: Vehicle Tracking
+### 4.2.3. Bounded Context: Tracking
 
 ###### Diccionario de Clases
 
 El Diccionario de Clases es una herramienta clave en el diseño y desarrollo del sistema de Vehicle Tracking.
 Aquí se documentan las entidades, sus atributos, métodos y relaciones, lo que facilita la comprensión y garantiza una base sólida para el desarrollo e implementación de las funcionalidades del seguimiento de vehículos.
 
-#### Vehicule
+#### Vehicle
 
 ![Vehiculeclass](assets/chapter4/vehicule-class.PNG)
 
@@ -514,7 +514,7 @@ En este punto, presentamos el diseño de la base de datos para el contexto Analy
 
 ![DatabaseAnalytics](assets/chapter4/analytics_db.png)
 
-### 4.2.6. Bounded Context: Profile Assignment
+### 4.2.6. Bounded Context: Profile 
 
 Este contexto se encarga de la gestión de los perfiles personales dentro del sistema de transporte escolar. Incluye la creación, actualización, verificación y vinculación de perfiles de padres y administradores, así como la gestión de perfiles de estudiantes como entidades del dominio, sin acceso directo al sistema.
 
