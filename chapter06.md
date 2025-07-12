@@ -887,6 +887,23 @@ Preguntas enfocadas en validar la usabilidad de la app desde la perspectiva de l
 
 Arturo, ingeniero industrial de 37 años del Callao, es padre de familia y valora mucho la seguridad de su hijo durante el transporte escolar. Tras ver la app, destacó su utilidad, facilidad de uso y claridad para seguir el recorrido en tiempo real. Considera que la combinación con la pulsera RFID brinda más tranquilidad. Sugiere mejorar el sistema incorporando alertas de tráfico o rutas cerradas, como hace Waze. Aunque al inicio tuvo dudas sobre el rol de conductores en la app, cree que debería centrarse en los padres. Califica el sistema con un 10 y propone su implementación a nivel nacional.
 
+
+| Pregunta                                                                                           | Timestamp | Respuesta                                                                                                                                                                   |
+|----------------------------------------------------------------------------------------------------|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ¿Cuál es su nombre?                                                                                | 03:20     | Arturo Villavicencio Samanés                                                                                                                                                |
+| ¿Qué edad tiene?                                                                                   | 03:26     | Tengo 37 años.                                                                                                                                                              |
+| ¿En qué distrito reside?                                                                           | 03:30     | Callao                                                                                                                                                                      |
+| ¿Cuál es su ocupación actual?                                                                      | 03:36     | Ingeniero industrial                                                                                                                                                        |
+| ¿Qué le pareció la experiencia de usar la aplicación móvil para seguir a su hijo en tiempo real?   | 03:47     | Me pareció muy útil y clara. La aplicación permite seguir el recorrido en tiempo real, lo cual es muy valioso para la seguridad de mi hijo.                                 |
+| ¿La función de visualización en el mapa le resultó clara y fácil de usar?                          | 04:18     | En mi caso, lo hago de forma empírica mediante el aplicativo del Waze y el contacto directo con los padres.                                                                 |
+| ¿Cómo califica la utilidad de las notificaciones automáticas al subir o bajar del bus?             | 04:29     | Es un aplicativo muy amigable y creo que se pudiera aplicar en cualquier dispositivo movil incluso laptop o pc                                                              |
+| ¿Cree que la combinación de la app móvil con la pulsera RFID le brinda más tranquilidad? ¿Por qué? | 04:48     | Sí, la combinación con GPS y la pulsera RFID ofrece mayor tranquilidad. Los sensores por sí solos no bastan, pero el seguimiento en tiempo real ayuda mucho.                |
+| ¿Hubo alguna parte de la app que le resultó confusa o difícil de entender?                         | 05:14     | Talvez al inicio que el aplicativo pueda registrarse tanto como conductor como padre de familia                                                                             |
+| ¿Qué funcionalidades nuevas le gustaría ver en próximas versiones de la app?                       | 06:04     | Sería ideal incorporar alertas de tráfico o rutas cerradas, como lo hace Waze. Esto ayudaría a cumplir con los horarios de entrada y salida de los colegios.                |
+| ¿Sentiría mayor confianza al contratar un transporte escolar que usa esta tecnología?              | 06:51     | Sí, siempre que la app sea intuitiva, precisa y no esté saturada de funciones. Eso evitaría distracciones durante la conducción y mejoraría la experiencia para los padres. |
+| En una escala del 1 al 10, ¿cuán probable es que recomiende esta aplicación a otros padres?        | 07:24     | Yo creo que un 10                                                                                                                                                           |
+
+
 #### Entrevista 2
 
 **Identificación del entrevistado**
@@ -902,9 +919,26 @@ Arturo, ingeniero industrial de 37 años del Callao, es padre de familia y valor
 
 ![entrevista Eduardo](assets/chapter4/entrevista-eduardo.png)
 
-- **Timecode inicio / duración:** `00:09:20 /00:22:50`
+- **Timecode inicio / duración:** `00:09:20/00:22:50`
 
 Eduardo, practicante de Ingenieria de Software de 23 años de Chorrillos, esta a cargo de mandar a su hermano menor al colegio y valora mucho la seguridad durante el transporte escolar. Tras ver la aplicacion, destaco el diseño simple, las funcionalidades clave y la facilidad de uso. Considera que la combinación de la plataforma movil con la tecnologia RFID brinda más tranquilidad. Sugiere mejorar el sistema incorporando un sistema de comunicacion directa con el menor o con el conductor. Califica el sistema con un 8.
+
+
+| Pregunta                                                                                           | Timestamp | Respuesta                                                                               |
+|----------------------------------------------------------------------------------------------------|-----------|-----------------------------------------------------------------------------------------|
+| ¿Cuál es su nombre?                                                                                | 09:25     | Eduardo Chero                                                                           |
+| ¿Qué edad tiene?                                                                                   | 09:30     | 23 años                                                                                 |
+| ¿En qué distrito reside?                                                                           | 09:32     | Chorrillos                                                                              |
+| ¿Cuál es su ocupación actual?                                                                      | 09:37     | Practicante de ingenieria y encargado de su hermano menor                               |
+| ¿Qué le pareció la experiencia de usar la aplicación móvil para seguir a su hijo en tiempo real?   | 09:55     | Me parece muy interesante y muy util para saber la ubicacion del menor en tiempo real   |
+| ¿La función de visualización en el mapa le resultó clara y fácil de usar?                          | 10:16     | Si es muy facil e intuitiva                                                             |
+| ¿Cómo califica la utilidad de las notificaciones automáticas al subir o bajar del bus?             | 10:30     | Parece muy util ya que uno no esta muy atento al celular todo el tiempo                 |
+| ¿Cree que la combinación de la app móvil con la pulsera RFID le brinda más tranquilidad? ¿Por qué? | 10:50     | Si, me parece bien porque el nino tiene la pulsera a todo momento                       |
+| ¿Hubo alguna parte de la app que le resultó confusa o difícil de entender?                         | 11:18     | No, toda la funcionalidad es muy entendible y clara                                     |
+| ¿Qué funcionalidades nuevas le gustaría ver en próximas versiones de la app?                       | 11:30     | Talvez una comunicacion mas directa con el conductor                                    |
+| ¿Sentiría mayor confianza al contratar un transporte escolar que usa esta tecnología?              | 11:55     | Si, para saber exactamente donde estan los menores                                      |
+| En una escala del 1 al 10, ¿cuán probable es que recomiende esta aplicación a otros padres?        | 12:12     | Seria un 8, es muy recomendable para padres que quieran ver si sus hijos llegan a salvo |
+
 
 #### Entrevista 3
 
@@ -925,6 +959,22 @@ Eduardo, practicante de Ingenieria de Software de 23 años de Chorrillos, esta a
 
 Augusto encontró la app móvil intuitiva y eficiente, destacando el registro automático con RFID y el contador de estudiantes en tiempo real. Valoró las alertas de seguridad durante la conducción y la interfaz sencilla. Sugirió mejoras como modo offline para zonas sin conexión y botón de emergencia más accesible. Resaltó que la app mejora la comunicación con padres al notificarles sobre sus hijos en tiempo real. Concluyó que adoptaría el sistema por su practicidad y seguridad, requiriendo mínima capacitación.
 
+| Pregunta                                                                                                      | Timestamp | Respuesta                                                                                 |
+|---------------------------------------------------------------------------------------------------------------|-----------|-------------------------------------------------------------------------------------------|
+| ¿Cuál es su nombre?                                                                                           | 12:40     | Augusto Alcarraz Altamirano                                                               |
+| ¿Qué edad tiene?                                                                                              | 12:40     | 27 años                                                                                   |
+| ¿En qué distrito reside?                                                                                      | 12:47     | Chorrillos                                                                                |
+| ¿Cuál es su ocupación actual?                                                                                 | 12:54     | Soy un conductor de una movilidad escolar para un colegio en chorrillos                   |
+| ¿Qué tan intuitiva le pareció la aplicación móvil para registrar estudiantes con pulseras RFID?               | 13:04     | Me parece muy intuitiva                                                                   |
+| ¿Pudo verificar fácilmente desde la app cuántos estudiantes hay a bordo durante el trayecto?                  | 13:34     | Si habia un contador de estudiantes que es sencillo que me confirma que todo esten dentro |
+| ¿Las notificaciones automáticas (como alertas de velocidad o eventos) le resultaron útiles mientras conducía? | 14:03     | La verdad que si, son discreta pero tambien efectivas                                     |
+| ¿Le pareció cómodo y seguro usar la app mientras realizaba su ruta diaria?                                    | 14:32     | Si la interfaz es muy sencilla                                                            |
+| ¿Tuvo alguna dificultad con el uso de la app durante el registro de estudiantes o la ruta?                    | 14:57     | En general, no, solo que la sincronización puede tardar uno o dos segundos                |
+| ¿Qué mejoras sugeriría para hacer la app más práctica para los conductores escolares?                         | 15:32     | Seria un boton de emergencia o un asistente para no estar pendiente del celular           |
+| ¿Considera que esta tecnología mejora la comunicación entre usted y los padres de familia?                    | 16:01     | Si, definitivamente si                                                                    |
+| ¿Estaría dispuesto a seguir utilizando esta aplicación en su unidad de transporte? ¿Por qué?                  | 16:40     | Si, sin dudarlo simplifica mi trabajo y se aumenta la seguridad que se tiene              |
+
+
 #### Entrevista 4
 
 **Identificación del entrevistado**
@@ -943,6 +993,21 @@ Augusto encontró la app móvil intuitiva y eficiente, destacando el registro au
 - **Timecode inicio / duración:** `00:17:15/00:22:50`
 
 Nicole, ama de casa de 42 años de edad, valora especialmente la seguridad y comunicación con respecto al traslado de sus hijos al colegio. Tras conocer la app, resaltó lo útil que le resulta recibir notificaciones en tiempo real sobre el embarque y llegada de los niños. Destacó la facilidad de uso de la interfaz, incluso para personas con poca experiencia tecnológica. Considera que el uso de pulseras RFID brinda tranquilidad al confirmar que su hijo subió al transporte. Le parecio que no hay mucho que agregar en la app y califica el sistema de manera positiva, afirmando que lo usaría sin dudarlo por la seguridad y el control que ofrece como madre.
+
+| Pregunta                                                                                           | Timestamp | Respuesta                                                                                                      |
+|----------------------------------------------------------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------|
+| ¿Cuál es su nombre?                                                                                | 17:20     | Nicole Pomacaja                                                                                                |
+| ¿Qué edad tiene?                                                                                   | 17:24     | 42 años                                                                                                        |
+| ¿En qué distrito reside?                                                                           | 17:28     | Villa maria del triunfo                                                                                        |
+| ¿Cuál es su ocupación actual?                                                                      | 17:32     | Ama de casa                                                                                                    |
+| ¿Qué le pareció la experiencia de usar la aplicación móvil para seguir a su hijo en tiempo real?   | 20:13     | Parece una aplicacion muy novedosa y muy eficiente como padres de familia                                      |
+| ¿La función de visualización en el mapa le resultó clara y fácil de usar?                          | 20:26     | Si es como un aplicativo de Uber, es facil                                                                     |
+| ¿Cómo califica la utilidad de las notificaciones automáticas al subir o bajar del bus?             | 20:40     | Me parece muy bueno                                                                                            |
+| ¿Cree que la combinación de la app móvil con la pulsera RFID le brinda más tranquilidad? ¿Por qué? | 21:08     | Para un padre de familia si, porque ya podemos ver a nuestros hijos de punto de partida y a la hora de llegada |
+| ¿Hubo alguna parte de la app que le resultó confusa o difícil de entender?                         | 21:33     | No, esta todo claro                                                                                            |
+| ¿Qué funcionalidades nuevas le gustaría ver en próximas versiones de la app?                       | 21:44     | Todo lo que he visto me parece muy bien, no tengo nada mas que añadir                                          |
+| ¿Sentiría mayor confianza al contratar un transporte escolar que usa esta tecnología?              | 22:18     | Claro quien no quisiera contratar a un conductor que lleve estas pulseras                                      |
+| En una escala del 1 al 10, ¿cuán probable es que recomiende esta aplicación a otros padres?        | 22:38     | Un 10                                                                                                          |
 
 
 ### 6.3.3. Evaluaciones según heurísticas.
