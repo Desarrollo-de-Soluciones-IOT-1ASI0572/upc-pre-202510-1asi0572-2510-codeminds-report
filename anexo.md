@@ -73,7 +73,7 @@ Enlace: https://shorturl.at/s9TkH
 Enlace: https://shorturl.at/YUbz8
 
 **Video de validación**: Presentación de la aplicación a los entrevistados<br>
-Enlace: https://shorturl.at/km0Sn
+Enlace: https://shorturl.at/Dui8A
 
 **Video TP1**: Presentación del LandingPage y Frontend<br>
 Enlace: https://acortar.link/DuMSLJ
